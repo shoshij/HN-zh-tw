@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T15:30:01+00:00",
+ "updated_at": "2026-11-04T15:35:25+00:00",
  "stories": {
   "50364336": {
    "id": 50364336,
@@ -20,9 +20,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 422,
-   "comments_count": 293,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 425,
+   "comments_count": 296,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 1
   },
@@ -45,9 +45,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 340,
-   "comments_count": 171,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 342,
+   "comments_count": 173,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 2
   },
@@ -70,11 +70,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 158,
-   "comments_count": 210,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 160,
+   "comments_count": 220,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 12
   },
   "50363019": {
    "id": 50363019,
@@ -95,11 +95,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 143,
+   "score": 144,
    "comments_count": 85,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 5
   },
   "50363378": {
    "id": 50363378,
@@ -120,9 +120,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 178,
-   "comments_count": 84,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 180,
+   "comments_count": 88,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 3
   },
@@ -145,11 +145,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 111,
-   "comments_count": 68,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 116,
+   "comments_count": 70,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 5
+   "rank": 6
   },
   "50363461": {
    "id": 50363461,
@@ -170,11 +170,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 326,
+   "score": 331,
    "comments_count": 88,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 7
   },
   "50362980": {
    "id": 50362980,
@@ -197,7 +197,7 @@
    "comment_tries": 0,
    "score": 267,
    "comments_count": 168,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 10
   },
@@ -220,11 +220,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 350,
+   "score": 352,
    "comments_count": 91,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 12
+   "rank": 11
   },
   "50339288": {
    "id": 50339288,
@@ -247,7 +247,7 @@
    "comment_tries": 0,
    "score": 899,
    "comments_count": 337,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 13
   },
@@ -271,8 +271,8 @@
    "comments_at": null,
    "comment_tries": 0,
    "score": 25,
-   "comments_count": 2,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "comments_count": 3,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 8
   },
@@ -297,7 +297,7 @@
    "comment_tries": 0,
    "score": 704,
    "comments_count": 217,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 14
   },
@@ -321,8 +321,8 @@
    "comments_at": null,
    "comment_tries": 0,
    "score": 105,
-   "comments_count": 40,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "comments_count": 41,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 15
   },
@@ -345,9 +345,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 330,
+   "score": 331,
    "comments_count": 24,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 16
   },
@@ -371,10 +371,10 @@
    "comments_at": null,
    "comment_tries": 0,
    "score": 90,
-   "comments_count": 30,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "comments_count": 31,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 18
   },
   "50346755": {
    "id": 50346755,
@@ -397,9 +397,9 @@
    "comment_tries": 0,
    "score": 408,
    "comments_count": 75,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 19
   },
   "50363554": {
    "id": 50363554,
@@ -420,9 +420,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 235,
-   "comments_count": 191,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 238,
+   "comments_count": 193,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 25
   },
@@ -447,9 +447,9 @@
    "comment_tries": 0,
    "score": 124,
    "comments_count": 26,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 20
   },
   "50358352": {
    "id": 50358352,
@@ -472,9 +472,9 @@
    "comment_tries": 0,
    "score": 100,
    "comments_count": 51,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 22
   },
   "50336918": {
    "id": 50336918,
@@ -495,11 +495,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 512,
-   "comments_count": 218,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 513,
+   "comments_count": 219,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 20
+   "rank": 21
   },
   "50361154": {
    "id": 50361154,
@@ -520,11 +520,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 101,
-   "comments_count": 42,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 102,
+   "comments_count": 43,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 23
+   "rank": 24
   },
   "50333131": {
    "id": 50333131,
@@ -547,9 +547,9 @@
    "comment_tries": 0,
    "score": 228,
    "comments_count": 34,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 26
+   "rank": 27
   },
   "50360164": {
    "id": 50360164,
@@ -572,9 +572,9 @@
    "comment_tries": 0,
    "score": 377,
    "comments_count": 283,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 27
+   "rank": 28
   },
   "50365760": {
    "id": 50365760,
@@ -595,11 +595,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 20,
+   "score": 23,
    "comments_count": 0,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 22
+   "rank": 17
   },
   "50355251": {
    "id": 50355251,
@@ -622,9 +622,9 @@
    "comment_tries": 0,
    "score": 686,
    "comments_count": 200,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 28
+   "rank": 29
   },
   "50361107": {
    "id": 50361107,
@@ -647,9 +647,9 @@
    "comment_tries": 0,
    "score": 69,
    "comments_count": 6,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 29
+   "rank": 30
   },
   "50355767": {
    "id": 50355767,
@@ -673,8 +673,8 @@
    "score": 228,
    "comments_count": 259,
    "last_seen": "2026-11-04T15:29:57+00:00",
-   "on_front_page": true,
-   "rank": 30
+   "on_front_page": false,
+   "rank": null
   },
   "50354960": {
    "id": 50354960,
@@ -770,11 +770,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 8,
-   "comments_count": 1,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "score": 12,
+   "comments_count": 2,
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 7
+   "rank": 4
   },
   "50366860": {
    "id": 50366860,
@@ -797,7 +797,7 @@
    "comment_tries": 0,
    "score": 4,
    "comments_count": 0,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
    "rank": 9
   },
@@ -822,9 +822,34 @@
    "comment_tries": 0,
    "score": 5,
    "comments_count": 0,
-   "last_seen": "2026-11-04T15:29:57+00:00",
+   "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": true,
-   "rank": 24
+   "rank": 26
+  },
+  "50365516": {
+   "id": 50365516,
+   "title": "Mocktastic: A Meshtastic Node on Arduino",
+   "url": "https://github.com/Vapmuz/Mocktastic",
+   "domain": "github.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50365516",
+   "is_hn_post": false,
+   "by": "kimi",
+   "posted_at": "2026-11-04T13:51:52+00:00",
+   "first_seen": "2026-11-04T15:32:10+00:00",
+   "title_zh": null,
+   "summary_zh": null,
+   "translated_at": null,
+   "model": null,
+   "translate_tries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 3,
+   "comments_count": 0,
+   "last_seen": "2026-11-04T15:32:10+00:00",
+   "on_front_page": true,
+   "rank": 23
   }
  }
 }
