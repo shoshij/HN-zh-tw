@@ -72,7 +72,7 @@ python -m unittest -v        # 單元測試（不碰網路）
 
 ## 自訂
 
-- **換模型**：預設依序嘗試 `gemini-3.8-flash` → `gemini-3.6-flash` → `gemini-3.5-flash-lite` → `gemini-flash-lite-latest`
+- **換模型**：預設依序嘗試 `gemini-3.8-flash` → `3.6-flash` → `3.5-flash-lite` → `flash-lite-latest` → `3-flash-preview` → `3.7-flash` → `3.1-flash-lite`
   （熱門模型常回 503，所以一個不行就換下一個）。要改就到 Settings → Secrets and variables → Actions → **Variables**
   新增 `GEMINI_MODELS`，逗號分隔。
 - **主題標籤**：`hnzh/render.py` 的 `TAGS`。每個標籤是一組關鍵字，英文用 `\b` 單字邊界比對，中文用子字串。

@@ -24,7 +24,8 @@ MODELS = [
     m.strip()
     for m in os.environ.get(
         "GEMINI_MODELS",
-        "gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-flash-lite-latest",
+        "gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-flash-lite-latest,"
+        "gemini-3-flash-preview,gemini-3.7-flash,gemini-3.1-flash-lite",
     ).split(",")
     if m.strip()
 ]
@@ -171,7 +172,7 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
                 break
             if r.status_code in (429, 500, 502, 503, 504):
                 if attempt == 0:
-                    time.sleep(15 if r.status_code == 429 else 5)
+                    time.sleep(15 if r.status_code == 429 else 10)  # 429：每分鐘額度；503：太多人用
                     continue
                 break
             r.raise_for_status()  # 其他錯誤（例如 400 請求格式錯）直接讓程式停下來
