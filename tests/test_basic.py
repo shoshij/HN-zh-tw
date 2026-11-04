@@ -54,6 +54,20 @@ class Tags(unittest.TestCase):
         self.assertEqual(render.tags_for(self.story(title="Kitty 0.50")), [])
 
 
+class ModelList(unittest.TestCase):
+    def test_empty_env_falls_back_to_default(self):
+        import importlib
+        import os
+        os.environ["GEMINI_MODELS"] = ""          # Actions 沒設定變數時就是這樣
+        try:
+            mod = importlib.reload(translate)
+            self.assertEqual(mod.MODELS[0], "gemini-3.8-flash")
+            self.assertGreater(len(mod.MODELS), 3)
+        finally:
+            del os.environ["GEMINI_MODELS"]
+            importlib.reload(translate)
+
+
 class Domain(unittest.TestCase):
     def test_strips_www(self):
         self.assertEqual(update.domain_of("https://www.example.com/a?b=c"), "example.com")

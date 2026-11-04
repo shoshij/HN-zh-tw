@@ -20,15 +20,12 @@ import requests
 API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 依序嘗試的模型。免費額度是「每個模型各自計算」，而且熱門模型常回 503（太多人用），
 # 所以一個不行就換下一個。可用環境變數 GEMINI_MODELS 覆寫（逗號分隔）。
-MODELS = [
-    m.strip()
-    for m in os.environ.get(
-        "GEMINI_MODELS",
-        "gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-flash-lite-latest,"
-        "gemini-3-flash-preview,gemini-3.7-flash,gemini-3.1-flash-lite",
-    ).split(",")
-    if m.strip()
-]
+DEFAULT_MODELS = (
+    "gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-flash-lite-latest,"
+    "gemini-3-flash-preview,gemini-3.7-flash,gemini-3.1-flash-lite"
+)
+# GitHub Actions 沒設定 GEMINI_MODELS 變數時會傳空字串進來，所以用 `or` 而不是 .get() 的預設值
+MODELS = [m.strip() for m in (os.environ.get("GEMINI_MODELS") or DEFAULT_MODELS).split(",") if m.strip()]
 BATCH_SIZE = 8    # 每個請求最多塞幾篇文章（太多篇模型容易張冠李戴）
 TIMEOUT = 180     # 秒；一次處理 10 篇會比較久
 
