@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T15:35:25+00:00",
+ "updated_at": "2026-11-04T15:37:43+00:00",
  "stories": {
   "50364336": {
    "id": 50364336,
@@ -20,9 +20,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 425,
-   "comments_count": 296,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 433,
+   "comments_count": 302,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 1
   },
@@ -45,9 +45,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 342,
-   "comments_count": 173,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 349,
+   "comments_count": 174,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 2
   },
@@ -70,9 +70,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 160,
-   "comments_count": 220,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 167,
+   "comments_count": 241,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 12
   },
@@ -95,9 +95,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 144,
-   "comments_count": 85,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 146,
+   "comments_count": 86,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 5
   },
@@ -120,11 +120,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 180,
-   "comments_count": 88,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 182,
+   "comments_count": 90,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 3
+   "rank": 6
   },
   "50365755": {
    "id": 50365755,
@@ -145,11 +145,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 116,
-   "comments_count": 70,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 124,
+   "comments_count": 75,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 4
   },
   "50363461": {
    "id": 50363461,
@@ -170,11 +170,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 331,
-   "comments_count": 88,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 336,
+   "comments_count": 89,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 7
+   "rank": 8
   },
   "50362980": {
    "id": 50362980,
@@ -195,9 +195,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 267,
+   "score": 269,
    "comments_count": 168,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 10
   },
@@ -220,9 +220,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 352,
+   "score": 353,
    "comments_count": 91,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 11
   },
@@ -245,9 +245,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 899,
+   "score": 900,
    "comments_count": 337,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 13
   },
@@ -270,11 +270,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 25,
+   "score": 26,
    "comments_count": 3,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 9
   },
   "50354358": {
    "id": 50354358,
@@ -297,7 +297,7 @@
    "comment_tries": 0,
    "score": 704,
    "comments_count": 217,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
    "rank": 14
   },
@@ -320,11 +320,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 105,
-   "comments_count": 41,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 106,
+   "comments_count": 42,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 15
+   "rank": 17
   },
   "50358702": {
    "id": 50358702,
@@ -347,9 +347,9 @@
    "comment_tries": 0,
    "score": 331,
    "comments_count": 24,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 16
+   "rank": 18
   },
   "50363968": {
    "id": 50363968,
@@ -370,11 +370,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 90,
-   "comments_count": 31,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 95,
+   "comments_count": 34,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 20
   },
   "50346755": {
    "id": 50346755,
@@ -397,9 +397,9 @@
    "comment_tries": 0,
    "score": 408,
    "comments_count": 75,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 22
   },
   "50363554": {
    "id": 50363554,
@@ -420,11 +420,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 238,
-   "comments_count": 193,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 243,
+   "comments_count": 195,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 25
+   "rank": 26
   },
   "50360573": {
    "id": 50360573,
@@ -445,11 +445,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 124,
+   "score": 126,
    "comments_count": 26,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 20
+   "rank": 21
   },
   "50358352": {
    "id": 50358352,
@@ -472,9 +472,9 @@
    "comment_tries": 0,
    "score": 100,
    "comments_count": 51,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 22
+   "rank": 25
   },
   "50336918": {
    "id": 50336918,
@@ -497,9 +497,9 @@
    "comment_tries": 0,
    "score": 513,
    "comments_count": 219,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 23
   },
   "50361154": {
    "id": 50361154,
@@ -520,11 +520,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 102,
-   "comments_count": 43,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 103,
+   "comments_count": 44,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 24
+   "rank": 27
   },
   "50333131": {
    "id": 50333131,
@@ -545,11 +545,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 228,
+   "score": 229,
    "comments_count": 34,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 27
+   "rank": 28
   },
   "50360164": {
    "id": 50360164,
@@ -572,9 +572,9 @@
    "comment_tries": 0,
    "score": 377,
    "comments_count": 283,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 28
+   "rank": 30
   },
   "50365760": {
    "id": 50365760,
@@ -595,11 +595,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 23,
+   "score": 26,
    "comments_count": 0,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 16
   },
   "50355251": {
    "id": 50355251,
@@ -623,8 +623,8 @@
    "score": 686,
    "comments_count": 200,
    "last_seen": "2026-11-04T15:32:10+00:00",
-   "on_front_page": true,
-   "rank": 29
+   "on_front_page": false,
+   "rank": null
   },
   "50361107": {
    "id": 50361107,
@@ -648,8 +648,8 @@
    "score": 69,
    "comments_count": 6,
    "last_seen": "2026-11-04T15:32:10+00:00",
-   "on_front_page": true,
-   "rank": 30
+   "on_front_page": false,
+   "rank": null
   },
   "50355767": {
    "id": 50355767,
@@ -761,20 +761,20 @@
    "by": "zenincognito",
    "posted_at": "2026-11-04T15:01:44+00:00",
    "first_seen": "2026-11-04T15:29:57+00:00",
-   "title_zh": null,
-   "summary_zh": null,
-   "translated_at": null,
-   "model": null,
-   "translate_tries": 0,
+   "title_zh": "游擊自行車道：舊金山將非法基礎設施改為永久設施",
+   "summary_zh": "舊金山城市行動團體 SFMTrA 透過「戰術都市主義（tactical urbanism）」自行安裝交通錐與軟性車柱，試圖提高自行車與行人的道路安全。儘管過去這類未經授權的游擊設施多會被拆除，但舊金山交通局此次決定評估並將部分設施改為官方永久設定。這種民間行動促使市政府公開回應並推動道路安全轉型的做法，也曾在西雅圖與紐約等城市發生。",
+   "translated_at": "2026-11-04T15:37:43+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 12,
+   "score": 20,
    "comments_count": 2,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 3
   },
   "50366860": {
    "id": 50366860,
@@ -786,20 +786,20 @@
    "by": "reedciccio",
    "posted_at": "2026-11-04T15:21:12+00:00",
    "first_seen": "2026-11-04T15:29:57+00:00",
-   "title_zh": null,
-   "summary_zh": null,
-   "translated_at": null,
-   "model": null,
-   "translate_tries": 0,
+   "title_zh": "為試算表引進視窗函式",
+   "summary_zh": "傳統試算表在計算累計餘額時，容易因新增或刪除列而導致公式參照錯亂，而 Airtable 等資料庫型工具則因缺乏「上一列」概念而實作困難。Grist 引進了類似 SQL 視窗函式（window functions）的 `PREVIOUS()` 語法，允許透過日期或群組指定排序規則來取得前一筆紀錄。這種設計讓資料無論如何排序、篩選或增刪列，累計金額均能維持正確計算。",
+   "translated_at": "2026-11-04T15:37:43+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 4,
+   "score": 6,
    "comments_count": 0,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 7
   },
   "50366863": {
    "id": 50366863,
@@ -811,20 +811,20 @@
    "by": "itunpredictable",
    "posted_at": "2026-11-04T15:21:21+00:00",
    "first_seen": "2026-11-04T15:29:57+00:00",
-   "title_zh": null,
-   "summary_zh": null,
-   "translated_at": null,
-   "model": null,
-   "translate_tries": 0,
+   "title_zh": "Pierre Computer 宣布將被 OpenAI 收購",
+   "summary_zh": "報導 Pierre Computer 公司即將被人工智慧（AI）巨頭 OpenAI 收購的訊息。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-04T15:37:43+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 5,
-   "comments_count": 0,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "score": 6,
+   "comments_count": 3,
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 26
+   "rank": 24
   },
   "50365516": {
    "id": 50365516,
@@ -836,20 +836,70 @@
    "by": "kimi",
    "posted_at": "2026-11-04T13:51:52+00:00",
    "first_seen": "2026-11-04T15:32:10+00:00",
-   "title_zh": null,
-   "summary_zh": null,
-   "translated_at": null,
-   "model": null,
-   "translate_tries": 0,
+   "title_zh": "Mocktastic：基於 Arduino 的 Meshtastic 節點實作",
+   "summary_zh": "Mocktastic 是針對 ESP32 開發板打造的實驗性 LoRa 用戶端，可以在 Arduino IDE 環境下運作並相容於 Meshtastic 網路。專案展示了如何使用 C++ 編碼與解碼 Meshtastic 封包，並包含能夠回報溫溼度的 DHT22 感測器（sensor）範例。透過 MBDTLS 處理加密與 Nano-Protobuf 進行輕量級編解碼，開發者可輕鬆將其移植至其他硬體或用於教學與實驗。",
+   "translated_at": "2026-11-04T15:37:43+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 3,
+   "score": 4,
    "comments_count": 0,
-   "last_seen": "2026-11-04T15:32:10+00:00",
+   "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": true,
-   "rank": 23
+   "rank": 15
+  },
+  "50366853": {
+   "id": 50366853,
+   "title": "Coffee's new status symbol is a machine without plastic",
+   "url": "https://www.cnn.com/2026/11/02/food/coffee-machine-plastic-free",
+   "domain": "cnn.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50366853",
+   "is_hn_post": false,
+   "by": "thunderbong",
+   "posted_at": "2026-11-04T15:20:49+00:00",
+   "first_seen": "2026-11-04T15:37:13+00:00",
+   "title_zh": "咖啡的新地位象徵：完全不含塑膠的咖啡機",
+   "summary_zh": "探討不含塑膠成分的咖啡機如何成為當前咖啡愛好者之間的新興地位象徵。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-04T15:37:43+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 6,
+   "comments_count": 0,
+   "last_seen": "2026-11-04T15:37:13+00:00",
+   "on_front_page": true,
+   "rank": 19
+  },
+  "50366117": {
+   "id": 50366117,
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "url": "https://news.ycombinator.com/item?id=50366117",
+   "domain": "news.ycombinator.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50366117",
+   "is_hn_post": true,
+   "by": "eggbrain",
+   "posted_at": "2026-11-04T14:37:22+00:00",
+   "first_seen": "2026-11-04T15:37:13+00:00",
+   "title_zh": "Ask HN：大家目前使用哪些 AI 代理工作流配置？",
+   "summary_zh": "社群發起人詢問 Hacker News 讀者在日常開發與工作中使用人工智慧代理（AI agent）的實務配置。討論涵蓋訂閱的服務（如 Claude、ChatGPT、Cursor）、使用的模型與 API 管道、程式碼發行終端或介面（如 Aider、OpenCode），以及代理協調與群集工具（agent orchestration）的採用情況。",
+   "translated_at": "2026-11-04T15:37:43+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 5,
+   "comments_count": 1,
+   "last_seen": "2026-11-04T15:37:13+00:00",
+   "on_front_page": true,
+   "rank": 29
   }
  }
 }
