@@ -2,8 +2,8 @@
 
 把 [Hacker News](https://news.ycombinator.com/) 首頁前 30 篇文章翻成台灣繁體中文，附上 2～3 句摘要與熱門評論摘要，每小時自動更新，發佈在 GitHub Pages。
 
-- 網頁：`https://<你的帳號>.github.io/HN-zh-tw/`
-- RSS：`https://<你的帳號>.github.io/HN-zh-tw/feed.xml`
+- 網頁：<https://shoshij.github.io/HN-zh-tw/>
+- RSS：<https://shoshij.github.io/HN-zh-tw/feed.xml>
 
 > 翻譯與摘要由 AI 產生，可能有誤，請以原文為準。
 
