@@ -27,7 +27,7 @@ DEFAULT_MODELS = (
 # GitHub Actions 沒設定 GEMINI_MODELS 變數時會傳空字串進來，所以用 `or` 而不是 .get() 的預設值
 MODELS = [m.strip() for m in (os.environ.get("GEMINI_MODELS") or DEFAULT_MODELS).split(",") if m.strip()]
 BATCH_SIZE = 8    # 每個請求最多塞幾篇文章（太多篇模型容易張冠李戴）
-TIMEOUT = 180     # 秒；一次處理 10 篇會比較久
+TIMEOUT = 120     # 秒；超過就當這個模型現在不穩，換下一個
 
 
 class QuotaExhausted(Exception):
@@ -135,7 +135,7 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
     """送一個請求給 Gemini，回傳 (解析好的 JSON, 實際使用的模型)。
 
     429（額度用完）、503（模型太忙）、5xx：先小等一下重試一次，再不行就換下一個模型。
-    404（模型下架）：直接換下一個。全部都不行才丟出 QuotaExhausted。
+    404（模型下架）、逾時、連線錯誤：直接換下一個。全部都不行才丟出 QuotaExhausted。
     """
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -154,7 +154,11 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
     last = ""
     for model in MODELS:
         for attempt in range(2):
-            r = requests.post(API.format(model=model), headers=headers, json=body, timeout=TIMEOUT)
+            try:
+                r = requests.post(API.format(model=model), headers=headers, json=body, timeout=TIMEOUT)
+            except requests.RequestException as e:  # 逾時、連線失敗：這個模型現在不穩，直接換下一個
+                last = f"{model} -> {type(e).__name__}"
+                break
             if r.status_code == 200:
                 try:
                     cand = r.json()["candidates"][0]

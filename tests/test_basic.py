@@ -1,5 +1,6 @@
 """純邏輯的單元測試，不碰網路也不碰 Gemini。執行：python -m unittest -v"""
 import unittest
+import unittest.mock
 
 import update
 from hnzh import hn, render, translate
@@ -52,6 +53,48 @@ class Tags(unittest.TestCase):
 
     def test_no_false_positive(self):
         self.assertEqual(render.tags_for(self.story(title="Kitty 0.50")), [])
+
+
+class Fallback(unittest.TestCase):
+    """用假的 requests.post 驗證：逾時與 503 會換下一個模型，429 等過還是 429 也會換。"""
+
+    def fake_post(self, script):
+        import requests
+        calls = []
+
+        def post(url, **kw):
+            model = url.split("/models/")[1].split(":")[0]
+            calls.append(model)
+            outcome = script[model]
+            if outcome == "timeout":
+                raise requests.ReadTimeout("slow")
+            if isinstance(outcome, int):
+                return unittest.mock.Mock(status_code=outcome, text=f"http {outcome}")
+            body = {"candidates": [{"content": {"parts": [{"text": outcome}]}}]}
+            return unittest.mock.Mock(status_code=200, json=lambda: body)
+
+        return post, calls
+
+    def run_generate(self, script):
+        with unittest.mock.patch.dict("os.environ", {"GEMINI_API_KEY": "x"}), \
+             unittest.mock.patch.object(translate, "MODELS", list(script)), \
+             unittest.mock.patch.object(translate.time, "sleep"):
+            post, calls = self.fake_post(script)
+            with unittest.mock.patch.object(translate.requests, "post", post):
+                return translate._generate("p", translate.STORY_SCHEMA), calls
+
+    def test_timeout_and_503_move_to_next_model(self):
+        (data, model), calls = self.run_generate({"m1": "timeout", "m2": 503, "m3": '{"items": []}'})
+        self.assertEqual(model, "m3")
+        self.assertEqual(calls, ["m1", "m2", "m2", "m3"])  # 503 會重試一次，逾時不會
+
+    def test_all_down_raises_quota(self):
+        with self.assertRaises(translate.QuotaExhausted):
+            self.run_generate({"m1": 429, "m2": "timeout"})
+
+    def test_bad_json_is_batch_failed(self):
+        with self.assertRaises(translate.BatchFailed):
+            self.run_generate({"m1": "{not json"})
 
 
 class ModelList(unittest.TestCase):
