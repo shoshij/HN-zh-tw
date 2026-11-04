@@ -6,7 +6,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data.json"
@@ -14,7 +14,7 @@ KEEP_DAYS = 7  # 超過 7 天沒再出現在首頁的文章就移除，避免檔
 
 
 def now() -> datetime:
-    return datetime.now(timezone.utc).replace(microsecond=0)
+    return datetime.now(UTC).replace(microsecond=0)
 
 
 def to_iso(dt: datetime) -> str:

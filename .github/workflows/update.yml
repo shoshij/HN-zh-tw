@@ -21,9 +21,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -34,6 +34,7 @@ jobs:
         run: python update.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODELS: ${{ vars.GEMINI_MODELS }}   # 沒設定就用程式裡的預設清單
 
       - name: 把 data.json commit 回 repo
         run: |
@@ -44,20 +45,22 @@ jobs:
             echo "data.json 沒有變化"
           else
             git commit -m "更新 data.json ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase origin main   # 這段時間若有人推了別的 commit，先接上去
             git push
           fi
 
       - id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: 產生網頁與 RSS
         run: python build.py
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
       - id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

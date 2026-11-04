@@ -12,6 +12,7 @@ from __future__ import annotations
 import difflib
 import json
 import os
+import re
 import time
 
 import requests
@@ -32,7 +33,11 @@ TIMEOUT = 180     # 秒；一次處理 10 篇會比較久
 
 
 class QuotaExhausted(Exception):
-    """免費額度用完（HTTP 429）。呼叫端應停止翻譯，留到下一小時再試。"""
+    """所有模型都不可用（額度用完或太忙）。呼叫端應停止翻譯，留到下一小時再試。"""
+
+
+class BatchFailed(Exception):
+    """這一批的回應壞掉（JSON 被截斷、沒有內容）。呼叫端可以跳過這批，繼續處理下一批。"""
 
 
 SYSTEM = """你是 Hacker News 的繁體中文編輯，讀者是台灣的軟體與硬體工程師。
@@ -114,6 +119,14 @@ def match_items(batch: list[dict], items: list[dict]) -> dict[int, dict]:
     return matched
 
 
+_NOTE = re.compile(r"\s*[（(]\s*無法取得原文內容[^）)]*[）)]\s*")
+
+
+def clean_title(title_zh: str) -> str:
+    """模型偶爾會把「（無法取得原文內容…）」寫進標題，拿掉它。"""
+    return _NOTE.sub("", title_zh).strip()
+
+
 def chunks(seq: list, n: int):
     """把 list 切成每 n 個一組。"""
     for i in range(0, len(seq), n):
@@ -145,11 +158,14 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
         for attempt in range(2):
             r = requests.post(API.format(model=model), headers=headers, json=body, timeout=TIMEOUT)
             if r.status_code == 200:
-                cand = r.json()["candidates"][0]
-                parts = [p for p in cand.get("content", {}).get("parts", []) if "text" in p and not p.get("thought")]
-                if not parts:
-                    raise RuntimeError(f"{model} 沒有回傳內容：finishReason={cand.get('finishReason')}")
-                return json.loads(parts[0]["text"]), model
+                try:
+                    cand = r.json()["candidates"][0]
+                    parts = [p for p in cand.get("content", {}).get("parts", []) if "text" in p and not p.get("thought")]
+                    if not parts:
+                        raise BatchFailed(f"{model} 沒有回傳內容：finishReason={cand.get('finishReason')}")
+                    return json.loads(parts[0]["text"]), model
+                except (KeyError, IndexError, ValueError) as e:  # ValueError 包含 JSONDecodeError
+                    raise BatchFailed(f"{model} 的回應無法解析：{e}") from e
             last = f"{model} -> {r.status_code} {r.text[:200]}"
             if r.status_code == 404:
                 break
@@ -180,12 +196,12 @@ def translate_stories(batch: list[dict]) -> tuple[dict[int, dict], str]:
         "請對每一篇輸出 title（把輸入的英文標題一字不差照抄，用來核對）、"
         "title_zh（標題的繁體中文翻譯）與 summary_zh（2～3 句中文摘要）。\n"
         "若 content 是「（無法取得原文內容）」，就依標題推測主題寫一句摘要，"
-        "並在句尾加上「（無法取得原文內容，僅依標題判斷）」。\n"
+        "並在 summary_zh 句尾加上「（無法取得原文內容，僅依標題判斷）」；title_zh 不要加任何註記。\n"
         "id 必須原樣照抄。\n\n" + "\n\n".join(blocks)
     )
     data, model = _generate(prompt, STORY_SCHEMA)
     return {
-        sid: {"title_zh": it["title_zh"].strip(), "summary_zh": it["summary_zh"].strip()}
+        sid: {"title_zh": clean_title(it["title_zh"]), "summary_zh": it["summary_zh"].strip()}
         for sid, it in match_items(batch, data["items"]).items()
     }, model
 

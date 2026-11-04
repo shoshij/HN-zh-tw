@@ -36,10 +36,19 @@ def item(item_id: int) -> dict | None:
     return data
 
 
+def _safe_item(item_id: int) -> dict | None:
+    """item() 的安全版：網路錯誤只印警告並回傳 None，不讓整個流程中斷。"""
+    try:
+        return item(item_id)
+    except requests.RequestException as e:
+        print(f"[HN] 抓 item {item_id} 失敗：{e}")
+        return None
+
+
 def items(ids: list[int], workers: int = 10) -> dict[int, dict]:
     """平行抓多筆 item，回傳 {id: item}；抓不到的直接略過。"""
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        results = list(pool.map(item, ids))
+        results = list(pool.map(_safe_item, ids))
     return {d["id"]: d for d in results if d}
 
 

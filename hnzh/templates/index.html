@@ -6,171 +6,250 @@
 <meta name="color-scheme" content="light dark">
 <title>Hacker News 繁體中文版</title>
 <meta name="description" content="Hacker News 首頁文章的繁體中文翻譯與摘要，每小時更新。">
+<meta property="og:title" content="Hacker News 繁體中文版">
+<meta property="og:description" content="Hacker News 首頁文章的繁體中文翻譯與摘要，每小時更新。">
+<meta property="og:type" content="website">
+{% if site_url %}
+<meta property="og:url" content="{{ site_url }}/">
+{% endif %}
 <link rel="alternate" type="application/rss+xml" title="Hacker News 繁體中文版 RSS" href="feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ee5a1a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap">
 <style>
-:root{--bg:#f6f6ef;--card:#fff;--text:#222;--muted:#767676;--accent:#ff6600;--border:#e3e3dc;--chip:#e9e9e2;--chip-on:#ff6600;--chip-on-text:#fff}
+:root{
+  --paper:#f8f5ee; --ink:#1f1c18; --ink-2:#5f5a52; --ink-3:#938d83;
+  --rule:#e4ded1; --rule-strong:#1f1c18;
+  --accent:#ee5a1a; --accent-soft:rgba(238,90,26,.12);
+  --serif:"Noto Serif TC","Songti TC","Noto Serif CJK TC","Source Han Serif TC",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Noto Sans CJK TC","Microsoft JhengHei","Helvetica Neue",Arial,sans-serif;
+}
 @media (prefers-color-scheme: dark){
-  :root{--bg:#141412;--card:#1e1e1b;--text:#e8e8e3;--muted:#9a9a93;--accent:#ff8533;--border:#2e2e2a;--chip:#2a2a27;--chip-on:#ff8533;--chip-on-text:#111}
+  :root{--paper:#171613; --ink:#ebe6dc; --ink-2:#b5aea2; --ink-3:#7f7a70; --rule:#2c2a25; --rule-strong:#ebe6dc;
+        --accent:#ff7a3d; --accent-soft:rgba(255,122,61,.16)}
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;-webkit-text-size-adjust:100%}
-a{color:inherit}
-header{background:var(--accent);color:#fff;padding:12px 16px}
-header .wrap{max-width:860px;margin:0 auto}
-header h1{margin:0;font-size:1.25rem}
-header p{margin:2px 0 0;font-size:.85rem;opacity:.9}
-header a{color:#fff}
-main{max-width:860px;margin:0 auto;padding:0 16px 16px}
-.filter{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:1;border-bottom:1px solid var(--border)}
-.filter input{width:100%;padding:10px 12px;font-size:1rem;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;align-items:center}
-.chip{border:0;border-radius:999px;padding:4px 12px;background:var(--chip);color:var(--text);cursor:pointer;font:inherit;font-size:.9rem}
-.chip.on{background:var(--chip-on);color:var(--chip-on-text)}
-.count{color:var(--muted);font-size:.85rem;margin-left:auto}
-h2{font-size:.85rem;color:var(--muted);margin:24px 0 8px;letter-spacing:.08em}
-.story{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px}
-.story h3{margin:0 0 2px;font-size:1.1rem;line-height:1.45;font-weight:600}
-.story h3 a{text-decoration:none}
-.story h3 a:hover{text-decoration:underline}
-.en{margin:0 0 8px;color:var(--muted);font-size:.9rem}
-.en a{text-decoration:none}
-.summary{margin:0 0 8px}
-.meta{margin:0;color:var(--muted);font-size:.85rem}
-.meta a{color:var(--muted)}
-.badge{display:inline-block;background:var(--accent);color:#fff;border-radius:4px;padding:0 6px;font-size:.75rem;margin-right:6px;vertical-align:2px}
-details{margin-top:8px;font-size:.95rem}
-summary{cursor:pointer;color:var(--accent)}
-details ol{padding-left:1.4em;margin:8px 0 0}
-details li{margin-bottom:6px}
-details li a{text-decoration:none;color:var(--muted)}
-.pending{color:var(--muted);font-style:italic}
-.empty{color:var(--muted);text-align:center;padding:40px 0}
-footer{color:var(--muted);font-size:.85rem;text-align:center;padding:24px 16px;border-top:1px solid var(--border);margin-top:24px}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 var(--sans)}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--accent)}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+/* 報頭 */
+.masthead{padding:44px 0 22px;border-bottom:1px solid var(--rule-strong)}
+.kicker{margin:0 0 8px;font-size:.72rem;letter-spacing:.24em;color:var(--ink-3);text-transform:uppercase}
+.masthead h1{margin:0;font:700 1.9rem/1.3 var(--serif);letter-spacing:.02em}
+.masthead h1 em{font-style:normal;color:var(--accent)}
+.lede{margin:12px 0 0;color:var(--ink-2);font-size:.92rem;max-width:40em}
+.links{margin:16px 0 0;font-size:.82rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:0 18px}
+.links a{border-bottom:1px solid transparent}
+.links a:hover{border-bottom-color:currentColor}
+
+/* 篩選 */
+.filter{padding:18px 0 10px;border-bottom:1px solid var(--rule)}
+.search{position:relative}
+.search svg{position:absolute;left:0;top:50%;width:16px;height:16px;transform:translateY(-50%);color:var(--ink-3)}
+.search input{width:100%;padding:8px 0 8px 26px;font:inherit;font-size:1rem;color:var(--ink);background:transparent;
+  border:0;border-bottom:1px solid var(--rule);border-radius:0;outline:0;-webkit-appearance:none}
+.search input:focus{border-bottom-color:var(--accent)}
+.search input::placeholder{color:var(--ink-3)}
+.tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;margin-top:12px;font-size:.85rem}
+.tags-label{color:var(--ink-3);letter-spacing:.14em;font-size:.72rem}
+.tag{appearance:none;border:0;background:none;padding:2px 0;font:inherit;color:var(--ink-2);cursor:pointer;border-bottom:1px solid transparent}
+.tag:hover{color:var(--accent)}
+.tag.on{color:var(--accent);border-bottom-color:var(--accent)}
+.tag.clear{color:var(--ink-3)}
+.count{margin-left:auto;color:var(--ink-3);font-size:.78rem;font-variant-numeric:tabular-nums}
+
+/* 文章列表 */
+h2{margin:34px 0 2px;font:500 .78rem/1 var(--sans);letter-spacing:.22em;color:var(--ink-3);display:flex;align-items:baseline;gap:10px}
+h2 small{font-size:.66rem;letter-spacing:.18em;opacity:.7}
+.stories{list-style:none;margin:0;padding:0}
+.story{display:grid;grid-template-columns:2.4rem 1fr;gap:0 4px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.rank{font:500 .85rem/1.9 var(--serif);color:var(--ink-3);font-variant-numeric:tabular-nums;padding-top:4px}
+.title{margin:0;font:700 1.18rem/1.55 var(--serif)}
+.title a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:5px}
+.en{margin:2px 0 8px;font-size:.84rem;line-height:1.5;color:var(--ink-3)}
+.en .domain{margin-left:6px;white-space:nowrap}
+.summary{margin:0 0 10px;font-size:.95rem;line-height:1.85}
+.pending{color:var(--ink-3);font-style:italic}
+.meta{margin:0;font-size:.8rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:2px 14px;font-variant-numeric:tabular-nums}
+.meta .score{color:var(--accent)}
+.story-tag{border-bottom:1px solid var(--rule)}
+.story-tag:hover{border-bottom-color:var(--accent)}
+.comments{margin-top:10px;font-size:.9rem}
+.comments summary{cursor:pointer;color:var(--ink-2);list-style:none;display:inline-flex;align-items:center;gap:8px}
+.comments summary::-webkit-details-marker{display:none}
+.comments summary::before{content:"";border:4px solid transparent;border-left:6px solid var(--accent);transition:transform .15s}
+.comments[open] summary::before{transform:rotate(90deg)}
+.comments ol{margin:10px 0 0;padding:0;list-style:none;border-left:2px solid var(--accent-soft)}
+.comments li{padding:0 0 10px 14px;line-height:1.75;color:var(--ink-2)}
+.comments .by{color:var(--ink-3);font-size:.8rem;margin-right:6px}
+.comments li a{color:var(--ink-3)}
+.empty{color:var(--ink-3);text-align:center;padding:48px 0}
+footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:.8rem;line-height:1.9}
+@media (max-width:480px){
+  .masthead{padding:30px 0 16px}
+  .masthead h1{font-size:1.55rem}
+  .story{grid-template-columns:1.9rem 1fr;padding:16px 0}
+  .title{font-size:1.08rem}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
-  <h1>Hacker News 繁體中文版</h1>
-  <p>每小時更新 · 最近更新 {{ updated_at|taipei }}（台北時間）· <a href="feed.xml">RSS</a> · <a href="https://news.ycombinator.com/">HN 原站</a></p>
+<header class="masthead"><div class="wrap">
+  <p class="kicker">Hacker News · 繁體中文</p>
+  <h1>Hacker News <em>繁體中文版</em></h1>
+  <p class="lede">每小時自動翻譯 HN 首頁文章並附 2～3 句摘要；文章上首頁滿 6 小時後，再補上前 3 則評論的摘要。最近更新 <time datetime="{{ updated_at }}" data-rel>{{ updated_at|taipei }}</time>。</p>
+  <nav class="links">
+    <a href="feed.xml">RSS 訂閱</a>
+    <a href="https://news.ycombinator.com/">Hacker News 原站</a>
+    {% if repo_url %}<a href="{{ repo_url }}">原始碼</a>{% endif %}
+  </nav>
 </div></header>
 
-<main>
-<div class="filter">
-  <input id="q" type="search" placeholder="關鍵字篩選（中英文皆可）" autocomplete="off">
-  <div class="chips">
-    <button class="chip" data-tag="robotics">robotics</button>
-    <button class="chip" data-tag="hardware">hardware</button>
-    <button class="chip" data-tag="AI">AI</button>
-    <button class="chip" data-tag="simulation">simulation</button>
-    <button class="chip" id="clear" hidden>清除</button>
-    <span class="count" id="count"></span>
-  </div>
-</div>
+<main class="wrap">
+  <section class="filter" aria-label="篩選文章">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="搜尋標題或摘要（按 / 開始輸入）" autocomplete="off" aria-label="搜尋標題或摘要">
+    </div>
+    <div class="tags">
+      <span class="tags-label">主題</span>
+      {% for t in tags %}
+      <button class="tag" type="button" data-tag="{{ t }}" aria-pressed="false">{{ t }}</button>
+      {% endfor %}
+      <button class="tag clear" type="button" id="clear" hidden>清除</button>
+      <span class="count" id="count"></span>
+    </div>
+  </section>
 
-{% macro card(s, section) %}
-<article class="story" data-section="{{ section }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ s.domain)|lower }}">
-  <h3>{% if s.on_front_page %}<span class="badge">#{{ s.rank }}</span>{% endif %}<a href="{{ s.url }}">{{ s.title_zh or s.title }}</a></h3>
-  {% if s.title_zh %}<p class="en"><a href="{{ s.url }}">{{ s.title }}</a></p>{% endif %}
-  {% if s.summary_zh %}
-  <p class="summary">{{ s.summary_zh }}</p>
-  {% else %}
-  <p class="summary pending">翻譯尚未完成，下次更新時補上。</p>
-  {% endif %}
-  <p class="meta">▲ {{ s.score }} · <a href="{{ s.hn_url }}">{{ s.comments_count }} 則評論</a> · {{ s.domain }} · <time datetime="{{ s.posted_at }}">{{ s.posted_at|taipei }}</time></p>
-  {% if s.comments %}
-  <details>
-    <summary>評論摘要（{{ s.comments|length }}）</summary>
-    <ol>{% for c in s.comments %}<li>{{ c.summary_zh }} <a href="{{ c.url }}" title="{{ c.by }} 的原始評論">↗</a></li>{% endfor %}</ol>
-  </details>
-  {% elif not s.comments_done %}
-  <p class="meta pending">評論摘要會在文章上首頁滿 6 小時後產生</p>
-  {% endif %}
-</article>
+{% macro story(s, section) %}
+  <li class="story" data-section="{{ section }}" data-tags="{{ s.tags|join(' ') }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ s.domain)|lower }}">
+    <span class="rank" aria-hidden="true">{{ s.rank if s.on_front_page else '' }}</span>
+    <div>
+      <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a></h3>
+      <p class="en">{% if s.title_zh %}<a href="{{ s.url }}">{{ s.title }}</a>{% endif %}<span class="domain">({{ s.domain }})</span></p>
+      {% if s.summary_zh %}
+      <p class="summary">{{ s.summary_zh }}</p>
+      {% else %}
+      <p class="summary pending">翻譯尚未完成，下次更新時補上。</p>
+      {% endif %}
+      <p class="meta">
+        <span class="score">▲ {{ s.score }}</span>
+        <a href="{{ s.hn_url }}">{{ s.comments_count }} 則評論</a>
+        <time datetime="{{ s.posted_at }}" data-rel>{{ s.posted_at|taipei }}</time>
+        {% for t in s.tags %}<a class="story-tag" href="#tag={{ t }}">{{ t }}</a>{% endfor %}
+      </p>
+      {% if s.comments %}
+      <details class="comments">
+        <summary>評論摘要 {{ s.comments|length }} 則</summary>
+        <ol>
+          {% for c in s.comments %}
+          <li><span class="by">{{ c.by }}</span>{{ c.summary_zh }} <a href="{{ c.url }}" title="看原始評論">↗</a></li>
+          {% endfor %}
+        </ol>
+      </details>
+      {% endif %}
+    </div>
+  </li>
 {% endmacro %}
 
-<h2 data-section="front">目前首頁</h2>
-{% for s in front %}{{ card(s, "front") }}{% endfor %}
-{% if rest %}
-<h2 data-section="rest">過去 48 小時曾上首頁</h2>
-{% for s in rest %}{{ card(s, "rest") }}{% endfor %}
-{% endif %}
-<p class="empty" id="empty" hidden>沒有符合的文章</p>
+  <h2 data-section-head="front">目前首頁 <small>FRONT PAGE</small></h2>
+  <ol class="stories">
+    {% for s in front %}{{ story(s, "front") }}{% endfor %}
+  </ol>
+  {% if rest %}
+  <h2 data-section-head="rest">過去 48 小時 <small>RECENT</small></h2>
+  <ol class="stories">
+    {% for s in rest %}{{ story(s, "rest") }}{% endfor %}
+  </ol>
+  {% endif %}
+  <p class="empty" id="empty" hidden>沒有符合的文章。</p>
 </main>
 
-<footer>
+<footer><div class="wrap">
   翻譯與摘要由 AI 產生，可能有誤，請以原文為準。<br>
-  資料來源：<a href="https://github.com/HackerNews/API">Hacker News API</a> · 翻譯：Google Gemini · <a href="feed.xml">RSS</a>
-</footer>
+  資料來源 <a href="https://github.com/HackerNews/API">Hacker News API</a> · 翻譯 Google Gemini{% if repo_url %} · <a href="{{ repo_url }}">原始碼</a>{% endif %} · <a href="feed.xml">RSS</a>
+</div></footer>
 
 <script>
 (function () {
-  // 預設標籤：每個標籤對應一組關鍵字（英文用單字邊界，中文用子字串），命中任一個就算符合。
-  var GROUPS = {
-    robotics: [/\brobot/i, /機器人/, /機械手臂/, /\bhumanoid/i, /\bdrone/i, /無人機/, /\bros\b/i, /\bmanipulat/i, /\bactuator/i, /致動器/],
-    hardware: [/\bhardware\b/i, /硬體/, /\bchip/i, /晶片/, /半導體/, /\bsemiconductor/i, /\bfpga\b/i, /\bpcb\b/i, /\bgpu/i, /\bcpu/i, /\bsilicon/i, /\bsensor/i, /感測器/, /\bfirmware/i, /韌體/, /\barduino/i, /\braspberry pi/i, /\bmicrocontroller/i, /微控制器/],
-    AI: [/\bai\b/i, /人工智慧/, /\bllm/i, /語言模型/, /\bmachine learning/i, /機器學習/, /\bneural/i, /神經網路/, /\bgpt/i, /\bclaude/i, /\bgemini/i, /\bopenai/i, /\banthropic/i, /\bdeep learning/i, /深度學習/, /\btransformer/i, /\bagent/i, /\bdiffusion/i],
-    simulation: [/\bsimulat/i, /模擬/, /\bphysics engine/i, /物理引擎/, /\bdigital twin/i, /數位孿生/, /\bgazebo/i, /\bmujoco/i, /\bisaac/i, /\bemulat/i]
-  };
-
   var q = document.getElementById('q');
-  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip[data-tag]'));
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.story'));
+  var tagButtons = [].slice.call(document.querySelectorAll('.tag[data-tag]'));
+  var stories = [].slice.call(document.querySelectorAll('.story'));
+  var heads = [].slice.call(document.querySelectorAll('[data-section-head]'));
   var count = document.getElementById('count');
   var empty = document.getElementById('empty');
   var clear = document.getElementById('clear');
   var active = {};
 
-  function matches(text, tag) {
-    return GROUPS[tag].some(function (re) { return re.test(text); });
+  // 篩選條件存在網址的 # 後面，方便分享、加書籤；文章上的主題標籤也只是連到 #tag=…
+  function readHash() {
+    active = {}; q.value = '';
+    location.hash.slice(1).split('&').forEach(function (kv) {
+      var p = kv.split('='), v = decodeURIComponent(p[1] || '');
+      if (p[0] === 'tag' && v) active[v] = true;
+      if (p[0] === 'q') q.value = v;
+    });
   }
-
+  function writeHash() {
+    var parts = Object.keys(active).map(function (t) { return 'tag=' + encodeURIComponent(t); });
+    var text = q.value.trim();
+    if (text) parts.push('q=' + encodeURIComponent(text));
+    history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname + location.search);
+  }
   function apply() {
-    var text = q.value.trim().toLowerCase();
-    var tags = Object.keys(active);
-    var shown = 0, visible = {};
-    cards.forEach(function (card) {
-      var t = card.dataset.text;
-      var ok = (!text || t.indexOf(text) !== -1) &&
-               (tags.length === 0 || tags.some(function (tag) { return matches(t, tag); }));
-      card.hidden = !ok;
-      if (ok) { shown++; visible[card.dataset.section] = true; }
+    var text = q.value.trim().toLowerCase(), tags = Object.keys(active), shown = 0, visible = {};
+    stories.forEach(function (el) {
+      var mine = (el.dataset.tags || '').split(' ');
+      var ok = (!text || el.dataset.text.indexOf(text) !== -1) &&
+               (!tags.length || tags.some(function (t) { return mine.indexOf(t) !== -1; }));
+      el.hidden = !ok;
+      if (ok) { shown++; visible[el.dataset.section] = true; }
     });
-    // 某區塊沒有可見文章時，把區塊標題也藏起來
-    document.querySelectorAll('h2[data-section]').forEach(function (h) { h.hidden = !visible[h.dataset.section]; });
-    count.textContent = '顯示 ' + shown + ' / ' + cards.length + ' 篇';
+    heads.forEach(function (h) { h.hidden = !visible[h.dataset.sectionHead]; });
+    tagButtons.forEach(function (b) {
+      var on = !!active[b.dataset.tag];
+      b.classList.toggle('on', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    count.textContent = (shown === stories.length ? '' : shown + ' / ') + stories.length + ' 篇';
     empty.hidden = shown > 0;
-    clear.hidden = !text && tags.length === 0;
-    // 把篩選條件寫進網址，方便分享或加書籤
-    var hash = tags.map(function (t) { return 'tag=' + encodeURIComponent(t); });
-    if (text) hash.push('q=' + encodeURIComponent(text));
-    history.replaceState(null, '', hash.length ? '#' + hash.join('&') : location.pathname);
+    clear.hidden = !text && !tags.length;
   }
 
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      var tag = chip.dataset.tag;
-      if (active[tag]) { delete active[tag]; } else { active[tag] = true; }
-      chip.classList.toggle('on', !!active[tag]);
-      apply();
+  tagButtons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var t = b.dataset.tag;
+      if (active[t]) { delete active[t]; } else { active[t] = true; }
+      writeHash(); apply();
     });
   });
-  q.addEventListener('input', apply);
-  clear.addEventListener('click', function () {
-    q.value = ''; active = {};
-    chips.forEach(function (c) { c.classList.remove('on'); });
-    apply();
+  q.addEventListener('input', function () { writeHash(); apply(); });
+  clear.addEventListener('click', function () { active = {}; q.value = ''; writeHash(); apply(); });
+  window.addEventListener('hashchange', function () { readHash(); apply(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
   });
 
-  // 從網址還原篩選條件
-  location.hash.slice(1).split('&').forEach(function (kv) {
-    var p = kv.split('=');
-    if (p[0] === 'tag' && GROUPS[decodeURIComponent(p[1] || '')]) {
-      var tag = decodeURIComponent(p[1]); active[tag] = true;
-      chips.forEach(function (c) { if (c.dataset.tag === tag) c.classList.add('on'); });
-    }
-    if (p[0] === 'q') q.value = decodeURIComponent(p[1] || '');
+  // 「3 小時前」這種相對時間；滑鼠移上去看得到原本的台北時間
+  function rel(iso) {
+    var sec = Math.floor((Date.now() - Date.parse(iso)) / 1000);
+    if (isNaN(sec) || sec < 0) return '';
+    if (sec < 60) return '剛剛';
+    if (sec < 3600) return Math.floor(sec / 60) + ' 分鐘前';
+    if (sec < 86400) return Math.floor(sec / 3600) + ' 小時前';
+    if (sec < 7 * 86400) return Math.floor(sec / 86400) + ' 天前';
+    return '';
+  }
+  [].forEach.call(document.querySelectorAll('time[data-rel]'), function (t) {
+    var s = rel(t.getAttribute('datetime'));
+    if (s) { t.title = t.textContent; t.textContent = s; }
   });
-  apply();
+
+  readHash(); apply();
 })();
 </script>
 </body>
