@@ -20,13 +20,13 @@
 <style>
 :root{
   --paper:#f8f5ee; --ink:#1f1c18; --ink-2:#5f5a52; --ink-3:#938d83;
-  --rule:#e4ded1; --rule-strong:#1f1c18;
+  --rule:#e4ded1;
   --accent:#ee5a1a; --accent-soft:rgba(238,90,26,.12);
   --serif:"Noto Serif TC","Songti TC","Noto Serif CJK TC","Source Han Serif TC",Georgia,serif;
   --sans:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Noto Sans CJK TC","Microsoft JhengHei","Helvetica Neue",Arial,sans-serif;
 }
 @media (prefers-color-scheme: dark){
-  :root{--paper:#171613; --ink:#ebe6dc; --ink-2:#b5aea2; --ink-3:#7f7a70; --rule:#2c2a25; --rule-strong:#ebe6dc;
+  :root{--paper:#171613; --ink:#ebe6dc; --ink-2:#b5aea2; --ink-3:#7f7a70; --rule:#2c2a25;
         --accent:#ff7a3d; --accent-soft:rgba(255,122,61,.16)}
 }
 *{box-sizing:border-box}
@@ -38,8 +38,10 @@ a:hover{color:var(--accent)}
 .wrap{max-width:720px;margin:0 auto;padding:0 20px}
 
 /* 報頭 */
-.masthead{padding:44px 0 22px;border-bottom:1px solid var(--rule-strong)}
-.kicker{margin:0 0 8px;font-size:.72rem;letter-spacing:.24em;color:var(--ink-3);text-transform:uppercase}
+.masthead{padding:52px 0 4px}
+.kicker{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 12px;font-size:.72rem;letter-spacing:.24em;color:var(--ink-3);text-transform:uppercase}
+.kicker::before{content:"";flex:none;width:8px;height:8px;background:var(--accent)}  /* 小方印，呼應 HN 的橘色 */
+.kicker .updated{margin-left:auto;letter-spacing:.06em}
 .masthead h1{margin:0;font:700 1.9rem/1.3 var(--serif);letter-spacing:.02em}
 .masthead h1 em{font-style:normal;color:var(--accent)}
 .lede{margin:12px 0 0;color:var(--ink-2);font-size:.92rem;max-width:40em}
@@ -48,7 +50,7 @@ a:hover{color:var(--accent)}
 .links a:hover{border-bottom-color:currentColor}
 
 /* 篩選 */
-.filter{padding:18px 0 10px;border-bottom:1px solid var(--rule)}
+.filter{padding:24px 0 10px;border-bottom:1px solid var(--rule)}
 .search{position:relative}
 .search svg{position:absolute;left:0;top:50%;width:16px;height:16px;transform:translateY(-50%);color:var(--ink-3)}
 .search input{width:100%;padding:8px 0 8px 26px;font:inherit;font-size:1rem;color:var(--ink);background:transparent;
@@ -96,7 +98,7 @@ h2 small{font-size:.66rem;letter-spacing:.18em;opacity:.7}
 .empty{color:var(--ink-3);text-align:center;padding:48px 0}
 footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:.8rem;line-height:1.9}
 @media (max-width:480px){
-  .masthead{padding:30px 0 16px}
+  .masthead{padding:34px 0 0}
   .masthead h1{font-size:1.55rem}
   .story{grid-template-columns:1.9rem 1fr;padding:16px 0}
   .title{font-size:1.08rem}
@@ -105,9 +107,9 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
 </head>
 <body>
 <header class="masthead"><div class="wrap">
-  <p class="kicker">Hacker News · 繁體中文</p>
+  <p class="kicker"><span>Hacker News · 繁體中文</span><span class="updated">更新於 <time datetime="{{ updated_at }}" data-rel>{{ updated_at|taipei }}</time></span></p>
   <h1>Hacker News <em>繁體中文版</em></h1>
-  <p class="lede">每小時自動翻譯 HN 首頁文章並附 2～3 句摘要；文章上首頁滿 6 小時後，再補上前 3 則評論的摘要。最近更新 <time datetime="{{ updated_at }}" data-rel>{{ updated_at|taipei }}</time>。</p>
+  <p class="lede">每小時自動翻譯 Hacker News 首頁文章，附中英對照摘要；文章上首頁滿 6 小時後，補上熱門評論的摘要。</p>
   <nav class="links">
     <a href="feed.xml">RSS 訂閱</a>
     <a href="https://news.ycombinator.com/">Hacker News 原站</a>
