@@ -229,7 +229,9 @@ def summarize_comments(batch: list[dict]) -> tuple[dict[int, list[str]], str]:
         blocks.append("\n".join(lines))
     prompt = (
         f"以下是 {len(batch)} 篇 Hacker News 文章各自的熱門評論。\n"
-        "請把每則評論濃縮成 1～2 句繁體中文摘要，保留評論者的主要論點、反駁或補充資訊，直接寫內容即可。\n"
+        "請把每則評論濃縮成 1～2 句繁體中文摘要，保留主要論點、反駁或補充資訊。\n"
+        "頁面已經會顯示留言者的帳號，所以直接陳述論點，不要用「評論者」「留言者」「作者」「這則評論」開頭"
+        "（例如寫「這些裝置可能被用來…」，不要寫「評論者指出這些裝置可能被用來…」）。\n"
         "每篇回傳 title（把輸入的英文標題一字不差照抄，用來核對）與 comments；"
         "comments 陣列的長度與順序必須和輸入的評論一致。id 必須原樣照抄。\n\n"
         + "\n\n".join(blocks)
