@@ -127,6 +127,18 @@ class ModelList(unittest.TestCase):
             importlib.reload(translate)
 
 
+class TranslateUrl(unittest.TestCase):
+    def test_encodes_url_and_targets_zh_tw(self):
+        u = render.translate_url("https://example.com/a?b=1&c=2")
+        self.assertTrue(u.startswith("https://translate.google.com/translate?"))
+        self.assertIn("tl=zh-TW", u)
+        self.assertIn("u=https%3A%2F%2Fexample.com%2Fa%3Fb%3D1%26c%3D2", u)
+
+    def test_skips_pdf_and_video(self):
+        self.assertIsNone(render.translate_url("https://example.com/paper.PDF"))
+        self.assertIsNone(render.translate_url("https://www.youtube.com/watch?v=x"))
+
+
 class Domain(unittest.TestCase):
     def test_strips_www(self):
         self.assertEqual(update.domain_of("https://www.example.com/a?b=c"), "example.com")

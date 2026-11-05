@@ -11,6 +11,7 @@ import xml.etree.ElementTree as ET
 from datetime import timedelta
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.parse import urlencode, urlparse
 from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -41,6 +42,21 @@ TAGS: dict[str, list[str]] = {
 _COMPILED = {tag: [re.compile(p, re.IGNORECASE) for p in pats] for tag, pats in TAGS.items()}
 
 
+# Google 翻譯翻不了的連結：影片、需要登入的動態網站。這些就不顯示「全文中譯」按鈕。
+NO_TRANSLATE_DOMAINS = {"youtube.com", "youtu.be", "twitter.com", "x.com"}
+
+
+def translate_url(url: str) -> str | None:
+    """回傳「用 Google 翻譯把這個網頁翻成台灣繁體中文」的網址；翻不了的（PDF、影片）回傳 None。
+
+    這只是一個連結：翻譯是讀者點下去之後由 Google 即時做的，不會用到我們的 Gemini 額度。
+    """
+    host = urlparse(url).netloc.lower().removeprefix("www.")
+    if not url or url.lower().split("?")[0].endswith(".pdf") or host in NO_TRANSLATE_DOMAINS:
+        return None
+    return "https://translate.google.com/translate?" + urlencode({"sl": "auto", "tl": "zh-TW", "hl": "zh-TW", "u": url})
+
+
 def tags_for(story: dict) -> list[str]:
     """看標題、中文標題、摘要、網域，回傳命中的標籤。"""
     text = " ".join(filter(None, [story.get("title"), story.get("title_zh"), story.get("summary_zh"), story.get("domain")]))
@@ -53,6 +69,7 @@ def select_stories(data: dict) -> tuple[list[dict], list[dict]]:
     recent = [s for s in data["stories"].values() if store.from_iso(s["first_seen"]) >= cutoff]
     for s in recent:
         s["tags"] = tags_for(s)
+        s["translate_url"] = translate_url(s["url"])
     front = sorted((s for s in recent if s["on_front_page"]), key=lambda s: s["rank"])
     rest = sorted((s for s in recent if not s["on_front_page"]), key=lambda s: s["first_seen"], reverse=True)
     return front, rest
@@ -107,7 +124,9 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
             desc.append(f"<p>{e(s['summary_en'])}</p>")
         desc.append(
             f"<p>▲ {s['score']} 分 · {s['comments_count']} 則評論 · {e(s['domain'])} · "
-            f"<a href=\"{e(s['hn_url'])}\">HN 討論</a></p>"
+            f"<a href=\"{e(s['hn_url'])}\">HN 討論</a>"
+            + (f" · <a href=\"{e(s['translate_url'])}\">全文中譯</a>" if s.get("translate_url") else "")
+            + "</p>"
         )
         if s["comments"]:
             desc.append("<p>評論摘要：</p><ol>")

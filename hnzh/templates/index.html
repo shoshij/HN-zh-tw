@@ -73,6 +73,9 @@ h2 small{font-size:.66rem;letter-spacing:.18em;opacity:.7}
 .rank{font:500 .85rem/1.9 var(--serif);color:var(--ink-3);font-variant-numeric:tabular-nums;padding-top:4px}
 .title{margin:0;font:700 1.18rem/1.55 var(--serif)}
 .title a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:5px}
+.title a.gt{display:inline-block;margin-left:10px;padding:1px 7px;border:1px solid var(--rule);border-radius:3px;
+  font:400 .7rem/1.6 var(--sans);letter-spacing:.06em;color:var(--ink-3);white-space:nowrap;vertical-align:3px}
+.title a.gt:hover{color:var(--accent);border-color:var(--accent);text-decoration:none}
 .en{margin:2px 0 8px;font-size:.84rem;line-height:1.5;color:var(--ink-3)}
 .en a + .domain{margin-left:6px}
 .en .domain{white-space:nowrap}
@@ -137,7 +140,7 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
   <li class="story" data-section="{{ section }}" data-tags="{{ s.tags|join(' ') }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ (s.summary_en or '') ~ ' ' ~ s.domain)|lower }}">
     <span class="rank" aria-hidden="true">{{ s.rank if s.on_front_page else '' }}</span>
     <div>
-      <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a></h3>
+      <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a>{% if s.translate_url %}<a class="gt" href="{{ s.translate_url }}" title="用 Google 翻譯開啟全文的繁體中文版" rel="noopener">全文中譯</a>{% endif %}</h3>
       <p class="en">{% if s.title_zh and s.title_zh != s.title %}<a href="{{ s.url }}">{{ s.title }}</a>{% endif %}<span class="domain">({{ s.domain }})</span></p>
       {% if s.summary_zh %}
       <p class="summary">{{ s.summary_zh }}</p>
