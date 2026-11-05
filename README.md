@@ -1,4 +1,4 @@
-# Hacker News in Traditional Chinese · Hacker News 繁體中文版
+# Hacker News in Traditional Chinese · 繁體中文版
 
 **[English](#english)** · **[中文](#中文)**
 
