@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import time
 import traceback
 from datetime import UTC, datetime, timedelta
 from urllib.parse import urlparse
@@ -25,6 +26,7 @@ COMMENTS_WINDOW = timedelta(hours=48)  # 超過 48 小時的文章就不再處�
 TOP_COMMENTS = 3
 MAX_TRIES = 3                          # 模型偶爾會漏掉一篇，最多重試幾次就放棄
 MAX_BATCHES = 6                        # 每小時最多送幾批翻譯（約 48 篇），避免一次把免費額度用光
+TIME_BUDGET = 15 * 60                  # 秒；翻譯與評論摘要最多花這麼久，超過就留到下一小時，不要卡住排程
 
 
 def warn(msg: str) -> None:
@@ -106,7 +108,14 @@ def sync_front_page(data: dict, limit: int) -> list[dict]:
     return front
 
 
-def translate_new(data: dict, front: list[dict]) -> int:
+def out_of_time(deadline: float, what: str) -> bool:
+    if time.monotonic() < deadline:
+        return False
+    warn(f"{what}：這小時的時間預算用完，剩下的下小時繼續。")
+    return True
+
+
+def translate_new(data: dict, front: list[dict], deadline: float) -> int:
     """翻譯還沒有中文標題（或缺英文摘要）的文章，首頁的優先。回傳翻譯篇數。"""
     stories = data["stories"]
     cutoff = store.now() - COMMENTS_WINDOW
@@ -139,6 +148,8 @@ def translate_new(data: dict, front: list[dict]) -> int:
     if len(batches) > MAX_BATCHES:
         print(f"[翻譯] 待翻 {len(payload)} 篇，這小時先做 {MAX_BATCHES * translate.BATCH_SIZE} 篇，其餘下小時繼續")
     for batch in batches[:MAX_BATCHES]:
+        if out_of_time(deadline, "翻譯"):
+            break
         try:
             result, model = translate.translate_stories(batch)
         except translate.QuotaExhausted as e:
@@ -163,7 +174,7 @@ def translate_new(data: dict, front: list[dict]) -> int:
     return done
 
 
-def summarize_due_comments(data: dict) -> int:
+def summarize_due_comments(data: dict, deadline: float) -> int:
     """對上首頁滿 6 小時、還沒做過評論摘要的文章，抓前 3 則評論並摘要。只做一次。"""
     now = store.now()
     due = []
@@ -191,6 +202,8 @@ def summarize_due_comments(data: dict) -> int:
 
     done = 0
     for batch in translate.chunks(entries, translate.BATCH_SIZE):
+        if out_of_time(deadline, "評論摘要"):
+            break
         try:
             result, model = translate.summarize_comments(batch)
         except translate.QuotaExhausted as e:
@@ -225,9 +238,10 @@ def main() -> None:
     front = sync_front_page(data, args.limit)  # HN 本身掛了就讓程式失敗，因為沒東西可更新
     print(f"首頁 {len(front)} 篇")
     if not args.skip_translate:
+        deadline = time.monotonic() + TIME_BUDGET
         try:
-            print(f"翻譯 {translate_new(data, front)} 篇")
-            print(f"評論摘要 {summarize_due_comments(data)} 篇")
+            print(f"翻譯 {translate_new(data, front, deadline)} 篇")
+            print(f"評論摘要 {summarize_due_comments(data, deadline)} 篇")
         except Exception:  # noqa: BLE001 - 翻譯階段出錯也要把同步結果存下來，否則 first_seen 等資訊會遺失
             warn("翻譯階段發生未預期的錯誤，先儲存已完成的部分：\n" + traceback.format_exc())
     removed = store.prune(data)

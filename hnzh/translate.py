@@ -27,7 +27,12 @@ DEFAULT_MODELS = (
 # GitHub Actions 沒設定 GEMINI_MODELS 變數時會傳空字串進來，所以用 `or` 而不是 .get() 的預設值
 MODELS = [m.strip() for m in (os.environ.get("GEMINI_MODELS") or DEFAULT_MODELS).split(",") if m.strip()]
 BATCH_SIZE = 8    # 每個請求最多塞幾篇文章（太多篇模型容易張冠李戴）
-TIMEOUT = 120     # 秒；超過就當這個模型現在不穩，換下一個
+TIMEOUT = 90      # 秒；超過就當這個模型現在不穩，換下一個
+
+
+# 這次執行中已經失敗過的模型。後面的批次直接跳過它們，不要每一批都重新等一次逾時。
+# 下一小時是全新的程式，會從頭再試。
+_down: set[str] = set()
 
 
 class QuotaExhausted(Exception):
@@ -136,7 +141,8 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
     """送一個請求給 Gemini，回傳 (解析好的 JSON, 實際使用的模型)。
 
     429（額度用完）、503（模型太忙）、5xx：先小等一下重試一次，再不行就換下一個模型。
-    404（模型下架）、逾時、連線錯誤：直接換下一個。全部都不行才丟出 QuotaExhausted。
+    逾時、連線錯誤、404（模型下架）等其他錯誤：直接換下一個。
+    失敗過的模型記在 _down，這次執行的後續批次不再嘗試。全部都不行才丟出 QuotaExhausted。
     """
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -154,6 +160,8 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
     headers = {"x-goog-api-key": key}  # 金鑰放 header，不要放網址，避免出現在 log
     last = ""
     for model in MODELS:
+        if model in _down:
+            continue
         for attempt in range(2):
             try:
                 r = requests.post(API.format(model=model), headers=headers, json=body, timeout=TIMEOUT)
@@ -169,17 +177,14 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
                     return json.loads(parts[0]["text"]), model
                 except (KeyError, IndexError, ValueError) as e:  # ValueError 包含 JSONDecodeError
                     raise BatchFailed(f"{model} 的回應無法解析：{e}") from e
-            last = f"{model} -> {r.status_code} {r.text[:200]}"
-            if r.status_code == 404:
-                break
-            if r.status_code in (429, 500, 502, 503, 504):
-                if attempt == 0:
-                    time.sleep(15 if r.status_code == 429 else 10)  # 429：每分鐘額度；503：太多人用
-                    continue
-                break
-            r.raise_for_status()  # 其他錯誤（例如 400 請求格式錯）直接讓程式停下來
-        print(f"[Gemini] {last}，換下一個模型")
-    raise QuotaExhausted(f"所有模型都不可用：{last}")
+            last = f"{model} -> {r.status_code} {' '.join(r.text[:160].split())}"
+            if r.status_code in (429, 500, 502, 503, 504) and attempt == 0:
+                time.sleep(15 if r.status_code == 429 else 10)  # 429：每分鐘額度；503：太多人用
+                continue
+            break  # 重試過還是不行，或是 404（模型下架）、400（這個模型不支援）等：換下一個
+        _down.add(model)
+        print(f"[Gemini] {last}；這次執行先不用它，換下一個模型")
+    raise QuotaExhausted(f"所有模型都不可用。最後的錯誤：{last or '每個模型都在這次執行中失敗過'}")
 
 
 def translate_stories(batch: list[dict]) -> tuple[dict[int, dict], str]:
