@@ -53,6 +53,8 @@ class Tags(unittest.TestCase):
 
     def test_no_false_positive(self):
         self.assertEqual(render.tags_for(self.story(title="Kitty 0.50")), [])
+        self.assertNotIn("simulation", render.tags_for(self.story(summary_zh="跨平台終端機模擬器 Kitty 發布新版")))
+        self.assertIn("simulation", render.tags_for(self.story(summary_zh="用物理模擬訓練機器人")))
 
 
 class Fallback(unittest.TestCase):

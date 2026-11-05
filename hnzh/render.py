@@ -35,8 +35,8 @@ TAGS: dict[str, list[str]] = {
     "AI": [r"\bai\b", "人工智慧", r"\bllm", "語言模型", r"\bmachine learning", "機器學習", r"\bneural", "神經網路",
            r"\bgpt", r"\bclaude", r"\bgemini", r"\bopenai", r"\banthropic", r"\bdeep learning", "深度學習",
            r"\btransformer", r"\bagent", r"\bdiffusion"],
-    "simulation": [r"\bsimulat", "模擬", r"\bphysics engine", "物理引擎", r"\bdigital twin", "數位孿生",
-                   r"\bgazebo", r"\bmujoco", r"\bisaac", r"\bemulat"],
+    "simulation": [r"\bsimulat", r"(?<!終端機)模擬", r"\bphysics engine", "物理引擎", r"\bdigital twin", "數位孿生",
+                   r"\bgazebo", r"\bmujoco", r"\bisaac"],  # 「終端機模擬器」不算模擬
 }
 _COMPILED = {tag: [re.compile(p, re.IGNORECASE) for p in pats] for tag, pats in TAGS.items()}
 
