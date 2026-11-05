@@ -1,6 +1,6 @@
 # Hacker News 繁體中文版
 
-把 [Hacker News](https://news.ycombinator.com/) 首頁前 30 篇文章翻成台灣繁體中文，附上 2～3 句摘要與熱門評論摘要，每小時自動更新，發佈在 GitHub Pages。
+把 [Hacker News](https://news.ycombinator.com/) 首頁前 30 篇文章翻成台灣繁體中文，附上 2～3 句中文摘要、一句對一句的英文摘要（中英對照練習用）與熱門評論摘要，每小時自動更新，發佈在 GitHub Pages。
 
 - 網頁：<https://shoshij.github.io/HN-zh-tw/>
 - RSS：<https://shoshij.github.io/HN-zh-tw/feed.xml>

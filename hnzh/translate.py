@@ -59,8 +59,9 @@ STORY_SCHEMA = {
                     "title": {"type": "STRING"},
                     "title_zh": {"type": "STRING"},
                     "summary_zh": {"type": "STRING"},
+                    "summary_en": {"type": "STRING"},
                 },
-                "required": ["id", "title", "title_zh", "summary_zh"],
+                "required": ["id", "title", "title_zh", "summary_zh", "summary_en"],
             },
         }
     },
@@ -196,14 +197,20 @@ def translate_stories(batch: list[dict]) -> tuple[dict[int, dict], str]:
     prompt = (
         f"以下是 {len(batch)} 篇 Hacker News 文章，每篇有 id、英文標題、網址與正文節錄。\n"
         "請對每一篇輸出 title（把輸入的英文標題一字不差照抄，用來核對）、"
-        "title_zh（標題的繁體中文翻譯）與 summary_zh（2～3 句中文摘要）。\n"
+        "title_zh（標題的繁體中文翻譯）、summary_zh（2～3 句中文摘要）、"
+        "summary_en（把 summary_zh 翻成自然的英文，句數與順序和中文完全一致、一句對一句，"
+        "給想中英對照練習英文的讀者）。\n"
         "若 content 是「（無法取得原文內容）」，就依標題推測主題寫一句摘要，"
         "並在 summary_zh 句尾加上「（無法取得原文內容，僅依標題判斷）」；title_zh 不要加任何註記。\n"
         "id 必須原樣照抄。\n\n" + "\n\n".join(blocks)
     )
     data, model = _generate(prompt, STORY_SCHEMA)
     return {
-        sid: {"title_zh": clean_title(it["title_zh"]), "summary_zh": it["summary_zh"].strip()}
+        sid: {
+            "title_zh": clean_title(it["title_zh"]),
+            "summary_zh": it["summary_zh"].strip(),
+            "summary_en": it.get("summary_en", "").strip(),
+        }
         for sid, it in match_items(batch, data["items"]).items()
     }, model
 

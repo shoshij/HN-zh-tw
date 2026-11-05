@@ -24,6 +24,7 @@ COMMENTS_AFTER = timedelta(hours=6)    # 上首頁滿 6 小時後才抓評論（
 COMMENTS_WINDOW = timedelta(hours=48)  # 超過 48 小時的文章就不再處理（頁面也不會顯示了）
 TOP_COMMENTS = 3
 MAX_TRIES = 3                          # 模型偶爾會漏掉一篇，最多重試幾次就放棄
+MAX_BATCHES = 6                        # 每小時最多送幾批翻譯（約 48 篇），避免一次把免費額度用光
 
 
 def warn(msg: str) -> None:
@@ -52,6 +53,7 @@ def new_story(item: dict, now: str) -> dict:
         "first_seen": now,
         "title_zh": None,
         "summary_zh": None,
+        "summary_en": None,
         "translated_at": None,
         "model": None,
         "translate_tries": 0,
@@ -91,8 +93,8 @@ def sync_front_page(data: dict, limit: int) -> list[dict]:
                 s.update({
                     "title": item.get("title", ""), "url": url, "domain": domain_of(url),
                     "is_hn_post": "url" not in item,
-                    "title_zh": None, "summary_zh": None, "translated_at": None, "model": None,
-                    "translate_tries": 0,
+                    "title_zh": None, "summary_zh": None, "summary_en": None, "translated_at": None,
+                    "model": None, "translate_tries": 0,
                 })
         s.update({
             "score": item.get("score", 0),
@@ -105,12 +107,12 @@ def sync_front_page(data: dict, limit: int) -> list[dict]:
 
 
 def translate_new(data: dict, front: list[dict]) -> int:
-    """翻譯還沒有中文標題的文章（首頁的優先）。回傳翻譯篇數。"""
+    """翻譯還沒有中文標題（或缺英文摘要）的文章，首頁的優先。回傳翻譯篇數。"""
     stories = data["stories"]
     cutoff = store.now() - COMMENTS_WINDOW
     todo = [
         s for s in stories.values()
-        if not s["title_zh"]
+        if (not s["title_zh"] or not s.get("summary_en"))
         and s.get("translate_tries", 0) < MAX_TRIES
         and store.from_iso(s["first_seen"]) >= cutoff
     ]
@@ -133,7 +135,10 @@ def translate_new(data: dict, front: list[dict]) -> int:
         payload.append({"id": s["id"], "title": s["title"], "url": s["url"], "content": content})
 
     done = 0
-    for batch in translate.chunks(payload, translate.BATCH_SIZE):
+    batches = list(translate.chunks(payload, translate.BATCH_SIZE))
+    if len(batches) > MAX_BATCHES:
+        print(f"[翻譯] 待翻 {len(payload)} 篇，這小時先做 {MAX_BATCHES * translate.BATCH_SIZE} 篇，其餘下小時繼續")
+    for batch in batches[:MAX_BATCHES]:
         try:
             result, model = translate.translate_stories(batch)
         except translate.QuotaExhausted as e:

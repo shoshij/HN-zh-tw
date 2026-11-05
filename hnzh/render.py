@@ -103,6 +103,8 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
 
         e = html.escape  # description 裡放 HTML，所以每個字串都要跳脫
         desc = [f"<p>{e(s['summary_zh'] or '（尚未翻譯）')}</p>"]
+        if s.get("summary_en"):
+            desc.append(f"<p>{e(s['summary_en'])}</p>")
         desc.append(
             f"<p>▲ {s['score']} 分 · {s['comments_count']} 則評論 · {e(s['domain'])} · "
             f"<a href=\"{e(s['hn_url'])}\">HN 討論</a></p>"

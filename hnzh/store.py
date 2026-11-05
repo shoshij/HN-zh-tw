@@ -26,9 +26,14 @@ def from_iso(s: str) -> datetime:
 
 
 def load() -> dict:
-    if DATA_FILE.exists():
-        return json.loads(DATA_FILE.read_text(encoding="utf-8"))
-    return {"updated_at": None, "stories": {}}
+    if not DATA_FILE.exists():
+        return {"updated_at": None, "stories": {}}
+    data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+    for s in data["stories"].values():
+        if "summary_en" not in s:  # 舊資料沒有英文摘要：補上欄位，並讓它重新排進翻譯（只會發生一次）
+            s["summary_en"] = None
+            s["translate_tries"] = 0
+    return data
 
 
 def save(data: dict) -> None:

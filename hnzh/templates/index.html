@@ -74,6 +74,7 @@ h2 small{font-size:.66rem;letter-spacing:.18em;opacity:.7}
 .en{margin:2px 0 8px;font-size:.84rem;line-height:1.5;color:var(--ink-3)}
 .en .domain{margin-left:6px;white-space:nowrap}
 .summary{margin:0 0 10px;font-size:.95rem;line-height:1.85}
+.summary-en{margin:-4px 0 10px;font-size:.86rem;line-height:1.7;color:var(--ink-3)}
 .pending{color:var(--ink-3);font-style:italic}
 .meta{margin:0;font-size:.8rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:2px 14px;font-variant-numeric:tabular-nums}
 .meta .score{color:var(--accent)}
@@ -127,13 +128,16 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
   </section>
 
 {% macro story(s, section) %}
-  <li class="story" data-section="{{ section }}" data-tags="{{ s.tags|join(' ') }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ s.domain)|lower }}">
+  <li class="story" data-section="{{ section }}" data-tags="{{ s.tags|join(' ') }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ (s.summary_en or '') ~ ' ' ~ s.domain)|lower }}">
     <span class="rank" aria-hidden="true">{{ s.rank if s.on_front_page else '' }}</span>
     <div>
       <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a></h3>
       <p class="en">{% if s.title_zh %}<a href="{{ s.url }}">{{ s.title }}</a>{% endif %}<span class="domain">({{ s.domain }})</span></p>
       {% if s.summary_zh %}
       <p class="summary">{{ s.summary_zh }}</p>
+      {% if s.summary_en %}
+      <p class="summary-en">{{ s.summary_en }}</p>
+      {% endif %}
       {% else %}
       <p class="summary pending">翻譯尚未完成，下次更新時補上。</p>
       {% endif %}
