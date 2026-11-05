@@ -7,16 +7,18 @@
 
 > AI-generated translations and summaries may contain errors. Please refer to the original.
 
-The Hacker News front page in Taiwanese Traditional Chinese, updated every hour. Each story has a Chinese title, Chinese and English summaries, and summaries of the top comments.
+The Hacker News front page in Taiwanese Traditional Chinese, updated about every hour. Each story has a Chinese title, Chinese and English summaries, and summaries of the top comments.
 
 ## How it works
 
-Every hour, GitHub Actions runs two scripts:
+About every hour, GitHub Actions runs two scripts:
 
 1. `update.py` fetches the top 30 stories, asks Gemini to translate and summarise the new ones, and saves the results to `data.json`.
 2. `build.py` turns `data.json` into the web page and RSS feed, then deploys them to GitHub Pages.
 
-Stories already translated are never sent again. Comment summaries are added once, 6 hours after a story reaches the front page.
+A story is translated once, and sent again only if HN edits its title or link. Comment summaries are added once, about 6 hours after a story reaches the front page.
+
+GitHub often delays scheduled runs, so the workflow is scheduled three times an hour and skips a run when the last update is under 45 minutes old.
 
 ## Setup
 
@@ -31,9 +33,9 @@ Stories already translated are never sent again. Comment summaries are added onc
 ```bash
 pip install -r requirements.txt
 export GEMINI_API_KEY=your-key
-python update.py --limit 3   # translate the top 3 stories
-python build.py              # write site/index.html and site/feed.xml
-python -m unittest           # run the tests
+python update.py --limit 3 --data /tmp/test.json   # top 3 stories, into a scratch file
+python build.py --data /tmp/test.json              # write site/index.html and site/feed.xml
+python -m unittest                                 # run the tests
 ```
 
 ## Customize
@@ -45,4 +47,4 @@ python -m unittest           # run the tests
 
 ## Cost
 
-Free. It uses the Gemini free tier and GitHub's free Actions and Pages. If the Gemini quota runs out, new stories stay in English until the next hour.
+Free. It uses the Gemini free tier and GitHub's free Actions and Pages. If the Gemini quota runs out, new stories stay in English until a later run. If translation fails six runs in a row, the workflow turns red and GitHub emails you.

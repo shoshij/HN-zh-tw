@@ -1,47 +1,108 @@
 """抓原文網頁並抽出正文，給模型做摘要用。
 
 用 trafilatura：它會去掉導覽列、廣告、側欄，只留文章本體。
-抓不到（PDF、需要登入、純 JavaScript 頁面、逾時…）就回傳空字串，
-摘要會改以標題為準，並註明「僅依標題判斷」。
+抓不到（PDF、需要登入、擋機器人、純 JavaScript 頁面、逾時…）就回傳空字串，
+摘要會改以標題為準，並註明「僅依標題判斷」。每次失敗都會印出原因，方便日後查。
+
+下載時先看標頭再讀內容、邊讀邊算大小，並限制總時間，
+避免一個很大或很慢的連結拖垮整次執行。
 """
 from __future__ import annotations
 
+import time
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlparse
 
 import requests
 import trafilatura
 
-TIMEOUT = 15
-MAX_BYTES = 3_000_000  # 超過 3 MB 的頁面不處理
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; HN-zh-tw/1.0)"}
+TIMEOUT = 15            # 秒；連線與每次讀取的逾時
+DEADLINE = 25           # 秒；單一網址從頭到尾最多花多久（防止伺服器一點一點慢慢吐）
+MAX_BYTES = 10_000_000  # 解壓縮後超過 10 MB 就放棄（新聞網站的頁面常有好幾 MB）
+MIN_CHARS = 100         # 抽出來不到這麼多字，多半是「請開啟 JavaScript」或驗證頁，不拿來摘要
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; HN-zh-tw/1.0)"}  # 誠實表明是程式，被網站擋下就算了
 # 這些網站抓回來的只有導覽列或「請登入」，不如直接依標題判斷
 SKIP_DOMAINS = {"youtube.com", "youtu.be", "twitter.com", "x.com", "reddit.com", "old.reddit.com"}
 
 
-def article_text(url: str, max_chars: int = 4000) -> str:
-    """回傳正文前 max_chars 個字元；失敗回傳空字串。"""
-    if not url or url.lower().endswith(".pdf"):
-        return ""
-    host = urlparse(url).netloc.lower().removeprefix("www.")
-    if host in SKIP_DOMAINS:
-        return ""
+def host_of(url: str) -> str:
+    """網址的主機名稱（去掉 www.）。網址格式不對就回傳空字串。"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        if not r.ok or len(r.content) > MAX_BYTES:  # 404/403 的錯誤頁也是 HTML，不能拿來摘要
-            return ""
-        ctype = r.headers.get("Content-Type", "")
-        if ctype.startswith("text/plain"):
-            text = r.text
-        elif "html" in ctype:
-            # 傳 bytes 進去，讓 trafilatura 自己判斷編碼，避免非英文頁面變亂碼。
-            text = trafilatura.extract(r.content, url=url, include_comments=False, include_tables=False)
-        else:
-            return ""
-    except Exception as e:  # noqa: BLE001 - 任何抓取錯誤都只是「沒有正文」，不該中斷流程
-        print(f"[原文] {url} 抓取失敗：{type(e).__name__}")
+        return urlparse(url).netloc.lower().removeprefix("www.")
+    except ValueError:
         return ""
-    return (text or "")[:max_chars]
+
+
+def _download(url: str) -> tuple[bytes, str, str]:
+    """回傳 (內容, Content-Type, 失敗原因)。成功時失敗原因是空字串。"""
+    start = time.monotonic()
+    with requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True) as r:
+        if not r.ok:  # 404/403 的錯誤頁也是 HTML，不能拿來摘要
+            return b"", "", f"HTTP {r.status_code}"
+        ctype = r.headers.get("Content-Type", "").lower()
+        if not (ctype.startswith("text/plain") or "html" in ctype):
+            return b"", ctype, f"不是網頁（{ctype.split(';')[0] or '未知類型'}）"
+        chunks, size = [], 0
+        for chunk in r.iter_content(65536):  # 已解壓縮的內容，所以壓縮炸彈也會被下面的上限擋住
+            chunks.append(chunk)
+            size += len(chunk)
+            if size > MAX_BYTES:
+                return b"", ctype, f"超過 {MAX_BYTES // 1_000_000} MB"
+            if time.monotonic() - start > DEADLINE:
+                return b"", ctype, f"下載超過 {DEADLINE} 秒"
+        return b"".join(chunks), ctype, ""
+
+
+def _decode(body: bytes) -> str:
+    """純文字檔沒有標明編碼時，先當 UTF-8（現在絕大多數都是），不行再容錯解碼。"""
+    try:
+        return body.decode("utf-8")
+    except UnicodeDecodeError:
+        return body.decode("utf-8", errors="replace")
+
+
+def _fail(host: str, reason: str) -> str:
+    print(f"[原文] {host}：{reason}，摘要改依標題")
+    return ""
+
+
+def article_text(url: str, max_chars: int = 4000) -> str:
+    """回傳正文前 max_chars 個字元；抓不到就印出原因並回傳空字串。"""
+    host = host_of(url)
+    if not host:
+        return ""
+    if url.lower().split("?")[0].endswith(".pdf"):
+        return _fail(host, "PDF")
+    if host in SKIP_DOMAINS:
+        return _fail(host, "這類網站抓不到內容")
+
+    body, ctype, reason = b"", "", ""
+    for attempt in range(2):
+        try:
+            body, ctype, reason = _download(url)
+            retry = reason.startswith("HTTP 5")       # 伺服器暫時故障，值得再試一次
+        except requests.Timeout:
+            reason, retry = "逾時", False              # 已經等很久了，不再試
+        except requests.RequestException as e:
+            reason, retry = f"連線失敗（{type(e).__name__}）", True
+        if not reason or not retry or attempt == 1:
+            break
+        time.sleep(2)
+    if reason:
+        return _fail(host, reason)
+
+    try:
+        if ctype.startswith("text/plain"):
+            text = _decode(body)
+        else:
+            # 傳 bytes 進去，讓 trafilatura 自己判斷編碼，避免非英文頁面變亂碼。
+            text = trafilatura.extract(body, url=url, include_comments=False, include_tables=False)
+    except Exception as e:  # noqa: BLE001 - 解析失敗只代表「沒有正文」，不該中斷流程
+        return _fail(host, f"解析失敗（{type(e).__name__}）")
+    text = (text or "").strip()
+    if len(text) < MIN_CHARS:
+        return _fail(host, "抽不出正文（可能是純 JavaScript 或驗證頁）")
+    return text[:max_chars]
 
 
 def article_texts(urls: list[str], workers: int = 8) -> dict[str, str]:

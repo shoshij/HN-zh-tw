@@ -40,7 +40,10 @@ class QuotaExhausted(Exception):
 
 
 class BatchFailed(Exception):
-    """這一批的回應壞掉（JSON 被截斷、沒有內容）。呼叫端可以跳過這批，繼續處理下一批。"""
+    """模型有回應，但這一批的內容不能用（被安全過濾擋下、JSON 被截斷、格式不對）。
+
+    每個可用的模型都試過才會丟出。呼叫端可以改成一篇一篇送，找出是哪一篇有問題。
+    """
 
 
 SYSTEM = """你是 Hacker News 的繁體中文編輯，讀者是台灣的軟體與硬體工程師。
@@ -93,33 +96,53 @@ COMMENT_SCHEMA = {
 }
 
 
-def _norm(title: str) -> str:
-    return " ".join(title.lower().split())
+_BAD_CHARS = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 
 
-def match_items(batch: list[dict], items: list[dict]) -> dict[int, dict]:
+def clean_text(text: str) -> str:
+    """去掉控制字元與不成對的字元（它們會讓 RSS 變成不合法的 XML），並去頭尾空白。"""
+    text = _BAD_CHARS.sub("", text)
+    return text.encode("utf-8", errors="ignore").decode("utf-8").strip()
+
+
+def _norm(title) -> str:
+    return " ".join(str(title or "").lower().split())
+
+
+def match_items(batch: list[dict], items: list) -> dict[int, dict]:
     """把模型回傳的項目對回輸入的文章，回傳 {輸入文章 id: 回傳項目}。
 
-    模型偶爾會把 id 抄錯或把兩篇弄混，所以不信任它回傳的 id，
-    改用它照抄的英文標題來比對（先完全相同，再用相似度 >= 0.9 補救）。對不上的就丟掉，下小時重試。
+    模型偶爾會把 id 抄錯或把兩篇弄混，所以主要靠它照抄的英文標題來比對：
+    1. 標題完全相同；
+    2. 標題相似度 >= 0.9；
+    3. 標題被改寫得比較多（例如少了「[pdf]」）時，如果它回傳的 id 也剛好是一篇還沒配對的文章，
+       而且標題大致相像（>= 0.6），兩個弱線索加起來才採信。
+    都對不上的就丟掉，之後重試。
     """
     by_title = {_norm(b["title"]): b for b in batch}
     matched: dict[int, dict] = {}
     leftovers = []
     for it in items:
-        b = by_title.get(_norm(it.get("title", "")))
+        if not isinstance(it, dict):
+            continue
+        b = by_title.get(_norm(it.get("title")))
         if b and b["id"] not in matched:
             matched[b["id"]] = it
         else:
             leftovers.append(it)
     for it in leftovers:
         candidates = [b for b in batch if b["id"] not in matched]
-        best = difflib.get_close_matches(_norm(it.get("title", "")), [_norm(b["title"]) for b in candidates], n=1, cutoff=0.9)
-        if best:
-            b = next(b for b in candidates if _norm(b["title"]) == best[0])
+        echoed = _norm(it.get("title"))
+        best = difflib.get_close_matches(echoed, [_norm(b["title"]) for b in candidates], n=1, cutoff=0.9)
+        b = next((c for c in candidates if _norm(c["title"]) == best[0]), None) if best else None
+        if b is None:
+            same_id = next((c for c in candidates if c["id"] == it.get("id")), None)
+            if same_id and difflib.SequenceMatcher(None, echoed, _norm(same_id["title"])).ratio() >= 0.6:
+                b = same_id
+        if b:
             matched[b["id"]] = it
         else:
-            print(f"[核對] 模型回傳的標題對不上任何輸入，略過：{it.get('title', '')[:80]!r}")
+            print(f"[核對] 模型回傳的標題對不上任何輸入，略過：{str(it.get('title'))[:80]!r}")
     return matched
 
 
@@ -137,12 +160,47 @@ def chunks(seq: list, n: int):
         yield seq[i : i + n]
 
 
-def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
-    """送一個請求給 Gemini，回傳 (解析好的 JSON, 實際使用的模型)。
+def _parse(payload, model: str) -> dict:
+    """從 Gemini 的回應取出 JSON。任何不合預期的形狀都丟 BatchFailed。"""
+    try:
+        cand = payload["candidates"][0]
+        parts = (cand.get("content") or {}).get("parts") or []
+    except (KeyError, IndexError, TypeError, AttributeError):
+        feedback = payload.get("promptFeedback") if isinstance(payload, dict) else None
+        raise BatchFailed(f"{model} 沒有回傳候選答案（{feedback}）") from None
+    reason = cand.get("finishReason")
+    # JSON 偶爾會被拆成好幾段，全部接起來；模型的思考過程（thought）不算
+    text = "".join(p.get("text", "") for p in parts if isinstance(p, dict) and not p.get("thought"))
+    if not text.strip():
+        raise BatchFailed(f"{model} 沒有回傳內容（finishReason={reason}）")
+    try:
+        data = json.loads(text)
+    except ValueError as e:
+        raise BatchFailed(f"{model} 的回應不是合法的 JSON（finishReason={reason}）：{e}") from e
+    if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+        raise BatchFailed(f"{model} 的回應格式不對：沒有 items 陣列")
+    return data
 
-    429（額度用完）、503（模型太忙）、5xx：先小等一下重試一次，再不行就換下一個模型。
-    逾時、連線錯誤、404（模型下架）等其他錯誤：直接換下一個。
-    失敗過的模型記在 _down，這次執行的後續批次不再嘗試。全部都不行才丟出 QuotaExhausted。
+
+def _retry_delay(r) -> float | None:
+    """可重試的錯誤要等幾秒再試；回傳 None 表示不值得等（直接換模型）。"""
+    if r.status_code != 429:
+        return 10  # 5xx：伺服器太忙
+    m = re.search(r'"retryDelay":\s*"(\d+(?:\.\d+)?)s"', r.text)
+    if not m:
+        return 15
+    delay = float(m.group(1)) + 1
+    return delay if delay <= 30 else None  # 要等很久通常是每日額度用完，等也沒用
+
+
+def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
+    """送一個請求給 Gemini，回傳 (解析好的 JSON, 實際使用的模型)。依序嘗試每個模型：
+
+    - 429（額度）、5xx（太忙）：等一下重試一次，再不行就換下一個模型；
+    - 逾時、連線錯誤、404（模型下架）等：直接換下一個；
+      以上失敗過的模型記在 _down，這次執行的後續批次不再嘗試。
+    - 模型有回應但內容不能用：換下一個模型試同一批（模型本身沒壞，不記入 _down）。
+    全部試過後：有模型回過不能用的內容就丟 BatchFailed，否則丟 QuotaExhausted。
     """
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -158,10 +216,11 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
         },
     }
     headers = {"x-goog-api-key": key}  # 金鑰放 header，不要放網址，避免出現在 log
-    last = ""
+    last = unusable = ""
     for model in MODELS:
         if model in _down:
             continue
+        bench = True
         for attempt in range(2):
             try:
                 r = requests.post(API.format(model=model), headers=headers, json=body, timeout=TIMEOUT)
@@ -170,28 +229,36 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
                 break
             if r.status_code == 200:
                 try:
-                    cand = r.json()["candidates"][0]
-                    parts = [p for p in cand.get("content", {}).get("parts", []) if "text" in p and not p.get("thought")]
-                    if not parts:
-                        raise BatchFailed(f"{model} 沒有回傳內容：finishReason={cand.get('finishReason')}")
-                    return json.loads(parts[0]["text"]), model
-                except (KeyError, IndexError, ValueError) as e:  # ValueError 包含 JSONDecodeError
-                    raise BatchFailed(f"{model} 的回應無法解析：{e}") from e
+                    return _parse(r.json(), model), model
+                except BatchFailed as e:
+                    unusable, bench = str(e), False
+                except ValueError as e:  # 連外層都不是 JSON
+                    unusable, bench = f"{model} 的回應不是 JSON：{e}", False
+                print(f"[Gemini] {unusable}；換下一個模型試同一批")
+                break
             last = f"{model} -> {r.status_code} {' '.join(r.text[:160].split())}"
-            if r.status_code in (429, 500, 502, 503, 504) and attempt == 0:
-                time.sleep(15 if r.status_code == 429 else 10)  # 429：每分鐘額度；503：太多人用
-                continue
-            break  # 重試過還是不行，或是 404（模型下架）、400（這個模型不支援）等：換下一個
-        _down.add(model)
-        print(f"[Gemini] {last}；這次執行先不用它，換下一個模型")
+            delay = _retry_delay(r) if r.status_code in (429, 500, 502, 503, 504) and attempt == 0 else None
+            if delay is None:
+                break  # 重試過還是不行，或是 404（模型下架）、400（這個模型不支援）等：換下一個
+            time.sleep(delay)
+        if bench:
+            _down.add(model)
+            print(f"[Gemini] {last}；這次執行先不用它，換下一個模型")
+    if unusable:
+        raise BatchFailed(unusable)
     raise QuotaExhausted(f"所有模型都不可用。最後的錯誤：{last or '每個模型都在這次執行中失敗過'}")
+
+
+def _is_text(value) -> bool:
+    return isinstance(value, str) and bool(value.strip())
 
 
 def translate_stories(batch: list[dict]) -> tuple[dict[int, dict], str]:
     """翻譯一批文章（最多 BATCH_SIZE 篇）。
 
     每筆需要 id, title, url, content。
-    回傳 ({id: {"title_zh": ..., "summary_zh": ...}}, 使用的模型)。
+    回傳 ({id: {"title_zh": ..., "summary_zh": ..., "summary_en": ...}}, 使用的模型)。
+    模型漏掉或欄位不完整的文章不會出現在結果裡。
     """
     blocks = []
     for i, s in enumerate(batch, 1):
@@ -210,21 +277,24 @@ def translate_stories(batch: list[dict]) -> tuple[dict[int, dict], str]:
         "id 必須原樣照抄。\n\n" + "\n\n".join(blocks)
     )
     data, model = _generate(prompt, STORY_SCHEMA)
-    return {
-        sid: {
-            "title_zh": clean_title(it["title_zh"]),
-            "summary_zh": it["summary_zh"].strip(),
-            "summary_en": it.get("summary_en", "").strip(),
+    result = {}
+    for sid, it in match_items(batch, data["items"]).items():
+        if not all(_is_text(it.get(k)) for k in ("title_zh", "summary_zh", "summary_en")):
+            print(f"[核對] 模型回傳的欄位不完整，略過文章 {sid}")
+            continue
+        result[sid] = {
+            "title_zh": clean_title(clean_text(it["title_zh"])),
+            "summary_zh": clean_text(it["summary_zh"]),
+            "summary_en": clean_text(it["summary_en"]),
         }
-        for sid, it in match_items(batch, data["items"]).items()
-    }, model
+    return result, model
 
 
 def summarize_comments(batch: list[dict]) -> tuple[dict[int, list[str]], str]:
     """把一批文章的評論各濃縮成 1～2 句。
 
     每筆需要 id, title, title_zh, comments（list of {"by", "text"}）。
-    回傳 ({id: [摘要, ...]}, 使用的模型)。
+    回傳 ({id: [摘要, ...]}, 使用的模型)。數量對不上或有空白摘要的文章不會出現在結果裡。
     """
     blocks = []
     for i, e in enumerate(batch, 1):
@@ -245,8 +315,10 @@ def summarize_comments(batch: list[dict]) -> tuple[dict[int, list[str]], str]:
     by_id = {e["id"]: e for e in batch}
     result = {}
     for sid, it in match_items(batch, data["items"]).items():
-        if len(it["comments"]) != len(by_id[sid]["comments"]):
-            print(f"[核對] 評論數量對不上（輸入 {len(by_id[sid]['comments'])}、回傳 {len(it['comments'])}），略過：{by_id[sid]['title'][:60]!r}")
+        comments, want = it.get("comments"), len(by_id[sid]["comments"])
+        if not isinstance(comments, list) or len(comments) != want or not all(_is_text(c) for c in comments):
+            got = len(comments) if isinstance(comments, list) else "格式不對"
+            print(f"[核對] 評論摘要對不上（輸入 {want} 則、回傳 {got}），略過：{by_id[sid]['title'][:60]!r}")
             continue
-        result[sid] = [c.strip() for c in it["comments"]]
+        result[sid] = [clean_text(c) for c in comments]
     return result, model

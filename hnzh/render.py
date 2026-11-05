@@ -11,12 +11,13 @@ import xml.etree.ElementTree as ET
 from datetime import timedelta
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import urlencode, urlparse
+from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import store
+from .extract import host_of
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_DIR = ROOT / "site"
@@ -27,20 +28,22 @@ REPO_URL = os.environ.get("REPO_URL", "").rstrip("/")  # 頁尾的「原始碼�
 
 # 預設主題標籤。每個標籤是一組關鍵字：英文用 \b 單字邊界（避免 "ai" 命中 "said"），中文用子字串。
 # 標籤在這裡算好、寫進網頁（data-tags）與 RSS（<category>），瀏覽器端的 JavaScript 只負責切換顯示。
+# 幾個刻意排除的誤判：robots.txt、Silicon Valley、Claude Shannon、Isaac Newton、
+# 「終端機模擬器」（terminal emulator，中文也叫模擬器，但英文不是 simulator）。
 TAGS: dict[str, list[str]] = {
-    "robotics": [r"\brobot", "機器人", "機械手臂", r"\bhumanoid", r"\bdrone", "無人機", r"\bros\b",
-                 r"\bmanipulat", r"\bactuator", "致動器"],
+    "robotics": [r"\brobot(?!s\.txt)", "機器人", "機械手臂", r"\bhumanoid", r"\bdrone", "無人機", r"\bros\b",
+                 r"\bmanipulator", r"\bactuator", "致動器"],
     "hardware": [r"\bhardware\b", "硬體", r"\bchip", "晶片", "半導體", r"\bsemiconductor", r"\bfpga\b", r"\bpcb\b",
-                 r"\bgpu", r"\bcpu", r"\bsilicon", r"\bsensor", "感測器", r"\bfirmware", "韌體", r"\barduino",
-                 r"\braspberry pi", r"\bmicrocontroller", "微控制器"],
+                 r"\bgpu", r"\bcpu", r"\bsilicon(?! valley)", r"\bsensor", "感測器", r"\bfirmware", "韌體",
+                 r"\barduino", r"\braspberry pi", r"\bmicrocontroller", "微控制器"],
     "AI": [r"\bai\b", "人工智慧", r"\bllm", "語言模型", r"\bmachine learning", "機器學習", r"\bneural", "神經網路",
-           r"\bgpt", r"\bclaude", r"\bgemini", r"\bopenai", r"\banthropic", r"\bdeep learning", "深度學習",
-           r"\btransformer", r"\bagent", r"\bdiffusion"],
-    "simulation": [r"\bsimulat", r"(?<!終端機)模擬", r"\bphysics engine", "物理引擎", r"\bdigital twin", "數位孿生",
-                   r"\bgazebo", r"\bmujoco", r"\bisaac"],  # 「終端機模擬器」不算模擬
+           r"\bgpt", r"\bclaude(?! shannon)", r"\bgemini", r"\bopenai", r"\banthropic", r"\bdeep learning", "深度學習",
+           r"\bagentic", r"\bstable diffusion", r"\bdiffusion model"],
+    "simulation": [r"\bsimulat", r"模擬(?!器)", r"\bphysics engine", "物理引擎", r"\bdigital twin", "數位孿生",
+                   r"\bgazebo", r"\bmujoco", r"\bisaac (sim|gym|lab)"],
 }
-_COMPILED = {tag: [re.compile(p, re.IGNORECASE) for p in pats] for tag, pats in TAGS.items()}
-
+# re.ASCII：讓 \b 只把英數字當成「字」。不加的話中文字也算字，「使用AI模型」這種沒空格的寫法就抓不到 AI。
+_COMPILED = {tag: [re.compile(p, re.IGNORECASE | re.ASCII) for p in pats] for tag, pats in TAGS.items()}
 
 # Google 翻譯翻不了的連結：影片、需要登入的動態網站。這些就不顯示「全文中譯」按鈕。
 NO_TRANSLATE_DOMAINS = {"youtube.com", "youtu.be", "twitter.com", "x.com"}
@@ -51,22 +54,30 @@ def translate_url(url: str) -> str | None:
 
     這只是一個連結：翻譯是讀者點下去之後由 Google 即時做的，不會用到我們的 Gemini 額度。
     """
-    host = urlparse(url).netloc.lower().removeprefix("www.")
-    if not url or url.lower().split("?")[0].endswith(".pdf") or host in NO_TRANSLATE_DOMAINS:
+    host = host_of(url)
+    if not host or url.lower().split("?")[0].endswith(".pdf") or host in NO_TRANSLATE_DOMAINS:
         return None
     return "https://translate.google.com/translate?" + urlencode({"sl": "auto", "tl": "zh-TW", "hl": "zh-TW", "u": url})
 
 
 def tags_for(story: dict) -> list[str]:
-    """看標題、中文標題、摘要、網域，回傳命中的標籤。"""
-    text = " ".join(filter(None, [story.get("title"), story.get("title_zh"), story.get("summary_zh"), story.get("domain")]))
+    """看標題、中文標題、中英文摘要、網域，回傳命中的標籤。"""
+    fields = ("title", "title_zh", "summary_zh", "summary_en", "domain")
+    text = " ".join(filter(None, (story.get(f) for f in fields)))
     return [tag for tag, pats in _COMPILED.items() if any(p.search(text) for p in pats)]
 
 
 def select_stories(data: dict) -> tuple[list[dict], list[dict]]:
-    """回傳 (目前首頁的文章依排名, 其他 48 小時內的文章依出現時間新到舊)，並附上 tags。"""
+    """回傳 (目前首頁的文章依排名, 其他 48 小時內的文章依出現時間新到舊)，並附上 tags。
+
+    還在首頁的文章不管多久以前第一次出現都要顯示，否則首頁排名會缺號。
+    被 HN 刪除或標記 dead 的文章不顯示。
+    """
     cutoff = store.now() - WINDOW
-    recent = [s for s in data["stories"].values() if store.from_iso(s["first_seen"]) >= cutoff]
+    recent = [
+        s for s in data["stories"].values()
+        if not s.get("removed") and (s["on_front_page"] or store.from_iso(s["first_seen"]) >= cutoff)
+    ]
     for s in recent:
         s["tags"] = tags_for(s)
         s["translate_url"] = translate_url(s["url"])
@@ -94,7 +105,13 @@ def render_html(data: dict, front: list[dict], rest: list[dict]) -> str:
     )
 
 
+# XML 1.0 不允許的字元。只要出現一個，整份 feed 就會被閱讀器當成壞檔。
+_XML_BAD = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f\ud800-\udfff\ufffe\uffff]")
+
+
 def render_rss(data: dict, stories: list[dict]) -> bytes:
+    """產生 RSS 2.0。還沒翻譯好的文章先不放：閱讀器看過一個項目後通常不會再更新它。"""
+    stories = [s for s in stories if s["title_zh"]]
     rss = ET.Element("rss", {"version": "2.0", "xmlns:atom": "http://www.w3.org/2005/Atom"})
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = "Hacker News 繁體中文版"
@@ -110,7 +127,7 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
 
     for s in stories:
         it = ET.SubElement(ch, "item")
-        ET.SubElement(it, "title").text = f"{s['title_zh']} | {s['title']}" if s["title_zh"] else s["title"]
+        ET.SubElement(it, "title").text = f"{s['title_zh']} | {s['title']}"
         ET.SubElement(it, "link").text = s["url"]
         ET.SubElement(it, "guid").text = s["hn_url"]
         ET.SubElement(it, "comments").text = s["hn_url"]
@@ -134,6 +151,9 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
             desc.append("</ol>")
         ET.SubElement(it, "description").text = "".join(desc)
 
+    for el in rss.iter():
+        if el.text:
+            el.text = _XML_BAD.sub("", el.text)
     ET.indent(rss)
     return ET.tostring(rss, encoding="utf-8", xml_declaration=True)
 

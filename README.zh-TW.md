@@ -7,16 +7,18 @@
 
 > 翻譯與摘要由 AI 產生，可能有誤，請以原文為準。
 
-Hacker News 首頁的台灣繁體中文版，每小時更新。每篇文章有中文標題、中英文摘要，以及熱門評論的摘要。
+Hacker News 首頁的台灣繁體中文版，大約每小時更新。每篇文章有中文標題、中英文摘要，以及熱門評論的摘要。
 
 ## 運作方式
 
-GitHub Actions 每小時執行兩支程式：
+GitHub Actions 大約每小時執行兩支程式：
 
 1. `update.py` 抓首頁前 30 篇，請 Gemini 翻譯並摘要新出現的文章，結果存進 `data.json`。
 2. `build.py` 把 `data.json` 變成網頁和 RSS，再部署到 GitHub Pages。
 
-翻過的文章不會再送一次。評論摘要在文章上首頁滿 6 小時後補上，只做一次。
+每篇文章只翻一次，只有 HN 改了標題或連結才會重翻。評論摘要在文章上首頁約 6 小時後補上，只做一次。
+
+GitHub 的排程常常延遲，所以一小時排三次，距離上次更新不到 45 分鐘就自動跳過。
 
 ## 設定
 
@@ -31,9 +33,9 @@ GitHub Actions 每小時執行兩支程式：
 ```bash
 pip install -r requirements.txt
 export GEMINI_API_KEY=你的金鑰
-python update.py --limit 3   # 翻譯首頁前 3 篇
-python build.py              # 產生 site/index.html 和 site/feed.xml
-python -m unittest           # 執行測試
+python update.py --limit 3 --data /tmp/test.json   # 首頁前 3 篇，寫到暫存檔
+python build.py --data /tmp/test.json              # 產生 site/index.html 和 site/feed.xml
+python -m unittest                                 # 執行測試
 ```
 
 ## 自訂
@@ -45,4 +47,4 @@ python -m unittest           # 執行測試
 
 ## 費用
 
-免費。使用 Gemini 免費額度，以及 GitHub 免費的 Actions 和 Pages。額度用完時，新文章先以英文顯示，下一小時再翻。
+免費。使用 Gemini 免費額度，以及 GitHub 免費的 Actions 和 Pages。額度用完時，新文章先以英文顯示，之後再翻。連續六次翻譯失敗時，workflow 會亮紅燈，GitHub 會寄信通知你。

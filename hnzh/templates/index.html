@@ -13,28 +13,29 @@
 <meta property="og:url" content="{{ site_url }}/">
 {% endif %}
 <link rel="alternate" type="application/rss+xml" title="Hacker News 繁體中文版 RSS" href="feed.xml">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ee5a1a'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23ee5a1a%22%2F%3E%3C%2Fsvg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap">
 <style>
+/* 顏色。--ink-3（淡灰字）與 --accent-ink（橘色小字）都調到對底色 4.5:1 以上，小字才讀得清楚。 */
 :root{
-  --paper:#f8f5ee; --ink:#1f1c18; --ink-2:#5f5a52; --ink-3:#938d83;
+  --paper:#f8f5ee; --ink:#1f1c18; --ink-2:#5f5a52; --ink-3:#757068;
   --rule:#e4ded1;
-  --accent:#ee5a1a; --accent-soft:rgba(238,90,26,.12);
+  --accent:#ee5a1a; --accent-ink:#c24915; --accent-soft:rgba(238,90,26,.12);
   --serif:"Noto Serif TC","Songti TC","Noto Serif CJK TC","Source Han Serif TC",Georgia,serif;
   --sans:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Noto Sans CJK TC","Microsoft JhengHei","Helvetica Neue",Arial,sans-serif;
 }
 @media (prefers-color-scheme: dark){
-  :root{--paper:#171613; --ink:#ebe6dc; --ink-2:#b5aea2; --ink-3:#7f7a70; --rule:#2c2a25;
-        --accent:#ff7a3d; --accent-soft:rgba(255,122,61,.16)}
+  :root{--paper:#171613; --ink:#ebe6dc; --ink-2:#b5aea2; --ink-3:#868177; --rule:#2c2a25;
+        --accent:#ff7a3d; --accent-ink:#ff7a3d; --accent-soft:rgba(255,122,61,.16)}
 }
 *{box-sizing:border-box}
 [hidden]{display:none !important}  /* 篩選用 hidden 屬性藏文章；沒有這行會被 .story 的 display:grid 蓋掉 */
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 var(--sans)}
 a{color:inherit;text-decoration:none}
-a:hover{color:var(--accent)}
+a:hover{color:var(--accent-ink)}
 .wrap{max-width:720px;margin:0 auto;padding:0 20px}
 
 /* 報頭 */
@@ -55,37 +56,38 @@ a:hover{color:var(--accent)}
 .search svg{position:absolute;left:0;top:50%;width:16px;height:16px;transform:translateY(-50%);color:var(--ink-3)}
 .search input{width:100%;padding:8px 0 8px 26px;font:inherit;font-size:1rem;color:var(--ink);background:transparent;
   border:0;border-bottom:1px solid var(--rule);border-radius:0;outline:0;-webkit-appearance:none}
-.search input:focus{border-bottom-color:var(--accent)}
+.search input:focus{border-bottom-color:var(--accent);box-shadow:0 1px 0 var(--accent)}  /* 聚焦時底線加粗成 2px */
 .search input::placeholder{color:var(--ink-3)}
 .tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;margin-top:12px;font-size:.85rem}
 .tags-label{color:var(--ink-3);letter-spacing:.14em;font-size:.72rem}
-.tag{appearance:none;border:0;background:none;padding:2px 0;font:inherit;color:var(--ink-2);cursor:pointer;border-bottom:1px solid transparent}
-.tag:hover{color:var(--accent)}
-.tag.on{color:var(--accent);border-bottom-color:var(--accent)}
+.tag{position:relative;appearance:none;border:0;background:none;padding:2px 0;font:inherit;color:var(--ink-2);cursor:pointer;border-bottom:1px solid transparent}
+.tag::after{content:"";position:absolute;inset:-8px -6px}  /* 看起來一樣小，但手指好點得多 */
+.tag:hover{color:var(--accent-ink)}
+.tag.on{color:var(--accent-ink);border-bottom-color:var(--accent-ink)}
 .tag.clear{color:var(--ink-3)}
 .count{margin-left:auto;color:var(--ink-3);font-size:.78rem;font-variant-numeric:tabular-nums}
 
 /* 文章列表 */
 h2{margin:34px 0 2px;font:500 .78rem/1 var(--sans);letter-spacing:.22em;color:var(--ink-3);display:flex;align-items:baseline;gap:10px}
-h2 small{font-size:.66rem;letter-spacing:.18em;opacity:.7}
+h2 small{font-size:.66rem;letter-spacing:.18em}
 .stories{list-style:none;margin:0;padding:0}
-.story{display:grid;grid-template-columns:2.4rem 1fr;gap:0 4px;padding:20px 0;border-bottom:1px solid var(--rule)}
+/* overflow-wrap 與 min-width:0：摘要裡出現很長又不能斷行的字串（長網址、雜湊值）時，強制換行而不是把版面撐寬 */
+.story{display:grid;grid-template-columns:2.4rem 1fr;gap:0 4px;padding:20px 0;border-bottom:1px solid var(--rule);overflow-wrap:anywhere}
+.story > div{min-width:0}
 .rank{font:500 .85rem/1.9 var(--serif);color:var(--ink-3);font-variant-numeric:tabular-nums;padding-top:4px}
 .title{margin:0;font:700 1.18rem/1.55 var(--serif)}
 .title a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:5px}
-.title a.gt{display:inline-block;margin-left:10px;padding:1px 7px;border:1px solid var(--rule);border-radius:3px;
+.title a.gt{display:inline-block;margin-left:4px;padding:1px 7px;border:1px solid var(--rule);border-radius:3px;
   font:400 .7rem/1.6 var(--sans);letter-spacing:.06em;color:var(--ink-3);white-space:nowrap;vertical-align:3px}
-.title a.gt:hover{color:var(--accent);border-color:var(--accent);text-decoration:none}
+.title a.gt:hover{color:var(--accent-ink);border-color:var(--accent-ink);text-decoration:none}
 .en{margin:2px 0 8px;font-size:.84rem;line-height:1.5;color:var(--ink-3)}
-.en a + .domain{margin-left:6px}
-.en .domain{white-space:nowrap}
 .summary{margin:0 0 10px;font-size:.95rem;line-height:1.85}
 .summary-en{margin:-4px 0 10px;font-size:.86rem;line-height:1.7;color:var(--ink-3)}
 .pending{color:var(--ink-3);font-style:italic}
 .meta{margin:0;font-size:.8rem;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:2px 14px;font-variant-numeric:tabular-nums}
-.meta .score{color:var(--accent)}
+.meta .score{color:var(--accent-ink)}
 .story-tag,.meta .hn{border-bottom:1px solid var(--rule)}
-.story-tag:hover,.meta .hn:hover{border-bottom-color:var(--accent)}
+.story-tag:hover,.meta .hn:hover{border-bottom-color:var(--accent-ink)}
 .comments{margin-top:10px;font-size:.9rem}
 .comments summary{cursor:pointer;color:var(--ink-2);list-style:none;display:inline-flex;align-items:center;gap:8px}
 .comments summary::-webkit-details-marker{display:none}
@@ -96,8 +98,8 @@ h2 small{font-size:.66rem;letter-spacing:.18em;opacity:.7}
 .comments .by{color:var(--ink-3);font-size:.8rem;margin-right:6px}
 .comments li a{color:var(--ink-3)}
 .comments .more{margin:2px 0 0;padding-left:16px;font-size:.85rem}
-.comments .more a{color:var(--accent);border-bottom:1px solid var(--accent-soft)}
-.comments .more a:hover{border-bottom-color:var(--accent)}
+.comments .more a{color:var(--accent-ink);border-bottom:1px solid var(--accent-soft)}
+.comments .more a:hover{border-bottom-color:var(--accent-ink)}
 .empty{color:var(--ink-3);text-align:center;padding:48px 0}
 footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:.8rem;line-height:1.9}
 @media (max-width:480px){
@@ -132,7 +134,7 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
       <button class="tag" type="button" data-tag="{{ t }}" aria-pressed="false">{{ t }}</button>
       {% endfor %}
       <button class="tag clear" type="button" id="clear" hidden>清除</button>
-      <span class="count" id="count"></span>
+      <span class="count" id="count" aria-live="polite"></span>
     </div>
   </section>
 
@@ -140,15 +142,15 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
   <li class="story" data-section="{{ section }}" data-tags="{{ s.tags|join(' ') }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ (s.summary_en or '') ~ ' ' ~ s.domain)|lower }}">
     <span class="rank" aria-hidden="true">{{ s.rank if s.on_front_page else '' }}</span>
     <div>
-      <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a>{% if s.translate_url %}<a class="gt" href="{{ s.translate_url }}" title="用 Google 翻譯開啟全文的繁體中文版" rel="noopener">全文中譯</a>{% endif %}</h3>
-      <p class="en">{% if s.title_zh and s.title_zh != s.title %}<a href="{{ s.url }}">{{ s.title }}</a>{% endif %}<span class="domain">({{ s.domain }})</span></p>
+      <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a>{% if s.translate_url %} <a class="gt" href="{{ s.translate_url }}" title="用 Google 翻譯開啟全文的繁體中文版" rel="noopener">全文中譯</a>{% endif %}</h3>
+      <p class="en" lang="en">{% if s.title_zh and s.title_zh != s.title %}<a href="{{ s.url }}">{{ s.title }}</a> {% endif %}<span class="domain">({{ s.domain }})</span></p>
       {% if s.summary_zh %}
       <p class="summary">{{ s.summary_zh }}</p>
       {% if s.summary_en %}
-      <p class="summary-en">{{ s.summary_en }}</p>
+      <p class="summary-en" lang="en">{{ s.summary_en }}</p>
       {% endif %}
       {% else %}
-      <p class="summary pending">翻譯尚未完成，下次更新時補上。</p>
+      <p class="summary pending">尚未翻譯。</p>
       {% endif %}
       <p class="meta">
         <span class="score">▲ {{ s.score }}</span>
@@ -161,7 +163,7 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
         <summary>評論摘要 {{ s.comments|length }} 則</summary>
         <ol>
           {% for c in s.comments %}
-          <li><span class="by">{{ c.by }}</span>{{ c.summary_zh }} <a href="{{ c.url }}" title="看原始評論">↗</a></li>
+          <li><span class="by">{{ c.by }}</span>{{ c.summary_zh }} <a href="{{ c.url }}" title="看原始評論" aria-label="看 {{ c.by }} 的原始評論">↗</a></li>
           {% endfor %}
         </ol>
         <p class="more"><a href="{{ s.hn_url }}">到 Hacker News 看全部 {{ s.comments_count }} 則評論 →</a></p>
@@ -181,7 +183,7 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
     {% for s in rest %}{{ story(s, "rest") }}{% endfor %}
   </ol>
   {% endif %}
-  <p class="empty" id="empty" hidden>沒有符合的文章。</p>
+  <p class="empty" id="empty" role="status" hidden>沒有符合的文章。</p>
 </main>
 
 <footer><div class="wrap">
@@ -198,29 +200,50 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
   var count = document.getElementById('count');
   var empty = document.getElementById('empty');
   var clear = document.getElementById('clear');
+  var filterBox = document.querySelector('.filter');
+  var known = {};   // 小寫 → 正式的標籤名稱，例如 ai → AI；網址裡不認得的標籤一律忽略
+  tagButtons.forEach(function (b) { known[b.dataset.tag.toLowerCase()] = b.dataset.tag; });
   var active = {};
+  var composing = false;
 
   // 篩選條件存在網址的 # 後面，方便分享、加書籤；文章上的主題標籤也只是連到 #tag=…
+  function decode(s) { try { return decodeURIComponent(s); } catch (e) { return s; } }  // 網址被截斷時不要整個壞掉
   function readHash() {
     active = {}; q.value = '';
     location.hash.slice(1).split('&').forEach(function (kv) {
-      var p = kv.split('='), v = decodeURIComponent(p[1] || '');
-      if (p[0] === 'tag' && v) active[v] = true;
-      if (p[0] === 'q') q.value = v;
+      var i = kv.indexOf('=');
+      if (i < 0) return;
+      var k = kv.slice(0, i), v = decode(kv.slice(i + 1));
+      if (k === 'tag' && known[v.toLowerCase()]) active[known[v.toLowerCase()]] = true;
+      if (k === 'q') q.value = v;
     });
   }
   function writeHash() {
     var parts = Object.keys(active).map(function (t) { return 'tag=' + encodeURIComponent(t); });
     var text = q.value.trim();
     if (text) parts.push('q=' + encodeURIComponent(text));
-    history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname + location.search);
+    // Safari 在短時間內呼叫太多次會丟例外；網址沒更新不影響篩選本身
+    try { history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname + location.search); } catch (e) {}
   }
+
+  // 英文關鍵字從「單字開頭」比對，不然搜 ai 會連 said、contain 都出現；兩個字母以內還要整個字相同。
+  // 中文沒有空格分隔，照舊用子字串。
+  function matcher(text) {
+    if (!text) return function () { return true; };
+    if (/^[\x20-\x7e]+$/.test(text)) {
+      var escaped = text.replace(/[.*+?^$()|[\]\\{}]/g, '\\$&');
+      var re = new RegExp('(^|[^a-z0-9])' + escaped + (text.length <= 2 ? '(?![a-z0-9])' : ''));
+      return function (t) { return re.test(t); };
+    }
+    return function (t) { return t.indexOf(text) !== -1; };
+  }
+
   function apply() {
     var text = q.value.trim().toLowerCase(), tags = Object.keys(active), shown = 0, visible = {};
+    var match = matcher(text);
     stories.forEach(function (el) {
       var mine = (el.dataset.tags || '').split(' ');
-      var ok = (!text || el.dataset.text.indexOf(text) !== -1) &&
-               (!tags.length || tags.some(function (t) { return mine.indexOf(t) !== -1; }));
+      var ok = match(el.dataset.text) && (!tags.length || tags.some(function (t) { return mine.indexOf(t) !== -1; }));
       el.hidden = !ok;
       if (ok) { shown++; visible[el.dataset.section] = true; }
     });
@@ -239,14 +262,21 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
     b.addEventListener('click', function () {
       var t = b.dataset.tag;
       if (active[t]) { delete active[t]; } else { active[t] = true; }
-      writeHash(); apply();
+      apply(); writeHash();
     });
   });
-  q.addEventListener('input', function () { writeHash(); apply(); });
-  clear.addEventListener('click', function () { active = {}; q.value = ''; writeHash(); apply(); });
-  window.addEventListener('hashchange', function () { readHash(); apply(); });
+  // 用注音等輸入法選字的過程中先不篩選，選好字才篩，不然清單會在打字時閃成空白
+  q.addEventListener('compositionstart', function () { composing = true; });
+  q.addEventListener('compositionend', function () { composing = false; apply(); writeHash(); });
+  q.addEventListener('input', function (e) { if (composing || e.isComposing) return; apply(); writeHash(); });
+  clear.addEventListener('click', function () { active = {}; q.value = ''; apply(); writeHash(); });
+  window.addEventListener('hashchange', function () {
+    readHash(); apply();
+    // 點了文章上的主題標籤後清單會變短，把畫面帶回篩選列才看得到結果
+    if (filterBox.getBoundingClientRect().top < 0) filterBox.scrollIntoView();
+  });
   document.addEventListener('keydown', function (e) {
-    if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey && document.activeElement !== q) { e.preventDefault(); q.focus(); }
   });
 
   // 「3 小時前」這種相對時間；滑鼠移上去看得到原本的台北時間
