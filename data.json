@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T14:16:03+00:00",
+ "updated_at": "2026-11-05T14:35:30+00:00",
  "stories": {
   "50364336": {
    "id": 50364336,
@@ -36,11 +36,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 1225,
+   "score": 1229,
    "comments_count": 714,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 26,
+   "rank": 29,
    "summary_en": "The recently discovered PHP2Shell vulnerability demonstrates that AI tools can easily identify and exploit memory errors previously considered low-risk. Such vulnerabilities are widespread in legacy software from the past 40 years, and the involvement of AI allows attackers to perform complex reasoning more efficiently, forcing developers to confront and resolve long-standing technical debt."
   },
   "50362905": {
@@ -809,11 +809,11 @@
    "by": "bookofjoe",
    "posted_at": "2026-11-02T14:02:42+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "因應 AI 帶來的大量歸檔需求，富士軟片規劃將磁帶產能提升至五倍",
-   "summary_zh": "隨著生成式人工智慧（generative AI）快速發展帶動全球資料需求暴增，富士軟片（Fujifilm）宣布將投資約 100 億日圓將磁帶產能提升至五倍。各大雲端服務與資料中心業者積極擴充磁帶儲存，主因其成本低廉且具備實體隔離（air-gap）抵禦勒索軟體攻擊的優勢。",
-   "translated_at": "2026-11-04T15:14:18+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "AI 帶動冷數據封存需求：富士軟片將磁帶產能提升五倍",
+   "summary_zh": "富士軟片（Fujifilm）宣布投資約 100 億日圓擴建磁帶生產線，以因應生成式人工智慧（Generative AI）爆發所帶來的海量資料儲存需求。磁帶技術憑藉低成本與實體隔離（air-gap）的安全性優勢，成為雲端服務供應商防範勒索軟體與長期備份的首選媒介。",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "dylan604",
@@ -839,7 +839,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Fujifilm announced an investment of approximately 10 billion yen to expand magnetic tape production lines to meet the massive data storage demands brought by the explosion of Generative AI. With advantages in low cost and air-gap security, tape technology has become the preferred medium for cloud service providers to prevent ransomware and perform long-term backups."
   },
   "50361154": {
    "id": 50361154,
@@ -851,11 +851,11 @@
    "by": "gmays",
    "posted_at": "2026-11-04T03:20:13+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "研究發現年輕大腸直腸癌患者具有顯著的細胞與基因差異",
-   "summary_zh": "丹娜-法伯癌症研究所（Dana-Farber Cancer Institute）等團隊的研究發現，50 歲以下年輕大腸直腸癌患者的腫瘤細胞與基因活動具有獨特生物模式。團隊透過單細胞核 RNA 定序（single-nucleus RNA sequencing）分析超過 85 萬個細胞，為理解年輕患者癌症侵襲性較高的原因以及未來開發新療法奠定基礎。",
-   "translated_at": "2026-11-04T15:14:18+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "研究發現年輕大腸直腸癌患者具備獨特的細胞與基因特徵",
+   "summary_zh": "丹娜—法伯癌症研究所（Dana-Farber Cancer Institute）透過單核糖核酸定序（single-nucleus RNA sequencing）技術，分析了不同年齡層的大腸直腸癌腫瘤樣本。研究揭示了年輕患者在腫瘤組成與基因活性上的顯著差異，為開發針對早發性癌症的精準醫療與預防策略提供了重要圖譜。",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "Spacecosmonaut",
@@ -881,7 +881,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Researchers at the Dana-Farber Cancer Institute used single-nucleus RNA sequencing technology to analyze colorectal cancer tumor samples across different age groups. The study revealed significant differences in tumor composition and gene activity in younger patients, providing an important roadmap for developing precision medicine and prevention strategies for early-onset cancer."
   },
   "50333131": {
    "id": 50333131,
@@ -893,11 +893,11 @@
    "by": "zdw",
    "posted_at": "2026-11-02T04:31:20+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "2026 年日本「地味萬聖節」低調變裝大集合",
-   "summary_zh": "日本每年舉辦的「地味萬聖節（Jimi Halloween）」鼓勵參加者扮成極度日常、低調且需要說明才能理解的角色。文章整理了 2026 年的熱門扮相，包含「在狹窄居酒屋試圖拍合照的人」以及「搞不懂設計款水龍頭怎麼開的人」等幽默生活情境。",
-   "translated_at": "2026-11-04T15:14:18+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "2026 年日本「地味萬聖節」：平凡生活中的幽默變裝",
+   "summary_zh": "介紹日本流行的「地味萬聖節（Jimi Halloween）」活動，參與者捨棄華麗裝扮，改為模仿日常生活中極其平凡但令人感同身受的角色。2026 年的精選裝扮包括「在居酒屋狹小空間拍團體照的人」以及「在電車上憋笑的人」，展現了獨特的日式幽默與觀察力。",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "numpad0",
@@ -923,7 +923,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Introduces the popular \"Jimi Halloween\" (Mundane Halloween) event in Japan, where participants forgo flashy costumes to mimic extremely ordinary yet relatable characters from daily life. Featured costumes for 2026 include \"a person trying to take a group photo in a cramped izakaya\" and \"a person trying not to laugh on a train,\" showcasing unique Japanese humor and observation."
   },
   "50360164": {
    "id": 50360164,
@@ -935,11 +935,11 @@
    "by": "thatxliner",
    "posted_at": "2026-11-04T00:33:22+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "C++26 草案未獲 ISO 批准表決通過",
-   "summary_zh": "在最新一輪 ISO 國家標準機構投票中，C++26 國際標準草案（DIS）未能獲得三分之二贊成票而被否決，此為 C++ 標準化歷史上極為罕見的情況。否決主因源於多國代表認為契約（Contracts）功能尚未成熟，委員會後續將面臨修改草案重新表決或延後釋出該特性的抉擇。",
-   "translated_at": "2026-11-04T15:14:18+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "C++26 標準草案投票未過：合約機制引發的爭議與挑戰",
+   "summary_zh": "C++26 的國際標準草案（DIS）在 ISO 國家成員體的投票中遭到否決，這是 C++ 歷史上首次發生草案未獲通過的情況。反對票主要源於各界對「合約（Contracts）」功能是否成熟仍存有疑慮，這使得 C++ 標準化委員會必須重新評估該功能的納入時程或修改草案內容。",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "jandrewrogers",
@@ -965,7 +965,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "The Draft International Standard (DIS) for C++26 was rejected in a vote by ISO National Bodies, marking the first time in C++ history that a draft failed to pass. The opposing votes primarily stemmed from concerns over whether the \"Contracts\" feature is mature enough, forcing the C++ standardization committee to re-evaluate the inclusion timeline or modify the draft content."
   },
   "50365760": {
    "id": 50365760,
@@ -978,10 +978,10 @@
    "posted_at": "2026-11-04T14:10:14+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
    "title_zh": "Jaron Lanier 談人工智慧與社群媒體的相似之處",
-   "summary_zh": "探討電腦科學家 Jaron Lanier 對於人工智慧（AI）與社群媒體（social media）發展特性的平行對比與分析。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-04T15:14:18+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "summary_zh": "探討人工智慧（AI）與社群媒體在發展模式、社會影響或演算法機制上的共通點。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "georgeecollins",
@@ -1007,7 +1007,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Explores the commonalities between artificial intelligence (AI) and social media in terms of development patterns, social impact, or algorithmic mechanisms. (Original content unavailable; summary based on title only.)"
   },
   "50355251": {
    "id": 50355251,
@@ -1019,11 +1019,11 @@
    "by": "theanonymousone",
    "posted_at": "2026-11-03T17:40:00+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "在筆電執行的 Qwen 3.8 27B 也能解讀模型權重",
-   "summary_zh": "近期研究「權重空間程式設計（Weight-Space Programming）」發現大型語言模型（LLM）無須執行工具或程式碼，即可透過直接閱讀神經網路的原始權重來推斷模型行為。作者測試後發現，在個人筆電上透過本地執行的開放原始碼（open source）模型 Qwen 3.8 27B，同樣能僅憑浮點數權重成功判斷出該強化學習（reinforcement learning）模型所訓練的遊戲類型。",
-   "translated_at": "2026-11-04T15:14:48+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "在筆電運行的 Qwen 3.8 27B 也能解讀模型權重",
+   "summary_zh": "測試發現 Qwen 3.8 27B 即使在筆電上運行，也能展現出「權重空間程式設計（Weight-Space Programming）」的能力，僅透過原始權重數值就能判斷神經網路的用途。這項實驗驗證了除了 GPT-6 Astra 等頂尖模型外，較小規模的開源模型同樣具備理解模型行為的潛力。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "zkmon",
@@ -1049,7 +1049,7 @@
    "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Tests show that Qwen 3.8 27B, even when running on a laptop, demonstrates \"Weight-Space Programming\" capabilities by identifying the purpose of a neural network solely through raw weight values. This experiment confirms that smaller open-source models, in addition to top-tier models like GPT-6 Astra, possess the potential to understand model behaviors."
   },
   "50361107": {
    "id": 50361107,
@@ -1061,11 +1061,11 @@
    "by": "firstbase",
    "posted_at": "2026-11-04T03:11:27+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "從 Arrow 到 Arrow，從範疇到查詢：開發能編譯為 SQL 的程式語言",
-   "summary_zh": "作者開發了一款名為 catlang 的實驗性程式語言，能將以範疇論（Category Theory）抽象概念構成的中介語言（IL）編譯成單一巨大的 SQL SELECT 查詢語句。該語言利用 Haskell 風格的 Arrow 語法與符號來簡化邏輯表達，展現了利用幾何與代數語意將高階邏輯輕鬆轉換至 SQL 等異質編譯目標的可行性。",
-   "translated_at": "2026-11-04T15:14:48+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "從箭頭到箭頭：將範疇論轉化為 SQL 查詢",
+   "summary_zh": "開發者建立了一種名為 catlang 的程式語言，其核心特色是使用範疇論（Category Theory）作為中間語言，並能編譯成複雜的 SQL 查詢語句。透過這種抽象的代數語義，程式碼可以被轉換成各種後端實作，甚至能在 PostgreSQL 中執行循環邏輯。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "sleepyams",
@@ -1091,7 +1091,7 @@
    "last_seen": "2026-11-04T15:32:10+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "A developer created a programming language called catlang, which features category theory as its intermediate language and compiles into complex SQL queries. Through these abstract algebraic semantics, code can be transformed into various backend implementations, even executing loop logic within PostgreSQL."
   },
   "50355767": {
    "id": 50355767,
@@ -1103,11 +1103,11 @@
    "by": "citelao",
    "posted_at": "2026-11-03T18:11:11+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "我如何在 2026 年使用人工智慧",
-   "summary_zh": "身為 Salesforce AI Research 的研究工程師，作者分享其日常工作流程已從手寫程式碼轉向管理多個 Claude Code 等代理人（Agent）開發工具。這些代理人能自主進行功能原型設計、除錯與程式碼審查，大幅提升開發速度；同時作者也訂定個人 AI 使用規範，強調人腦經驗與審美在引導代理人輸出高品質結果時依然不可或缺。",
-   "translated_at": "2026-11-04T15:14:48+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "我如何使用人工智慧（2026 年 10 月版）",
+   "summary_zh": "作者分享在 2026 年如何將人工智慧（AI）全面融入工作流程，特別是透過多個代理人（Agent）自動執行程式碼編寫、測試與拉取請求（PR）審核。儘管代理人大幅提升了開發效率並消除了繁瑣工作，作者強調人類的品味與經驗在引導 AI 產出高品質成果時仍不可或缺。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "mef51",
@@ -1133,7 +1133,7 @@
    "last_seen": "2026-11-04T15:29:57+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "The author shares how artificial intelligence (AI) is fully integrated into workflows in 2026, specifically using multiple agents to automate coding, testing, and pull request (PR) reviews. Although agents significantly boost development efficiency and eliminate drudgery, the author emphasizes that human taste and experience remain indispensable for guiding AI to produce high-quality results."
   },
   "50354960": {
    "id": 50354960,
@@ -1145,11 +1145,11 @@
    "by": "sidgarimella",
    "posted_at": "2026-11-03T17:22:37+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "Postman 被指控靜默自動安裝 AI 外掛並試圖取得所有 API 資料",
-   "summary_zh": "使用者在 GitHub 發起議題揭露 Postman 的 Mac 桌面端軟體會自動安裝 Claude Code 與 Codex 等程式碼代理人的外掛程式，並自行核准啟動鉤子（Hook）。該外掛會在代理人啟動時指示其將任何廣義的 API 開發任務導向 Postman 的技能（Skill）處理，此舉被指控嚴重越過使用者同意權與信任邊界。",
-   "translated_at": "2026-11-04T15:14:48+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "Postman 遭指控擅自安裝 AI 外掛並企圖獲取 API 資料",
+   "summary_zh": "使用者在 GitHub 回報 Postman 在未經同意的情況下，自動於 Mac 系統安裝 AI 外掛並修改其他開發工具的設定，企圖將 API 相關工作導向 Postman 的服務。這種行為被認為嚴重侵犯了使用者的信任邊界，且該外掛還試圖自動核准自身的掛鉤（Hook）以獲取更廣泛的權限。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "pants2",
@@ -1175,7 +1175,7 @@
    "last_seen": "2026-11-04T15:16:29+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "A user reported on GitHub that Postman automatically installed AI plugins on Mac systems and modified settings of other development tools without consent, attempting to route API-related tasks to Postman's services. This behavior is considered a severe violation of user trust boundaries, as the plugin also tried to auto-approve its own hooks to gain broader permissions."
   },
   "50352641": {
    "id": 50352641,
@@ -1187,11 +1187,11 @@
    "by": "lukasschwab",
    "posted_at": "2026-11-03T14:45:47+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "後訓練時代缺乏共享資料庫的挑戰",
-   "summary_zh": "傳統預訓練（Pretraining）依賴網頁與 Wikipedia 等現存的數位知識共享庫（Data Commons）提供大量文件資料，但現代人工智慧轉向以強化學習（reinforcement learning）為主的後訓練（Posttraining）階段時，需要的是具體的「任務（Task）」而非單純文件。由於人類現實中的任務情境轉瞬即逝，將其轉化為可重複訓練與評估的環境非常困難，使得開放原始碼（open source）AI 社群正面臨後訓練資料共享庫匱乏的危機。",
-   "translated_at": "2026-11-04T15:14:48+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "訓練後階段缺乏公共數據集",
+   "summary_zh": "雖然預訓練（Pretraining）階段受益於維基百科與 Common Crawl 等豐富的公共數據，但針對代理人（Agentic）AI 的訓練後（Posttraining）階段卻面臨數據短缺。由於訓練後階段需要的是具備情境感知的「任務（Task）」而非靜態文件，這些動態且轉瞬即逝的人類行為難以像傳統知識一樣被大規模收集與共享。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "woctordho",
@@ -1217,7 +1217,7 @@
    "last_seen": "2026-11-04T15:16:29+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "While the pretraining stage benefited from rich public data like Wikipedia and Common Crawl, the posttraining stage for agentic AI faces a data shortage. Since posttraining requires context-aware \"tasks\" rather than static documents, these dynamic and ephemeral human behaviors are difficult to collect and share at scale like traditional knowledge."
   },
   "50358562": {
    "id": 50358562,
@@ -1229,11 +1229,11 @@
    "by": "paddingtone",
    "posted_at": "2026-11-03T21:39:05+00:00",
    "first_seen": "2026-11-04T15:11:31+00:00",
-   "title_zh": "Safari 27.3 推出自適應深色模式",
-   "summary_zh": "WebKit 團隊在 Safari 27.3 Beta 版中推出「自適應深色模式（Adaptive Dark Mode）」，能自動將未針對深色外觀優化的淺色網站轉換為深色風格。該功能藉由瀏覽器引擎層級的演算法分析色彩、調和對比度並反轉 SVG 與向量標誌，確保畫面符合無障礙標準（WCAG）對比規範且不損害圖檔呈現。",
-   "translated_at": "2026-11-04T15:14:48+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "Safari 27.3 推出自動適應深色模式",
+   "summary_zh": "Safari 27.3 測試版引進了「自動適應深色模式（Adaptive Dark Mode）」，能自動將尚未支援深色介面的網站轉換為深色外觀。該技術透過 WebKit 引擎深層的顏色矩陣轉換與圖像分析，在確保文字對比度與圖像完整性的同時，提供一致且省電的瀏覽體驗。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "kickingvegas",
@@ -1259,7 +1259,7 @@
    "last_seen": "2026-11-04T15:16:29+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Safari 27.3 beta introduces \"Adaptive Dark Mode,\" which automatically converts websites that do not yet support dark interfaces into a dark appearance. This technology utilizes deep color matrix transformations and image analysis within the WebKit engine to provide a consistent and power-efficient browsing experience while ensuring text contrast and image integrity."
   },
   "50366522": {
    "id": 50366522,
@@ -1299,8 +1299,8 @@
    "score": 324,
    "comments_count": 250,
    "last_seen": "2026-11-05T14:12:14+00:00",
-   "on_front_page": true,
-   "rank": 30,
+   "on_front_page": false,
+   "rank": null,
    "summary_en": "A group of anonymous activists in San Francisco used \"tactical urbanism\" techniques to privately install traffic cones and bollards to create protected bike lanes. While such guerrilla interventions are typically removed, the city government ultimately decided to incorporate these illicit facilities into official planning and retain them due to their significant safety improvements."
   },
   "50366860": {
@@ -1313,11 +1313,11 @@
    "by": "reedciccio",
    "posted_at": "2026-11-04T15:21:12+00:00",
    "first_seen": "2026-11-04T15:29:57+00:00",
-   "title_zh": "為試算表引進視窗函式",
-   "summary_zh": "傳統試算表在計算累計餘額時，容易因新增或刪除列而導致公式參照錯亂，而 Airtable 等資料庫型工具則因缺乏「上一列」概念而實作困難。Grist 引進了類似 SQL 視窗函式（window functions）的 `PREVIOUS()` 語法，允許透過日期或群組指定排序規則來取得前一筆紀錄。這種設計讓資料無論如何排序、篩選或增刪列，累計金額均能維持正確計算。",
-   "translated_at": "2026-11-04T15:37:43+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "為試算表加入視窗函式功能",
+   "summary_zh": "傳統試算表在處理累計餘額時，常因插入或刪除列而導致公式參照錯誤，Grist 則透過引入類似 SQL 的「視窗函式（Window Functions）」來解決此問題。藉由 PREVIOUS() 等新函式，使用者可以根據特定欄位排序並跨列計算，確保資料變動時累計數值依然正確且具備靈活性。",
+   "translated_at": "2026-11-05T14:33:16+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "heisenzombie",
@@ -1343,7 +1343,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Traditional spreadsheets often suffer from formula reference errors when handling running balances due to row insertions or deletions, a problem Grist solves by introducing SQL-like \"Window Functions.\" Through new functions like PREVIOUS(), users can perform cross-row calculations based on specific field sorting, ensuring cumulative values remain accurate and flexible even when data changes."
   },
   "50366863": {
    "id": 50366863,
@@ -1355,11 +1355,11 @@
    "by": "itunpredictable",
    "posted_at": "2026-11-04T15:21:21+00:00",
    "first_seen": "2026-11-04T15:29:57+00:00",
-   "title_zh": "OpenAI 宣布收購 Pierre Computer Company",
-   "summary_zh": "OpenAI 宣布將收購開發出 Code Storage 與多款開源開發工具的 Pierre Computer Company，以強化旗下 Codex 的程式碼建置、理解與審查能力。收購後 Pierre 現有的開源專案將維持開放，相關技術也將整合進 Codex，協助開發者與程式編寫代理人（coding agent）更順暢地協同工作。",
-   "translated_at": "2026-11-04T21:44:04+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "OpenAI 收購 Pierre Computer Company",
+   "summary_zh": "OpenAI 宣布收購開發 Code Storage 與多款開源開發者工具的 Pierre 公司，旨在強化 Codex 的程式碼建置與審閱功能。雙方將合作把 Git 工作流（Git workflows）與編碼代理（coding agents）結合，並持續維護 Pierre 的開源專案。",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "tiffanyh",
@@ -1385,7 +1385,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "OpenAI announced the acquisition of Pierre, the company behind Code Storage and several open-source developer tools, to enhance Codex's code building and review capabilities. The two parties will collaborate to integrate Git workflows with coding agents while continuing to maintain Pierre's open-source projects."
   },
   "50365516": {
    "id": 50365516,
@@ -1397,11 +1397,11 @@
    "by": "kimi",
    "posted_at": "2026-11-04T13:51:52+00:00",
    "first_seen": "2026-11-04T15:32:10+00:00",
-   "title_zh": "Mocktastic：基於 Arduino 的 Meshtastic 節點實作",
-   "summary_zh": "Mocktastic 是針對 ESP32 開發板打造的實驗性 LoRa 用戶端，可以在 Arduino IDE 環境下運作並相容於 Meshtastic 網路。專案展示了如何使用 C++ 編碼與解碼 Meshtastic 封包，並包含能夠回報溫溼度的 DHT22 感測器（sensor）範例。透過 MBDTLS 處理加密與 Nano-Protobuf 進行輕量級編解碼，開發者可輕鬆將其移植至其他硬體或用於教學與實驗。",
-   "translated_at": "2026-11-04T15:37:43+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "Mocktastic：在 Arduino 上實現相容 Meshtastic 的節點",
+   "summary_zh": "Mocktastic 是一個專為 ESP32 開發板設計的實驗性韌體，可在 Arduino IDE 環境下運作並與 Meshtastic 協定相容。它展示了如何使用 C++ 編碼與解碼 LoRa 封包，並提供解碼器與環境感測器兩種運作模式。",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "croes",
@@ -1417,7 +1417,7 @@
    "last_seen": "2026-11-04T15:37:13+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Mocktastic is an experimental firmware designed for ESP32 boards that operates within the Arduino IDE environment and is compatible with the Meshtastic protocol. It demonstrates how to encode and decode LoRa packets using C++ and offers two operating modes: a decoder and an environmental sensor."
   },
   "50366853": {
    "id": 50366853,
@@ -1429,11 +1429,11 @@
    "by": "thunderbong",
    "posted_at": "2026-11-04T15:20:49+00:00",
    "first_seen": "2026-11-04T15:37:13+00:00",
-   "title_zh": "無塑膠咖啡膠囊與機器的浪潮",
-   "summary_zh": "探討市面上逐漸興起的無塑膠咖啡膠囊與相對應的咖啡機發展趨勢。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-05T01:59:11+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "無塑膠咖啡膠囊與咖啡機的新浪潮",
+   "summary_zh": "探討市場上新出現的無塑膠咖啡膠囊以及相應的咖啡機技術趨勢。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "troyvit",
@@ -1459,7 +1459,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Exploring the emerging market trends of plastic-free coffee pods and their corresponding coffee machine technologies. (Content unavailable; summarized based on title only.)"
   },
   "50366117": {
    "id": 50366117,
@@ -1496,11 +1496,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 423,
-   "comments_count": 479,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 426,
+   "comments_count": 494,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 21,
+   "rank": 24,
    "summary_en": "This is a Hacker News discussion thread asking developers about their daily AI subscriptions, model choices, and development interfaces. The discussion focuses on whether they use coding tools like Cursor or Aider, and how they configure orchestration tools or automation frameworks for AI agents."
   },
   "50371246": {
@@ -1538,11 +1538,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 1172,
-   "comments_count": 379,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 1181,
+   "comments_count": 382,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 4,
+   "rank": 5,
    "summary_en": "Researchers detected residential proxy exit traffic within the White House network, indicating that devices may be infected with malicious proxy Software Development Kits (SDKs). This activity allows external users to route traffic through compromised internal devices, potentially serving as a conduit for hackers to perform internal network infiltration and lateral movement."
   },
   "50370610": {
@@ -1580,11 +1580,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 295,
-   "comments_count": 147,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 296,
+   "comments_count": 150,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 18,
+   "rank": 21,
    "summary_en": "Research has found that LED lights are significantly less attractive to insects compared to traditional incandescent lights, primarily because LEDs typically do not emit ultraviolet (UV) light. Since flying insects use UV light from the moon for navigation, LED lights lacking UV can effectively reduce disturbances to wildlife and the occurrence of insect-borne diseases."
   },
   "50369925": {
@@ -1622,11 +1622,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 313,
+   "score": 315,
    "comments_count": 112,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 14,
+   "rank": 17,
    "summary_en": "Ricursive Intelligence released Ripple-65B Preview, a 65-billion parameter dense model that outperforms many significantly larger open-weight models in agentic coding benchmarks. The model features a thin-and-deep architecture and achieved state-of-the-art performance at a cost of only $32 million through efficient synthetic data pipelines and reinforcement learning (RL) techniques."
   },
   "50369106": {
@@ -1664,11 +1664,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 356,
-   "comments_count": 178,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 359,
+   "comments_count": 180,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 15,
+   "rank": 19,
    "summary_en": "Go 1.27 officially introduces new packages like `encoding/json/v2`, aiming to address flaws in the legacy JSON library regarding invalid UTF-8, duplicate field names, and nil slice handling. The new API provides stricter syntax checking and more flexible configuration options while improving security when interfacing with `io.Reader`."
   },
   "50368626": {
@@ -1681,11 +1681,11 @@
    "by": "ltononro",
    "posted_at": "2026-11-04T17:17:46+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "大型語言模型可驗證推論技術新進展",
-   "summary_zh": "Anthropic 與多所學術機構發表名為 FlashProve 的可驗證推論系統，利用零知識簡潔非互動式知識論證（zkSNARK）技術證明模型的輸出結果未被竄改或調包。在以 Llama 4 Maverick（400B MoE）進行的測試中，單張 H100 繪圖處理器（GPU）能以每秒約 110 個權杖的速度產生證明。研究團隊公開了相關程式碼，並使用形式化驗證語言 Lean 提供最高層級的數學安全性證明。",
-   "translated_at": "2026-11-04T21:43:43+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "大型語言模型可驗證推論技術的進展",
+   "summary_zh": "Anthropic 研究團隊開發了名為 FlashProve 的系統，利用零知識證明（zkSNARK）技術來確保 AI 模型的輸出確實來自特定模型。該系統在 H100 GPU 上能達到每秒 110 個標記（tokens）的證明速度，並提供經由 Lean 形式驗證（formal verification）的安全性保證。",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "neuwirth",
@@ -1711,7 +1711,7 @@
    "last_seen": "2026-11-05T13:53:35+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Anthropic's research team developed a system called FlashProve, which utilizes Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (zkSNARK) technology to ensure that AI model outputs indeed originate from a specific model. The system achieves a proof generation speed of 110 tokens per second on an H100 GPU and provides security guarantees through Lean formal verification."
   },
   "50370654": {
    "id": 50370654,
@@ -1723,11 +1723,11 @@
    "by": "peter_d_sherman",
    "posted_at": "2026-11-04T19:55:14+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "高通 Cloud AI 100 Ultra：具備 128GB 記憶體與 150W 功耗的 AI 加速卡",
-   "summary_zh": "高通推出 Cloud AI 100 Ultra 人工智慧（AI）加速卡，具備 150 瓦功耗以及 548 GB/s 頻寬的 128GB 記憶體規格。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-04T21:43:43+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "Qualcomm Cloud AI 100 Ultra：150W 功耗、128GB 記憶體的 AI 加速卡",
+   "summary_zh": "高通（Qualcomm）推出的 Cloud AI 100 Ultra 加速卡具備 150W 功耗，配備 128GB 記憶體並提供 548GB/s 的頻寬。該產品旨在為資料中心提供高效能的人工智慧（AI）推論能力。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "tokepi",
@@ -1753,7 +1753,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Qualcomm's Cloud AI 100 Ultra accelerator card features 150W power consumption, equipped with 128GB of memory and providing 548GB/s bandwidth. This product aims to provide high-performance Artificial Intelligence (AI) inference capabilities for data centers. (Content unavailable; summarized based on title only.)"
   },
   "50369895": {
    "id": 50369895,
@@ -1793,8 +1793,8 @@
    "score": 230,
    "comments_count": 32,
    "last_seen": "2026-11-05T14:12:14+00:00",
-   "on_front_page": true,
-   "rank": 29,
+   "on_front_page": false,
+   "rank": null,
    "summary_en": "The author shares an 11-year journey of modifying the classic DOS game Wing Commander to support a multiplayer co-op mode. By using DOSBox debugging tools for memory dumps and reverse engineering, the author successfully located coordinate and rotation data for players and wingmen, enabling synchronized control over a network."
   },
   "50368804": {
@@ -1807,11 +1807,11 @@
    "by": "lukeigel",
    "posted_at": "2026-11-04T17:31:53+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "Kino AI：以程式碼為核心的 AI 影音管理與影片剪輯工具",
-   "summary_zh": "YC S23 團隊推出以程式碼為基礎的影音編輯平台 Kino AI，結合 Remotion 架構，將時間軸剪輯、動畫特效與評論全部轉化為程式碼表示。平台具備多人即時協作功能，可讓人類團隊與 Claude 等 AI 代理在同一時間軸上進行動態遮罩、調色或自動上片。此外，該系統透過 WebCodecs 等技術自研專業解碼器，支援在 Electron 本地環境流暢預覽高達數百 GB 的 ProRes 等專業影片格式。",
-   "translated_at": "2026-11-04T21:43:43+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "Launch HN：Kino AI — 結合 AI 的媒體管理與影片編輯器",
+   "summary_zh": "Kino AI 是一款基於 Remotion 開發的影片編輯器，將所有剪輯、動態圖形與評論轉化為程式碼，方便開發者與 AI 代理協作。它支援專業編解碼器（codecs）並提供即時協作功能，讓團隊能透過單一事實來源進行高效的影片製作。",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "vladgur",
@@ -1837,7 +1837,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Kino AI is a video editor built on Remotion that transforms all edits, motion graphics, and comments into code, facilitating collaboration between developers and AI agents. It supports professional codecs and offers real-time collaboration features, allowing teams to achieve efficient video production through a single source of truth."
   },
   "50371370": {
    "id": 50371370,
@@ -1849,11 +1849,11 @@
    "by": "castlew",
    "posted_at": "2026-11-04T20:54:34+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "只需筆記型電腦與剪刀即可打造的擴增實境吉他",
-   "summary_zh": "介紹一項利用筆記型電腦與剪刀製作的擴增實境（AR）吉他專案。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-04T21:44:04+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "僅需筆記型電腦與剪刀即可實現的擴增實境吉他",
+   "summary_zh": "介紹如何利用筆記型電腦與簡單的剪刀工具，透過擴增實境（AR）技術來模擬或學習吉他彈奏。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "jvogt",
@@ -1879,7 +1879,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Introducing how to use a laptop and simple scissors to simulate or learn guitar playing through Augmented Reality (AR) technology. (Content unavailable; summarized based on title only.)"
   },
   "50369754": {
    "id": 50369754,
@@ -1891,11 +1891,11 @@
    "by": "gmays",
    "posted_at": "2026-11-04T18:40:54+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "我是否和一名殺人犯成為了朋友？",
-   "summary_zh": "作家 Edward Abel Smith 撰文記錄自己因歷史研究意外接觸到 Robin Garbutt 殺妻案，並與仍在獄中服刑且堅稱無罪的當事人建立聯絡的過程。內文探討作者在面對殘酷案件檔案、嫌犯家屬支持網站以及與受刑人互動之間，所產生對真相、疑點與友誼本質的深刻質疑。",
-   "translated_at": "2026-11-04T21:44:04+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "我是否與殺人犯成了朋友？",
+   "summary_zh": "作者 Edward Abel Smith 描述他與被控殺妻的囚犯 Robin Garbutt 建立聯繫的過程，並探討案件背後的疑點與支持者的觀點。這篇長篇文章反思了在面對法律判決與個人友誼時，心中產生的道德掙扎與懷疑。",
+   "translated_at": "2026-11-05T14:33:29+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "saidnooneever",
@@ -1921,7 +1921,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Author Edward Abel Smith describes his process of establishing a connection with Robin Garbutt, a prisoner accused of murdering his wife, and explores the doubts surrounding the case and the perspectives of supporters. This long-form article reflects on the moral struggles and skepticism that arise when facing legal judgments and personal friendships."
   },
   "50365780": {
    "id": 50365780,
@@ -1933,11 +1933,11 @@
    "by": "Philpax",
    "posted_at": "2026-11-04T14:11:26+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "騰訊推出 Hy4",
-   "summary_zh": "介紹騰訊推出的 Hy4 相關研究成果。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-04T21:44:04+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "騰訊發表 Hy4 模型",
+   "summary_zh": "騰訊（Tencent）推出的 Hy4 模型相關研究資訊。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "frangonf",
@@ -1963,7 +1963,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Information regarding the Hy4 model research released by Tencent. (Content unavailable; summary based on title only.)"
   },
   "50367125": {
    "id": 50367125,
@@ -1975,11 +1975,11 @@
    "by": "rbanffy",
    "posted_at": "2026-11-04T15:38:34+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "AMD 預期第四季營收將史上首次超越 Intel",
-   "summary_zh": "受惠於資料中心 Epyc 處理器與 Instinct 人工智慧（AI）加速器的強勁需求，AMD 公布創紀錄的季度營收，並預測第四季營收將達 170 億美元，有望首次超越 Intel。儘管個人電腦（PC）與遊戲相關業務因記憶體價格高漲與主機晶片需求下滑而衰退，資料中心業務的快速成長仍將推動整體獲利大幅提升。",
-   "translated_at": "2026-11-04T21:44:04+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "AMD 預計第四季營收將首度超越 Intel",
+   "summary_zh": "受惠於人工智慧（AI）熱潮帶動資料中心處理器與加速器的強勁需求，AMD 預測第四季營收將達到 170 億美元，有望在歷史上首次超越 Intel。雖然個人電腦（PC）與遊戲業務面臨下滑，但資料中心業務已佔總營收的 64%，成為公司成長的主要引擎。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "mickeyp",
@@ -2005,7 +2005,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Driven by the AI boom and strong demand for data center processors and accelerators, AMD projects Q4 revenue to reach $17 billion, potentially surpassing Intel for the first time in history. While the PC and gaming segments face declines, the data center business now accounts for 64% of total revenue, serving as the company's primary growth engine."
   },
   "50369503": {
    "id": 50369503,
@@ -2042,11 +2042,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 194,
-   "comments_count": 206,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 197,
+   "comments_count": 208,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 23,
+   "rank": 28,
    "summary_en": "Conductor, a tool focused on collaborative development with AI agents, announced it is joining Meta, and its cloud service, Conductor Cloud, will shut down soon. The team plans to launch a new interface and product early next year and is assisting current users in migrating their workspaces to local environments."
   },
   "50366999": {
@@ -2084,11 +2084,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 581,
+   "score": 588,
    "comments_count": 165,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 9,
+   "rank": 12,
    "summary_en": "Moonshot AI has released the model weights for Kimi K3.1 Pro, a natively multimodal agentic model. Featuring a 1-million-token context window, the model offers significant improvements in coding, 3D creation, and financial research, with support for various inference frameworks like Transformers and vLLM."
   },
   "50366929": {
@@ -2101,11 +2101,11 @@
    "by": "adlep",
    "posted_at": "2026-11-04T15:25:33+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "Show HN：我做了一個能逐項零件拆解估算組裝電腦價格的工具",
-   "summary_zh": "開發者推出了名為 PC Deal Check 的免費線上工具，使用者只需貼上零售商連結或上傳規格照片，人工智慧即會自動辨識主要零組件。系統會將整機售價與市場各零組件行情進行比對並給予評分，協助不懂硬體的消費者評估該組裝電腦是否划算。",
-   "translated_at": "2026-11-04T21:44:04+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "PC Deal Check：逐項零件估價的套裝電腦比價工具",
+   "summary_zh": "開發者建立了一個名為 PC Deal Check 的工具，能透過貼上零售商連結或上傳規格照片，利用人工智慧（AI）辨識硬體規格並逐項估價。該工具會將套裝電腦的售價與市場零件估價進行比較，並給予評分，幫助使用者判斷是否划算。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "blue_green_maps",
@@ -2131,7 +2131,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "A developer created a tool called PC Deal Check that identifies hardware specs and estimates prices part by part by pasting retailer links or uploading photos. The tool compares the prebuilt PC's asking price with market-based component estimates and provides a grade to help users determine if it is a good deal."
   },
   "50347425": {
    "id": 50347425,
@@ -2143,11 +2143,11 @@
    "by": "mike_richards",
    "posted_at": "2026-11-03T02:52:50+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "請益 HN：適合與 10 歲小孩共讀的密碼學書籍有哪些推薦？",
-   "summary_zh": "一位家長在 Hacker News 上徵求適合與 10 歲孩子一起閱讀的密碼學（cryptography）書籍。該名孩子喜歡自創密碼且熱愛成人科普讀物，但市面上的兒童書籍多偏向單純解謎。提問者希望尋找能兼顧歷史背景與基礎密碼學理論，且數學難度不會過於艱澀的合適著作。",
-   "translated_at": "2026-11-04T21:44:40+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "適合與 10 歲孩童共讀的密碼學書籍推薦",
+   "summary_zh": "一位家長正在尋找適合與喜愛數學和科學的 10 歲孩子共讀的密碼學（Cryptography）書籍，希望能涵蓋歷史與基本理論。由於市面上的童書多偏向單純的謎題，家長希望能找到難度適中、不至於讓數學基礎超載的專業入門讀物。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "WillAdams",
@@ -2173,7 +2173,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "A parent is seeking cryptography book recommendations to read with a 10-year-old who loves math and science, hoping to cover both history and basic theory. Since most children's books focus solely on puzzles, the parent is looking for professional introductory material that is appropriately challenging without overwhelming the child's mathematical foundation."
   },
   "50369462": {
    "id": 50369462,
@@ -2185,11 +2185,11 @@
    "by": "witcher",
    "posted_at": "2026-11-04T18:20:06+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "Benchfmt.rs：將 Go 的效能基準測試與 benchstat 工作流引進 Rust",
-   "summary_zh": "作者開發了名為 benchfmt.rs 的零依賴 Rust 效能基準測試工具，將 Go 生態系中廣受歡迎的 benchstat 工作流引入 Rust。該工具支援執行緒區域堆積配置計數、pprof 效能分析器（profiler）整合，並提供 Criterion 與 libtest 輸出轉換功能。文中透過解碼 LEB128 varint 與 Prometheus 協定負載，實際展示跨語言效能評比與 A/B 測試流程。",
-   "translated_at": "2026-11-04T21:44:40+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "Benchfmt.rs：將 Go 的基準測試與統計工作流引進 Rust",
+   "summary_zh": "開發者推出了 benchfmt.rs，這是一個無依賴的 Rust 基準測試（Benchmarking）執行器，旨在將 Go 語言中受歡迎的 benchstat 工作流帶入 Rust 生態系。它支援堆疊記憶體配置（Heap allocation）追蹤、pprof 分析，並能將 Criterion 的結果轉換為 Go 的 benchfmt 格式，方便進行 A/B 測試比較。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "syntacticsalt",
@@ -2215,7 +2215,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "A developer introduced benchfmt.rs, a zero-dependency Rust benchmarking runner designed to bring Go's popular benchstat workflow to the Rust ecosystem. It supports heap allocation tracking, pprof profiling, and can convert Criterion results into Go's benchfmt format to facilitate A/B testing comparisons."
   },
   "50369527": {
    "id": 50369527,
@@ -2227,11 +2227,11 @@
    "by": "gmays",
    "posted_at": "2026-11-04T18:24:16+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "從野生到溫馴：親人狐狸的大腦特定區域出現顯著變化",
-   "summary_zh": "康乃爾大學等機構的研究人員透過比對溫馴、具攻擊性及野生銀狐的腦組織，發現馴化過程會改變下視丘腹內側核（ventromedial hypothalamus）的結構。該區域通常負責調節攻擊行為與能量消耗，而在經人工選育的親人狐狸大腦中，表達雌激素受體阿爾法（ERα）的特定神經元數量明顯減少。這項研究揭示了環境選擇壓力如何在短時間內重塑大腦結構與動物行為。",
-   "translated_at": "2026-11-04T21:44:40+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "從野性到溫馴：親人狐狸的大腦區域結構發生變化",
+   "summary_zh": "科學家研究發現，經過馴化的溫馴狐狸在下視丘腹內側（Ventromedial hypothalamus）區域的結構與野生或具攻擊性的狐狸有所不同。研究指出，溫馴狐狸大腦中負責驅動攻擊行為的特定神經元數量較少，這顯示了環境壓力與人工選育能在短時間內改變大腦結構。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "derektank",
@@ -2252,7 +2252,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Scientists have discovered that the structure of the ventromedial hypothalamus in domesticated, friendly foxes differs from that of wild or aggressive foxes. The study indicates that tame foxes have fewer specific neurons responsible for driving aggressive behavior, demonstrating that environmental pressures and selective breeding can alter brain structure over short periods."
   },
   "50366919": {
    "id": 50366919,
@@ -2265,10 +2265,10 @@
    "posted_at": "2026-11-04T15:25:04+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
    "title_zh": "Evergreen：具備可證明安全性的系統程式語言",
-   "summary_zh": "Evergreen 是一款主打具備可證明安全性（provably safe）的系統程式語言。該語言允許開發者在程式碼中直接宣告前置條件（preconditions）、後置條件（postconditions）與資料不變量（data invariants）。這些條件會在編譯期成為編譯器負責檢驗的責任義務，確保程式邏輯的正確性與記憶體安全。",
-   "translated_at": "2026-11-04T21:44:40+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "summary_zh": "Evergreen 是一款強調安全性的系統程式語言，允許開發者直接在程式碼中定義不變量（Invariants），如前置條件與後置條件。編譯器（Compiler）會將這些條件視為必須檢查的義務，確保程式執行的正確性與安全性。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "skybrian",
@@ -2294,7 +2294,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Evergreen is a systems programming language focused on safety, allowing developers to define invariants such as preconditions and postconditions directly within the code. The compiler treats these conditions as obligations to be checked, ensuring the correctness and safety of program execution."
   },
   "50371508": {
    "id": 50371508,
@@ -2306,11 +2306,11 @@
    "by": "speckx",
    "posted_at": "2026-11-04T21:05:19+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
-   "title_zh": "現在所有的詐騙都充斥著人工智慧",
-   "summary_zh": "作者指出目前 YouTube 與各大網路平台充斥著利用人工智慧（AI）產製的虛假廣告與詐騙內容，平台方卻缺乏有效審核機制。此外，垃圾郵件與釣魚信件也開始利用大型語言模型（LLM）抓取受害者的公開文字，自動生成量身打造的話術來降低防備心。這種濫用 AI 生成虛假內容的趨勢正在瓦解網路資訊的真實性，並對創作者與一般使用者造成日益嚴重的負擔。",
-   "translated_at": "2026-11-04T21:44:40+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "title_zh": "人工智慧詐騙無所不在：從虛假廣告到精準釣魚",
+   "summary_zh": "隨著人工智慧（AI）技術的普及，網路上的詐騙廣告與釣魚郵件變得更加精緻且難以辨識，平台方卻因利益考量缺乏有效審核。詐騙者利用大型語言模型（LLM）生成針對性極強的內容，甚至能模仿作者語氣進行詐騙，使得維護資訊真實性的成本大幅增加。",
+   "translated_at": "2026-11-05T14:33:44+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "dpkirchner",
@@ -2336,7 +2336,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "With the proliferation of AI technology, online scam advertisements and phishing emails have become more sophisticated and harder to identify, yet platforms lack effective verification due to financial interests. Scammers use large language models (LLMs) to generate highly targeted content, even mimicking an author's tone, significantly increasing the cost of maintaining information integrity."
   },
   "50371346": {
    "id": 50371346,
@@ -2349,10 +2349,10 @@
    "posted_at": "2026-11-04T20:52:53+00:00",
    "first_seen": "2026-11-04T21:42:02+00:00",
    "title_zh": "Replit Pro 用戶需在 11 月 8 日前選擇退出強制仲裁條款",
-   "summary_zh": "線上開發平台 Replit 的 Pro 訂閱用戶若不同意其服務條款中的強制仲裁協議，必須在 11 月 8 日截止日前完成退出手續。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-04T21:44:40+00:00",
-   "model": "gemini-3.8-flash",
-   "translate_tries": 0,
+   "summary_zh": "Replit Pro 的訂閱用戶若不希望受強制仲裁（arbitration）條款約束，必須在 11 月 8 日截止日期前完成退出程序。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "velcrovan",
@@ -2378,7 +2378,7 @@
    "last_seen": "2026-11-04T21:42:02+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Replit Pro subscribers who do not wish to be bound by mandatory arbitration clauses must complete the opt-out process before the November 8 deadline. (Content unavailable, summary based on title only)"
   },
   "50372945": {
    "id": 50372945,
@@ -2415,11 +2415,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 342,
-   "comments_count": 203,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 347,
+   "comments_count": 208,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 8,
+   "rank": 11,
    "summary_en": "OpenAI has launched the Images 2.6 update, introducing GIF animation generation for ChatGPT and API users while significantly improving generation speed and character consistency during editing. The new version offers Flare and Sunburst model options, allowing developers to balance generation speed and visual detail complexity based on their needs."
   },
   "50372929": {
@@ -2457,11 +2457,11 @@
    "comments_done": true,
    "comments_at": "2026-11-05T09:10:56+00:00",
    "comment_tries": 1,
-   "score": 424,
-   "comments_count": 311,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 429,
+   "comments_count": 316,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 7,
+   "rank": 10,
    "summary_en": "OpenAI has developed an automated vulnerability discovery and patching pipeline that successfully identified and generated patches for 948 Local Privilege Escalation (LPE) vulnerabilities in the Linux kernel. Utilizing an upcoming cybersecurity model, the system significantly reduced the costs of vulnerability validation and exploit development, demonstrating AI's potential in system security automation."
   },
   "50373308": {
@@ -2474,11 +2474,11 @@
    "by": "gmays",
    "posted_at": "2026-11-05T00:18:18+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "Starfall：實現平價且例行性的微重力存取",
-   "summary_zh": "SpaceX 推出的 Starfall 計畫旨在提供常態性且價格親民的微重力環境存取服務。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-05T01:58:35+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "Starfall：提供平價且常態化的微重力環境存取服務",
+   "summary_zh": "SpaceX 推出的 Starfall 計畫旨在提供更經濟實惠且規律的管道，讓研究與實驗能進入微重力（microgravity）環境。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "tagami",
@@ -2504,7 +2504,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "SpaceX's Starfall program aims to provide more affordable and regular access for research and experiments to enter microgravity environments. (Content unavailable, summary based on title only)"
   },
   "50373149": {
    "id": 50373149,
@@ -2516,11 +2516,11 @@
    "by": "theorchid",
    "posted_at": "2026-11-05T00:01:30+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "與人工智慧代理協作需要極大的耐心",
-   "summary_zh": "作者分享了在 Cursor 中使用 Composer 2.5 進行軟體開發超過一百小時的經驗，指出人工智慧代理在執行任務時常會出現誤刪程式碼、無法正確重構以及忽略測試失敗等令人頭痛的問題。",
-   "translated_at": "2026-11-05T01:58:35+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "與 AI 代理協作需要極強的心理素質",
+   "summary_zh": "使用 Cursor 的 Composer 2.5 等 AI 代理（AI agents）進行程式開發時，雖然速度快且成本低，但常會遇到 AI 隨意刪除函式或在重構時遺漏程式碼等不可預測的行為。開發者必須花費大量時間審閱程式碼並處理 AI 造成的錯誤，這在複雜的大型專案中會帶來極大的心理壓力。",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "anonymous908213",
@@ -2546,7 +2546,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Developing software with AI agents like Cursor's Composer 2.5 is fast and cost-effective, but often involves unpredictable behaviors such as AI randomly deleting functions or missing code during refactoring. Developers must spend significant time reviewing code and fixing AI-generated errors, which causes immense psychological stress in complex, large-scale projects."
   },
   "50372164": {
    "id": 50372164,
@@ -2581,8 +2581,8 @@
    "score": 130,
    "comments_count": 12,
    "last_seen": "2026-11-05T14:12:14+00:00",
-   "on_front_page": true,
-   "rank": 28,
+   "on_front_page": false,
+   "rank": null,
    "summary_en": "This post introduces significant improvements to \"Bad Update,\" an exploit for the Xbox 360 hypervisor, reducing execution time from 20 minutes to nearly instantaneous. By utilizing a save game vulnerability in the Rock Band Blitz demo as an entry point and optimizing race conditions and ciphertext hash tables, the attack's success rate has been greatly increased."
   },
   "50342219": {
@@ -2595,11 +2595,11 @@
    "by": "seshakiran",
    "posted_at": "2026-11-02T19:23:48+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "PageScribe：為 KOReader 提供手寫功能與離線字典語音",
-   "summary_zh": "作者為電子書閱讀器軟體 KOReader 開發了手寫筆記外掛 PageScribe 與離線語音字典，讓使用者能夠一邊流暢書寫註記，一邊點選查詢單字並聆聽離線發音。",
-   "translated_at": "2026-11-05T01:58:35+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "PageScribe：為 KOReader 打造的手寫筆記與離線字典語音外掛",
+   "summary_zh": "PageScribe 是一款針對電子書閱讀軟體 KOReader 開發的外掛，支援手寫筆記與手指選取文字的雙模操作，並能匯出 HTML 或 PDF 格式。此外，開發者也推出了 Dictionary Audio 外掛，提供離線的英文與西班牙文發音功能，讓使用者在閱讀時無需連網即可查詢單字讀音。",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "axiologist",
@@ -2615,7 +2615,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "PageScribe is a plugin developed for the e-reader software KOReader, supporting dual-mode operation for handwriting notes and finger text selection, with export options for HTML or PDF formats. Additionally, the developer released the Dictionary Audio plugin, providing offline English and Spanish pronunciation features, allowing users to look up word pronunciations while reading without an internet connection."
   },
   "50338474": {
    "id": 50338474,
@@ -2627,11 +2627,11 @@
    "by": "PaulHoule",
    "posted_at": "2026-11-02T15:48:45+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "基本上沒有人使用人工智慧代理來訂購 DoorDash",
-   "summary_zh": "外送平台 DoorDash 执行长在財報會議中透露，外部人工智慧代理自上線以來僅產生了數百筆訂單。相比單季近十億總訂單量，透過人工智慧代理點餐目前仍屬於極小眾的使用情境。",
-   "translated_at": "2026-11-05T01:58:35+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "幾乎沒有人用 AI 代理來訂購 DoorDash 外送",
+   "summary_zh": "DoorDash 執行長 Tony Xu 指出，儘管 AI 代理（AI agents）在數位生活中日益普及，但在該平台上透過 AI 代理完成的訂單量極低，僅有數百筆。對於像訂餐這類簡單的任務，使用者仍傾向直接使用應用程式，而非透過第三方 AI 工具。",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "paxy",
@@ -2657,7 +2657,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "DoorDash CEO Tony Xu noted that while AI agents are increasingly common in digital life, the volume of orders completed through AI agents on the platform is extremely low, totaling only a few hundred. For simple tasks like ordering food, users still prefer using the app directly rather than going through third-party AI tools."
   },
   "50371090": {
    "id": 50371090,
@@ -2669,11 +2669,11 @@
    "by": "0x63_Problems",
    "posted_at": "2026-11-04T20:31:30+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "Show HN：Gauge — 遞迴改善你的文件之開放原始碼命令列介面",
-   "summary_zh": "這是一個能協助優化軟體技能、命令列介面（CLI）與軟體開發套件（SDK）以利程式碼代理程式（Coding Agent）使用的開放原始碼工具。它能在本地執行真實代理程式並分析卡住的環節，讓你在發布前先測試並驗證修正效果。",
-   "translated_at": "2026-11-05T01:59:11+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "Gauge：遞迴改進文件品質的開放原始碼命令列工具",
+   "summary_zh": "Gauge 是一個開放原始碼的命令列介面（CLI）工具，旨在透過遞迴方式自動化提升專案文件的品質。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "esafak",
@@ -2689,7 +2689,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Gauge is an open-source command-line interface (CLI) tool designed to automatically improve the quality of project documentation through a recursive approach. (Content unavailable, summary based on title only)"
   },
   "50339183": {
    "id": 50339183,
@@ -2701,11 +2701,11 @@
    "by": "joe-esquibel",
    "posted_at": "2026-11-02T16:23:37+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "Show HN：毀滅戰士（DOOM）的 DNA — 程式碼結構如何在 44 個移植版中存活",
-   "summary_zh": "這是一項探討遊戲原始碼結構的研究，透過分析函式長度、分支與呼叫關係等特徵，在完全不閱讀文字的情況下建立如同生物演化樹的指紋比對，藉此追溯 DOOM 歷經數十種不同程式語言移植後的血緣關係。",
-   "translated_at": "2026-11-05T01:59:11+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "DOOM 的基因：程式碼結構如何在 44 個移植版本中存續",
+   "summary_zh": "研究人員透過分析函式長度、分支頻率與呼叫關係等「程式碼形狀（code shape）」，追蹤了 43 個從 1997 年釋出的 DOOM 原始碼衍生出的移植版本。即便函式名稱被修改或程式碼被翻譯成不同語言，這種如指紋般的結構特徵仍能精準識別出各版本間的繼承關係。",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "mkoryak",
@@ -2731,7 +2731,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Researchers tracked 43 port versions derived from the 1997 DOOM source code by analyzing \"code shape,\" such as function length, branch frequency, and calling relationships. Even when function names are modified or code is translated into different languages, these fingerprint-like structural features can accurately identify the inheritance relationships between versions."
   },
   "50371408": {
    "id": 50371408,
@@ -2743,11 +2743,11 @@
    "by": "colejohnson66",
    "posted_at": "2026-11-04T20:57:10+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "XSLT 的死期將至",
-   "summary_zh": "這篇文章批評 Google 決定在瀏覽器中移除 XSLT 支援的做法，認為這破壞了網頁標準長期以來維護的向下相容性與社群契約，並諷刺瀏覽器廠商將責任推給網站維護者的作法相當傲慢。",
-   "translated_at": "2026-11-05T01:59:11+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "XSLT 的終結：Google 決定停止瀏覽器支援",
+   "summary_zh": "Google 計劃於 2026 年 11 月在 Chromium 系列瀏覽器中移除對 XSLT 的支援，此舉打破了網頁標準長期以來維持向後相容性（backwards compatibility）的社會契約。開發者批評 Google 透過注入警告標語並強行終結舊有技術，將導致許多依賴 XSLT 的現有網站無法正常運作。",
+   "translated_at": "2026-11-05T14:34:13+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "codedokode",
@@ -2773,7 +2773,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Google plans to remove XSLT support from Chromium-based browsers in November 2026, a move that breaks the long-standing social contract of maintaining backwards compatibility in web standards. Developers criticize Google for injecting warning banners and forcibly ending legacy technology, which will cause many existing websites relying on XSLT to stop functioning correctly."
   },
   "50356791": {
    "id": 50356791,
@@ -2785,11 +2785,11 @@
    "by": "NaOH",
    "posted_at": "2026-11-03T19:16:23+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "好奇心對我們是好的嗎？",
-   "summary_zh": "這篇文章從精神分析與超我（Superego）的概念出發，探討人類對於自我控制、本能欲望以及社會權威之間的矛盾心理，並反思本質主義對人性的定義與形塑。",
-   "translated_at": "2026-11-05T01:59:11+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "好奇心對我們有益嗎？",
+   "summary_zh": "本文探討心理分析中關於「超我（superego）」與人類本性的辯論，分析我們為何傾向於尋求權威控制。文中指出，無論是將人性視為良善或邪惡，這種本質論往往成為一種強制性的控制手段。",
+   "translated_at": "2026-11-05T14:35:30+00:00",
+   "model": "gemini-3.1-flash-lite",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "h4kunamata",
@@ -2815,7 +2815,7 @@
    "last_seen": "2026-11-05T01:58:04+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "This article explores the psychoanalytic debate surrounding the 'superego' and human nature, analyzing why we tend to seek authority control. It points out that whether human nature is viewed as benign or malign, such essentialism often becomes a form of coercive control."
   },
   "50367653": {
    "id": 50367653,
@@ -2827,11 +2827,11 @@
    "by": "theanonymousone",
    "posted_at": "2026-11-04T16:11:33+00:00",
    "first_seen": "2026-11-05T01:58:04+00:00",
-   "title_zh": "「只有電子菸、美甲與慈善商店」：有什麼能拯救英國的商業街嗎？",
-   "summary_zh": "探討英國傳統商業街面臨郊外大型零售園區與電子商務的競爭而逐漸沒落的現象，許多市中心店面空置，取而代之的是電子菸店與慈善商店，突顯出零售生態的劇烈轉變。",
-   "translated_at": "2026-11-05T01:59:11+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 0,
+   "title_zh": "「只有電子菸、美甲與慈善商店」：有什麼能拯救英國的商業街？",
+   "summary_zh": "英國傳統商業街正面臨嚴重衰退，消費者轉向大型零售園區，導致市中心空置率攀升。當地商店逐漸被電子菸店、美甲店與慈善商店取代，引發對社區連結與經濟活力的擔憂。",
+   "translated_at": "2026-11-05T14:35:30+00:00",
+   "model": "gemini-3.1-flash-lite",
+   "translate_tries": 1,
    "comments": [
     {
      "by": "guystone",
@@ -2857,7 +2857,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Traditional UK high streets are facing a severe decline as consumers shift toward large retail parks, leading to rising vacancy rates in town centers. Local shops are increasingly being replaced by vape shops, nail salons, and charity shops, raising concerns about community connection and economic vitality."
   },
   "50375354": {
    "id": 50375354,
@@ -2878,11 +2878,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 278,
+   "score": 287,
    "comments_count": 53,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 6,
+   "rank": 7,
    "summary_en": "This is an experimental project that recreates the classic game Lemmings using CSS animations, where characters navigate through lines of text and adjust their paths based on window size. The developer cleverly utilizes text reflow characteristics to allow characters to dynamically drop from one line to another and interact with web elements."
   },
   "50375728": {
@@ -2895,11 +2895,11 @@
    "by": "zdw",
    "posted_at": "2026-11-05T05:59:13+00:00",
    "first_seen": "2026-11-05T09:09:47+00:00",
-   "title_zh": "想租用白宮的 IP 位址？",
-   "summary_zh": "資安研究人員發現，美國白宮多名員工的裝置安裝了住宅代理（residential proxy）軟體，導致白宮網路內部的網際網路通訊協定（IP）位址可被外部付費租用。部分代理服務甚至與曾攻擊美國選務系統的俄羅斯主機商有關，可能被惡意份子用來隱匿身分或滲透內部網路。這暴露出員工攜帶個人裝置進入職場時，若缺乏管控制度將帶來嚴重的資安漏洞。",
-   "translated_at": "2026-11-05T09:10:56+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "想租用白宮的網路位址嗎？",
+   "summary_zh": "資安專家發現白宮網路位址區塊存在住宅代理（residential proxy）節點，允許外部使用者透過白宮網路進行流量轉發。此現象不僅暴露了安全風險，更顯示任何人都能輕易租用這些受信任的網路位址進行匿名活動。",
+   "translated_at": "2026-11-05T14:35:30+00:00",
+   "model": "gemini-3.1-flash-lite",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
@@ -2909,7 +2909,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Security experts have discovered residential proxy nodes within the White House IP address block, allowing external users to route traffic through the White House network. This phenomenon not only exposes security risks but also shows that anyone can easily rent these trusted network addresses for anonymous activities."
   },
   "50340195": {
    "id": 50340195,
@@ -2930,11 +2930,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 76,
-   "comments_count": 42,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 79,
+   "comments_count": 43,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 10,
+   "rank": 13,
    "summary_en": "The Zig language has implemented \"Partial Operator Precedence\" in its latest version, requiring parentheses for certain ambiguous operator combinations. This change aims to reduce the number of complex rules programmers need to memorize; if the operator precedence is unclear, the compiler will issue an error and guide the user to fix it."
   },
   "50375653": {
@@ -2956,11 +2956,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 46,
+   "score": 47,
    "comments_count": 15,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 20,
+   "rank": 26,
    "summary_en": "Altera announced the launch of the new Agilex 2X series, providing a complete portfolio of Field Programmable Gate Array (FPGA) and System-on-Chip (SoC) product solutions. (Content unavailable; summarized based on title only.)"
   },
   "50349992": {
@@ -2973,11 +2973,11 @@
    "by": "SweetSoftPillow",
    "posted_at": "2026-11-03T09:51:39+00:00",
    "first_seen": "2026-11-05T09:09:47+00:00",
-   "title_zh": "晶片藝術：刻在矽晶圓上的微型塗鴉",
-   "summary_zh": "晶片藝術（Chip Art）是指微電子工程師在積體電路（IC）的空閒空間中，利用微影技術刻製的微觀圖案或個人簽名。早期的晶片塗鴉具有防範未經授權抄襲的硬體浮水印功能，雖然現行著作權法已自動保護晶片佈局，這項傳統依然作為工程師表達創意與隱藏彩蛋的文化延續至今。",
-   "translated_at": "2026-11-05T09:10:56+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "晶片藝術",
+   "summary_zh": "晶片藝術是指在積體電路（IC）的未使用空間中刻畫的微小圖案，這些圖案需透過顯微鏡才能看見。早期工程師利用這些圖案作為防盜版的水印，現今則多為工程師簽名或表達個人創意的趣味設計。",
+   "translated_at": "2026-11-05T14:35:30+00:00",
+   "model": "gemini-3.1-flash-lite",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
@@ -2987,7 +2987,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "Chip art refers to microscopic artwork etched into unused spaces on integrated circuits (ICs), which can only be seen through a microscope. Early engineers used these as watermarks to prevent copyright infringement, while today they are mostly fun designs for engineers to sign their work or express creativity."
   },
   "50341576": {
    "id": 50341576,
@@ -3008,11 +3008,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 165,
-   "comments_count": 22,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 177,
+   "comments_count": 23,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 12,
+   "rank": 16,
    "summary_en": "This article introduces how to use Three.js and fluid simulation algorithms to render the spreading effect of liquid foundation on the web. The author explains in detail how to calculate liquid thickness and opacity using velocity maps and height maps, performing the rendering within fragment shaders."
   },
   "50364860": {
@@ -3025,11 +3025,11 @@
    "by": "frostbyte7",
    "posted_at": "2026-11-04T12:51:51+00:00",
    "first_seen": "2026-11-05T09:09:47+00:00",
-   "title_zh": "我的網際網路服務提供者劫持了我的 DNS 查詢",
-   "summary_zh": "作者發現其網際網路服務提供者（ISP）未經允許即劫持並竄改其域名系統（DNS）的查詢請求。（無法取得原文內容，僅依標題判斷）",
-   "translated_at": "2026-11-05T09:10:56+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "我的網路服務供應商劫持了我的 DNS",
+   "summary_zh": "作者發現其網路服務供應商（ISP）在未經授權的情況下劫持了網域名稱系統（DNS）查詢，並詳細說明了偵測與解決此類網路干擾的方法。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T14:35:30+00:00",
+   "model": "gemini-3.1-flash-lite",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
@@ -3039,7 +3039,7 @@
    "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "The author discovers that their Internet Service Provider (ISP) has been hijacking Domain Name System (DNS) queries without authorization and details methods for detecting and resolving such network interference. (Content unavailable, inferred from title only)"
   },
   "50349165": {
    "id": 50349165,
@@ -3063,8 +3063,8 @@
    "score": 59,
    "comments_count": 17,
    "last_seen": "2026-11-05T14:12:14+00:00",
-   "on_front_page": true,
-   "rank": 27,
+   "on_front_page": false,
+   "rank": null,
    "summary_en": "The Mbed TLS development team has announced that current maintainers will cease their involvement in the development and maintenance of the TLS and X.509 libraries in April 2027. If no new maintainers or organizations take over by then, the project will stop responding to security incidents, issuing security fixes, and releasing new versions."
   },
   "50378228": {
@@ -3086,9 +3086,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 514,
-   "comments_count": 134,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 619,
+   "comments_count": 173,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
    "rank": 1,
    "summary_en": "This article explores a vulnerability where musl libc returns an asterisk \"*\" character during long password processing or errors, potentially bypassing Secure Shell (SSH) authentication if it matches the account lock marker in /etc/shadow. The flaw stems from conflicts between legacy Unix design and modern implementations, affecting various systems including Alpine Linux."
@@ -3112,11 +3112,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 104,
-   "comments_count": 59,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 112,
+   "comments_count": 63,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 2,
+   "rank": 4,
    "summary_en": "Baidu has introduced ERNIE-5.5-Flash-Base, a base model utilizing a Mixture-of-Experts (MoE) architecture with 280 billion parameters, pre-trained on 33.5 trillion tokens. The model supports a context length of up to 1 million tokens, aiming to provide an efficient and cost-effective starting point for domain adaptation and instruction tuning."
   },
   "50377976": {
@@ -3138,9 +3138,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 48,
+   "score": 67,
    "comments_count": 3,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
    "rank": 3,
    "summary_en": "OpenSSH has released an emergency update to address a password authentication bypass vulnerability occurring on Linux systems without Pluggable Authentication Modules (PAM) support. The development team noted a surge in vulnerability reports assisted by Artificial Intelligence (AI), leading to a decision to increase release frequency for faster patching."
@@ -3164,11 +3164,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 114,
-   "comments_count": 57,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 128,
+   "comments_count": 65,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 5,
+   "rank": 6,
    "summary_en": "Many \"Awesome\" repositories on GitHub are becoming filled with outdated information due to lack of maintenance and are increasingly plagued by AI-generated low-quality content and spam pull requests (PRs). The author argues that instead of relying on these degrading curated lists, asking AI models directly often yields more timely and accurate recommendations."
   },
   "50376313": {
@@ -3190,11 +3190,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 47,
-   "comments_count": 16,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 57,
+   "comments_count": 19,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 13,
+   "rank": 15,
    "summary_en": "OpenAI researchers found that the new Astra model exhibits performance degradation, such as adding unnecessary prerequisites or abandoning viable solutions, when handling safety and alignment tasks. Experiments show that the model performs significantly worse when tasks are framed as safety research compared to general capability tasks, a tendency that intensified after the reinforcement learning (RL) phase."
   },
   "50377221": {
@@ -3216,11 +3216,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 125,
-   "comments_count": 44,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 129,
+   "comments_count": 45,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 16,
+   "rank": 20,
    "summary_en": "OpenSSH has released version 10.6p2, which primarily includes a workaround for a critical security vulnerability. (Content unavailable; summary based on title only.)"
   },
   "50375691": {
@@ -3242,11 +3242,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 65,
-   "comments_count": 20,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 69,
+   "comments_count": 27,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 17,
+   "rank": 18,
    "summary_en": "The author reflects on starting their game development journey in the late 1990s and early 2000s using tools like The Games Factory, despite limited resources and an ADHD diagnosis. It describes the longing for computers during the early dial-up era and the growth process from creating simple animations to full game development."
   },
   "50352846": {
@@ -3268,11 +3268,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 40,
-   "comments_count": 17,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 44,
+   "comments_count": 18,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 22,
+   "rank": 23,
    "summary_en": "The author compares macOS's built-in TextEdit and Pages, explaining why he chooses the latter for occasional non-plain-text documents despite the former's lightweight nature. Pages' advantages include a hideable toolbar, finer zoom control, and support for custom templates, allowing for more efficient handling of formatting needs."
   },
   "50343293": {
@@ -3294,11 +3294,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 52,
+   "score": 55,
    "comments_count": 11,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 24,
+   "rank": 25,
    "summary_en": "This article introduces a Ruby technique using default argument assignment to distinguish between 'no argument provided' and 'passing nil or false' in function calls. By using value = (nothing_provided = true) in parameter definitions, developers can elegantly implement methods that serve as both getters and setters without creating extra constant objects."
   },
   "50366465": {
@@ -3322,9 +3322,9 @@
    "comment_tries": 0,
    "score": 15,
    "comments_count": 2,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 25,
+   "rank": 30,
    "summary_en": "TScert is a research project that aims to verify the type-safety of TypeScript functions using the Lean proof language. It addresses soundness vulnerabilities in the native TypeScript compiler, such as those involving array indexing or type assertions, ensuring that code execution within a formal model remains free of type errors."
   },
   "50345195": {
@@ -3337,11 +3337,11 @@
    "by": "setheron",
    "posted_at": "2026-11-02T22:53:52+00:00",
    "first_seen": "2026-11-05T13:53:35+00:00",
-   "title_zh": "用條件分支構成的時鐘：確定性虛擬機的計數機制",
-   "summary_zh": "說明在建構可重播的確定性虛擬機（deterministic VM）時，為何無法直接使用宿主機的實際時間（wall-clock time）作為時間基準。為了使每次執行都能精確重演，虛擬機改以 CPU 指令流進度來衡量時間。相較於受外部中斷影響而起伏的指令總計數，計算已執行的「條件分支（conditional branch）」次數能夠提供完全穩定且可重複的計數基準。",
-   "translated_at": "2026-11-05T13:59:08+00:00",
-   "model": "gemini-3.6-flash",
-   "translate_tries": 0,
+   "title_zh": "由分支構成的時鐘",
+   "summary_zh": "在開發確定性虛擬機器（deterministic VM）時，如何精確衡量時間是關鍵挑戰。作者比較了以系統呼叫為基準的「退出時間」與以條件分支指令為基準的「計數時間」，並探討為何後者在重現程式執行狀態時更為可靠。",
+   "translated_at": "2026-11-05T14:35:30+00:00",
+   "model": "gemini-3.1-flash-lite",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
@@ -3351,7 +3351,7 @@
    "last_seen": "2026-11-05T13:53:35+00:00",
    "on_front_page": false,
    "rank": null,
-   "summary_en": null
+   "summary_en": "When developing a deterministic virtual machine (VM), accurately measuring time is a key challenge. The author compares 'exit time,' based on system calls, with 'counter time,' based on conditional branch instructions, and explores why the latter is more reliable for reproducing program execution states."
   },
   "50378625": {
    "id": 50378625,
@@ -3372,11 +3372,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 31,
-   "comments_count": 9,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "score": 60,
+   "comments_count": 32,
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 11,
+   "rank": 8,
    "summary_en": "Discord announced it is migrating its desktop application from the Electron framework to the Rust programming language to improve performance and reduce system resource consumption. According to a screenshot shared by the CTO, the new Windows client uses only about 290MB of RAM, significantly lower than the current version which often exceeds 1GB."
   },
   "50378398": {
@@ -3399,11 +3399,115 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
+   "score": 11,
+   "comments_count": 5,
+   "last_seen": "2026-11-05T14:30:43+00:00",
+   "on_front_page": true,
+   "rank": 9
+  },
+  "50379249": {
+   "id": 50379249,
+   "title": "MCP Explained",
+   "url": "https://mcp-explained.com/",
+   "domain": "mcp-explained.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50379249",
+   "is_hn_post": false,
+   "by": "rwilinski",
+   "posted_at": "2026-11-05T14:08:35+00:00",
+   "first_seen": "2026-11-05T14:30:43+00:00",
+   "title_zh": "MCP 協定解析",
+   "summary_zh": "深入探討模型上下文協定（Model Context Protocol, MCP）的技術細節，釐清規格書與實作工具之間的差異。說明用戶端與伺服器如何透過現有的工具清單與呼叫機制進行溝通，並強調部分實作細節並非協定本身的一部分。",
+   "summary_en": "Delves into the technical details of the Model Context Protocol (MCP), clarifying the differences between the specification and implementation tools. It explains how clients and servers communicate through existing tool listing and calling mechanisms, emphasizing that some implementation details are not part of the protocol itself.",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 25,
+   "comments_count": 4,
+   "last_seen": "2026-11-05T14:30:43+00:00",
+   "on_front_page": true,
+   "rank": 2
+  },
+  "50378571": {
+   "id": 50378571,
+   "title": "Download your favourite YouTube videos",
+   "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+   "domain": "criminallyvulgar.dev",
+   "hn_url": "https://news.ycombinator.com/item?id=50378571",
+   "is_hn_post": false,
+   "by": "surprisetalk",
+   "posted_at": "2026-11-05T13:00:11+00:00",
+   "first_seen": "2026-11-05T14:30:43+00:00",
+   "title_zh": "為什麼你應該下載並收藏喜愛的 YouTube 影片",
+   "summary_zh": "呼籲使用者應自行下載並封存重要的 YouTube 影片，以應對網路內容隨時可能消失或被企業刪除的風險。介紹了使用 yt-dlp、Jellyfin 媒體伺服器以及 ytdl-sub 等工具來自動化下載、整理播放清單並進行轉碼的技術流程。",
+   "summary_en": "Urges users to download and archive important YouTube videos to counter the risk of online content disappearing or being deleted by corporations. It introduces a technical workflow using tools like yt-dlp, Jellyfin media server, and ytdl-sub to automate downloading, organizing playlists, and transcoding.",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 4,
+   "comments_count": 0,
+   "last_seen": "2026-11-05T14:30:43+00:00",
+   "on_front_page": true,
+   "rank": 14
+  },
+  "50378508": {
+   "id": 50378508,
+   "title": "Why This Obscure Audio Codec Is a Perfect Fit for the N64",
+   "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+   "domain": "phoboslab.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50378508",
+   "is_hn_post": false,
+   "by": "frostbyte7",
+   "posted_at": "2026-11-05T12:51:48+00:00",
+   "first_seen": "2026-11-05T14:30:43+00:00",
+   "title_zh": "為什麼這款冷門音訊編解碼器是 N64 主機的絕佳選擇",
+   "summary_zh": "探討如何在硬體資源極度受限的任天堂 64（N64）主機上實現高品質音訊，並介紹了超低複雜度編解碼器（Ultra Low Complexity Codec, ULC）。該編解碼器能在僅佔用 4% 處理器（CPU）效能的情況下，提供接近 Opus 品質的 44.1kHz 立體聲回放。",
+   "summary_en": "Explores how to achieve high-quality audio on the resource-constrained Nintendo 64 (N64) console and introduces the Ultra Low Complexity Codec (ULC). This codec provides 44.1kHz stereo playback with quality near Opus while consuming only 4% of CPU performance.",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
    "score": 5,
    "comments_count": 0,
-   "last_seen": "2026-11-05T14:12:14+00:00",
+   "last_seen": "2026-11-05T14:30:43+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 22
+  },
+  "50378942": {
+   "id": 50378942,
+   "title": "I wish tech companies knew more about me",
+   "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+   "domain": "rakhim.exotext.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50378942",
+   "is_hn_post": false,
+   "by": "freetonik",
+   "posted_at": "2026-11-05T13:40:52+00:00",
+   "first_seen": "2026-11-05T14:30:43+00:00",
+   "title_zh": "我希望科技公司能真正了解我的需求",
+   "summary_zh": "反思當前大數據與廣告追蹤技術的低效，指出儘管科技公司收集了大量個資，推薦系統卻經常推送已購買的商品或錯誤語言的內容。作者列舉了 Google、Spotify 與 PlayStation 等平台在個人化體驗上的失敗，認為目前的演算法仍無法精準掌握使用者的真實意圖。",
+   "summary_en": "Reflects on the inefficiency of current big data and ad tracking technologies, pointing out that despite tech companies collecting vast amounts of personal data, recommendation systems often push already purchased items or content in the wrong language. The author lists failures in personalized experiences across platforms like Google, Spotify, and PlayStation, arguing that current algorithms still fail to accurately grasp user intent.",
+   "translated_at": "2026-11-05T14:32:58+00:00",
+   "model": "gemini-3-flash-preview",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 13,
+   "comments_count": 0,
+   "last_seen": "2026-11-05T14:30:43+00:00",
+   "on_front_page": true,
+   "rank": 27
   }
  }
 }
