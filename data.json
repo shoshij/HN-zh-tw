@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T01:59:11+00:00",
+ "updated_at": "2026-11-05T09:21:56+00:00",
  "stories": {
   "50364336": {
    "id": 50364336,
@@ -36,11 +36,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 1068,
-   "comments_count": 635,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "score": 1176,
+   "comments_count": 684,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 5
+   "rank": 19
   },
   "50362905": {
    "id": 50362905,
@@ -1266,11 +1266,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 258,
-   "comments_count": 190,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "score": 300,
+   "comments_count": 227,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 25
   },
   "50366860": {
    "id": 50366860,
@@ -1348,11 +1348,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 184,
-   "comments_count": 60,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "score": 237,
+   "comments_count": 72,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 20
+   "rank": 26
   },
   "50365516": {
    "id": 50365516,
@@ -1420,11 +1420,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 43,
-   "comments_count": 69,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "score": 89,
+   "comments_count": 105,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 26
+   "rank": 27
   },
   "50366117": {
    "id": 50366117,
@@ -1461,11 +1461,11 @@
    "comments_done": true,
    "comments_at": "2026-11-04T21:44:40+00:00",
    "comment_tries": 1,
-   "score": 120,
-   "comments_count": 144,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "score": 313,
+   "comments_count": 332,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 18
   },
   "50371246": {
    "id": 50371246,
@@ -1482,13 +1482,29 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 645,
-   "comments_count": 211,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "btown",
+     "url": "https://news.ycombinator.com/item?id=50371633",
+     "summary_zh": "評論者指出這些遭入侵的裝置目前雖被用於較溫和的營利目的，但若具備命令與控制（Command and Control, C2）能力，可能會被指派執行更危險的任務，也讓人聯想到政治人物將手機帶入敏感資訊隔離設施（SCIF）的疑慮。"
+    },
+    {
+     "by": "dhosek",
+     "url": "https://news.ycombinator.com/item?id=50372737",
+     "summary_zh": "評論者根據數據顯示的活動時間指出，流量大多發生於晚間且極少在清晨，代表這並非公共訪客網路，而是極少數特定留在白宮的個人裝置感染了代理軟體開發套件（SDK）。"
+    },
+    {
+     "by": "lakeviewterrace",
+     "url": "https://news.ycombinator.com/item?id=50371970",
+     "summary_zh": "評論者質疑該研究並沒有物理證據證明流量來自白宮內部，認為可能只是研究實驗室或媒體訪客網路，這篇部落格文章只是業者在宣傳剛成立一週的新服務。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 1009,
+   "comments_count": 312,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
    "rank": 1
   },
@@ -1507,15 +1523,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 164,
-   "comments_count": 94,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "tw04",
+     "url": "https://news.ycombinator.com/item?id=50372236",
+     "summary_zh": "評論者根據在拖拉機上使用 LED 燈具的經驗，表示昆蟲依然會大量圍繞 LED 燈旋轉，認為文章作者可能將昆蟲總量的急劇減少誤判為對燈光行為的改變。"
+    },
+    {
+     "by": "mahboi",
+     "url": "https://news.ycombinator.com/item?id=50371679",
+     "summary_zh": "評論者指出自家戶外的白色 LED 燈仍會吸引大量蜜蜂死在門口，並補充可調色的聚光燈在切換至偏藍紫光時會發出紫外線（UV），進而引誘昆蟲。"
+    },
+    {
+     "by": "gopalv",
+     "url": "https://news.ycombinator.com/item?id=50370896",
+     "summary_zh": "評論者提出假說，認為昆蟲能看到脈衝寬度調變（PWM）電源控制器帶來的快速閃爍，使得某些具備微調或節能漸亮功能的 LED 燈對昆蟲產生了驅離效果。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 246,
+   "comments_count": 127,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 13
   },
   "50369925": {
    "id": 50369925,
@@ -1532,15 +1564,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 223,
-   "comments_count": 79,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "advael",
+     "url": "https://news.ycombinator.com/item?id=50370633",
+     "summary_zh": "評論者諷刺「最先進技術（SOTA）」的定義被過度限縮，如今演變成必須限定在「美國本土開發」且「特定大小」的開放權重模型才能稱為 SOTA。"
+    },
+    {
+     "by": "stewartpark",
+     "url": "https://news.ycombinator.com/item?id=50371154",
+     "summary_zh": "評論者認為 65B 的密集模型（dense model）難以在消費級硬體順暢執行，主要目標客戶應是擁有龐大硬體資源且希望在隔離網路中保護晶片設計智慧財產權（IP）的企业。"
+    },
+    {
+     "by": "wmf",
+     "url": "https://news.ycombinator.com/item?id=50370515",
+     "summary_zh": "評論者對該發布表示祝賀，但同時指出文中完全未提及其他開放權重模型，這樣的做法並不妥當。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 287,
+   "comments_count": 103,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 10
   },
   "50369106": {
    "id": 50369106,
@@ -1557,15 +1605,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 230,
-   "comments_count": 95,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "modulovalue",
+     "url": "https://news.ycombinator.com/item?id=50370463",
+     "summary_zh": "評論者提到正在 Dart 中改善單指令多資料（SIMD）的支援，若能透過結構模式（schema）生成高效的剖析器，就能在維持靜態型別安全模型的同時達到 simdjson 的處理效能。"
+    },
+    {
+     "by": "CamouflagedKiwi",
+     "url": "https://news.ycombinator.com/item?id=50369853",
+     "summary_zh": "評論者讚許 `encoding/json/v2` 的推出，但也遺憾 `MarshalIndent` 被移除，因為替代程式碼非常複雜，在快速除錯或格式化輸出時相當不便。"
+    },
+    {
+     "by": "brunoborges",
+     "url": "https://news.ycombinator.com/item?id=50371995",
+     "summary_zh": "評論者引述文章中「JSON 是簡單資料交換格式」的說法，諷刺地指出如果 JSON 真的簡單，各程式語言早就完美解決其解析問題了。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 304,
+   "comments_count": 140,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 10
+   "rank": 14
   },
   "50368626": {
    "id": 50368626,
@@ -1582,15 +1646,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 174,
-   "comments_count": 84,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "neuwirth",
+     "url": "https://news.ycombinator.com/item?id=50370121",
+     "summary_zh": "評論者指出該研究是基於其先前在 MARS 計畫發表的 VerInf 成果所建構，但對方幾乎完全沒有給予相應的引用與致謝。"
+    },
+    {
+     "by": "vessenes",
+     "url": "https://news.ycombinator.com/item?id=50368943",
+     "summary_zh": "評論者認為此研究是可驗證推論（provable inference）的良好開端，但也指出封閉模型供應商隱藏提示詞（prompt）的需求會阻礙該技術推廣，並呼籲研究者未來關注可驗證訓練資料集（provable training corpus）的難題。"
+    },
+    {
+     "by": "gopalv",
+     "url": "https://news.ycombinator.com/item?id=50368978",
+     "summary_zh": "評論者指出該驗證機制類似工作量證明（Proof-of-Work, PoW）般計算成本昂貴，並提到模型量子化（quantization）與長上下文處理技巧常會影響不同服務商提供同一模型的品質差異。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 215,
+   "comments_count": 99,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 15
+   "rank": 23
   },
   "50370654": {
    "id": 50370654,
@@ -1607,15 +1687,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 100,
-   "comments_count": 43,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "tokepi",
+     "url": "https://news.ycombinator.com/item?id=50371301",
+     "summary_zh": "評論者說明這張加速卡規格看似落後是因為它早在 2024 年就已發表，目前已能在 Cirrascale 等雲端服務業者平台上租用。"
+    },
+    {
+     "by": "WarOnPrivacy",
+     "url": "https://news.ycombinator.com/item?id=50375203",
+     "summary_zh": "評論者分享了該加速卡的雲端租用價格，指出整台伺服器月租高達數千美元，單張 GPU 每小時租金超過 5 美元，價格相當昂貴。"
+    },
+    {
+     "by": "thway15269037",
+     "url": "https://news.ycombinator.com/item?id=50371453",
+     "summary_zh": "評論者簡短詢問這張 AI 加速卡的實際售價是多少。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 143,
+   "comments_count": 56,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 12
+   "rank": 22
   },
   "50369895": {
    "id": 50369895,
@@ -1632,15 +1728,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 105,
-   "comments_count": 15,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "daniel_rh",
+     "url": "https://news.ycombinator.com/item?id=50370118",
+     "summary_zh": "作者分享歷經十年逆向工程分析記憶體的過程，成功把遊戲狀態與函式注入結合，並以 WebRTC 實作網路同步，讓玩家可以在瀏覽器中連線雙人合作重溫這款 DOS 經典遊戲。"
+    },
+    {
+     "by": "herodoturtle",
+     "url": "https://news.ycombinator.com/item?id=50376583",
+     "summary_zh": "評論者盛讚這是一個極具樂趣且出色的專案，正是他來到 Hacker News 想要看到的優質內容。"
+    },
+    {
+     "by": "EmX_3000",
+     "url": "https://news.ycombinator.com/item?id=50373926",
+     "summary_zh": "評論者回憶早期 8 位元時代透過比對磁碟與記憶體數值進行遊戲修改的經歷，認為作者的做法體現了早期的駭客精神與遊戲修改器的原理。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 172,
+   "comments_count": 22,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 20
   },
   "50368804": {
    "id": 50368804,
@@ -1657,15 +1769,31 @@
    "translated_at": "2026-11-04T21:43:43+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 70,
-   "comments_count": 26,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "vladgur",
+     "url": "https://news.ycombinator.com/item?id=50369710",
+     "summary_zh": "評論者表達對自動化剪輯的需求，希望有 AI 代理（agent）能協助整理並剪輯大量的舞蹈比賽與旅遊影片，並詢問 Kino 是否適合這類工作流程。"
+    },
+    {
+     "by": "krmmalik",
+     "url": "https://news.ycombinator.com/item?id=50370451",
+     "summary_zh": "評論者肯定團隊的產業經驗，並建議加入範本（template）功能，讓 AI 代理能依據固定的節目格式與社群短影音需求自動產出完整影片。"
+    },
+    {
+     "by": "moinism",
+     "url": "https://news.ycombinator.com/item?id=50369212",
+     "summary_zh": "同為 AI 影片工具開發者的評論者祝賀作者團隊，並強調打造代理式影片產品比社群媒體上誇大的宣傳要困難得多。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 87,
+   "comments_count": 33,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 14
+   "rank": 24
   },
   "50371370": {
    "id": 50371370,
@@ -1682,10 +1810,26 @@
    "translated_at": "2026-11-04T21:44:04+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "jvogt",
+     "url": "https://news.ycombinator.com/item?id=50372209",
+     "summary_zh": "質疑網站作者為新帳號且缺乏聯絡資訊，原始碼中又有以太坊（Ethereum）參照，擔心存有安全漏洞。不過作者隨後補充說明以太坊錯誤為第三方框架的已知問題。"
+    },
+    {
+     "by": "vorticalbox",
+     "url": "https://news.ycombinator.com/item?id=50371688",
+     "summary_zh": "回報在 iPhone 上執行時遇到 TypeError 錯誤，顯示無法存取 window.ethereum 的選取地址屬性。"
+    },
+    {
+     "by": "millspore",
+     "url": "https://news.ycombinator.com/item?id=50371881",
+     "summary_zh": "對一個擴增實境（AR）吉他應用程式竟然會進行以太坊錢包檢查的設計感到十分不解。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 9,
    "comments_count": 3,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1707,15 +1851,31 @@
    "translated_at": "2026-11-04T21:44:04+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "saidnooneever",
+     "url": "https://news.ycombinator.com/item?id=50370829",
+     "summary_zh": "認為過去的經歷不該完全定義一個人，只要對方友善就可以交朋友，且人在經歷監禁與反省後往往會產生改變，無須對未涉入的往事過度批判。"
+    },
+    {
+     "by": "BigTTYGothGF",
+     "url": "https://news.ycombinator.com/item?id=50370811",
+     "summary_zh": "提到 Edgar Smith 與 William Buckley 的歷史案例，希望這個故事最終不會再導致任何人受害。"
+    },
+    {
+     "by": "seizethecheese",
+     "url": "https://news.ycombinator.com/item?id=50371984",
+     "summary_zh": "推薦真實犯罪書籍《The Stranger Beside Me》，講述作者受託撰寫連續殺人犯專書時，意外發現嫌犯竟是自己朋友的真實故事。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 112,
    "comments_count": 60,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 29
+   "on_front_page": false,
+   "rank": null
   },
   "50365780": {
    "id": 50365780,
@@ -1732,15 +1892,31 @@
    "translated_at": "2026-11-04T21:44:04+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 186,
-   "comments_count": 61,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "frangonf",
+     "url": "https://news.ycombinator.com/item?id=50369691",
+     "summary_zh": "讚許騰訊坦承其開放權重模型（open-weight model）與頂尖專有模型仍有差距，並指出開放模型在作為一般 AI 工具時已相當實用。"
+    },
+    {
+     "by": "simonw",
+     "url": "https://news.ycombinator.com/item?id=50370062",
+     "summary_zh": "指出騰訊與專業遊戲團隊合作進行訓練是一大亮點，特別是針對 Unreal Engine、Unity 與 Godot 等主流遊戲引擎進行優化，並強化了多人遊戲開發能力。"
+    },
+    {
+     "by": "chriddyp",
+     "url": "https://news.ycombinator.com/item?id=50369676",
+     "summary_zh": "分享資料分析測試結果，指出 Hy4 雖然重返成本與準確度的優質前沿，但因分析極為深入且執行大量查詢，導致運行速度非常緩慢。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 238,
+   "comments_count": 88,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 24
+   "rank": 28
   },
   "50367125": {
    "id": 50367125,
@@ -1757,15 +1933,31 @@
    "translated_at": "2026-11-04T21:44:04+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "mickeyp",
+     "url": "https://news.ycombinator.com/item?id=50368310",
+     "summary_zh": "認為這主要反映了 Intel 發展的混亂而非 AMD 的重大突破，因為兩家公司在人工智慧（AI）領域都沒有展現出足夠的野心與硬體優勢。"
+    },
+    {
+     "by": "lawabider",
+     "url": "https://news.ycombinator.com/item?id=50367758",
+     "summary_zh": "分享過去伺服器記憶體（RAM）遭執法單位透過 Intel DCI 技術擷取加密金鑰的經歷，並認為 AMD 目前對於強化反鑑識的 Linux 核心較為友善。"
+    },
+    {
+     "by": "esFran",
+     "url": "https://news.ycombinator.com/item?id=50375239",
+     "summary_zh": "指出 AMD 是顯示晶片（GPU）市場中唯一能與 Nvidia 抗衡並拉低高昂價格的希望，並肯定其 ROCm 軟體生態系已大幅成熟。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 474,
    "comments_count": 174,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 28
+   "on_front_page": false,
+   "rank": null
   },
   "50369503": {
    "id": 50369503,
@@ -1782,15 +1974,31 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 106,
-   "comments_count": 143,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "Charlieholtz",
+     "url": "https://news.ycombinator.com/item?id=50370169",
+     "summary_zh": "身為專案共同創辦人，感謝 HN 社群自該專案於 2025 年 7 月發表以來的支持，並表示團隊會在線上解答疑問。"
+    },
+    {
+     "by": "juanre",
+     "url": "https://news.ycombinator.com/item?id=50376899",
+     "summary_zh": "宣傳自己開發的開源專案 aweb.ai，具備類似功能且能整合多種 AI 代理人（agent）並支援跨多台電腦進行團隊協作。"
+    },
+    {
+     "by": "brainless",
+     "url": "https://news.ycombinator.com/item?id=50374401",
+     "summary_zh": "質疑缺乏技術護城河的軟體收購價值，認為現今市場充斥類似的軟體解決方案，使用者需求與提示詞（prompt）遠比技術本身重要。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 173,
+   "comments_count": 181,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 13
+   "rank": 16
   },
   "50366999": {
    "id": 50366999,
@@ -1807,15 +2015,31 @@
    "translated_at": "2026-11-04T21:44:04+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 375,
-   "comments_count": 102,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "__jf__",
+     "url": "https://news.ycombinator.com/item?id=50367828",
+     "summary_zh": "指出運行該模型需要極高規格的伺服器硬體（如 8 顆 B300 節點），因此一般使用者仍會選擇在雙 RTX 顯示卡上執行較小的開放模型。"
+    },
+    {
+     "by": "segmondy",
+     "url": "https://news.ycombinator.com/item?id=50368507",
+     "summary_zh": "觀察到 K3.1 在部分測試的表現並未超越 DeepSeekV4.1-Flash，懷疑該模型可能針對特定基準測試進行過度優化。"
+    },
+    {
+     "by": "minimaxir",
+     "url": "https://news.ycombinator.com/item?id=50369602",
+     "summary_zh": "指出已有許多第三方推論服務提供者託管此模型且效能差異巨大，預期隨著競爭與優化，推論成本仍有大幅下降的空間。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 514,
+   "comments_count": 143,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 7
   },
   "50366929": {
    "id": 50366929,
@@ -1832,10 +2056,26 @@
    "translated_at": "2026-11-04T21:44:04+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "blue_green_maps",
+     "url": "https://news.ycombinator.com/item?id=50370093",
+     "summary_zh": "詢問這個電腦零件拆解估價工具是否與知名網站 PCPartPicker 類似。"
+    },
+    {
+     "by": "adlep",
+     "url": "https://news.ycombinator.com/item?id=50368570",
+     "summary_zh": "作者感謝社群回饋並說明這是自行資助的原型，同時預測未來因 AI 模型、機器人訓練與遊戲等需求熱絡，硬體供應將更緊縮且價格上漲。"
+    },
+    {
+     "by": "chrisgarand",
+     "url": "https://news.ycombinator.com/item?id=50369186",
+     "summary_zh": "回報使用時遇到的區域限制錯誤，經檢查發現該工具似乎是透過請求者的 IP 位址來限制使用區域。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 74,
    "comments_count": 52,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1857,10 +2097,26 @@
    "translated_at": "2026-11-04T21:44:40+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "WillAdams",
+     "url": "https://news.ycombinator.com/item?id=50374797",
+     "summary_zh": "推薦了多本童年閱讀過的古典密碼學書籍（如 Herbert S. Zim 與 Martin Gardner 的著作），並額外推薦關於解密外星語言的科幻小說《Omnilingual》。"
+    },
+    {
+     "by": "mlyle",
+     "url": "https://news.ycombinator.com/item?id=50371760",
+     "summary_zh": "推薦《碼書》（The Code Book）專為青少年讀者所改編的版本。"
+    },
+    {
+     "by": "yobananaboy",
+     "url": "https://news.ycombinator.com/item?id=50372724",
+     "summary_zh": "分享小時候啟蒙密碼學興趣的是小說《阿特米斯奇幻歷險》（Artemis Fowl），書中每頁底部的符號替換密碼解密過程非常有趣。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 5,
    "comments_count": 15,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1882,10 +2138,26 @@
    "translated_at": "2026-11-04T21:44:40+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "syntacticsalt",
+     "url": "https://news.ycombinator.com/item?id=50372747",
+     "summary_zh": "質疑 benchstat 在解釋曼-惠特尼 U 檢定（Mann-Whitney U test）時隱含了位置平移（location-shift）假設，且該假設在效能測試中未必成立。"
+    },
+    {
+     "by": "tsenart",
+     "url": "https://news.ycombinator.com/item?id=50369630",
+     "summary_zh": "對於終於有人將這項功能引進 Rust 感到非常興奮。"
+    },
+    {
+     "by": "jauntywundrkind",
+     "url": "https://news.ycombinator.com/item?id=50372235",
+     "summary_zh": "提到目前多使用 hyperfine 或 criterion，並指出該工具具備零依賴、執行緒區域堆積配置計數器（thread-local heap allocation counter）及 pprof 分析器整合等優點。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 24,
    "comments_count": 3,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1907,10 +2179,21 @@
    "translated_at": "2026-11-04T21:44:40+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "derektank",
+     "url": "https://news.ycombinator.com/item?id=50372548",
+     "summary_zh": "指出先前研究已發現馴化西伯利亞銀狐的下視丘（hypothalamus）基因表現有所改變，此研究進一步證實了結構性的變化，並好奇狼與狗或人類與黑猩猩的對比。"
+    },
+    {
+     "by": "trallnag",
+     "url": "https://news.ycombinator.com/item?id=50372571",
+     "summary_zh": "詢問是否已經在人類身上進行過類似的實驗。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 15,
    "comments_count": 3,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1932,10 +2215,26 @@
    "translated_at": "2026-11-04T21:44:40+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "skybrian",
+     "url": "https://news.ycombinator.com/item?id=50367750",
+     "summary_zh": "認為文件過於淺顯且部分內容疑似人工智慧（AI）生成，建議參考 Go 語言制定正式的規格書，並加強對記憶體模型（memory model）的說明。"
+    },
+    {
+     "by": "jordan_bonecut",
+     "url": "https://news.ycombinator.com/item?id=50366920",
+     "summary_zh": "作者表示這是利用 Claude 協助開發並經過嚴格程式碼審查（code review）的作品，目前仍在開發初期，希望能獲得其他開發者的回饋。"
+    },
+    {
+     "by": "heavensteeth",
+     "url": "https://news.ycombinator.com/item?id=50375504",
+     "summary_zh": "透過程式碼範例指出型別系統與所有權（ownership）處理上的潛在問題，例如 NonZero 型別的減法運算與字串位元組的存取錯誤。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 86,
    "comments_count": 79,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1957,10 +2256,26 @@
    "translated_at": "2026-11-04T21:44:40+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "dpkirchner",
+     "url": "https://news.ycombinator.com/item?id=50371829",
+     "summary_zh": "建議應透過法律或法規要求公司對其網站上顯示的廣告負責，若平台推廣詐騙內容應面臨罰款。"
+    },
+    {
+     "by": "beloch",
+     "url": "https://news.ycombinator.com/item?id=50372723",
+     "summary_zh": "提到人工智慧（AI）讓電話詐騙的語音模仿更逼真且成本更低，建議電信業者應利用 AI 技術來偵測並攔截詐騙電話機器人。"
+    },
+    {
+     "by": "smallmancontrov",
+     "url": "https://news.ycombinator.com/item?id=50371951",
+     "summary_zh": "認同應將法律責任轉移至廣告平台，並提到「垃圾桶（chum bucket）」一詞能有效幫助長輩理解並避免點擊低品質的誘導廣告。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 53,
    "comments_count": 13,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -1982,10 +2297,26 @@
    "translated_at": "2026-11-04T21:44:40+00:00",
    "model": "gemini-3.8-flash",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "velcrovan",
+     "url": "https://news.ycombinator.com/item?id=50372304",
+     "summary_zh": "對於法律聲明中「這只是通知而非爭論」的措辭感到反感。"
+    },
+    {
+     "by": "sheepscreek",
+     "url": "https://news.ycombinator.com/item?id=50372844",
+     "summary_zh": "建議使用者將業務轉移至其他平台，認為 Replit 已不再具備核心價值。"
+    },
+    {
+     "by": "MiguelSosa",
+     "url": "https://news.ycombinator.com/item?id=50371446",
+     "summary_zh": "提醒新條款會將爭議轉向私人仲裁並禁止集體訴訟，同時指出 Replit 的模型改進設定可能會在未經同意下收集使用者的提示詞（prompt）與程式碼。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 12,
    "comments_count": 0,
    "last_seen": "2026-11-04T21:42:02+00:00",
@@ -2007,15 +2338,31 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 94,
-   "comments_count": 82,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "DanHulton",
+     "url": "https://news.ycombinator.com/item?id=50373586",
+     "summary_zh": "批評官方展示的彩繪玻璃鯨魚圖片執行品質不佳，在光影反射與光源追蹤上顯得不自然。"
+    },
+    {
+     "by": "minimaxir",
+     "url": "https://news.ycombinator.com/item?id=50373156",
+     "summary_zh": "分析 SVG 支援可能是透過點陣圖轉向量圖（raster-to-vector）工具達成，並指出新版本生成速度提升了 50%，但價格維持不變。"
+    },
+    {
+     "by": "preommr",
+     "url": "https://news.ycombinator.com/item?id=50374877",
+     "summary_zh": "認為人工智慧（AI）圖像生成技術已進入高原期，進步幅度遠不如程式碼生成領域。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 280,
+   "comments_count": 168,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 2
+   "rank": 4
   },
   "50372929": {
    "id": 50372929,
@@ -2032,15 +2379,31 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 98,
-   "comments_count": 61,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "darkamaul",
+     "url": "https://news.ycombinator.com/item?id=50376894",
+     "summary_zh": "好奇受影響的子系統分布、漏洞程式碼的平均年齡及漏洞類型，以便評估這些經驗是否能應用於其他程式碼庫。"
+    },
+    {
+     "by": "halz",
+     "url": "https://news.ycombinator.com/item?id=50376895",
+     "summary_zh": "推測這項研究促成了核心（kernel）功能 TAINT_FORCED_BIND 的加入，用以防止驅動程式被隨意綁定至裝置的模糊測試（fuzzing）攻擊。"
+    },
+    {
+     "by": "vjerancrnjak",
+     "url": "https://news.ycombinator.com/item?id=50376473",
+     "summary_zh": "認為軟體設計缺陷是安全漏洞的主因，與其逐一修補，不如透過改變整體設計來消除整類安全漏洞。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 314,
+   "comments_count": 225,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 3
+   "rank": 5
   },
   "50373308": {
    "id": 50373308,
@@ -2057,15 +2420,31 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 62,
-   "comments_count": 24,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "tagami",
+     "url": "https://news.ycombinator.com/item?id=50374535",
+     "summary_zh": "分享在國際太空站（ISS）執行任務的經驗，指出微重力（microgravity）環境對於流體力學、基因變化及類器官（organoids）研究具有重大價值。"
+    },
+    {
+     "by": "syntaxing",
+     "url": "https://news.ycombinator.com/item?id=50373904",
+     "summary_zh": "對於太空資料中心持懷疑態度，但認為太空的極高真空環境非常適合進行分子束磊晶（MBE）等半導體（semiconductor）製程。"
+    },
+    {
+     "by": "areoform",
+     "url": "https://news.ycombinator.com/item?id=50374509",
+     "summary_zh": "提到微重力環境能讓藥物結晶更加均勻完美，例如癌症藥物 Keytruda 的結晶優化，使其能轉化為可在居家使用的安全注射劑。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 212,
+   "comments_count": 146,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 21
   },
   "50373149": {
    "id": 50373149,
@@ -2082,15 +2461,31 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "anonymous908213",
+     "url": "https://news.ycombinator.com/item?id=50373961",
+     "summary_zh": "認為 Luna 模型品質極差且被過度誇大，目前僅有 Sol Max 勉強達到可用門檻；若有開發人員進行人工審查（human-in-the-loop），100 美元方案的容量幾乎足夠無限使用。"
+    },
+    {
+     "by": "socketcluster",
+     "url": "https://news.ycombinator.com/item?id=50373747",
+     "summary_zh": "指出當程式碼庫（codebase）變大時，人工智慧代理（AI agent）容易因時間壓力而漏看既有的函式或資料庫表單並重複建立；因此保持程式碼簡潔、專一職責劃分（separation of concerns）等原則依然關鍵。"
+    },
+    {
+     "by": "jemiluv8",
+     "url": "https://news.ycombinator.com/item?id=50376643",
+     "summary_zh": "質疑原文章提到代理會隨機刪除檔案等描述過於誇張，認為這更像是引導模型（steering）的技巧問題而非模型的限制。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 22,
    "comments_count": 19,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 7
+   "on_front_page": false,
+   "rank": null
   },
   "50372164": {
    "id": 50372164,
@@ -2107,15 +2502,26 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 61,
-   "comments_count": 2,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "ElCapitanMarkla",
+     "url": "https://news.ycombinator.com/item?id=50372305",
+     "summary_zh": "分享自己剛好花了 50 美元購入二手 Xbox 360，並成功透過 BadUpdate 1.3 破解，孩子玩得很開心。"
+    },
+    {
+     "by": "LocalH",
+     "url": "https://news.ycombinator.com/item?id=50374236",
+     "summary_zh": "提到自己曾協助逆向工程《Rock Band》遊戲引擎，樂見相關知識能幫助社群推出免費開放原始碼（open source）替代方案並打擊黃牛。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 110,
+   "comments_count": 10,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 17
   },
   "50342219": {
    "id": 50342219,
@@ -2132,15 +2538,21 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "axiologist",
+     "url": "https://news.ycombinator.com/item?id=50374448",
+     "summary_zh": "提供 PageScribe 外掛程式在 GitHub 上的開放原始碼專案連結。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 8,
    "comments_count": 0,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 16
+   "on_front_page": false,
+   "rank": null
   },
   "50338474": {
    "id": 50338474,
@@ -2157,15 +2569,31 @@
    "translated_at": "2026-11-05T01:58:35+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 70,
-   "comments_count": 121,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "comments": [
+    {
+     "by": "paxy",
+     "url": "https://news.ycombinator.com/item?id=50373356",
+     "summary_zh": "指出科技公司提出的 AI 應用忽略了消費者的價格敏感度，一般人點餐會多方比價，不會希望人工智慧代理未經精算就自動下單。"
+    },
+    {
+     "by": "Grombobulous",
+     "url": "https://news.ycombinator.com/item?id=50371236",
+     "summary_zh": "認為許多 AI 解決方案並沒有簡化流程，例如在記帳應用程式（app）中搜尋比與 AI 機器人對話更直接，還能避免消耗權杖（token）。"
+    },
+    {
+     "by": "marketgarden",
+     "url": "https://news.ycombinator.com/item?id=50376844",
+     "summary_zh": "從編劇的角度分析，認為人們不願讓大型語言模型（LLM）代訂食物是因為飲食體驗帶有古老的人文意涵，剝奪這項參與感將失去生活的樂趣與創造力。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 133,
+   "comments_count": 242,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 30
   },
   "50371090": {
    "id": 50371090,
@@ -2182,15 +2610,21 @@
    "translated_at": "2026-11-05T01:59:11+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "esafak",
+     "url": "https://news.ycombinator.com/item?id=50372858",
+     "summary_zh": "糾正標題用語，認為 README 中描述的改善過程應屬於迭代（iteratively）而非遞迴（recursively），但仍感謝作者分享這款命令列介面（CLI）工具。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 16,
    "comments_count": 3,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 22
+   "on_front_page": false,
+   "rank": null
   },
   "50339183": {
    "id": 50339183,
@@ -2207,15 +2641,31 @@
    "translated_at": "2026-11-05T01:59:11+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "mkoryak",
+     "url": "https://news.ycombinator.com/item?id=50376172",
+     "summary_zh": "認為該文章文案顯然是由人工智慧助理 Claude 所撰寫，因此不打算閱讀。"
+    },
+    {
+     "by": "socalgal2",
+     "url": "https://news.ycombinator.com/item?id=50376448",
+     "summary_zh": "指出《毀滅戰士》（DOOM）畫面多邊形數量極少且架構並不複雜，將其移植至不同平台並無法說明程式碼結構如何跨版本存活。"
+    },
+    {
+     "by": "boomlinde",
+     "url": "https://news.ycombinator.com/item?id=50375516",
+     "summary_zh": "批評文章使用了大量模糊的比喻（如 wiring 與 signal）而未清晰定義技術細節，且某些統計結論缺乏論證，讓人難以理解與信服。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 25,
    "comments_count": 14,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 23
+   "on_front_page": false,
+   "rank": null
   },
   "50371408": {
    "id": 50371408,
@@ -2232,15 +2682,31 @@
    "translated_at": "2026-11-05T01:59:11+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "codedokode",
+     "url": "https://news.ycombinator.com/item?id=50376893",
+     "summary_zh": "主張許多網頁標準（web standards）無需內建於瀏覽器中，改用 JavaScript 或 WebAssembly（WASM）函式庫實作能降低瀏覽器指紋追蹤（fingerprinting）的風險。"
+    },
+    {
+     "by": "kenferry",
+     "url": "https://news.ycombinator.com/item?id=50373307",
+     "summary_zh": "指出 XSLT 屬失敗且複雜的 XML 語法試驗，維護舊標準常帶來資安漏洞，瀏覽器開發團隊應將資源集中於使用者關心的功能。"
+    },
+    {
+     "by": "IFC_LLC",
+     "url": "https://news.ycombinator.com/item?id=50374161",
+     "summary_zh": "分享自己從 XML/XSLT 轉用 HTML 與 Markdown 的經歷，並詢問社群目前是否有不可替代的 XSLT 實務使用場景。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 44,
    "comments_count": 27,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 25
+   "on_front_page": false,
+   "rank": null
   },
   "50356791": {
    "id": 50356791,
@@ -2257,15 +2723,31 @@
    "translated_at": "2026-11-05T01:59:11+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "h4kunamata",
+     "url": "https://news.ycombinator.com/item?id=50374315",
+     "summary_zh": "認為保持好奇心是生活所必需，若停止對事物提問與質疑，就只是像羊群般麻木地生存著。"
+    },
+    {
+     "by": "frevib",
+     "url": "https://news.ycombinator.com/item?id=50375995",
+     "summary_zh": "分享了一篇文章連結，用以解釋體制與系統為何普遍排斥好奇心。"
+    },
+    {
+     "by": "GolfPopper",
+     "url": "https://news.ycombinator.com/item?id=50373079",
+     "summary_zh": "引用科幻小說的概念，諷刺地表示若想知道人們為何恐懼好奇心，可以派一艘飛船與船員前往外太空尋找答案。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
    "score": 16,
    "comments_count": 8,
    "last_seen": "2026-11-05T01:58:04+00:00",
-   "on_front_page": true,
-   "rank": 27
+   "on_front_page": false,
+   "rank": null
   },
   "50367653": {
    "id": 50367653,
@@ -2282,15 +2764,231 @@
    "translated_at": "2026-11-05T01:59:11+00:00",
    "model": "gemini-3.5-flash-lite",
    "translate_tries": 1,
+   "comments": [
+    {
+     "by": "guystone",
+     "url": "https://news.ycombinator.com/item?id=50373862",
+     "summary_zh": "商業街衰退的核心在於高昂租金與生活成本過高，導致缺乏創業與獨立小店生存的空間。地方政府應將商業街視為公共空間，優先扶持在地特色商家，而非任由連鎖企業與私有股權基金進駐。"
+    },
+    {
+     "by": "Lio",
+     "url": "https://news.ycombinator.com/item?id=50376294",
+     "summary_zh": "商業地產多被外資與空殼公司作為資產囤積，比起出租率更在乎帳面估值，導致租金居高不下。再加上跨境電商利用避稅策略與廉價商品競爭，實體店家根本無法抗衡。"
+    },
+    {
+     "by": "throwaway-blaze",
+     "url": "https://news.ycombinator.com/item?id=50374086",
+     "summary_zh": "指出文章忽視了治安與毒品問題對商業街的打擊，未提出改善社會安全的具體對策。同時質疑政府挹注的巨額資金恐流向無法真正解決問題的非營利組織。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-05T09:10:56+00:00",
+   "comment_tries": 1,
+   "score": 121,
+   "comments_count": 278,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 29
+  },
+  "50375354": {
+   "id": 50375354,
+   "title": "Lemmings CSS Animation",
+   "url": "https://markblah.github.io/lemmings/",
+   "domain": "markblah.github.io",
+   "hn_url": "https://news.ycombinator.com/item?id=50375354",
+   "is_hn_post": false,
+   "by": "MarkBlah",
+   "posted_at": "2026-11-05T04:54:10+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "用 CSS 動畫重現《旅鼠總動員》遊戲效果",
+   "summary_zh": "作者示範了利用 CSS 動畫模擬經典遊戲《旅鼠總動員（Lemmings）》的角色移動機制。網頁中的每一行文字都被設計為一層地板，角色可以在文字行間墜落與走動，並被邊框與圖片等元素阻擋。這個設計巧妙運用網頁排版結構，讓角色可以在元件之間流暢漫步。",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 62,
-   "comments_count": 142,
-   "last_seen": "2026-11-05T01:58:04+00:00",
+   "score": 145,
+   "comments_count": 32,
+   "last_seen": "2026-11-05T09:09:47+00:00",
    "on_front_page": true,
-   "rank": 30
+   "rank": 2
+  },
+  "50375728": {
+   "id": 50375728,
+   "title": "Want to Rent an Internet Address at the White House?",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "domain": "krebsonsecurity.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50375728",
+   "is_hn_post": false,
+   "by": "zdw",
+   "posted_at": "2026-11-05T05:59:13+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "想租用白宮的 IP 位址？",
+   "summary_zh": "資安研究人員發現，美國白宮多名員工的裝置安裝了住宅代理（residential proxy）軟體，導致白宮網路內部的網際網路通訊協定（IP）位址可被外部付費租用。部分代理服務甚至與曾攻擊美國選務系統的俄羅斯主機商有關，可能被惡意份子用來隱匿身分或滲透內部網路。這暴露出員工攜帶個人裝置進入職場時，若缺乏管控制度將帶來嚴重的資安漏洞。",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 47,
+   "comments_count": 5,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 3
+  },
+  "50340195": {
+   "id": 50340195,
+   "title": "Partial Operator Precedence",
+   "url": "https://ziglang.org/devlog/2026/#2026-10-24",
+   "domain": "ziglang.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50340195",
+   "is_hn_post": false,
+   "by": "tosh",
+   "posted_at": "2026-11-02T17:22:20+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "Zig 程式語言引進部分運算子優先順序機制",
+   "summary_zh": "Zig 程式語言在主分支版本中實現了新提案，針對容易混淆的運算子組合不再定義預設優先順序，改為要求編譯器（compiler）強制提示開發者加上括號。這項變更旨在降低閱讀程式碼時的記憶負擔，避免因複雜運算子順序產生邏輯誤判。開發者可透過手動修正或使用 zig fmt --upgrade 工具自動升級現有的程式碼專案。",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 27,
+   "comments_count": 9,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 6
+  },
+  "50375653": {
+   "id": 50375653,
+   "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+   "url": "https://www.altera.com/newsroom/agilex-2x",
+   "domain": "altera.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50375653",
+   "is_hn_post": false,
+   "by": "gmays",
+   "posted_at": "2026-11-05T05:47:14+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "Altera 發表 Agilex 2X 系列完整 FPGA 與 SoC 產品陣容",
+   "summary_zh": "Altera 宣布推出全新的 Agilex 2X 系列，提供完整的現場可程式化邏輯門陣列（FPGA）與晶片系統（SoC）產品陣容。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 24,
+   "comments_count": 9,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 8
+  },
+  "50349992": {
+   "id": 50349992,
+   "title": "Chip Art",
+   "url": "https://en.wikipedia.org/wiki/Chip_art",
+   "domain": "en.wikipedia.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50349992",
+   "is_hn_post": false,
+   "by": "SweetSoftPillow",
+   "posted_at": "2026-11-03T09:51:39+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "晶片藝術：刻在矽晶圓上的微型塗鴉",
+   "summary_zh": "晶片藝術（Chip Art）是指微電子工程師在積體電路（IC）的空閒空間中，利用微影技術刻製的微觀圖案或個人簽名。早期的晶片塗鴉具有防範未經授權抄襲的硬體浮水印功能，雖然現行著作權法已自動保護晶片佈局，這項傳統依然作為工程師表達創意與隱藏彩蛋的文化延續至今。",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 17,
+   "comments_count": 0,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 9
+  },
+  "50341576": {
+   "id": 50341576,
+   "title": "Spreading Liquid with Three.js",
+   "url": "https://mofu-dev.com/en/blog/fluid-foundation/",
+   "domain": "mofu-dev.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50341576",
+   "is_hn_post": false,
+   "by": "mooreds",
+   "posted_at": "2026-11-02T18:45:54+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "使用 Three.js 實現液體抹開的視覺效果",
+   "summary_zh": "作者分享了如何利用 WebGL 與 Three.js 函式庫模擬液體粉底塗抹擴散的物理效果。透過流體模擬演算法計算速度圖（velocity map）與高度圖（height map），能在片段著色器（fragment shader）中動態調整液體的厚度與透明度變化。這種做法無需修改幾何體結構即可呈現逼真的液體拉伸與隆起視覺體驗。",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 84,
+   "comments_count": 14,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 11
+  },
+  "50364860": {
+   "id": 50364860,
+   "title": "So my ISP was hijacking my DNS",
+   "url": "https://www.karthihegde.dev/posts/dns_tampering",
+   "domain": "karthihegde.dev",
+   "hn_url": "https://news.ycombinator.com/item?id=50364860",
+   "is_hn_post": false,
+   "by": "frostbyte7",
+   "posted_at": "2026-11-04T12:51:51+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "我的網際網路服務提供者劫持了我的 DNS 查詢",
+   "summary_zh": "作者發現其網際網路服務提供者（ISP）未經允許即劫持並竄改其域名系統（DNS）的查詢請求。（無法取得原文內容，僅依標題判斷）",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 64,
+   "comments_count": 38,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 12
+  },
+  "50349165": {
+   "id": 50349165,
+   "title": "Future Maintenance of Mbed TLS",
+   "url": "https://lists.trustedfirmware.org/archives/list/mbed-tls@lists.trustedfirmware.org/thread/YPIGCB7WN6GCHOGEGKOJXUYAP7OK527W/",
+   "domain": "lists.trustedfirmware.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50349165",
+   "is_hn_post": false,
+   "by": "jonesjohnson",
+   "posted_at": "2026-11-03T07:39:05+00:00",
+   "first_seen": "2026-11-05T09:09:47+00:00",
+   "title_zh": "Mbed TLS 開源專案的未來維護計畫變更",
+   "summary_zh": "Mbed TLS 計畫維護團隊宣布將於 2027 年 4 月起停止維護 TLS 與 X.509 函式庫，並聚焦於 TF-PSA-Crypto 的開發。若在過渡期前未能尋得新維護者接手，屆時將停止針對資安漏洞修復與新版本釋出。官方目前公開招募感興趣的企業或社群成員提供人力與資金支援，以維持專案的長遠營運。",
+   "translated_at": "2026-11-05T09:10:56+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 32,
+   "comments_count": 7,
+   "last_seen": "2026-11-05T09:09:47+00:00",
+   "on_front_page": true,
+   "rank": 15
   }
  }
 }
