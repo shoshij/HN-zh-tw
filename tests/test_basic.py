@@ -429,6 +429,15 @@ class Render(unittest.TestCase):
         self.assertEqual(items[0].findtext("category"), "AI")
         self.assertIn("&lt;b&gt;&amp;&lt;/b&gt;", items[0].findtext("description"))
 
+    def test_rss_links_are_valid_urls_and_titles_use_numeric_entities(self):
+        data = {"updated_at": store.to_iso(store.now()), "stories": {}}
+        s = {**story(title="AT&T <vs> T-Mobile", url="https://example.com/a b/caf\u00e9?x=1&y=%20z\u2019"), "tags": [], "translate_url": None}
+        raw = render.render_rss(data, [s]).decode("utf-8")
+        item = ET.fromstring(raw).find("./channel/item")
+        self.assertEqual(item.findtext("link"), "https://example.com/a%20b/caf%C3%A9?x=1&y=%20z%E2%80%99")
+        self.assertEqual(item.findtext("title"), "機械手臂 | AT&T <vs> T-Mobile")        # 解析後內容不變
+        self.assertIn("AT&#x26;T &#x3C;vs&gt; T-Mobile</title>", raw)
+
     def test_html_escapes_hostile_strings(self):
         data = {"updated_at": store.to_iso(store.now()), "stories": {}}
         evil = story(title='"><script>alert(1)</script>', title_zh="<img src=x onerror=alert(1)>", summary_zh="</p><script>x</script>",

@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from datetime import timedelta
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -105,6 +105,14 @@ def render_html(data: dict, front: list[dict], rest: list[dict]) -> str:
     )
 
 
+def ascii_url(url: str) -> str:
+    """把網址裡的非 ASCII 字元與空白轉成 %XX；已經是 %XX 的不會重複編碼。
+
+    RSS 規定連結必須是合法網址，而投稿者偶爾會把全形引號之類的字元一起貼進網址。
+    """
+    return quote(url, safe="%:/?#[]@!$&'()*+,;=~-._")
+
+
 # XML 1.0 不允許的字元。只要出現一個，整份 feed 就會被閱讀器當成壞檔。
 _XML_BAD = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f\ud800-\udfff\ufffe\uffff]")
 
@@ -128,7 +136,7 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
     for s in stories:
         it = ET.SubElement(ch, "item")
         ET.SubElement(it, "title").text = f"{s['title_zh']} | {s['title']}"
-        ET.SubElement(it, "link").text = s["url"]
+        ET.SubElement(it, "link").text = ascii_url(s["url"])
         ET.SubElement(it, "guid").text = s["hn_url"]
         ET.SubElement(it, "comments").text = s["hn_url"]
         ET.SubElement(it, "pubDate").text = format_datetime(store.from_iso(s["first_seen"]))
@@ -155,7 +163,14 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
         if el.text:
             el.text = _XML_BAD.sub("", el.text)
     ET.indent(rss)
-    return ET.tostring(rss, encoding="utf-8", xml_declaration=True)
+    xml = ET.tostring(rss, encoding="unicode")
+    # 標題裡的 & 和 < 改寫成數字形式。有些閱讀器會把 &amp; 多解或少解一次，數字形式最不容易出錯（W3C 驗證器的建議）。
+    xml = re.sub(
+        r"<title>(.*?)</title>",
+        lambda m: "<title>" + m.group(1).replace("&amp;", "&#x26;").replace("&lt;", "&#x3C;") + "</title>",
+        xml, flags=re.DOTALL,
+    )
+    return ("<?xml version='1.0' encoding='utf-8'?>\n" + xml + "\n").encode("utf-8")
 
 
 def build() -> None:
