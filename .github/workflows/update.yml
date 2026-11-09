@@ -2,11 +2,15 @@ name: Update
 
 on:
   schedule:
-    # GitHub 的排程在整點最壅塞，常常延遲好幾個小時或直接被略過。
-    # 所以避開整點，而且一小時排三次當備援；下面的 check 會擋掉多餘的執行，
-    # 實際上仍然是大約每小時更新一次。
-    - cron: "7,27,47 * * * *"
-  workflow_dispatch:       # 也可以到 Actions 頁面手動按「Run workflow」（一定會執行）
+    # 每兩小時一次（避開整點，GitHub 整點最壅塞）。GitHub 的排程常延遲或漏掉，
+    # 所以建議另外用 scheduler/README.md 的 Google Apps Script 準時呼叫；這裡只是備援。
+    - cron: "13 */2 * * *"
+  workflow_dispatch:       # 到 Actions 頁面手動按「Run workflow」一定會執行
+    inputs:
+      source:
+        description: 誰觸發的。外部排程器填 scheduler，才會套用「剛更新過就跳過」的規則
+        required: false
+        default: manual
 
 permissions:
   contents: write   # 把 data.json commit 回 repo
@@ -33,15 +37,17 @@ jobs:
       - id: decide
         env:
           EVENT: ${{ github.event_name }}
+          SOURCE: ${{ inputs.source }}
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import datetime, json, os, sys
           run = True
-          if os.environ["EVENT"] == "schedule":
+          # 排程（GitHub 自己的或外部的）才檢查新鮮度；人手動按的一定執行
+          if os.environ["EVENT"] == "schedule" or os.environ.get("SOURCE") == "scheduler":
               try:
                   updated = datetime.datetime.fromisoformat(json.load(open("data.json"))["updated_at"])
                   age = (datetime.datetime.now(datetime.timezone.utc) - updated).total_seconds() / 60
-                  run = age >= 45
+                  run = age >= 100   # 每兩小時一次；兩個排程撞在一起時第二個會跳過
                   print(f"距離上次更新 {age:.0f} 分鐘，{'執行' if run else '跳過'}", file=sys.stderr)
               except Exception as e:
                   print(f"讀不到上次更新時間（{e}），照常執行", file=sys.stderr)

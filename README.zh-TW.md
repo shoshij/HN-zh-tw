@@ -7,18 +7,18 @@
 
 > 翻譯與摘要由 AI 產生，可能有誤，請以原文為準。
 
-Hacker News 首頁的台灣繁體中文版，大約每小時更新。每篇文章有中文標題、中英文摘要，以及熱門評論的摘要。
+Hacker News 首頁的台灣繁體中文版，每兩小時更新。每篇文章有中文標題、中英文摘要，以及熱門評論的摘要。
 
 ## 運作方式
 
-GitHub Actions 大約每小時執行兩支程式：
+GitHub Actions 每兩小時執行兩支程式：
 
 1. `update.py` 抓首頁前 30 篇，請 Gemini 翻譯並摘要新出現的文章，結果存進 `data.json`。
 2. `build.py` 把 `data.json` 變成網頁和 RSS，再部署到 GitHub Pages。
 
 每篇文章只翻一次，只有 HN 改了標題或連結才會重翻。評論摘要在文章上首頁約 6 小時後補上，只做一次。
 
-GitHub 的排程常常延遲，所以一小時排三次，距離上次更新不到 45 分鐘就自動跳過。
+GitHub 自己的排程常常晚好幾個小時才觸發。想要準時更新，請照 [scheduler/README.zh-TW.md](scheduler/README.zh-TW.md) 用免費的 Google Apps Script 當鬧鐘，大約 10 分鐘。距離上次更新不到 100 分鐘的執行會自動跳過，所以兩個排程不會重複。
 
 ## 設定
 
@@ -26,7 +26,8 @@ GitHub 的排程常常延遲，所以一小時排三次，距離上次更新不�
 2. 到 <https://aistudio.google.com/apikey> 取得免費的 Gemini API key。
 3. 把它加成 repo 的 secret，名稱是 `GEMINI_API_KEY`。
 4. 在 Settings → Pages 把 Source 設成 **GitHub Actions**。
-5. 在 Actions → Update 按 **Run workflow**。之後每小時自動執行。
+5. 在 Actions → Update 按 **Run workflow**。之後每兩小時自動執行。
+6. 建議再做：[scheduler/README.zh-TW.md](scheduler/README.zh-TW.md) 的準時排程器。
 
 ## 本機執行
 

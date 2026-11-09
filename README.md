@@ -7,18 +7,18 @@
 
 > AI-generated translations and summaries may contain errors. Please refer to the original.
 
-The Hacker News front page in Taiwanese Traditional Chinese, updated about every hour. Each story has a Chinese title, Chinese and English summaries, and summaries of the top comments.
+The Hacker News front page in Taiwanese Traditional Chinese, updated every two hours. Each story has a Chinese title, Chinese and English summaries, and summaries of the top comments.
 
 ## How it works
 
-About every hour, GitHub Actions runs two scripts:
+Every two hours, GitHub Actions runs two scripts:
 
 1. `update.py` fetches the top 30 stories, asks Gemini to translate and summarise the new ones, and saves the results to `data.json`.
 2. `build.py` turns `data.json` into the web page and RSS feed, then deploys them to GitHub Pages.
 
 A story is translated once, and sent again only if HN edits its title or link. Comment summaries are added once, about 6 hours after a story reaches the front page.
 
-GitHub often delays scheduled runs, so the workflow is scheduled three times an hour and skips a run when the last update is under 45 minutes old.
+GitHub's own scheduler often fires hours late. For updates that are actually on time, set up the free Google Apps Script timer in [scheduler/README.md](scheduler/README.md); it takes about 10 minutes. The workflow skips a run when the last update is under 100 minutes old, so the two schedulers never double up.
 
 ## Setup
 
@@ -26,7 +26,8 @@ GitHub often delays scheduled runs, so the workflow is scheduled three times an 
 2. Get a free Gemini API key at <https://aistudio.google.com/apikey>.
 3. Add it as a repository secret named `GEMINI_API_KEY`.
 4. In Settings → Pages, set Source to **GitHub Actions**.
-5. In Actions → Update, click **Run workflow**. After that it runs hourly.
+5. In Actions → Update, click **Run workflow**. After that it runs every two hours.
+6. Optional but recommended: the on-time scheduler in [scheduler/README.md](scheduler/README.md).
 
 ## Run locally
 

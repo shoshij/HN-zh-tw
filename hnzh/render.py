@@ -125,7 +125,7 @@ def render_rss(data: dict, stories: list[dict]) -> bytes:
     ET.SubElement(ch, "title").text = "Hacker News 繁體中文版"
     ET.SubElement(ch, "link").text = f"{SITE_URL}/" if SITE_URL else "https://news.ycombinator.com/"
     ET.SubElement(ch, "description").text = (
-        "Hacker News 首頁文章的繁體中文翻譯與摘要，每小時更新。翻譯與摘要由 AI 產生，可能有誤，請以原文為準。"
+        "Hacker News 首頁文章的繁體中文翻譯與摘要，每兩小時更新。翻譯與摘要由 AI 產生，可能有誤，請以原文為準。"
     )
     ET.SubElement(ch, "language").text = "zh-TW"
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(store.from_iso(data["updated_at"]))
