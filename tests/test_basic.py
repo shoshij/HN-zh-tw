@@ -2,6 +2,7 @@
 import importlib
 import json
 import os
+import subprocess
 import tempfile
 import unittest
 import unittest.mock as mock
@@ -149,6 +150,34 @@ class Extract(unittest.TestCase):
             self.assertEqual(extract.article_text("https://example.com/paper.PDF?x=1"), "")
             self.assertEqual(extract.article_text("http://[bad/x"), "")
             self.assertEqual(extract.article_text(""), "")
+
+    def test_parsing_runs_in_a_separate_process(self):
+        # 真的開子程序解析（不 mock），確認結果一樣、而且是走 subprocess 而非在本程序內呼叫
+        with mock.patch.object(extract.subprocess, "run", wraps=extract.subprocess.run) as run:
+            text, _ = self.fetch(FakeResponse(ARTICLE))
+        self.assertIn("robot arm folds laundry", text)
+        self.assertEqual(run.call_count, 1)
+
+    def test_parser_crash_only_loses_that_story(self):
+        # lxml 當掉時子程序被 signal 11 殺掉；主程序要活著，並把原因記下來
+        crashed = subprocess.CompletedProcess(args=[], returncode=-11, stdout=b"", stderr=b"")
+        with mock.patch.object(extract.subprocess, "run", return_value=crashed):
+            text, log = self.fetch(FakeResponse(ARTICLE))
+        self.assertEqual(text, "")
+        self.assertIn("解析器當掉（signal 11）", log)
+
+    def test_parser_hang_is_cut_off(self):
+        with mock.patch.object(extract.subprocess, "run", side_effect=subprocess.TimeoutExpired("python", 60)):
+            text, log = self.fetch(FakeResponse(ARTICLE))
+        self.assertEqual(text, "")
+        self.assertIn("解析超過", log)
+
+    def test_parser_exception_is_reported(self):
+        failed = subprocess.CompletedProcess(args=[], returncode=1, stdout=b"", stderr=b"Traceback...\nValueError: bad html\n")
+        with mock.patch.object(extract.subprocess, "run", return_value=failed):
+            text, log = self.fetch(FakeResponse(ARTICLE))
+        self.assertEqual(text, "")
+        self.assertIn("ValueError: bad html", log)
 
 
 # ---------------------------------------------------------------- store.py
