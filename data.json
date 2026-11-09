@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T00:07:50+00:00",
+ "updated_at": "2026-11-09T06:17:21+00:00",
  "stories": {
   "50364336": {
    "id": 50364336,
@@ -8453,7 +8453,7 @@
    "comments_at": "2026-11-07T15:15:01+00:00",
    "comment_tries": 1,
    "score": 250,
-   "comments_count": 250,
+   "comments_count": 249,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -8498,8 +8498,8 @@
    "comments_done": true,
    "comments_at": "2026-11-07T15:15:01+00:00",
    "comment_tries": 1,
-   "score": 410,
-   "comments_count": 384,
+   "score": 416,
+   "comments_count": 393,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -8544,7 +8544,7 @@
    "comments_done": true,
    "comments_at": "2026-11-07T15:15:01+00:00",
    "comment_tries": 1,
-   "score": 173,
+   "score": 179,
    "comments_count": 99,
    "last_seen": "2026-11-07T15:12:17+00:00",
    "on_front_page": false,
@@ -8636,7 +8636,7 @@
    "comments_done": true,
    "comments_at": "2026-11-07T15:15:01+00:00",
    "comment_tries": 1,
-   "score": 157,
+   "score": 158,
    "comments_count": 53,
    "last_seen": "2026-11-07T15:12:17+00:00",
    "on_front_page": false,
@@ -8682,8 +8682,8 @@
    "comments_done": true,
    "comments_at": "2026-11-07T15:15:01+00:00",
    "comment_tries": 1,
-   "score": 91,
-   "comments_count": 25,
+   "score": 92,
+   "comments_count": 26,
    "last_seen": "2026-11-07T15:12:17+00:00",
    "on_front_page": false,
    "rank": null
@@ -8769,7 +8769,7 @@
    "comments_done": true,
    "comments_at": "2026-11-07T15:15:01+00:00",
    "comment_tries": 1,
-   "score": 86,
+   "score": 87,
    "comments_count": 16,
    "last_seen": "2026-11-07T15:12:17+00:00",
    "on_front_page": false,
@@ -8907,8 +8907,8 @@
    "comments_done": true,
    "comments_at": "2026-11-07T23:08:06+00:00",
    "comment_tries": 1,
-   "score": 256,
-   "comments_count": 96,
+   "score": 258,
+   "comments_count": 97,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -8953,8 +8953,8 @@
    "comments_done": true,
    "comments_at": "2026-11-07T23:08:06+00:00",
    "comment_tries": 1,
-   "score": 1111,
-   "comments_count": 279,
+   "score": 1132,
+   "comments_count": 280,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -8999,8 +8999,8 @@
    "comments_done": true,
    "comments_at": "2026-11-07T23:08:06+00:00",
    "comment_tries": 1,
-   "score": 844,
-   "comments_count": 446,
+   "score": 850,
+   "comments_count": 450,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -9046,7 +9046,7 @@
    "comments_at": "2026-11-07T23:08:06+00:00",
    "comment_tries": 1,
    "score": 299,
-   "comments_count": 140,
+   "comments_count": 141,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -9183,7 +9183,7 @@
    "comments_done": true,
    "comments_at": "2026-11-07T23:08:06+00:00",
    "comment_tries": 1,
-   "score": 105,
+   "score": 107,
    "comments_count": 19,
    "last_seen": "2026-11-07T19:30:54+00:00",
    "on_front_page": false,
@@ -9322,7 +9322,7 @@
    "comments_at": "2026-11-07T23:08:06+00:00",
    "comment_tries": 1,
    "score": 269,
-   "comments_count": 265,
+   "comments_count": 267,
    "last_seen": "2026-11-07T15:12:17+00:00",
    "on_front_page": false,
    "rank": null
@@ -9367,8 +9367,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 490,
-   "comments_count": 303,
+   "score": 500,
+   "comments_count": 309,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -9449,8 +9449,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 767,
-   "comments_count": 133,
+   "score": 781,
+   "comments_count": 134,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -9495,7 +9495,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 276,
+   "score": 280,
    "comments_count": 64,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
@@ -9541,8 +9541,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 385,
-   "comments_count": 103,
+   "score": 392,
+   "comments_count": 105,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -9587,8 +9587,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 133,
-   "comments_count": 89,
+   "score": 136,
+   "comments_count": 91,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -9633,8 +9633,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 147,
-   "comments_count": 100,
+   "score": 148,
+   "comments_count": 101,
    "last_seen": "2026-11-07T23:05:46+00:00",
    "on_front_page": false,
    "rank": null
@@ -9679,8 +9679,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 73,
-   "comments_count": 82,
+   "score": 74,
+   "comments_count": 84,
    "last_seen": "2026-11-07T23:05:46+00:00",
    "on_front_page": false,
    "rank": null
@@ -9725,7 +9725,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 117,
+   "score": 118,
    "comments_count": 51,
    "last_seen": "2026-11-08T02:24:32+00:00",
    "on_front_page": false,
@@ -9771,7 +9771,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 148,
+   "score": 150,
    "comments_count": 32,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
@@ -9817,7 +9817,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 75,
+   "score": 79,
    "comments_count": 14,
    "last_seen": "2026-11-07T23:05:46+00:00",
    "on_front_page": false,
@@ -9863,7 +9863,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 220,
+   "score": 223,
    "comments_count": 127,
    "last_seen": "2026-11-07T19:30:54+00:00",
    "on_front_page": false,
@@ -9909,8 +9909,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 525,
-   "comments_count": 349,
+   "score": 533,
+   "comments_count": 359,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -9955,8 +9955,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 85,
-   "comments_count": 51,
+   "score": 90,
+   "comments_count": 52,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -10001,7 +10001,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 83,
+   "score": 86,
    "comments_count": 57,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
@@ -10083,7 +10083,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T02:25:22+00:00",
    "comment_tries": 1,
-   "score": 144,
+   "score": 148,
    "comments_count": 45,
    "last_seen": "2026-11-08T02:24:32+00:00",
    "on_front_page": false,
@@ -10160,8 +10160,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 86,
-   "comments_count": 20,
+   "score": 90,
+   "comments_count": 22,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -10206,8 +10206,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 202,
-   "comments_count": 153,
+   "score": 208,
+   "comments_count": 162,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -10252,11 +10252,11 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 578,
-   "comments_count": 390,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "score": 599,
+   "comments_count": 407,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 27
+   "rank": 30
   },
   "50408350": {
    "id": 50408350,
@@ -10299,7 +10299,7 @@
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
    "score": 38,
-   "comments_count": 22,
+   "comments_count": 23,
    "last_seen": "2026-11-08T02:24:32+00:00",
    "on_front_page": false,
    "rank": null
@@ -10345,7 +10345,7 @@
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
    "score": 79,
-   "comments_count": 24,
+   "comments_count": 28,
    "last_seen": "2026-11-08T02:24:32+00:00",
    "on_front_page": false,
    "rank": null
@@ -10391,7 +10391,7 @@
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
    "score": 53,
-   "comments_count": 18,
+   "comments_count": 19,
    "last_seen": "2026-11-08T02:24:32+00:00",
    "on_front_page": false,
    "rank": null
@@ -10436,7 +10436,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 64,
+   "score": 65,
    "comments_count": 22,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
@@ -10482,8 +10482,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 207,
-   "comments_count": 53,
+   "score": 208,
+   "comments_count": 56,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -10528,8 +10528,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 450,
-   "comments_count": 469,
+   "score": 457,
+   "comments_count": 488,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -10616,7 +10616,7 @@
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
    "score": 20,
-   "comments_count": 11,
+   "comments_count": 12,
    "last_seen": "2026-11-07T23:05:46+00:00",
    "on_front_page": false,
    "rank": null
@@ -10661,8 +10661,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 180,
-   "comments_count": 122,
+   "score": 188,
+   "comments_count": 125,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -10707,8 +10707,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T09:21:58+00:00",
    "comment_tries": 1,
-   "score": 71,
-   "comments_count": 36,
+   "score": 74,
+   "comments_count": 37,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -10866,11 +10866,11 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 676,
-   "comments_count": 424,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "score": 728,
+   "comments_count": 449,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 26
   },
   "50366902": {
    "id": 50366902,
@@ -10912,8 +10912,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 164,
-   "comments_count": 61,
+   "score": 169,
+   "comments_count": 66,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -10958,11 +10958,11 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 164,
-   "comments_count": 102,
+   "score": 177,
+   "comments_count": 105,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 29
+   "on_front_page": false,
+   "rank": null
   },
   "50410359": {
    "id": 50410359,
@@ -11004,7 +11004,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 69,
+   "score": 73,
    "comments_count": 23,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
@@ -11050,8 +11050,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 115,
-   "comments_count": 91,
+   "score": 116,
+   "comments_count": 92,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -11096,8 +11096,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 118,
-   "comments_count": 53,
+   "score": 131,
+   "comments_count": 57,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -11137,8 +11137,8 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 71,
-   "comments_count": 14,
+   "score": 74,
+   "comments_count": 15,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -11183,7 +11183,7 @@
    "comments_done": true,
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
-   "score": 60,
+   "score": 61,
    "comments_count": 18,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
@@ -11230,7 +11230,7 @@
    "comments_at": "2026-11-08T16:11:26+00:00",
    "comment_tries": 1,
    "score": 99,
-   "comments_count": 86,
+   "comments_count": 90,
    "last_seen": "2026-11-08T09:19:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -11275,11 +11275,11 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 343,
-   "comments_count": 143,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "score": 402,
+   "comments_count": 180,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 20
   },
   "50366821": {
    "id": 50366821,
@@ -11321,11 +11321,11 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 145,
-   "comments_count": 43,
+   "score": 167,
+   "comments_count": 48,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 24
+   "on_front_page": false,
+   "rank": null
   },
   "50413822": {
    "id": 50413822,
@@ -11367,8 +11367,8 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 179,
-   "comments_count": 199,
+   "score": 185,
+   "comments_count": 204,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -11413,11 +11413,11 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 259,
-   "comments_count": 77,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "score": 321,
+   "comments_count": 84,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 14
+   "rank": 22
   },
   "50413769": {
    "id": 50413769,
@@ -11459,11 +11459,11 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 80,
-   "comments_count": 38,
+   "score": 96,
+   "comments_count": 49,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 18
+   "on_front_page": false,
+   "rank": null
   },
   "50412072": {
    "id": 50412072,
@@ -11505,11 +11505,11 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 91,
-   "comments_count": 17,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "score": 96,
+   "comments_count": 20,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 30
+   "rank": 29
   },
   "50412318": {
    "id": 50412318,
@@ -11551,8 +11551,8 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 285,
-   "comments_count": 187,
+   "score": 297,
+   "comments_count": 188,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -11597,7 +11597,7 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 157,
+   "score": 161,
    "comments_count": 92,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
@@ -11643,8 +11643,8 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 34,
-   "comments_count": 58,
+   "score": 35,
+   "comments_count": 60,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -11782,7 +11782,7 @@
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
    "score": 54,
-   "comments_count": 41,
+   "comments_count": 42,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
    "rank": null
@@ -11827,11 +11827,11 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 84,
-   "comments_count": 48,
+   "score": 99,
+   "comments_count": 54,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 25
+   "on_front_page": false,
+   "rank": null
   },
   "50371360": {
    "id": 50371360,
@@ -11873,7 +11873,7 @@
    "comments_done": true,
    "comments_at": "2026-11-09T00:07:06+00:00",
    "comment_tries": 1,
-   "score": 46,
+   "score": 48,
    "comments_count": 13,
    "last_seen": "2026-11-08T16:08:35+00:00",
    "on_front_page": false,
@@ -11899,15 +11899,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 545,
-   "comments_count": 328,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "lukebuehler",
+     "url": "https://news.ycombinator.com/item?id=50416595",
+     "summary_zh": "在存有客戶資料、交易資訊與內部網路的金融從業人員工作站上執行代理人（agent），面臨極高的安全風險。只要出現一次微小疏失或提示詞注入（prompt injection）攻擊就可能造成重大洩密，因此銀行必須禁用。"
+    },
+    {
+     "by": "legitster",
+     "url": "https://news.ycombinator.com/item?id=50416136",
+     "summary_zh": "部分企業退用 Claude 是因為其依使用量計費的模式常導致預算超支，且 Anthropic 無法提供固定費率。相對地，Gemini 提供平穩的計費與降速機制，對 90% 的非工程單位來說體驗差異不大。"
+    },
+    {
+     "by": "steveBK123",
+     "url": "https://news.ycombinator.com/item?id=50415981",
+     "summary_zh": "非技術人員利用大型語言模型（LLM）快速編寫概念驗證（POC）並強推上線是常見問題。銀行面臨嚴格的法規監管、資料存取授權以及合規與稽核等財務風險考量。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 693,
+   "comments_count": 384,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 19
   },
   "50416363": {
    "id": 50416363,
@@ -11929,15 +11945,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 129,
-   "comments_count": 112,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "eterm",
+     "url": "https://news.ycombinator.com/item?id=50417223",
+     "summary_zh": "將同時進行的事項限制在最多兩到三個，並在長時間執行時讓自己休息與充電。應避免為了擺脫「閒置」的罪惡感而盲目開起更多新的工作階段（session）。"
+    },
+    {
+     "by": "sollewitt",
+     "url": "https://news.ycombinator.com/item?id=50417750",
+     "summary_zh": "同時開啟多個對話會產生大量待審查的程式碼變更（CL），導致 context 被分散而混淆。雖然平行處理感覺較快，但程式碼審查（code review）會花費更長時間，串行處理反而效率更高。"
+    },
+    {
+     "by": "pech0rin",
+     "url": "https://news.ycombinator.com/item?id=50419991",
+     "summary_zh": "只要閱讀部落格文章時感覺到人工智慧（AI）產出的痕跡，大腦就會自動關閉而無法繼續閱讀下去，形成了某種對 AI 內容的排斥效應。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 204,
+   "comments_count": 158,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 22
+   "rank": 27
   },
   "50416053": {
    "id": 50416053,
@@ -11959,19 +11991,35 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 163,
-   "comments_count": 53,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "shortformblog",
+     "url": "https://news.ycombinator.com/item?id=50417012",
+     "summary_zh": "這套系統流暢度極佳，有助於推廣 Niri 視窗管理器。最近新增對 Bazzite 等原子化發行版（atomic distro）的官方支援，補齊了過去的遺憾。"
+    },
+    {
+     "by": "jeffnash",
+     "url": "https://news.ycombinator.com/item?id=50416712",
+     "summary_zh": "該專案近期從 Dank 改名為 Dux，與 Niri 搭配使用近一年非常滿意，徹底解決了頻繁更換桌面環境與佈景主題的習慣。"
+    },
+    {
+     "by": "drnick1",
+     "url": "https://news.ycombinator.com/item?id=50418871",
+     "summary_zh": "介面外觀看起來相當接近 Android。不過透過 curl 管道接命令列（curl | sh）的安裝方式令人擔憂，這類專案應融入 Linux 發行版（Linux distro）並經過嚴格審查才值得信任。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 241,
+   "comments_count": 75,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 9
   },
   "50416158": {
    "id": 50416158,
-   "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+   "title": "Outlook.com is rejecting email from domains without DMARC",
    "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
    "domain": "mailroute.net",
    "hn_url": "https://news.ycombinator.com/item?id=50416158",
@@ -11980,24 +12028,40 @@
    "posted_at": "2026-11-08T19:20:32+00:00",
    "first_seen": "2026-11-08T20:39:47+00:00",
    "removed": false,
-   "title_zh": "Outlook.com 默默開始拒絕來自未設定 DMARC 網域的電子郵件",
-   "summary_zh": "微軟的消費者郵件服務 Outlook.com 近期開始悄悄拒絕部分來自未發布 DMARC 紀錄網域的電子郵件。這項未經公告的改變會影響一般小型寄件者，修復方式只需在 DNS 新增一筆簡單的 TXT 紀錄。",
-   "summary_en": "Microsoft's consumer mail service Outlook.com has quietly begun rejecting some emails from domains that do not publish a DMARC record. This unannounced change impacts ordinary small senders, and the fix is simply adding a single TXT record to DNS.",
-   "translated_at": "2026-11-08T20:40:37+00:00",
-   "model": "gemini-3.5-flash-lite",
+   "title_zh": "Outlook.com 開始退回無 DMARC 紀錄網域的電子郵件",
+   "summary_zh": "微軟自 2026 年 11 月起開始退回寄往 Outlook.com 等個人信箱且缺乏 DMARC 紀錄的網域郵件。此項新機制並未事先公告，且會隨機影響一般小流量的寄件者，導致重要社交與業務信件退件。網域管理者只需在 DNS 設定中新增一筆簡單的 TXT 紀錄即可解決此問題。",
+   "summary_en": "Starting November 2026, Microsoft began rejecting emails sent to personal inboxes like Outlook.com from domains lacking a DMARC record. This new mechanism was not announced in advance and randomly affects ordinary small-volume senders, causing important communications to bounce. Domain administrators can resolve this issue simply by adding a single TXT record to their DNS settings.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 201,
-   "comments_count": 163,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "Neikius",
+     "url": "https://news.ycombinator.com/item?id=50416963",
+     "summary_zh": "Outlook.com 也常依據不公開的黑名單直接退信且求助無門，嚴重破壞電子郵件生態。雖然拒收缺少 DMARC 紀錄的網域合理，但不應無聲無息地拒收。"
+    },
+    {
+     "by": "stephbook",
+     "url": "https://news.ycombinator.com/item?id=50416581",
+     "summary_zh": "任何寄件者本就該事先設定好 DMARC，這對 Microsoft 使用者是一大好事，無須同情至今才被迫補救的懶惰管理者。"
+    },
+    {
+     "by": "codethief",
+     "url": "https://news.ycombinator.com/item?id=50418296",
+     "summary_zh": "即使完美設定了 SPF、DKIM 與 DMARC 且無垃圾郵件紀錄，Outlook.com 多年來仍會悄悄丟棄來自特定網域或 IP 的信件，是自行架設郵件伺服器者的噩夢。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 335,
+   "comments_count": 252,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 7
+   "rank": 12
   },
   "50368481": {
    "id": 50368481,
@@ -12019,15 +12083,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 283,
-   "comments_count": 33,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "gavinray",
+     "url": "https://news.ycombinator.com/item?id=50417709",
+     "summary_zh": "非技術背景的產品經理常低估拖曳（drag-and-drop）功能的開發難度，一句「不就是拖曳而已嗎」曾成為工程團隊內部流傳多年的笑話。"
+    },
+    {
+     "by": "btown",
+     "url": "https://news.ycombinator.com/item?id=50417110",
+     "summary_zh": "這篇論文提出了極具前瞻性的解決方案，透過對放置區域與距離進行可組合的代數運算，並採用樂觀渲染（optimistic rendering），大幅簡化了拖曳互動的狀態管理與開發成本。"
+    },
+    {
+     "by": "sourdecor",
+     "url": "https://news.ycombinator.com/item?id=50417671",
+     "summary_zh": "這是個非常出色的專案，同時感謝文章內文引薦了 Hazel 這項值得關注的研究。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 451,
+   "comments_count": 59,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 5
+   "rank": 7
   },
   "50416801": {
    "id": 50416801,
@@ -12049,15 +12129,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 335,
-   "comments_count": 261,
+   "comments": [
+    {
+     "by": "nrmitchi",
+     "url": "https://news.ycombinator.com/item?id=50417177",
+     "summary_zh": "文章標題極具誤導性。Nvidia 董事會實際上是在調查黃仁勳遭到情報機構針對的事件，而非將他列為違規調查對象。"
+    },
+    {
+     "by": "enlyth",
+     "url": "https://news.ycombinator.com/item?id=50416906",
+     "summary_zh": "Bloomberg 也對此進行了報導，指出董事會在執行長承認婚外情後，啟動了針對該起間諜疑雲的內部調查。"
+    },
+    {
+     "by": "frays",
+     "url": "https://news.ycombinator.com/item?id=50418920",
+     "summary_zh": "身為極具影響力的科技巨擘，勢必會成為各國情報機構的研究目標。對手會精準掌握其個人弱點，並打造量身定制的美人計（honey trap）來進行滲透。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 454,
+   "comments_count": 340,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 21
+   "on_front_page": false,
+   "rank": null
   },
   "50415172": {
    "id": 50415172,
@@ -12079,12 +12175,28 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 212,
-   "comments_count": 102,
+   "comments": [
+    {
+     "by": "mindwok",
+     "url": "https://news.ycombinator.com/item?id=50417546",
+     "summary_zh": "山姆・奧特曼的發言被過度放大，他僅是從全球資源配置與經濟學的角度指出，將隨機存取記憶體（RAM）集中在雲端伺服器能發揮更高的利用效率。"
+    },
+    {
+     "by": "bstsb",
+     "url": "https://news.ycombinator.com/item?id=50415343",
+     "summary_zh": "該網站包含難以關閉的反廣告攔截彈出視窗，背後使用了來自 Ad Shield 的混淆腳本來代理廣告網路。使用者可以透過設定 debugger 指令來中斷其執行。"
+    },
+    {
+     "by": "Tiberium",
+     "url": "https://news.ycombinator.com/item?id=50415287",
+     "summary_zh": "該討論主題與 Hacker News 上先前的另一篇投稿內容重複。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 220,
+   "comments_count": 115,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -12109,15 +12221,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 86,
-   "comments_count": 41,
+   "comments": [
+    {
+     "by": "Dwedit",
+     "url": "https://news.ycombinator.com/item?id=50415972",
+     "summary_zh": "這項工具的功能機制讓人聯想到早期的知名防火牆（firewall）軟體 ZoneAlarm。"
+    },
+    {
+     "by": "bad_username",
+     "url": "https://news.ycombinator.com/item?id=50421057",
+     "summary_zh": "預設自動放行 Windows 本身的系統元件並不一定是好事，可能會留下潛在的安全漏洞。"
+    },
+    {
+     "by": "dikei",
+     "url": "https://news.ycombinator.com/item?id=50420792",
+     "summary_zh": "過去偏好控管對外連線的防火牆，但頻繁的警報容易引發警報疲勞（alarm fatigue）導致隨意允許，如今改為直接使用 Windows 內建的防火牆。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 109,
+   "comments_count": 54,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 17
+   "on_front_page": false,
+   "rank": null
   },
   "50362963": {
    "id": 50362963,
@@ -12139,15 +12267,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 150,
-   "comments_count": 30,
+   "comments": [
+    {
+     "by": "kriskrunch",
+     "url": "https://news.ycombinator.com/item?id=50421430",
+     "summary_zh": "水耕栽培的介紹相當精彩，建議補充蒸氣壓差（Vapor Pressure Deficit, VPD）對葉面影響的說明與計算工具，工程師對此會很感興趣。"
+    },
+    {
+     "by": "Joakal",
+     "url": "https://news.ycombinator.com/item?id=50419213",
+     "summary_zh": "植栽澆水容易過度複雜化，古老的陶土水罐（Ollas）利用毛細現象（capillary action）免用電即可自動灌溉；若結合矽膠密封與水箱，可構建低成本的自動化管道。"
+    },
+    {
+     "by": "hxorr",
+     "url": "https://news.ycombinator.com/item?id=50421098",
+     "summary_zh": "選擇適合當地氣候且易於照顧的作物（如甘薯）能大幅簡化種植流程，不僅病蟲害少且採收時間極具彈性。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 186,
+   "comments_count": 39,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 16
+   "on_front_page": false,
+   "rank": null
   },
   "50372838": {
    "id": 50372838,
@@ -12169,15 +12313,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 60,
-   "comments_count": 19,
+   "comments": [
+    {
+     "by": "chasil",
+     "url": "https://news.ycombinator.com/item?id=50417806",
+     "summary_zh": "這幅畫作目前收藏於芝加哥藝術博物館，與《美國哥德式》及《大碗島的星期天下午》一同為鎮館之寶，且當年館方的購入價格遠低於現今價值。"
+    },
+    {
+     "by": "thih9",
+     "url": "https://news.ycombinator.com/item?id=50417353",
+     "summary_zh": "維基百科（Wikipedia）提供了高解析度的畫作影像，點擊頁面內的縮圖即可檢視細節。"
+    },
+    {
+     "by": "nickhalfasleep",
+     "url": "https://news.ycombinator.com/item?id=50417844",
+     "summary_zh": "畫作已重新在芝加哥藝術博物館展出，現場觀賞能感受到螢光燈照射下的豐富色彩層次，這是數位掃描無法完全呈現的細節。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 87,
+   "comments_count": 28,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 12
+   "on_front_page": false,
+   "rank": null
   },
   "50415078": {
    "id": 50415078,
@@ -12199,10 +12359,26 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "rwmj",
+     "url": "https://news.ycombinator.com/item?id=50415896",
+     "summary_zh": "質疑 reCAPTCHA v3 的普及率，並批評 Google 近期強推的 QR Code 驗證，認為這是為了將桌上型電腦瀏覽器與手機號碼進行強行綁定。"
+    },
+    {
+     "by": "jwr",
+     "url": "https://news.ycombinator.com/item?id=50416680",
+     "summary_zh": "直接利用人工智慧（AI）來解答 CAPTCHA，並認為這種驗證機制早已過時且干擾使用者，應該被全面廢除。"
+    },
+    {
+     "by": "dangistan202611",
+     "url": "https://news.ycombinator.com/item?id=50416919",
+     "summary_zh": "指出 reCAPTCHA v2 的勾選框有時會陷入無窮驗證迴圈，無論使用者是否正確完成題目都無法通過。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
    "score": 43,
    "comments_count": 12,
    "last_seen": "2026-11-08T20:39:47+00:00",
@@ -12229,15 +12405,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 26,
-   "comments_count": 12,
+   "comments": [
+    {
+     "by": "stevekemp",
+     "url": "https://news.ycombinator.com/item?id=50416529",
+     "summary_zh": "分享了以 Go 語言開發的 CP/M 模擬器（emulator），可直接存取本機檔案系統並提供 Docker 容器，能快速執行《Zork》等多款復古軟體。"
+    },
+    {
+     "by": "lrvick",
+     "url": "https://news.ycombinator.com/item?id=50416856",
+     "summary_zh": "在車庫中依然保留一部隨身型電腦 Kaypro II，只為了在經典的綠光顯示器上展現原汁原味的《Zork》體驗。"
+    },
+    {
+     "by": "bogometer",
+     "url": "https://news.ycombinator.com/item?id=50417604",
+     "summary_zh": "回憶起大學時期在 DECSYSTEM-2060 上透過 MDL 語言遊玩《Zork》的時光，認為這在寫程式遇到瓶頸時非常解悶。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 37,
+   "comments_count": 14,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 23
+   "on_front_page": false,
+   "rank": null
   },
   "50412830": {
    "id": 50412830,
@@ -12259,15 +12451,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 59,
-   "comments_count": 6,
+   "comments": [
+    {
+     "by": "henearkr",
+     "url": "https://news.ycombinator.com/item?id=50414982",
+     "summary_zh": "針對內文名詞提出修正，指出對於 J 形圖表 D 而言，J 應稱為「索引範疇（index category）」或「圖式（scheme）」，而非文章所寫的「形狀（shape）」。"
+    },
+    {
+     "by": "boldslogan",
+     "url": "https://news.ycombinator.com/item?id=50416634",
+     "summary_zh": "最近接觸到函子（functor）與非符號邏輯（nonsymbolic logic）的概念，希望能獲得更多相關的進階學習資源與閱讀建議。"
+    },
+    {
+     "by": "fn-mote",
+     "url": "https://news.ycombinator.com/item?id=50419553",
+     "summary_zh": "指出這是一篇關於範疇論（category theory）中「初始函子（initial functors）」的文章，讓讀者可以評估是否需要點擊閱讀。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 69,
+   "comments_count": 8,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 28
+   "on_front_page": false,
+   "rank": null
   },
   "50415817": {
    "id": 50415817,
@@ -12289,12 +12497,28 @@
    "retranslate": false,
    "content_missing": true,
    "content_retries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 88,
-   "comments_count": 105,
+   "comments": [
+    {
+     "by": "rajnathani",
+     "url": "https://news.ycombinator.com/item?id=50417240",
+     "summary_zh": "將人工智慧與濕實驗室（wet lab）相結合形成閉環運作，在新藥開發上展現出極大的應用潛力。"
+    },
+    {
+     "by": "j7ake",
+     "url": "https://news.ycombinator.com/item?id=50416226",
+     "summary_zh": "人工智慧不必做到立即治癒疾病，光是加速大型製藥公司內部的行政與官僚流程，就能產生可觀的實質效益。"
+    },
+    {
+     "by": "kanzure",
+     "url": "https://news.ycombinator.com/item?id=50416411",
+     "summary_zh": "大型語言模型（LLM）不受政治、利潤或社會輿論影響，可能高效率地找出過去因倫理禁忌或社會阻力而被忽略的生物學解決方案。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 94,
+   "comments_count": 114,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -12319,12 +12543,28 @@
    "retranslate": false,
    "content_missing": true,
    "content_retries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 102,
-   "comments_count": 25,
+   "comments": [
+    {
+     "by": "delichon",
+     "url": "https://news.ycombinator.com/item?id=50416095",
+     "summary_zh": "指出 Google 似乎忽略了自身政策中禁止第三方 SDK 出售使用者敏感資料的規定，並質疑 Play Store 收取的抽成並未發揮相應的監管作用。"
+    },
+    {
+     "by": "everdrive",
+     "url": "https://news.ycombinator.com/item?id=50416164",
+     "summary_zh": "建議盡可能減少智慧型手機的使用並刪除不必要的應用程式，在室內時應將手機比照座機處理以降低隱私風險。"
+    },
+    {
+     "by": "jareklupinski",
+     "url": "https://news.ycombinator.com/item?id=50415733",
+     "summary_zh": "詢問是否有具體清單揭露哪些天氣、遊戲、郵件及宗教類應用程式正在販售使用者的位置資料。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 117,
+   "comments_count": 28,
    "last_seen": "2026-11-08T20:39:47+00:00",
    "on_front_page": false,
    "rank": null
@@ -12349,15 +12589,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 71,
-   "comments_count": 8,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "ayaros",
+     "url": "https://news.ycombinator.com/item?id=50420786",
+     "summary_zh": "對 SketchUp 轉向網頁版與訂閱制感到不滿，期待能充分利用顯示晶片（GPU）效能的開放原始碼替代方案來解決大尺寸模型渲染的瓶頸。"
+    },
+    {
+     "by": "nico",
+     "url": "https://news.ycombinator.com/item?id=50419327",
+     "summary_zh": "探討未來是否會進入利用程式碼生成工具依需求自行打造客製化軟體的時代，並建議為 KetchUp 加入代理人（Agent）驅動功能。"
+    },
+    {
+     "by": "sergio",
+     "url": "https://news.ycombinator.com/item?id=50420287",
+     "summary_zh": "雖然偶爾使用的需求能被替代軟體滿足，但 SketchUp 3D Warehouse 豐富的使用者共享模型庫仍是無法被輕易取代的核心價值。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 358,
+   "comments_count": 95,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 1
+   "rank": 2
   },
   "50417407": {
    "id": 50417407,
@@ -12379,15 +12635,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 88,
-   "comments_count": 354,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "pacecar",
+     "url": "https://news.ycombinator.com/item?id=50421680",
+     "summary_zh": "正在開發一款能自動審查拉取請求（Pull Request, PR）的 GitHub App，在開啟或更新 PR 時自動留言，並針對成本與執行速度進行優化。"
+    },
+    {
+     "by": "jzig",
+     "url": "https://news.ycombinator.com/item?id=50418273",
+     "summary_zh": "為幫助父親的清潔生意，開發了結合 Google 區域服務廣告（Local Service Ads, LSA）的現場服務管理與客戶關係管理（Customer Relationship Management, CRM）軟體 Crewbird，成功將廣告投資報酬率（Return on Ad Spend, ROAS）提升至近 3 倍。"
+    },
+    {
+     "by": "cowlevel",
+     "url": "https://news.ycombinator.com/item?id=50421674",
+     "summary_zh": "正在私下追蹤盜版發行組織的散播狀況，同時也在遊玩經典網路遊戲《Old-School RuneScape》。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 180,
+   "comments_count": 612,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 2
+   "rank": 11
   },
   "50418182": {
    "id": 50418182,
@@ -12408,20 +12680,36 @@
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": true,
-   "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 37,
-   "comments_count": 7,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "content_retries": 1,
+   "comments": [
+    {
+     "by": "ykl",
+     "url": "https://news.ycombinator.com/item?id=50419377",
+     "summary_zh": "提供多個社群平台 X（前 Twitter）上的範例連結，展示使用者利用 Chimera 歌聲合成器所製作出的各種應用與效果。"
+    },
+    {
+     "by": "goodmythical",
+     "url": "https://news.ycombinator.com/item?id=50418741",
+     "summary_zh": "此工具在跨性別者的發聲確認訓練（voice affirmation training）、歌唱與語言學習等領域非常有潛力，直觀的視覺化展示比傳統口頭說明更具效益。"
+    },
+    {
+     "by": "starshadowx2",
+     "url": "https://news.ycombinator.com/item?id=50418805",
+     "summary_zh": "這款合成器讓人聯想到語音模型擬真工具 Pink Trombone 的現代版本，同時好奇名稱是否在致敬虛擬歌手重音 Territory（Kasane Teto）。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 161,
+   "comments_count": 23,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 3
+   "rank": 6
   },
   "50418818": {
    "id": 50418818,
-   "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
+   "title": "When a language's creator and its owners strongly disagree [pdf]",
    "url": "https://isocpp.org/files/papers/P4454R0.pdf",
    "domain": "isocpp.org",
    "hn_url": "https://news.ycombinator.com/item?id=50418818",
@@ -12430,24 +12718,40 @@
    "posted_at": "2026-11-08T23:28:01+00:00",
    "first_seen": "2026-11-09T00:05:00+00:00",
    "removed": false,
-   "title_zh": "Herb Sutter：當程式語言的創作者與擁有者產生強烈分歧時",
-   "summary_zh": "這是一份由 Herb Sutter 撰寫的技術文件，討論程式語言創作者與委員會或擁有者意見相左時的挑戰與影響。（無法取得原文內容，僅依標題判斷）",
-   "summary_en": "This is a technical paper by Herb Sutter discussing the challenges and impacts when a programming language creator disagrees with its owners or committee.",
-   "translated_at": "2026-11-09T00:06:53+00:00",
+   "title_zh": "當程式語言的創作者與權利擁有者產生嚴重分歧時",
+   "summary_zh": "當程式語言的創作者與掌握該語言權利的公司或機構產生嚴重分歧時，往往會引發語言發展方向與開源社群治理的重大爭議。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "When a programming language's creator and the organization holding its rights strongly disagree, it often leads to major disputes over language direction and open-source community governance. (Unable to retrieve original content, summary based on title only)",
+   "translated_at": "2026-11-09T06:15:52+00:00",
    "model": "gemini-3.6-flash",
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": true,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 8,
-   "comments_count": 0,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "pornel",
+     "url": "https://news.ycombinator.com/item?id=50419574",
+     "summary_zh": "Bjarne Stroustrup 對於 C++ 契約（Contracts）提案提出的反對理由相當具有說服力且合理。"
+    },
+    {
+     "by": "yakaccount4",
+     "url": "https://news.ycombinator.com/item?id=50421054",
+     "summary_zh": "相比於直接手寫斷言（assertion），新提案的契約語法並未帶來明顯好處，且現代 C++ 的宣告已經過於繁雜，容易造成閱讀疲勞。"
+    },
+    {
+     "by": "StellarScience",
+     "url": "https://news.ycombinator.com/item?id=50419529",
+     "summary_zh": "Herb Sutter 的文章客觀歸納了 Stroustrup 的反對意見，並列出 C++26 後續發展的 6 種可能路徑，包括推遲至 C++29、移除契約功能或改向 ISO 以外的標準組織合作。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 104,
+   "comments_count": 89,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 18
   },
   "50416456": {
    "id": 50416456,
@@ -12469,43 +12773,75 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 51,
-   "comments_count": 26,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "simonw",
+     "url": "https://news.ycombinator.com/item?id=50417927",
+     "summary_zh": "現代瀏覽器的應用開發潛力巨大且門檻持續降低，如今每週都能頻繁整合 Three.js、離線儲存、伺服器發送事件（Server-Sent Events, SSE）、WebAudio 與 WebAssembly 等技術。"
+    },
+    {
+     "by": "galaxyLogic",
+     "url": "https://news.ycombinator.com/item?id=50421186",
+     "summary_zh": "Web 技術本質上是使用者介面（User Interface, UI）技術，只需安裝瀏覽器就能存取無數應用程式，這種圖形使用者介面（Graphical User Interface, GUI）的標準化概念類似經典的開放系統互連模型（OSI model）。"
+    },
+    {
+     "by": "galaxyLogic",
+     "url": "https://news.ycombinator.com/item?id=50421182",
+     "summary_zh": "Web 技術的主要優勢在於將 UI 統一於瀏覽器端，伺服器端後端則可採用任意語言實作，大幅降低了使用者學習不同應用程式的操作門檻。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 112,
+   "comments_count": 62,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 17
   },
   "50418016": {
    "id": 50418016,
    "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-   "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
-   "domain": "axios.com",
+   "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+   "domain": "nvidianews.nvidia.com",
    "hn_url": "https://news.ycombinator.com/item?id=50418016",
    "is_hn_post": false,
    "by": "karimf",
    "posted_at": "2026-11-08T22:20:09+00:00",
    "first_seen": "2026-11-09T00:05:00+00:00",
    "removed": false,
-   "title_zh": "輝達執行長黃仁勳針對桃色風波給員工的內部信",
-   "summary_zh": "這是輝達（Nvidia）執行長黃仁勳針對傳出的婚外情風波向全體員工發出的內部說明信函。（無法取得原文內容，僅依標題判斷）",
-   "summary_en": "This is an internal letter addressed to employees from Nvidia CEO Jensen Huang regarding reports of an extramarital affair.",
-   "translated_at": "2026-11-09T00:06:53+00:00",
+   "title_zh": "Nvidia 執行長黃仁勳針對婚外情發給全體員工的公開信",
+   "summary_zh": "Nvidia 執行長黃仁勳發表公開信，承認對妻子不忠並向家人、員工與股東深切致歉。針對媒體報導所引發的國家安全疑慮，Nvidia 董事會已啟動獨立調查，黃仁勳亦表示將全力配合。他強調會全力承擔個人行為的責任，並致力於重拾團隊與合作夥伴的信任。",
+   "summary_en": "Nvidia CEO Jensen Huang issued a public letter admitting marital infidelity and apologizing deeply to his family, employees, and shareholders. Regarding national security concerns raised in news reports, Nvidia's Board of Directors has initiated an independent investigation, which Huang stated he will fully cooperate with. He emphasized taking full responsibility for his personal actions and committing to regaining the trust of his team and partners.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
    "model": "gemini-3.6-flash",
    "translate_tries": 1,
    "retranslate": false,
-   "content_missing": true,
+   "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 246,
-   "comments_count": 241,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "gla67890543",
+     "url": "https://news.ycombinator.com/item?id=50421660",
+     "summary_zh": "中央情報局（CIA）等情報機構可能早已掌握此消息，令人質疑在此時間點洩漏訊息背後是否有其他欲轉移焦點的目的。"
+    },
+    {
+     "by": "ilaksh",
+     "url": "https://news.ycombinator.com/item?id=50418848",
+     "summary_zh": "董事會可能因黃仁勳傑出的營運表現而選擇力挺，只要此事不造成重大公關危機或觸犯美國政府的底線，高層大多不會干涉執行長的個人私生活。"
+    },
+    {
+     "by": "petterroea",
+     "url": "https://news.ycombinator.com/item?id=50421687",
+     "summary_zh": "公開信中強調愛國與國家安全的措辭，顯然是為了防範來自右派陣營政治攻擊的防禦手段；是否會被貼上間諜標籤，實質上完全取決於美國政府的政治考量。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 494,
+   "comments_count": 536,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
    "rank": 10
   },
@@ -12529,15 +12865,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 32,
-   "comments_count": 9,
+   "comments": [
+    {
+     "by": "dafelst",
+     "url": "https://news.ycombinator.com/item?id=50418393",
+     "summary_zh": "1990 年代中期的 DJGPP 與 Allegro 遊戲函式庫是許多人的 C++ 啟蒙工具，免去了盜版開發工具的麻煩，讓 DOS 環境能夠順利執行 32 位元保護模式（protected mode）。"
+    },
+    {
+     "by": "mshroyer",
+     "url": "https://news.ycombinator.com/item?id=50418640",
+     "summary_zh": "DJGPP 是從 QuickBasic 跨足 C 語言的重要橋樑，更是早期在硬體受限的 DOS 電腦上學習程式設計，進而探索 Linux 與 Emacs 的關鍵起點。"
+    },
+    {
+     "by": "JimDabell",
+     "url": "https://news.ycombinator.com/item?id=50418363",
+     "summary_zh": "提供 Hacker News 於 2024 年 1 月關於同一話題的歷史討論連結。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 59,
+   "comments_count": 23,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 13
+   "on_front_page": false,
+   "rank": null
   },
   "50416014": {
    "id": 50416014,
@@ -12559,15 +12911,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 27,
-   "comments_count": 14,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "comments": [
+    {
+     "by": "dlcarrier",
+     "url": "https://news.ycombinator.com/item?id=50418497",
+     "summary_zh": "質疑 STMicro 將具備桌面級處理能力的 Cortex-A35 核心納入原本用於微控制器（microcontroller, MCU）的 STM32 產品線，可能會模糊該品牌定位。"
+    },
+    {
+     "by": "throwaway81523",
+     "url": "https://news.ycombinator.com/item?id=50418077",
+     "summary_zh": "這款系統單晶片（System on Chip, SoC）主要針對 Linux 系統與硬體工程師設計，開發板售價較高且常用於對接現場可程式化邏輯閘陣列（Field-Programmable Gate Array, FPGA），一般使用者選擇更簡單的開發板即可。"
+    },
+    {
+     "by": "ranger_danger",
+     "url": "https://news.ycombinator.com/item?id=50417754",
+     "summary_zh": "許多此類硬體晶片缺乏加密加速器，或是因出口管制與政府合約限制而將硬體文件列為保密，這對注重安全性的專案是一大隱憂。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 53,
+   "comments_count": 32,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 15
+   "rank": 28
   },
   "50384664": {
    "id": 50384664,
@@ -12589,15 +12957,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 3,
-   "comments_count": 1,
+   "comments": [
+    {
+     "by": "smath",
+     "url": "https://news.ycombinator.com/item?id=50420627",
+     "summary_zh": "意識與潛意識之間的資訊傳輸速率極低，但可透過冥想稍微提升；潛意識習慣以原始概念思考，這解釋了為何凱庫勒夢到的是蛇而非圓環。"
+    },
+    {
+     "by": "MassPikeMike",
+     "url": "https://news.ycombinator.com/item?id=50419494",
+     "summary_zh": "標記本文發表於 2017 年。"
+    },
+    {
+     "by": "OgsyedIE",
+     "url": "https://news.ycombinator.com/item?id=50420045",
+     "summary_zh": "認為語言在人類出現之前就已經存在，隨時等待著被人類探索與運用。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 12,
+   "comments_count": 5,
    "last_seen": "2026-11-09T00:05:00+00:00",
-   "on_front_page": true,
-   "rank": 20
+   "on_front_page": false,
+   "rank": null
   },
   "50416471": {
    "id": 50416471,
@@ -12618,16 +13002,422 @@
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": true,
+   "content_retries": 1,
+   "comments": [
+    {
+     "by": "tristanj",
+     "url": "https://news.ycombinator.com/item?id=50416758",
+     "summary_zh": "星艦（Starship）第 15 次測試僅搭載 26 顆星鏈（Starlink）v3 衛星（約 52 噸），僅達宣稱 100 噸有效載重（payload）能力的一半。這可能是為了控管測試變數、降低發動機故障風險與資產損失、受限於發射器硬體，或是猛禽 3 型（Raptor 3）發動機推力未達預期。"
+    },
+    {
+     "by": "metalman",
+     "url": "https://news.ycombinator.com/item?id=50416671",
+     "summary_zh": "官方任務計畫顯示，本次測試預計首次嘗試同時回收星艦飛船與超重型助推器（Super Heavy booster）。飛行計畫繞行地球 14 圈並持續超過 22 小時，將透過星鏈全程直播發射塔夾抓過程。"
+    },
+    {
+     "by": "omegaSigma95",
+     "url": "https://news.ycombinator.com/item?id=50416887",
+     "summary_zh": "好奇夾抓回收星艦飛船時，發射塔機械手臂（launch tower arms）是否需要修改硬體配置，還是能直接沿用回收助推器時的相同設定。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-09T06:15:52+00:00",
+   "comment_tries": 1,
+   "score": 114,
+   "comments_count": 73,
+   "last_seen": "2026-11-09T00:05:00+00:00",
+   "on_front_page": false,
+   "rank": null
+  },
+  "50420035": {
+   "id": 50420035,
+   "title": "RIP, Harvest",
+   "url": "https://aphyr.com/posts/427-rip-harvest",
+   "domain": "aphyr.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50420035",
+   "is_hn_post": false,
+   "by": "zdw",
+   "posted_at": "2026-11-09T01:58:21+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "再見，Harvest",
+   "summary_zh": "工時追蹤與發票開立服務 Harvest 在被 Bending Spoons 收購後，將每月訂閱費用從 13.32 美元大幅調漲至 133.98 美元。此外，客服管道已被大型語言模型（LLM）取代，無法有效回應客戶問題。作者對此表達失望，並尋求其他自由職業者推薦的替代方案。",
+   "summary_en": "Time-tracking and invoicing service Harvest drastically raised its monthly subscription price from $13.32 to $133.98 after being acquired by Bending Spoons. In addition, customer support has been replaced by a Large Language Model (LLM) that fails to provide effective responses. The author expresses disappointment and is seeking alternative solutions recommended by fellow freelancers.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
    "content_retries": 0,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 71,
-   "comments_count": 31,
-   "last_seen": "2026-11-09T00:05:00+00:00",
+   "score": 250,
+   "comments_count": 73,
+   "last_seen": "2026-11-09T06:13:16+00:00",
    "on_front_page": true,
-   "rank": 26
+   "rank": 1
+  },
+  "50420857": {
+   "id": 50420857,
+   "title": "A Critique of GPUI",
+   "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+   "domain": "blog.zortax.de",
+   "hn_url": "https://news.ycombinator.com/item?id=50420857",
+   "is_hn_post": false,
+   "by": "ByteAtATime",
+   "posted_at": "2026-11-09T03:51:10+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "對 GPUI 的批判與反思",
+   "summary_zh": "本文探討採用 Rust 語言開發的圖像使用者介面（GUI）框架，並分析 GPUI 與 egui 在狀態模型上的侷限性。作者指出 GPUI 的通知機制無法精確追蹤細微的狀態變更，導致在大型應用程式中會面臨效能瓶頸。作者認為結合訊號（signals）與響應式設計的組件才是建構複雜桌面應用的更佳解答。",
+   "summary_en": "This post explores graphical user interface (GUI) frameworks written in Rust and analyzes the limitations of state models in GPUI and egui. The author points out that GPUI's notification mechanism cannot precisely track fine-grained state changes, leading to performance bottlenecks in large applications. The author argues that components combining signals and reactive design offer a better approach for building complex desktop applications.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 54,
+   "comments_count": 20,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 3
+  },
+  "50419215": {
+   "id": 50419215,
+   "title": "Unlocking any car from X brand in most of the world",
+   "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+   "domain": "shubs.io",
+   "hn_url": "https://news.ycombinator.com/item?id=50419215",
+   "is_hn_post": false,
+   "by": "infosecau",
+   "posted_at": "2026-11-09T00:10:50+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "解鎖全球多數地區某特定品牌汽車的資安漏洞分析",
+   "summary_zh": "資安研究人員發現某大型汽車製造商的聯網汽車後端系統存在嚴重安全漏洞。攻擊者只需透過車牌號碼取得車輛識別碼（VIN），即可透過暴露的管理工具介面（API）獲取車主帳號權限。該漏洞能讓未授權人員遠端解鎖該品牌的車輛，曝露了車聯網系統的安全隱憂。",
+   "summary_en": "Security researchers discovered a severe vulnerability in a major automaker's connected car backend system. By obtaining a Vehicle Identification Number (VIN) from a license plate, an attacker could compromise user account permissions through exposed application programming interfaces (APIs). This vulnerability allows unauthorized individuals to remotely unlock the brand's vehicles, highlighting security concerns in connected vehicle systems.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 198,
+   "comments_count": 71,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 4
+  },
+  "50421426": {
+   "id": 50421426,
+   "title": "Apple capped engineers at a $200 daily AI budget",
+   "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
+   "domain": "stork.ai",
+   "hn_url": "https://news.ycombinator.com/item?id=50421426",
+   "is_hn_post": false,
+   "by": "GloVin",
+   "posted_at": "2026-11-09T05:30:11+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "Apple 設定工程師每日人工智慧使用預算上限為 200 美元",
+   "summary_zh": "Apple 將部分工程師的每日人工智慧（AI）使用預算上限從 300 美元降至 200 美元，以控制不斷飆升的算力成本。此舉反映出企業在推動生成式 AI 規模化時所面臨的巨大財務壓力。對於開發團隊而言，未來精準快取與最佳化提示詞（prompt）等效率提升技術將成為關鍵競爭力。",
+   "summary_en": "Apple reduced the daily artificial intelligence (AI) spending limit for some engineers from $300 to $200 to control surging compute costs. This move reflects the massive financial pressure enterprises face when scaling generative AI. For development teams, efficiency technologies such as intelligent caching and prompt optimization will become critical competitive advantages.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 7,
+   "comments_count": 1,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 5
+  },
+  "50418975": {
+   "id": 50418975,
+   "title": "I'm not convinced the AI bubble exists",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "domain": "matteoraso.github.io",
+   "hn_url": "https://news.ycombinator.com/item?id=50418975",
+   "is_hn_post": false,
+   "by": "matteoraso",
+   "posted_at": "2026-11-08T23:44:36+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "我並不相信人工智慧存在泡沫",
+   "summary_zh": "針對外界對人工智慧（AI）產業陷入資本泡沫的疑慮，作者提出了不同觀點。作者認為當前動輒上兆美元的支出主要來自一次性的資料庫與資料中心基礎建設成本，而非持續性的營運開銷。只要基礎設施建置完成，結合亮眼的算力營收回報率，AI 產業仍具備強勁且合理的獲利成長空間。",
+   "summary_en": "Addressing concerns that the artificial intelligence (AI) industry is in a financial bubble, the author offers a contrasting perspective. The author argues that current multi-trillion-dollar expenditures primarily stem from one-off database and data center infrastructure costs rather than ongoing operational expenses. Once infrastructure construction is complete, combined with strong compute revenue returns, the AI industry still maintains robust and justified growth potential.",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 138,
+   "comments_count": 195,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 8
+  },
+  "50420599": {
+   "id": 50420599,
+   "title": "The Qlobe: Rotating Quine (2010)",
+   "url": "http://mamememo.blogspot.com/2010/09/qlobe.html",
+   "domain": "mamememo.blogspot.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50420599",
+   "is_hn_post": false,
+   "by": "niceguitars",
+   "posted_at": "2026-11-09T03:15:17+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "The Qlobe：會旋轉的自產生程式碼",
+   "summary_zh": "本文介紹了名為 The Qlobe 的 3D 旋轉地球造型自產生程式碼（Quine），能在輸出自身程式碼的同時呈現動態圖像。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "This article introduces The Qlobe, a 3D rotating globe-shaped self-replicating program (Quine) that renders dynamic graphics while outputting its own source code. (Unable to obtain original content, inferred solely from the title)",
+   "translated_at": "2026-11-09T06:15:24+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": true,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 15,
+   "comments_count": 0,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 13
+  },
+  "50403153": {
+   "id": 50403153,
+   "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
+   "url": "https://news.ycombinator.com/item?id=50403153",
+   "domain": "news.ycombinator.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50403153",
+   "is_hn_post": true,
+   "by": "Michel_Aventin",
+   "posted_at": "2026-11-07T10:01:48+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "Ask HN：你如何在跨客戶與專案時管理 AI 代理的上下文？",
+   "summary_zh": "軟體工程師在跨客戶與專案使用人工智慧代理（AI agent）時，常常遇到需要重複解釋上下文與過去決策的問題。發問者詢問社群如何跨不同的 AI 工具轉移與維護上下文、如何分隔不同客戶的敏感資訊，以及是否有現成的軟體或自建工具來解決這個難題。",
+   "summary_en": "Software engineers often encounter the issue of repeatedly re-explaining context and past decisions when using AI agents across clients and projects. The author asks the community how to transfer and maintain context across different AI tools, keep context separate for different clients, and whether there are existing tools or custom solutions to solve this challenge.",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 36,
+   "comments_count": 29,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 14
+  },
+  "50401844": {
+   "id": 50401844,
+   "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
+   "url": "https://github.com/rkaehn/uniform",
+   "domain": "github.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50401844",
+   "is_hn_post": false,
+   "by": "rkaehn",
+   "posted_at": "2026-11-07T05:16:31+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "Show HN：僅 280 KB，結合 WASM 版面配置與 GPU 算力的 JavaScript Web 應用程式",
+   "summary_zh": "這是一個輕量級的前端專案，在僅 280 KB 的體積內結合了 WebAssembly（WASM）的版面配置運算與圖形處理器（GPU）加速渲染功能，用於打造高效率的 JavaScript Web 應用程式。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "This is a lightweight frontend project that combines WebAssembly (WASM) layout calculation and graphics processing unit (GPU) accelerated rendering within just 280 KB to build high-performance JavaScript web applications. (Unable to retrieve original content, summary based on title only)",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": true,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 18,
+   "comments_count": 4,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 15
+  },
+  "50390822": {
+   "id": 50390822,
+   "title": "Branching Beyond Leonardo: The Evolution of Tree Architecture Theory",
+   "url": "https://blue-continuum.com/branching-beyond-leonardo",
+   "domain": "blue-continuum.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50390822",
+   "is_hn_post": false,
+   "by": "dnetesn",
+   "posted_at": "2026-11-06T11:01:12+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "超越達文西的分枝法則：樹木結構建築理論的演進",
+   "summary_zh": "達文西在手稿中提出了著名的樹木分枝法則，主張樹木在任何高度的所有分支截面積總和皆等於樹幹截面積。這項觀察不僅深深影響後世對樹木結構與植物生長的理解，也成為現代植物學與樹木架構理論持續探索與演進的基礎。",
+   "summary_en": "Leonardo da Vinci proposed his famous rule of trees in his notebooks, claiming that the combined cross-sectional area of all branches at any height equals the cross-sectional area of the main trunk. This observation not only deeply influenced the understanding of tree structures and plant growth, but also served as a foundation for modern botany and tree architecture theory to evolve further.",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 10,
+   "comments_count": 0,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 16
+  },
+  "50371886": {
+   "id": 50371886,
+   "title": "Show HN: My compact, bio inspired distributed edge detection algorithm",
+   "url": "https://github.com/RenderBear/haci",
+   "domain": "github.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50371886",
+   "is_hn_post": false,
+   "by": "RenderBear",
+   "posted_at": "2026-11-04T21:34:49+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "Show HN：我設計的輕量級生物啟發式分散式邊緣檢測演算法",
+   "summary_zh": "開發者展示了一款模仿生物神經系統運作方式的輕量級分散式邊緣檢測演算法（edge detection algorithm）。該演算法能在資源受限的環境下高效率地處理影像邊緣辨識任務。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "The developer presents a lightweight distributed edge detection algorithm inspired by biological neural systems. The algorithm efficiently performs image edge detection tasks in resource-constrained environments. (Unable to retrieve original content, summary based on title only)",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": true,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 3,
+   "comments_count": 0,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 21
+  },
+  "50404428": {
+   "id": 50404428,
+   "title": "Ur-Nammu Founder of the Sumerian Renaissance",
+   "url": "https://www.worldhistory.org/Ur-Nammu/",
+   "domain": "worldhistory.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50404428",
+   "is_hn_post": false,
+   "by": "Bluestein",
+   "posted_at": "2026-11-07T13:35:16+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "烏爾納姆：蘇美文藝復興的開創者",
+   "summary_zh": "烏爾納姆（Ur-Nammu）是蘇美烏爾第三王朝的建立者，帶領蘇美地區進入文化復興時期。他頒布了現存歷史上最古老的法典《烏爾納姆法典》，並推動烏爾大神塔等重大基建設施與文化藝術發展。",
+   "summary_en": "Ur-Nammu was the founder of the Third Dynasty of Ur in Sumer, leading the region into a period of cultural renaissance. He enacted the Code of Ur-Nammu, the oldest extant law code in history, and promoted major infrastructure projects like the Great Ziggurat of Ur alongside cultural and artistic developments.",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 6,
+   "comments_count": 0,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 23
+  },
+  "50405043": {
+   "id": 50405043,
+   "title": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics",
+   "url": "https://phys.org/news/2026-11-air-holes-silicon-wafers-flat.html",
+   "domain": "phys.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50405043",
+   "is_hn_post": false,
+   "by": "bookofjoe",
+   "posted_at": "2026-11-07T14:51:40+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "打孔矽晶圓轉化為平面紫外線對焦鏡片，助推微型光學發展",
+   "summary_zh": "研究人員透過在矽晶圓上微調空氣孔洞結構，成功將其轉化為能聚焦紫外線（UV）的平面反射鏡。這項技術有助於縮減光學元件的體積，進一步推動微型光學系統的發展。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "Researchers successfully transformed silicon wafers into flat ultraviolet (UV) focusing mirrors by precisely engineering air hole structures on them. This technology helps reduce the size of optical components and advances the development of compact optical systems. (Unable to retrieve original content, summary based on title only)",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": true,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 42,
+   "comments_count": 5,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 24
+  },
+  "50420383": {
+   "id": 50420383,
+   "title": "A Bit about Email",
+   "url": "https://maurycyz.com/misc/email/",
+   "domain": "maurycyz.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50420383",
+   "is_hn_post": false,
+   "by": "vinhnx",
+   "posted_at": "2026-11-09T02:46:21+00:00",
+   "first_seen": "2026-11-09T06:13:16+00:00",
+   "removed": false,
+   "title_zh": "淺談電子郵件傳輸機制與架構",
+   "summary_zh": "電子郵件系統由多個關鍵元件構成，包括郵件使用者代理（MUA）、郵件遞交代理（MSA）、郵件轉發代理（MTA）與本地交付代理（LDA）的角色分工。內容詳細解說了簡單郵件傳輸協定（SMTP）的文字指令溝通機制，以及網域名稱系統（DNS）中的 MX 記錄如何引導郵件傳遞。",
+   "summary_en": "Email systems consist of several key components, including the division of responsibilities among the mail user agent (MUA), mail submission agent (MSA), mail transfer agent (MTA), and local delivery agent (LDA). The article explains in detail the text-command communication mechanism of the Simple Mail Transfer Protocol (SMTP) and how MX records in the Domain Name System (DNS) guide email delivery.",
+   "translated_at": "2026-11-09T06:15:52+00:00",
+   "model": "gemini-3.6-flash",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 17,
+   "comments_count": 2,
+   "last_seen": "2026-11-09T06:13:16+00:00",
+   "on_front_page": true,
+   "rank": 25
   }
  },
  "translate_fail_streak": 0
