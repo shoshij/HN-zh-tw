@@ -20,9 +20,12 @@ import requests
 API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 依序嘗試的模型。免費額度是「每個模型各自計算」，而且熱門模型常回 503（太多人用），
 # 所以一個不行就換下一個。可用環境變數 GEMINI_MODELS 覆寫（逗號分隔）。
+# 順序依實際可用性排：2026-11-10 的 9 次執行裡 gemini-3.5-flash-lite 成功 7 次，
+# gemini-3.6-flash 1 次（其餘 503/429），gemini-3.8-flash 0 次（每次都 503 或逾時），
+# 把不穩的排前面每次會白等 1 到 3 分鐘。執行紀錄會印出「使用 某模型」，之後可據此再調。
 DEFAULT_MODELS = (
-    "gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-flash-lite-latest,"
-    "gemini-3-flash-preview,gemini-3.7-flash,gemini-3.1-flash-lite"
+    "gemini-3.5-flash-lite,gemini-3.6-flash,gemini-3.8-flash,gemini-flash-lite-latest,"
+    "gemini-3.7-flash,gemini-3.1-flash-lite,gemini-3-flash-preview"
 )
 # GitHub Actions 沒設定 GEMINI_MODELS 變數時會傳空字串進來，所以用 `or` 而不是 .get() 的預設值
 MODELS = [m.strip() for m in (os.environ.get("GEMINI_MODELS") or DEFAULT_MODELS).split(",") if m.strip()]
@@ -33,6 +36,7 @@ TIMEOUT = 90      # 秒；超過就當這個模型現在不穩，換下一個
 # 這次執行中已經失敗過的模型。後面的批次直接跳過它們，不要每一批都重新等一次逾時。
 # 下一小時是全新的程式，會從頭再試。
 _down: set[str] = set()
+_used: set[str] = set()  # 這次執行中成功回答過的模型，每個只印一次，方便日後看哪個模型在撐
 
 
 class QuotaExhausted(Exception):
@@ -229,11 +233,16 @@ def _generate(prompt: str, schema: dict) -> tuple[dict, str]:
                 break
             if r.status_code == 200:
                 try:
-                    return _parse(r.json(), model), model
+                    parsed = _parse(r.json(), model)
                 except BatchFailed as e:
                     unusable, bench = str(e), False
                 except ValueError as e:  # 連外層都不是 JSON
                     unusable, bench = f"{model} 的回應不是 JSON：{e}", False
+                else:
+                    if model not in _used:
+                        _used.add(model)
+                        print(f"[Gemini] 使用 {model}")
+                    return parsed, model
                 print(f"[Gemini] {unusable}；換下一個模型試同一批")
                 break
             last = f"{model} -> {r.status_code} {' '.join(r.text[:160].split())}"

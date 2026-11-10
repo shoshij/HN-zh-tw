@@ -264,7 +264,7 @@ class TranslateHelpers(unittest.TestCase):
         with mock.patch.dict(os.environ, {"GEMINI_MODELS": ""}):   # Actions 沒設定變數時就是這樣
             mod = importlib.reload(translate)
             try:
-                self.assertEqual(mod.MODELS[0], "gemini-3.8-flash")
+                self.assertEqual(mod.MODELS[0], "gemini-3.5-flash-lite")
                 self.assertGreater(len(mod.MODELS), 3)
             finally:
                 os.environ.pop("GEMINI_MODELS", None)
