@@ -117,8 +117,8 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
   <p class="lede">每兩小時自動翻譯 Hacker News 首頁文章，附中英對照摘要；文章上首頁滿 6 小時後，補上熱門評論的摘要。</p>
   <nav class="links">
     <a href="feed.xml">RSS 訂閱</a>
-    <a href="https://news.ycombinator.com/">Hacker News 原站</a>
-    {% if repo_url %}<a href="{{ repo_url }}">原始碼</a>{% endif %}
+    <a href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News 原站</a>
+    {% if repo_url %}<a href="{{ repo_url }}" target="_blank" rel="noopener">原始碼</a>{% endif %}
   </nav>
 </div></header>
 
@@ -142,8 +142,8 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
   <li class="story" data-section="{{ section }}" data-tags="{{ s.tags|join(' ') }}" data-text="{{ (s.title ~ ' ' ~ (s.title_zh or '') ~ ' ' ~ (s.summary_zh or '') ~ ' ' ~ (s.summary_en or '') ~ ' ' ~ s.domain)|lower }}">
     <span class="rank" aria-hidden="true">{{ s.rank if s.on_front_page else '' }}</span>
     <div>
-      <h3 class="title"><a href="{{ s.url }}">{{ s.title_zh or s.title }}</a>{% if s.translate_url %} <a class="gt" href="{{ s.translate_url }}" title="用 Google 翻譯開啟全文的繁體中文版" rel="noopener">全文中譯</a>{% endif %}</h3>
-      <p class="en" lang="en">{% if s.title_zh and s.title_zh != s.title %}<a href="{{ s.url }}">{{ s.title }}</a> {% endif %}<span class="domain">({{ s.domain }})</span></p>
+      <h3 class="title"><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title_zh or s.title }}</a>{% if s.translate_url %} <a class="gt" href="{{ s.translate_url }}" target="_blank" rel="noopener" title="用 Google 翻譯開啟全文的繁體中文版" rel="noopener">全文中譯</a>{% endif %}</h3>
+      <p class="en" lang="en">{% if s.title_zh and s.title_zh != s.title %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a> {% endif %}<span class="domain">({{ s.domain }})</span></p>
       {% if s.summary_zh %}
       <p class="summary">{{ s.summary_zh }}</p>
       {% if s.summary_en %}
@@ -154,7 +154,7 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
       {% endif %}
       <p class="meta">
         <span class="score">▲ {{ s.score }}</span>
-        <a class="hn" href="{{ s.hn_url }}" title="到 Hacker News 看全部評論">{{ s.comments_count }} 則評論</a>
+        <a class="hn" href="{{ s.hn_url }}" target="_blank" rel="noopener" title="到 Hacker News 看全部評論">{{ s.comments_count }} 則評論</a>
         <time datetime="{{ s.posted_at }}" data-rel>{{ s.posted_at|taipei }}</time>
         {% for t in s.tags %}<a class="story-tag" href="#tag={{ t }}">{{ t }}</a>{% endfor %}
       </p>
@@ -163,10 +163,10 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
         <summary>評論摘要 {{ s.comments|length }} 則</summary>
         <ol>
           {% for c in s.comments %}
-          <li><span class="by">{{ c.by }}</span>{{ c.summary_zh }} <a href="{{ c.url }}" title="看原始評論" aria-label="看 {{ c.by }} 的原始評論">↗</a></li>
+          <li><span class="by">{{ c.by }}</span>{{ c.summary_zh }} <a href="{{ c.url }}" target="_blank" rel="noopener" title="看原始評論" aria-label="看 {{ c.by }} 的原始評論">↗</a></li>
           {% endfor %}
         </ol>
-        <p class="more"><a href="{{ s.hn_url }}">到 Hacker News 看全部 {{ s.comments_count }} 則評論 →</a></p>
+        <p class="more"><a href="{{ s.hn_url }}" target="_blank" rel="noopener">到 Hacker News 看全部 {{ s.comments_count }} 則評論 →</a></p>
       </details>
       {% endif %}
     </div>
@@ -188,7 +188,7 @@ footer{margin-top:48px;padding:24px 0 56px;border-top:1px solid var(--rule);colo
 
 <footer><div class="wrap">
   翻譯與摘要由 AI 產生，可能有誤，請以原文為準。<br>
-  資料來源 <a href="https://github.com/HackerNews/API">Hacker News API</a> · 翻譯 Google Gemini{% if repo_url %} · <a href="{{ repo_url }}">原始碼</a>{% endif %} · <a href="feed.xml">RSS</a>
+  資料來源 <a href="https://github.com/HackerNews/API" target="_blank" rel="noopener">Hacker News API</a> · 翻譯 Google Gemini{% if repo_url %} · <a href="{{ repo_url }}" target="_blank" rel="noopener">原始碼</a>{% endif %} · <a href="feed.xml">RSS</a>
 </div></footer>
 
 <script>
