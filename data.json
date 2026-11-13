@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T11:05:06+00:00",
+ "updated_at": "2026-11-13T13:05:08+00:00",
  "stories": {
   "50378228": {
    "id": 50378228,
@@ -15475,7 +15475,7 @@
    "comments_done": true,
    "comments_at": "2026-11-11T21:06:47+00:00",
    "comment_tries": 1,
-   "score": 258,
+   "score": 259,
    "comments_count": 3,
    "last_seen": "2026-11-11T19:04:56+00:00",
    "on_front_page": false,
@@ -15792,7 +15792,7 @@
    "comments_done": true,
    "comments_at": "2026-11-11T23:05:02+00:00",
    "comment_tries": 1,
-   "score": 581,
+   "score": 583,
    "comments_count": 273,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
@@ -16237,8 +16237,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T01:05:13+00:00",
    "comment_tries": 1,
-   "score": 973,
-   "comments_count": 264,
+   "score": 978,
+   "comments_count": 265,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -16283,8 +16283,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T01:05:13+00:00",
    "comment_tries": 1,
-   "score": 1412,
-   "comments_count": 185,
+   "score": 1413,
+   "comments_count": 186,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -16329,7 +16329,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T01:05:13+00:00",
    "comment_tries": 1,
-   "score": 233,
+   "score": 236,
    "comments_count": 38,
    "last_seen": "2026-11-12T13:05:01+00:00",
    "on_front_page": false,
@@ -16416,7 +16416,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T01:05:13+00:00",
    "comment_tries": 1,
-   "score": 290,
+   "score": 291,
    "comments_count": 111,
    "last_seen": "2026-11-12T13:05:01+00:00",
    "on_front_page": false,
@@ -16462,7 +16462,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T01:05:13+00:00",
    "comment_tries": 1,
-   "score": 61,
+   "score": 62,
    "comments_count": 48,
    "last_seen": "2026-11-12T03:04:56+00:00",
    "on_front_page": false,
@@ -16738,8 +16738,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
-   "score": 240,
-   "comments_count": 297,
+   "score": 241,
+   "comments_count": 298,
    "last_seen": "2026-11-11T21:06:23+00:00",
    "on_front_page": false,
    "rank": null
@@ -16784,7 +16784,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
-   "score": 561,
+   "score": 562,
    "comments_count": 160,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
@@ -17106,7 +17106,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
-   "score": 671,
+   "score": 674,
    "comments_count": 697,
    "last_seen": "2026-11-12T15:05:20+00:00",
    "on_front_page": false,
@@ -17152,8 +17152,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
-   "score": 1217,
-   "comments_count": 1640,
+   "score": 1219,
+   "comments_count": 1641,
    "last_seen": "2026-11-12T15:05:20+00:00",
    "on_front_page": false,
    "rank": null
@@ -17198,8 +17198,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
-   "score": 330,
-   "comments_count": 64,
+   "score": 331,
+   "comments_count": 65,
    "last_seen": "2026-11-12T15:05:20+00:00",
    "on_front_page": false,
    "rank": null
@@ -17337,7 +17337,7 @@
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
    "score": 194,
-   "comments_count": 45,
+   "comments_count": 46,
    "last_seen": "2026-11-12T13:05:01+00:00",
    "on_front_page": false,
    "rank": null
@@ -17418,7 +17418,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T05:05:36+00:00",
    "comment_tries": 1,
-   "score": 164,
+   "score": 165,
    "comments_count": 234,
    "last_seen": "2026-11-12T03:04:56+00:00",
    "on_front_page": false,
@@ -17510,7 +17510,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T07:05:28+00:00",
    "comment_tries": 1,
-   "score": 145,
+   "score": 147,
    "comments_count": 57,
    "last_seen": "2026-11-12T13:05:01+00:00",
    "on_front_page": false,
@@ -17638,8 +17638,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T07:05:28+00:00",
    "comment_tries": 1,
-   "score": 408,
-   "comments_count": 526,
+   "score": 410,
+   "comments_count": 528,
    "last_seen": "2026-11-12T05:04:57+00:00",
    "on_front_page": false,
    "rank": null
@@ -17730,7 +17730,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T09:05:02+00:00",
    "comment_tries": 1,
-   "score": 360,
+   "score": 361,
    "comments_count": 195,
    "last_seen": "2026-11-12T19:04:57+00:00",
    "on_front_page": false,
@@ -18042,7 +18042,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T13:07:25+00:00",
    "comment_tries": 1,
-   "score": 676,
+   "score": 682,
    "comments_count": 161,
    "last_seen": "2026-11-12T21:04:54+00:00",
    "on_front_page": false,
@@ -18134,7 +18134,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T13:07:25+00:00",
    "comment_tries": 1,
-   "score": 125,
+   "score": 126,
    "comments_count": 44,
    "last_seen": "2026-11-12T15:05:20+00:00",
    "on_front_page": false,
@@ -18227,7 +18227,7 @@
    "comments_at": "2026-11-12T13:07:25+00:00",
    "comment_tries": 1,
    "score": 91,
-   "comments_count": 80,
+   "comments_count": 81,
    "last_seen": "2026-11-12T09:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -18272,8 +18272,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T15:07:24+00:00",
    "comment_tries": 1,
-   "score": 384,
-   "comments_count": 228,
+   "score": 387,
+   "comments_count": 229,
    "last_seen": "2026-11-12T09:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -18319,7 +18319,7 @@
    "comments_at": "2026-11-12T15:07:24+00:00",
    "comment_tries": 1,
    "score": 367,
-   "comments_count": 146,
+   "comments_count": 147,
    "last_seen": "2026-11-12T23:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -18411,7 +18411,7 @@
    "comments_at": "2026-11-12T19:06:03+00:00",
    "comment_tries": 1,
    "score": 364,
-   "comments_count": 177,
+   "comments_count": 179,
    "last_seen": "2026-11-13T01:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -18456,7 +18456,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T19:06:03+00:00",
    "comment_tries": 1,
-   "score": 50,
+   "score": 51,
    "comments_count": 38,
    "last_seen": "2026-11-12T13:05:01+00:00",
    "on_front_page": false,
@@ -18497,7 +18497,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T19:06:03+00:00",
    "comment_tries": 1,
-   "score": 26,
+   "score": 27,
    "comments_count": 3,
    "last_seen": "2026-11-12T13:05:01+00:00",
    "on_front_page": false,
@@ -18543,11 +18543,11 @@
    "comments_done": true,
    "comments_at": "2026-11-12T19:06:03+00:00",
    "comment_tries": 1,
-   "score": 941,
-   "comments_count": 869,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 959,
+   "comments_count": 874,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 22
+   "rank": 23
   },
   "50431971": {
    "id": 50431971,
@@ -18589,7 +18589,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T19:06:03+00:00",
    "comment_tries": 1,
-   "score": 160,
+   "score": 162,
    "comments_count": 60,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
@@ -18635,7 +18635,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T19:06:03+00:00",
    "comment_tries": 1,
-   "score": 131,
+   "score": 132,
    "comments_count": 64,
    "last_seen": "2026-11-12T19:04:57+00:00",
    "on_front_page": false,
@@ -18681,9 +18681,9 @@
    "comments_done": true,
    "comments_at": "2026-11-12T21:06:36+00:00",
    "comment_tries": 1,
-   "score": 3599,
-   "comments_count": 3168,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 3686,
+   "comments_count": 3214,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
    "rank": 2
   },
@@ -18717,11 +18717,11 @@
    "comments_done": true,
    "comments_at": "2026-11-12T21:06:36+00:00",
    "comment_tries": 1,
-   "score": 221,
-   "comments_count": 6,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 225,
+   "comments_count": 7,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 27
+   "rank": 28
   },
   "50467132": {
    "id": 50467132,
@@ -18804,11 +18804,11 @@
    "comments_done": true,
    "comments_at": "2026-11-12T21:06:36+00:00",
    "comment_tries": 1,
-   "score": 274,
-   "comments_count": 102,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 282,
+   "comments_count": 105,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 21
   },
   "50467297": {
    "id": 50467297,
@@ -18850,8 +18850,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T21:06:36+00:00",
    "comment_tries": 1,
-   "score": 222,
-   "comments_count": 212,
+   "score": 228,
+   "comments_count": 214,
    "last_seen": "2026-11-13T05:04:57+00:00",
    "on_front_page": false,
    "rank": null
@@ -18896,8 +18896,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T21:06:36+00:00",
    "comment_tries": 1,
-   "score": 148,
-   "comments_count": 30,
+   "score": 149,
+   "comments_count": 31,
    "last_seen": "2026-11-13T01:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -18988,8 +18988,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T21:06:36+00:00",
    "comment_tries": 1,
-   "score": 70,
-   "comments_count": 83,
+   "score": 71,
+   "comments_count": 85,
    "last_seen": "2026-11-12T19:04:57+00:00",
    "on_front_page": false,
    "rank": null
@@ -19162,11 +19162,11 @@
    "comments_done": true,
    "comments_at": "2026-11-12T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 380,
-   "comments_count": 135,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 401,
+   "comments_count": 148,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 14
+   "rank": 16
   },
   "50469007": {
    "id": 50469007,
@@ -19208,8 +19208,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 68,
-   "comments_count": 57,
+   "score": 69,
+   "comments_count": 58,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -19254,7 +19254,7 @@
    "comments_done": true,
    "comments_at": "2026-11-12T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 122,
+   "score": 124,
    "comments_count": 26,
    "last_seen": "2026-11-13T05:04:57+00:00",
    "on_front_page": false,
@@ -19300,8 +19300,8 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 2,
-   "score": 88,
-   "comments_count": 35,
+   "score": 89,
+   "comments_count": 36,
    "last_seen": "2026-11-12T21:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -19346,8 +19346,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 102,
-   "comments_count": 60,
+   "score": 105,
+   "comments_count": 65,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -19429,7 +19429,7 @@
    "comments_at": "2026-11-12T23:05:05+00:00",
    "comment_tries": 1,
    "score": 13,
-   "comments_count": 5,
+   "comments_count": 6,
    "last_seen": "2026-11-12T16:48:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -19520,8 +19520,8 @@
    "comments_done": true,
    "comments_at": "2026-11-12T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 309,
-   "comments_count": 243,
+   "score": 312,
+   "comments_count": 245,
    "last_seen": "2026-11-12T23:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -19602,11 +19602,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 532,
-   "comments_count": 334,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 541,
+   "comments_count": 339,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 28
+   "rank": 30
   },
   "50471668": {
    "id": 50471668,
@@ -19684,9 +19684,9 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 925,
-   "comments_count": 803,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 1005,
+   "comments_count": 846,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
    "rank": 15
   },
@@ -19730,11 +19730,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 163,
-   "comments_count": 76,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 169,
+   "comments_count": 87,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 24
+   "rank": 25
   },
   "50470488": {
    "id": 50470488,
@@ -19776,11 +19776,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 539,
-   "comments_count": 185,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 585,
+   "comments_count": 197,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 7
   },
   "50471650": {
    "id": 50471650,
@@ -19822,11 +19822,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 108,
-   "comments_count": 28,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 119,
+   "comments_count": 29,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 25
+   "rank": 24
   },
   "50472260": {
    "id": 50472260,
@@ -19868,11 +19868,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 422,
-   "comments_count": 117,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 440,
+   "comments_count": 130,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 8
   },
   "50470762": {
    "id": 50470762,
@@ -19898,7 +19898,7 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 0,
-   "score": 28,
+   "score": 29,
    "comments_count": 0,
    "last_seen": "2026-11-12T19:04:57+00:00",
    "on_front_page": false,
@@ -19945,7 +19945,7 @@
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
    "score": 76,
-   "comments_count": 29,
+   "comments_count": 30,
    "last_seen": "2026-11-12T21:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -19990,7 +19990,7 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 175,
+   "score": 176,
    "comments_count": 60,
    "last_seen": "2026-11-12T23:04:58+00:00",
    "on_front_page": false,
@@ -20031,11 +20031,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 46,
+   "score": 49,
    "comments_count": 11,
    "last_seen": "2026-11-13T11:04:53+00:00",
-   "on_front_page": true,
-   "rank": 29
+   "on_front_page": false,
+   "rank": null
   },
   "50431237": {
    "id": 50431237,
@@ -20077,7 +20077,7 @@
    "comments_done": true,
    "comments_at": "2026-11-13T01:05:01+00:00",
    "comment_tries": 1,
-   "score": 25,
+   "score": 26,
    "comments_count": 5,
    "last_seen": "2026-11-12T19:04:57+00:00",
    "on_front_page": false,
@@ -20123,9 +20123,9 @@
    "comments_done": true,
    "comments_at": "2026-11-13T03:05:04+00:00",
    "comment_tries": 1,
-   "score": 701,
-   "comments_count": 262,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 741,
+   "comments_count": 277,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
    "rank": 5
   },
@@ -20169,11 +20169,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T03:05:04+00:00",
    "comment_tries": 1,
-   "score": 320,
-   "comments_count": 133,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 332,
+   "comments_count": 140,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 10
   },
   "50471761": {
    "id": 50471761,
@@ -20215,11 +20215,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T03:05:04+00:00",
    "comment_tries": 1,
-   "score": 198,
-   "comments_count": 38,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 211,
+   "comments_count": 39,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 20
   },
   "50473231": {
    "id": 50473231,
@@ -20261,8 +20261,8 @@
    "comments_done": true,
    "comments_at": "2026-11-13T03:05:04+00:00",
    "comment_tries": 1,
-   "score": 188,
-   "comments_count": 217,
+   "score": 191,
+   "comments_count": 220,
    "last_seen": "2026-11-12T23:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -20307,8 +20307,8 @@
    "comments_done": true,
    "comments_at": "2026-11-13T03:05:04+00:00",
    "comment_tries": 1,
-   "score": 44,
-   "comments_count": 12,
+   "score": 45,
+   "comments_count": 13,
    "last_seen": "2026-11-13T01:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -20354,7 +20354,7 @@
    "comments_at": "2026-11-13T03:05:04+00:00",
    "comment_tries": 1,
    "score": 71,
-   "comments_count": 17,
+   "comments_count": 18,
    "last_seen": "2026-11-13T03:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -20435,11 +20435,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T05:05:02+00:00",
    "comment_tries": 1,
-   "score": 215,
-   "comments_count": 31,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 226,
+   "comments_count": 32,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 16
+   "rank": 18
   },
   "50474311": {
    "id": 50474311,
@@ -20481,8 +20481,8 @@
    "comments_done": true,
    "comments_at": "2026-11-13T05:05:02+00:00",
    "comment_tries": 1,
-   "score": 176,
-   "comments_count": 197,
+   "score": 182,
+   "comments_count": 206,
    "last_seen": "2026-11-13T07:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -20527,8 +20527,8 @@
    "comments_done": true,
    "comments_at": "2026-11-13T05:05:02+00:00",
    "comment_tries": 1,
-   "score": 36,
-   "comments_count": 5,
+   "score": 37,
+   "comments_count": 6,
    "last_seen": "2026-11-13T03:04:58+00:00",
    "on_front_page": false,
    "rank": null
@@ -20573,8 +20573,8 @@
    "comments_done": true,
    "comments_at": "2026-11-13T05:05:02+00:00",
    "comment_tries": 1,
-   "score": 304,
-   "comments_count": 110,
+   "score": 311,
+   "comments_count": 119,
    "last_seen": "2026-11-13T07:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -20655,11 +20655,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T07:04:55+00:00",
    "comment_tries": 1,
-   "score": 265,
-   "comments_count": 74,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 283,
+   "comments_count": 83,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 10
+   "rank": 11
   },
   "50454700": {
    "id": 50454700,
@@ -20814,7 +20814,7 @@
    "comments_done": true,
    "comments_at": "2026-11-13T11:04:59+00:00",
    "comment_tries": 1,
-   "score": 125,
+   "score": 130,
    "comments_count": 66,
    "last_seen": "2026-11-13T03:04:58+00:00",
    "on_front_page": false,
@@ -20860,11 +20860,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T11:04:59+00:00",
    "comment_tries": 1,
-   "score": 616,
-   "comments_count": 456,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 674,
+   "comments_count": 509,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 23
+   "rank": 29
   },
   "50473190": {
    "id": 50473190,
@@ -20906,11 +20906,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T11:04:59+00:00",
    "comment_tries": 1,
-   "score": 291,
-   "comments_count": 312,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 324,
+   "comments_count": 364,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 12
+   "rank": 9
   },
   "50460263": {
    "id": 50460263,
@@ -20952,11 +20952,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T11:04:59+00:00",
    "comment_tries": 1,
-   "score": 59,
-   "comments_count": 8,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 67,
+   "comments_count": 9,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 26
+   "rank": 27
   },
   "50473888": {
    "id": 50473888,
@@ -21080,11 +21080,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T11:04:59+00:00",
    "comment_tries": 1,
-   "score": 101,
-   "comments_count": 29,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 108,
+   "comments_count": 34,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 13
+   "rank": 19
   },
   "50477649": {
    "id": 50477649,
@@ -21126,11 +21126,11 @@
    "comments_done": true,
    "comments_at": "2026-11-13T11:04:59+00:00",
    "comment_tries": 1,
-   "score": 111,
-   "comments_count": 74,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 161,
+   "comments_count": 87,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 7
+   "rank": 6
   },
   "50474586": {
    "id": 50474586,
@@ -21170,8 +21170,8 @@
    "score": 26,
    "comments_count": 5,
    "last_seen": "2026-11-13T11:04:53+00:00",
-   "on_front_page": true,
-   "rank": 30
+   "on_front_page": false,
+   "rank": null
   },
   "50478515": {
    "id": 50478515,
@@ -21193,15 +21193,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 194,
-   "comments_count": 99,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "comments": [
+    {
+     "by": "yjftsjthsd-h",
+     "url": "https://news.ycombinator.com/item?id=50479019",
+     "summary_zh": "現今仍有人將 IceWM 作為無頭遠端桌面系統的極輕量桌面環境，其最大優點是開箱即用，面板、應用程式選單與視窗管理員全部整合且不需額外設定。"
+    },
+    {
+     "by": "inatreecrown2",
+     "url": "https://news.ycombinator.com/item?id=50479141",
+     "summary_zh": "嘗試過多種鋪滿式視窗管理員後改用 IceWM，發現簡單的浮動式視窗管理員更適合終端機、檔案管理員與透過 Wine 執行的 Windows 應用程式，讓人能專注於真正重要的事。"
+    },
+    {
+     "by": "dgrabla",
+     "url": "https://news.ycombinator.com/item?id=50482709",
+     "summary_zh": "在所有電腦上都使用 AwesomeWM，且幾乎總是將視窗設為浮動模式，只有在畫面空間被終端機塞滿時才會切換為鋪滿模式。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-13T13:05:05+00:00",
+   "comment_tries": 1,
+   "score": 245,
+   "comments_count": 117,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 3
+   "rank": 4
   },
   "50478635": {
    "id": 50478635,
@@ -21223,12 +21239,28 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 86,
-   "comments_count": 91,
+   "comments": [
+    {
+     "by": "mr_mitm",
+     "url": "https://news.ycombinator.com/item?id=50480199",
+     "summary_zh": "這個研究結果在科學界並未被視為可信，甚至有點像旁門左道。"
+    },
+    {
+     "by": "chrisnight",
+     "url": "https://news.ycombinator.com/item?id=50479392",
+     "summary_zh": "雖然這類非同儕互審的研究大多不會有結果，但像這樣激進的觀點或許正是解決哈伯張力與宇宙學矛盾所需的關鍵。"
+    },
+    {
+     "by": "mcv",
+     "url": "https://news.ycombinator.com/item?id=50479394",
+     "summary_zh": "這讓人想起幾十年前一項重新計算所有基本常數的嘗試，當時發現宇宙年齡與重力常數呈現倒數關係，因此相當期待這類改變常數的模型未來會如何發展。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-13T13:05:05+00:00",
+   "comment_tries": 1,
+   "score": 90,
+   "comments_count": 93,
    "last_seen": "2026-11-13T07:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21253,12 +21285,28 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 48,
-   "comments_count": 65,
+   "comments": [
+    {
+     "by": "grumbelbart2",
+     "url": "https://news.ycombinator.com/item?id=50478996",
+     "summary_zh": "這就是通貨膨脹的本質，多數物品每隔幾年就會創下歷史新高，且 2.1% 的年增率其實低於通膨率。"
+    },
+    {
+     "by": "CalRobert",
+     "url": "https://news.ycombinator.com/item?id=50479311",
+     "summary_zh": "過著沒有車的生活讓人能夠大手筆花在度假上，還可能比擁有一輛車提早幾年退休，偶爾有需求時只要使用按時計費的租車服務即可。"
+    },
+    {
+     "by": "xvxvx",
+     "url": "https://news.ycombinator.com/item?id=50479130",
+     "summary_zh": "開了六年的 Toyota 只損失了 10% 的轉售價值，車商甚至不斷寄信和打電話試圖說服出售，顯示中古車市場目前因為新車價格高漲而非常熱絡。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-13T13:05:05+00:00",
+   "comment_tries": 1,
+   "score": 50,
+   "comments_count": 68,
    "last_seen": "2026-11-13T07:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21287,11 +21335,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 146,
-   "comments_count": 90,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 287,
+   "comments_count": 232,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 1
+   "rank": 3
   },
   "50480480": {
    "id": 50480480,
@@ -21317,11 +21365,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 36,
-   "comments_count": 33,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 69,
+   "comments_count": 49,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 12
   },
   "50481220": {
    "id": 50481220,
@@ -21347,11 +21395,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 70,
-   "comments_count": 46,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 145,
+   "comments_count": 124,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 17
   },
   "50479098": {
    "id": 50479098,
@@ -21377,11 +21425,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 126,
-   "comments_count": 66,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 191,
+   "comments_count": 107,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 22
   },
   "50479721": {
    "id": 50479721,
@@ -21402,16 +21450,16 @@
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": true,
-   "content_retries": 0,
+   "content_retries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 71,
-   "comments_count": 9,
+   "score": 108,
+   "comments_count": 17,
    "last_seen": "2026-11-13T11:04:53+00:00",
-   "on_front_page": true,
-   "rank": 20
+   "on_front_page": false,
+   "rank": null
   },
   "50478609": {
    "id": 50478609,
@@ -21432,16 +21480,106 @@
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": true,
+   "content_retries": 1,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 384,
+   "comments_count": 265,
+   "last_seen": "2026-11-13T13:05:01+00:00",
+   "on_front_page": true,
+   "rank": 26
+  },
+  "50482379": {
+   "id": 50482379,
+   "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+   "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+   "domain": "science.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50482379",
+   "is_hn_post": false,
+   "by": "voxleone",
+   "posted_at": "2026-11-13T12:10:24+00:00",
+   "first_seen": "2026-11-13T13:05:01+00:00",
+   "removed": false,
+   "title_zh": "世界末日：公元 2026 年 11 月 13 日星期五（1960）",
+   "summary_zh": "這是一篇於 1960 年發表在《科學》期刊的經典預測文章，探討未來世界人口成長與資源耗盡的極限。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "This is a classic prediction article published in Science in 1960, discussing the limits of future world population growth and resource depletion. (Unable to retrieve original content, judged by title only)",
+   "translated_at": "2026-11-13T13:05:05+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": true,
    "content_retries": 0,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 325,
-   "comments_count": 230,
-   "last_seen": "2026-11-13T11:04:53+00:00",
+   "score": 80,
+   "comments_count": 25,
+   "last_seen": "2026-11-13T13:05:01+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 1
+  },
+  "50481354": {
+   "id": 50481354,
+   "title": "Llama.cpp: 6.5x faster prompt processing on Arm with a NEON kernel",
+   "url": "https://github.com/hardwiredagent/silicon-forge-arm-neon-study",
+   "domain": "github.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50481354",
+   "is_hn_post": false,
+   "by": "hardwiredagent",
+   "posted_at": "2026-11-13T10:28:36+00:00",
+   "first_seen": "2026-11-13T13:05:01+00:00",
+   "removed": false,
+   "title_zh": "Llama.cpp：透過 NEON 核心在 Arm 架構上實現快上 6.5 倍的提示詞處理",
+   "summary_zh": "開發者為 llama.cpp 補上了缺失的 Arm 內部核心，針對低位元量化模型改善提示詞處理效能。在 AWS 伺服器核心的實測中，特定模型與格式的處理速度最高提升達 6.5 倍，且生成速度維持不變。",
+   "summary_en": "Developers added the missing Arm inner kernel to llama.cpp to improve prompt-processing performance for low-bit quantized models. In tests on AWS server cores, processing speed for specific models and formats increased by up to 6.5x, while generation speed remained unchanged.",
+   "translated_at": "2026-11-13T13:05:05+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 7,
+   "comments_count": 1,
+   "last_seen": "2026-11-13T13:05:01+00:00",
+   "on_front_page": true,
+   "rank": 13
+  },
+  "50480659": {
+   "id": 50480659,
+   "title": "Is there a 'right amount' of AI?",
+   "url": "https://coyotetracks.org/blog/right-amount-of-ai/",
+   "domain": "coyotetracks.org",
+   "hn_url": "https://news.ycombinator.com/item?id=50480659",
+   "is_hn_post": false,
+   "by": "milali",
+   "posted_at": "2026-11-13T09:27:05+00:00",
+   "first_seen": "2026-11-13T13:05:01+00:00",
+   "removed": false,
+   "title_zh": "人工智慧有沒有所謂的「適量」？",
+   "summary_zh": "文章探討在軟體開發與遊戲製作中，人工智慧（AI）應用的界線與道德爭議。獨立遊戲工作室因為在開發過程中曾使用大型語言模型（LLM）來解決技術難題，因而引發獨立遊戲節評審團的抵制與反思。",
+   "summary_en": "This article explores the boundaries and ethical controversies of artificial intelligence applications in software and game development. An independent game studio faced boycotts and reflection from an independent games festival jury because they used large language models to solve technical challenges during development.",
+   "translated_at": "2026-11-13T13:05:05+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 14,
+   "comments_count": 16,
+   "last_seen": "2026-11-13T13:05:01+00:00",
+   "on_front_page": true,
+   "rank": 14
   }
  },
  "translate_fail_streak": 0
