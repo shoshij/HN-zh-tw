@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T11:05:06+00:00",
+ "updated_at": "2026-11-15T11:11:42+00:00",
  "stories": {
   "50403052": {
    "id": 50403052,
@@ -7221,7 +7221,7 @@
     {
      "by": "tdb7893",
      "url": "https://news.ycombinator.com/item?id=50441288",
-     "summary_zh": "研究經費的高度政治不確定性讓科學家難以經營實驗室，若補助隨時可能遭到取消，將會對整世代的人才造成毁灭性的打擊。"
+     "summary_zh": "研究經費的高度政治不確定性讓科學家難以經營實驗室，若補助隨時可能遭到取消，將會對整世代的人才造成毀滅性的打擊。"
     }
    ],
    "comments_done": true,
@@ -7262,7 +7262,7 @@
     {
      "by": "stcg",
      "url": "https://news.ycombinator.com/item?id=50446167",
-     "summary_zh": "在從 Windows 轉換到 Linux 多年後，Ableton 依然是少數令人怀念的優秀軟體，只可惜透過 Wine 執行的體驗並不理想。"
+     "summary_zh": "在從 Windows 轉換到 Linux 多年後，Ableton 依然是少數令人懷念的優秀軟體，只可惜透過 Wine 執行的體驗並不理想。"
     },
     {
      "by": "marceldegraaf",
@@ -17878,7 +17878,7 @@
    "comments_at": "2026-11-14T01:05:12+00:00",
    "comment_tries": 1,
    "score": 396,
-   "comments_count": 228,
+   "comments_count": 229,
    "last_seen": "2026-11-14T01:05:03+00:00",
    "on_front_page": false,
    "rank": null
@@ -17987,7 +17987,7 @@
    "first_seen": "2026-11-13T19:04:54+00:00",
    "removed": false,
    "title_zh": "Ctrl+C、Ctrl+v、Ctrl+cve：繞過 Android 剪貼簿讀取安全機制",
-   "summary_zh": "這是一篇關於如何繞過 Android 作業系統剪貼簿讀取安全防護的技术分析。（無法取得原文內容，僅依標題判斷）",
+   "summary_zh": "這是一篇關於如何繞過 Android 作業系統剪貼簿讀取安全防護的技術分析。（無法取得原文內容，僅依標題判斷）",
    "summary_en": "This is a technical analysis on bypassing the clipboard reading security protections in the Android operating system. (Original content unavailable, judged by title only)",
    "translated_at": "2026-11-13T19:05:08+00:00",
    "model": "gemini-3.5-flash-lite",
@@ -19537,7 +19537,7 @@
    "comments_done": true,
    "comments_at": "2026-11-14T11:05:07+00:00",
    "comment_tries": 1,
-   "score": 407,
+   "score": 408,
    "comments_count": 68,
    "last_seen": "2026-11-14T17:04:54+00:00",
    "on_front_page": false,
@@ -19583,7 +19583,7 @@
    "comments_done": true,
    "comments_at": "2026-11-14T11:05:07+00:00",
    "comment_tries": 1,
-   "score": 1074,
+   "score": 1075,
    "comments_count": 638,
    "last_seen": "2026-11-14T17:04:54+00:00",
    "on_front_page": false,
@@ -19956,7 +19956,7 @@
    "comments_done": true,
    "comments_at": "2026-11-14T15:05:05+00:00",
    "comment_tries": 1,
-   "score": 109,
+   "score": 110,
    "comments_count": 57,
    "last_seen": "2026-11-14T15:02:39+00:00",
    "on_front_page": false,
@@ -20004,9 +20004,9 @@
    "comment_tries": 1,
    "score": 564,
    "comments_count": 305,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 15
   },
   "50454791": {
    "id": 50454791,
@@ -20157,7 +20157,7 @@
    "posted_at": "2026-11-12T12:14:20+00:00",
    "first_seen": "2026-11-14T13:04:54+00:00",
    "removed": false,
-   "title_zh": "東北箭头（↗）的奇妙現象",
+   "title_zh": "東北箭頭（↗）的奇妙現象",
    "summary_zh": "作者透過分析 GitHub 上的公開程式庫與 AI 程式碼提交紀錄，發現大型語言模型（LLM）生成的網頁介面常在連結旁加上東北箭頭（↗）。數據顯示，約有高達四分之一的 OpenAI 相關 UI 提交會加入這個符號，甚至常被誤用於站內內部連結。",
    "summary_en": "The author analyzes public GitHub repositories and AI commit logs to discover that large language models frequently add north-east arrows to web user interface links. Data shows that up to a quarter of OpenAI-related UI commits include this symbol, which is often incorrectly used for internal links.",
    "translated_at": "2026-11-14T13:04:59+00:00",
@@ -20234,9 +20234,9 @@
    "comment_tries": 1,
    "score": 214,
    "comments_count": 111,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 29
+   "rank": 30
   },
   "50497132": {
    "id": 50497132,
@@ -20326,9 +20326,9 @@
    "comment_tries": 1,
    "score": 203,
    "comments_count": 47,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 28
+   "rank": 29
   },
   "50496602": {
    "id": 50496602,
@@ -20646,9 +20646,9 @@
    "comments_done": true,
    "comments_at": "2026-11-14T21:05:07+00:00",
    "comment_tries": 1,
-   "score": 488,
-   "comments_count": 107,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 489,
+   "comments_count": 108,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 13
   },
@@ -20786,9 +20786,9 @@
    "comment_tries": 1,
    "score": 246,
    "comments_count": 103,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 19
   },
   "50498063": {
    "id": 50498063,
@@ -21004,7 +21004,7 @@
    "comments_done": true,
    "comments_at": "2026-11-14T23:04:57+00:00",
    "comment_tries": 1,
-   "score": 142,
+   "score": 143,
    "comments_count": 8,
    "last_seen": "2026-11-15T03:04:56+00:00",
    "on_front_page": false,
@@ -21098,7 +21098,7 @@
    "comment_tries": 1,
    "score": 237,
    "comments_count": 22,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 23
   },
@@ -21143,8 +21143,8 @@
    "comments_at": "2026-11-15T01:05:04+00:00",
    "comment_tries": 1,
    "score": 843,
-   "comments_count": 319,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "comments_count": 320,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 3
   },
@@ -21188,11 +21188,11 @@
    "comments_done": true,
    "comments_at": "2026-11-15T01:05:04+00:00",
    "comment_tries": 1,
-   "score": 322,
-   "comments_count": 158,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 325,
+   "comments_count": 159,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 15
+   "rank": 14
   },
   "50416011": {
    "id": 50416011,
@@ -21271,7 +21271,7 @@
    "comments_at": "2026-11-15T01:05:04+00:00",
    "comment_tries": 1,
    "score": 65,
-   "comments_count": 193,
+   "comments_count": 194,
    "last_seen": "2026-11-14T23:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -21403,7 +21403,7 @@
    "comments_done": true,
    "comments_at": "2026-11-15T01:05:04+00:00",
    "comment_tries": 1,
-   "score": 70,
+   "score": 71,
    "comments_count": 15,
    "last_seen": "2026-11-14T21:05:01+00:00",
    "on_front_page": false,
@@ -21751,8 +21751,8 @@
    "comments_at": "2026-11-15T03:05:01+00:00",
    "comment_tries": 1,
    "score": 261,
-   "comments_count": 129,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "comments_count": 130,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 25
   },
@@ -21813,7 +21813,7 @@
    "posted_at": "2026-11-14T21:22:24+00:00",
    "first_seen": "2026-11-14T23:04:53+00:00",
    "removed": false,
-   "title_zh": "SpaceX 成功回收星舰，為第 15 次飛行任務畫下句點",
+   "title_zh": "SpaceX 成功回收星艦，為第 15 次飛行任務畫下句點",
    "summary_zh": "SpaceX 成功完成星艦的回收作業，順利結束第 15 次試飛任務。（無法取得原文內容，僅依標題判斷）",
    "summary_en": "SpaceX successfully completed the recovery of Starship, bringing the 15th flight mission to a smooth end. (Content could not be retrieved, based on title only)",
    "translated_at": "2026-11-15T01:05:04+00:00",
@@ -21842,9 +21842,9 @@
    "comments_done": true,
    "comments_at": "2026-11-15T05:05:08+00:00",
    "comment_tries": 1,
-   "score": 1257,
-   "comments_count": 854,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 1262,
+   "comments_count": 858,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 1
   },
@@ -21890,9 +21890,9 @@
    "comment_tries": 1,
    "score": 226,
    "comments_count": 111,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 7
+   "rank": 6
   },
   "50464467": {
    "id": 50464467,
@@ -22067,7 +22067,7 @@
    "comments_done": true,
    "comments_at": "2026-11-15T07:05:16+00:00",
    "comment_tries": 1,
-   "score": 33,
+   "score": 34,
    "comments_count": 3,
    "last_seen": "2026-11-15T01:04:55+00:00",
    "on_front_page": false,
@@ -22113,11 +22113,11 @@
    "comments_done": true,
    "comments_at": "2026-11-15T07:05:16+00:00",
    "comment_tries": 1,
-   "score": 56,
+   "score": 57,
    "comments_count": 13,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 30
+   "rank": 28
   },
   "50501844": {
    "id": 50501844,
@@ -22207,9 +22207,9 @@
    "comment_tries": 1,
    "score": 60,
    "comments_count": 10,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 18
   },
   "50503255": {
    "id": 50503255,
@@ -22253,7 +22253,7 @@
    "comment_tries": 1,
    "score": 237,
    "comments_count": 67,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 22
   },
@@ -22297,7 +22297,7 @@
    "comments_done": true,
    "comments_at": "2026-11-15T09:05:05+00:00",
    "comment_tries": 1,
-   "score": 40,
+   "score": 41,
    "comments_count": 6,
    "last_seen": "2026-11-15T09:05:01+00:00",
    "on_front_page": false,
@@ -22390,10 +22390,10 @@
    "comments_at": "2026-11-15T11:05:02+00:00",
    "comment_tries": 1,
    "score": 58,
-   "comments_count": 26,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "comments_count": 27,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 16
   },
   "50504072": {
    "id": 50504072,
@@ -22435,11 +22435,11 @@
    "comments_done": true,
    "comments_at": "2026-11-15T11:05:02+00:00",
    "comment_tries": 1,
-   "score": 54,
+   "score": 55,
    "comments_count": 30,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 17
   },
   "50503731": {
    "id": 50503731,
@@ -22513,7 +22513,7 @@
    "comment_tries": 1,
    "score": 35,
    "comments_count": 7,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 24
   },
@@ -22557,9 +22557,9 @@
    "comments_done": true,
    "comments_at": "2026-11-15T11:05:02+00:00",
    "comment_tries": 1,
-   "score": 56,
-   "comments_count": 13,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 58,
+   "comments_count": 14,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 12
   },
@@ -22604,10 +22604,10 @@
    "comments_at": "2026-11-15T11:05:02+00:00",
    "comment_tries": 1,
    "score": 40,
-   "comments_count": 28,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "comments_count": 30,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 27
+   "rank": 26
   },
   "50502768": {
    "id": 50502768,
@@ -22710,10 +22710,10 @@
    "comments_at": null,
    "comment_tries": 0,
    "score": 155,
-   "comments_count": 115,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "comments_count": 117,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 16
+   "rank": 20
   },
   "50502988": {
    "id": 50502988,
@@ -22739,9 +22739,9 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 181,
-   "comments_count": 49,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 183,
+   "comments_count": 56,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 4
   },
@@ -22769,11 +22769,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 76,
-   "comments_count": 52,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 77,
+   "comments_count": 58,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 5
+   "rank": 11
   },
   "50503465": {
    "id": 50503465,
@@ -22799,11 +22799,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 95,
-   "comments_count": 9,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 97,
+   "comments_count": 10,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 10
+   "rank": 9
   },
   "50504277": {
    "id": 50504277,
@@ -22829,11 +22829,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 35,
+   "score": 36,
    "comments_count": 3,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 7
   },
   "50452037": {
    "id": 50452037,
@@ -22861,9 +22861,9 @@
    "comment_tries": 0,
    "score": 18,
    "comments_count": 2,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 20
+   "rank": 21
   },
   "50484234": {
    "id": 50484234,
@@ -22889,11 +22889,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 29,
-   "comments_count": 3,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 31,
+   "comments_count": 4,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 8
   },
   "50505271": {
    "id": 50505271,
@@ -22914,14 +22914,14 @@
    "translate_tries": 1,
    "retranslate": false,
    "content_missing": true,
-   "content_retries": 0,
+   "content_retries": 1,
    "comments": null,
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 33,
-   "comments_count": 15,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 38,
+   "comments_count": 16,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
    "rank": 2
   },
@@ -22949,11 +22949,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 19,
-   "comments_count": 8,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 20,
+   "comments_count": 9,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 5
   },
   "50481056": {
    "id": 50481056,
@@ -22979,11 +22979,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 5,
+   "score": 7,
    "comments_count": 1,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 14
+   "rank": 10
   },
   "50504718": {
    "id": 50504718,
@@ -23009,11 +23009,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 11,
-   "comments_count": 1,
-   "last_seen": "2026-11-15T11:04:58+00:00",
+   "score": 12,
+   "comments_count": 2,
+   "last_seen": "2026-11-15T11:11:40+00:00",
    "on_front_page": true,
-   "rank": 26
+   "rank": 27
   }
  },
  "translate_fail_streak": 0
