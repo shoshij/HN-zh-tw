@@ -10,6 +10,8 @@ import os
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
+from hnzh import zh
+
 DATA_FILE = Path(__file__).resolve().parent.parent / "data.json"  # 本機測試可用 --data 換成別的檔案
 KEEP_DAYS = 7  # 超過 7 天沒再出現在首頁的文章就移除，避免檔案無限長大
 
@@ -44,8 +46,25 @@ def load() -> dict:
     return data
 
 
+def fix_simplified(data: dict) -> int:
+    """把已存譯文裡混入的簡體字改回繁體，回傳修正的欄位數。正常情況下模型輸出早就修過，這裡是最後一道保險。"""
+    n = 0
+    for s in data["stories"].values():
+        for k in ("title_zh", "summary_zh"):
+            if s.get(k):
+                s[k], what = zh.fix(s[k])
+                n += bool(what)
+        for c in s.get("comments") or []:
+            if c.get("summary_zh"):
+                c["summary_zh"], what = zh.fix(c["summary_zh"])
+                n += bool(what)
+    return n
+
+
 def save(data: dict) -> None:
     """寫檔。先寫到暫存檔再整個換過去，所以中途被打斷也不會留下壞掉的 data.json。"""
+    if fixed := fix_simplified(data):
+        print(f"[簡體] 修正已存資料裡的簡體字 {fixed} 處")
     data["updated_at"] = to_iso(now())
     # indent=1 讓 git diff 一行一欄位，容易看出每次改了什麼。
     text = json.dumps(data, ensure_ascii=False, indent=1)

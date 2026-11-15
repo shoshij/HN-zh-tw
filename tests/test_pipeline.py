@@ -3,6 +3,9 @@
 HN、抓原文、Gemini 全部換成假的，時間也用假的時鐘往前撥，
 所以可以在一瞬間演完「連續好幾個小時的執行」，檢查每篇文章的狀態怎麼變化。
 """
+import json
+import tempfile
+from pathlib import Path
 import time
 import unittest
 import unittest.mock as mock
@@ -37,6 +40,7 @@ class Pipeline(unittest.TestCase):
         self.comment_error = None
         self.comment_bad = set()     # 模型回的評論摘要數量不對
         self.comment_fetch_error = set()
+        self.simplified = False      # 模型回傳的中文夾了簡體字
         self.warnings = []
         patches = [
             mock.patch.object(store, "now", lambda: self.now),
@@ -73,14 +77,16 @@ class Pipeline(unittest.TestCase):
         self.last_payload = batch
         if self.poison & set(ids):
             raise translate.BatchFailed("SAFETY")
-        return {b["id"]: {"title_zh": f"標題{b['id']}：{b['title']}", "summary_zh": "摘要。", "summary_en": "Summary."}
+        summary = "摘要提到星舰。" if self.simplified else "摘要。"
+        return {b["id"]: {"title_zh": f"標題{b['id']}：{b['title']}", "summary_zh": summary, "summary_en": "Summary."}
                 for b in batch if b["id"] not in self.drop}, "fake-model"
 
     def fake_comments(self, batch):
         if self.comment_error:
             raise self.comment_error
         self.comment_sent.append([b["id"] for b in batch])
-        return {b["id"]: [f"摘要 {c['id']}" for c in b["comments"]] for b in batch if b["id"] not in self.comment_bad}, "fake-model"
+        prefix = "大胆的摘要" if self.simplified else "摘要"
+        return {b["id"]: [f"{prefix} {c['id']}" for c in b["comments"]] for b in batch if b["id"] not in self.comment_bad}, "fake-model"
 
     def run_hour(self, hours=1):
         """把時鐘往前撥，然後跑一次完整流程。回傳 (翻譯篇數, 評論摘要篇數)。"""
@@ -249,6 +255,16 @@ class Pipeline(unittest.TestCase):
         saves = []
         update.translate_new(self.data, snap, time.monotonic() + 60, lambda: saves.append(1))
         self.assertEqual(len(saves), 3)   # 20 篇 = 3 批
+
+    def test_simplified_characters_never_reach_data_json(self):
+        self.simplified = True
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(store, "DATA_FILE", Path(d) / "data.json"):
+            self.run_hour()
+            self.run_hour(hours=6)
+            store.save(self.data)
+            saved = json.loads((Path(d) / "data.json").read_text())["stories"]["1"]
+        self.assertEqual(saved["summary_zh"], "摘要提到星艦。")
+        self.assertTrue(saved["comments"] and all(c["summary_zh"].startswith("大膽的摘要") for c in saved["comments"]))
 
     def test_missing_article_text_gets_one_more_try(self):
         self.no_text = {4}

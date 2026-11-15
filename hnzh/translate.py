@@ -17,6 +17,8 @@ import time
 
 import requests
 
+from hnzh import zh
+
 API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 依序嘗試的模型。免費額度是「每個模型各自計算」，而且熱門模型常回 503（太多人用），
 # 所以一個不行就換下一個。可用環境變數 GEMINI_MODELS 覆寫（逗號分隔）。
@@ -53,7 +55,7 @@ class BatchFailed(Exception):
 SYSTEM = """你是 Hacker News 的繁體中文編輯，讀者是台灣的軟體與硬體工程師。
 
 用語規則：
-1. 一律使用台灣慣用的繁體中文與資訊科技用語：軟體、程式、程式碼、伺服器、資料庫、網路、硬體、演算法、記憶體、使用者、介面、函式、物件、執行緒、快取、編譯器、開放原始碼、人工智慧、機器學習、晶片、韌體、影片、資訊。不要使用中國大陸用語（例如軟件、程序、服务器、数据库、网络、硬件、算法、内存、用户、视频、信息、質量、優化）。
+1. 全部用繁體字，一個簡體字都不能出現（要寫「艦、膽、業、術、現」，不能寫「舰、胆、业、术、现」）。一律使用台灣慣用的繁體中文與資訊科技用語：軟體、程式、程式碼、伺服器、資料庫、網路、硬體、演算法、記憶體、使用者、介面、函式、物件、執行緒、快取、編譯器、開放原始碼、人工智慧、機器學習、晶片、韌體、影片、資訊。不要使用中國大陸用語（例如軟件、程序、服务器、数据库、网络、硬件、算法、内存、用户、视频、信息、質量、優化）。
 2. 專有名詞與技術術語第一次出現時用「中文（英文）」格式，例如「機械手臂（robotic arm）」、「大型語言模型（LLM）」、「強化學習（reinforcement learning）」。公司名、產品名、程式語言、人名若沒有通用的中文譯名就直接保留英文（例如 Rust、PostgreSQL、Nvidia、GitHub）。
 3. 摘要要客觀、具體，說清楚文章在講什麼、重點發現或結論是什麼。不要加入個人評論，不要用「本文」「這篇文章」開頭。
 4. 標題翻譯要簡潔自然，像台灣科技媒體的標題；不要附上英文原標題（頁面會另外顯示）。
@@ -104,9 +106,14 @@ _BAD_CHARS = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 
 
 def clean_text(text: str) -> str:
-    """去掉控制字元與不成對的字元（它們會讓 RSS 變成不合法的 XML），並去頭尾空白。"""
+    """去掉控制字元與不成對的字元（它們會讓 RSS 變成不合法的 XML）、去頭尾空白，
+    並把模型夾在繁體字裡的簡體字改回繁體（會印出改了什麼，方便追蹤模型的毛病）。"""
     text = _BAD_CHARS.sub("", text)
-    return text.encode("utf-8", errors="ignore").decode("utf-8").strip()
+    text = text.encode("utf-8", errors="ignore").decode("utf-8").strip()
+    text, what = zh.fix(text)
+    if what:
+        print(f"[簡體] 模型輸出夾了簡體字，已修正：{what}")
+    return text
 
 
 def _norm(title) -> str:

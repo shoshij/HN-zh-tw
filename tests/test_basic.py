@@ -13,7 +13,7 @@ from pathlib import Path
 import requests
 
 import update
-from hnzh import extract, hn, render, store, translate
+from hnzh import extract, hn, render, store, translate, zh
 
 
 # ---------------------------------------------------------------- hn.py
@@ -178,6 +178,35 @@ class Extract(unittest.TestCase):
             text, log = self.fetch(FakeResponse(ARTICLE))
         self.assertEqual(text, "")
         self.assertIn("ValueError: bad html", log)
+
+
+# ---------------------------------------------------------------- zh.py
+class Zh(unittest.TestCase):
+    def test_finds_only_simplified_characters(self):
+        self.assertEqual(zh.find("SpaceX 成功回收星舰，大胆的技术"), "舰胆术")
+        self.assertEqual(zh.find("台灣的平台 公里 皇后 干擾 只是 周末 群體 起床 雇主 發霉 著作 裡面 為了 眾人"), "")
+
+    def test_fix_touches_only_the_simplified_characters(self):
+        self.assertEqual(zh.fix("SpaceX 成功回收星舰，為第 15 次飛行任務畫下句點"),
+                         ("SpaceX 成功回收星艦，為第 15 次飛行任務畫下句點", "舰→艦"))
+        self.assertEqual(zh.fix("干擾 台灣 皇后"), ("干擾 台灣 皇后", ""))   # 整段丟給 OpenCC 會變成幹擾、臺灣
+
+    def test_ambiguous_simplified_characters_follow_context(self):
+        self.assertEqual(zh.to_traditional("頭发 发展 复杂 恢复 历史 日历 签名 抽签"), "頭髮 發展 複雜 恢復 歷史 日曆 簽名 抽籤")
+
+    def test_clean_text_fixes_and_reports(self):
+        with mock.patch("builtins.print") as out:
+            self.assertEqual(translate.clean_text(" 相當大胆。\x00"), "相當大膽。")
+        self.assertIn("胆→膽", out.call_args[0][0])
+
+    def test_save_fixes_stored_text(self):
+        data = {"updated_at": None, "stories": {"1": {"title_zh": "星舰", "summary_zh": "好", "comments": [{"summary_zh": "大胆"}]}}}
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(store, "DATA_FILE", Path(d) / "data.json"), \
+             mock.patch("builtins.print") as out:
+            store.save(data)
+            saved = json.loads((Path(d) / "data.json").read_text())
+        self.assertEqual((saved["stories"]["1"]["title_zh"], saved["stories"]["1"]["comments"][0]["summary_zh"]), ("星艦", "大膽"))
+        self.assertIn("2 處", out.call_args[0][0])
 
 
 # ---------------------------------------------------------------- store.py
