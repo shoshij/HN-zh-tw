@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T07:05:04+00:00",
+ "updated_at": "2026-11-20T09:05:09+00:00",
  "stories": {
   "50465829": {
    "id": 50465829,
@@ -17831,7 +17831,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T17:06:57+00:00",
    "comment_tries": 1,
-   "score": 321,
+   "score": 323,
    "comments_count": 315,
    "last_seen": "2026-11-18T13:04:51+00:00",
    "on_front_page": false,
@@ -18144,7 +18144,7 @@
    "comments_at": "2026-11-18T21:05:38+00:00",
    "comment_tries": 1,
    "score": 680,
-   "comments_count": 283,
+   "comments_count": 284,
    "last_seen": "2026-11-19T09:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -18327,7 +18327,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T21:05:38+00:00",
    "comment_tries": 1,
-   "score": 141,
+   "score": 144,
    "comments_count": 70,
    "last_seen": "2026-11-18T19:04:57+00:00",
    "on_front_page": false,
@@ -18449,8 +18449,8 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 1489,
-   "comments_count": 641,
+   "score": 1492,
+   "comments_count": 639,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -18495,7 +18495,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 775,
+   "score": 778,
    "comments_count": 258,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
@@ -18541,8 +18541,8 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 595,
-   "comments_count": 376,
+   "score": 597,
+   "comments_count": 377,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -18587,7 +18587,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 192,
+   "score": 194,
    "comments_count": 124,
    "last_seen": "2026-11-19T05:04:53+00:00",
    "on_front_page": false,
@@ -18633,8 +18633,8 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 197,
-   "comments_count": 133,
+   "score": 200,
+   "comments_count": 135,
    "last_seen": "2026-11-19T11:05:28+00:00",
    "on_front_page": false,
    "rank": null
@@ -18725,7 +18725,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 248,
+   "score": 249,
    "comments_count": 93,
    "last_seen": "2026-11-19T11:05:28+00:00",
    "on_front_page": false,
@@ -18771,7 +18771,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 179,
+   "score": 180,
    "comments_count": 70,
    "last_seen": "2026-11-19T05:04:53+00:00",
    "on_front_page": false,
@@ -18817,7 +18817,7 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 136,
+   "score": 137,
    "comments_count": 39,
    "last_seen": "2026-11-18T23:04:56+00:00",
    "on_front_page": false,
@@ -18909,8 +18909,8 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 489,
-   "comments_count": 258,
+   "score": 490,
+   "comments_count": 259,
    "last_seen": "2026-11-19T09:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -18985,8 +18985,8 @@
    "comments_done": true,
    "comments_at": "2026-11-18T23:05:06+00:00",
    "comment_tries": 1,
-   "score": 381,
-   "comments_count": 225,
+   "score": 382,
+   "comments_count": 226,
    "last_seen": "2026-11-18T19:04:57+00:00",
    "on_front_page": false,
    "rank": null
@@ -19155,7 +19155,7 @@
    "comments_at": "2026-11-19T01:05:35+00:00",
    "comment_tries": 1,
    "score": 221,
-   "comments_count": 169,
+   "comments_count": 170,
    "last_seen": "2026-11-19T09:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -19201,7 +19201,7 @@
    "comments_at": "2026-11-19T01:05:35+00:00",
    "comment_tries": 1,
    "score": 116,
-   "comments_count": 38,
+   "comments_count": 40,
    "last_seen": "2026-11-19T01:05:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -19246,7 +19246,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T01:05:35+00:00",
    "comment_tries": 1,
-   "score": 144,
+   "score": 146,
    "comments_count": 42,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
@@ -19292,7 +19292,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T01:05:35+00:00",
    "comment_tries": 1,
-   "score": 59,
+   "score": 60,
    "comments_count": 60,
    "last_seen": "2026-11-19T07:04:55+00:00",
    "on_front_page": false,
@@ -19430,7 +19430,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T01:05:35+00:00",
    "comment_tries": 1,
-   "score": 136,
+   "score": 137,
    "comments_count": 65,
    "last_seen": "2026-11-19T01:05:18+00:00",
    "on_front_page": false,
@@ -19523,7 +19523,7 @@
    "comments_at": "2026-11-19T01:05:35+00:00",
    "comment_tries": 1,
    "score": 29,
-   "comments_count": 50,
+   "comments_count": 51,
    "last_seen": "2026-11-18T19:04:57+00:00",
    "on_front_page": false,
    "rank": null
@@ -19656,7 +19656,7 @@
    "comments_at": "2026-11-19T03:05:00+00:00",
    "comment_tries": 1,
    "score": 249,
-   "comments_count": 106,
+   "comments_count": 108,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
    "rank": null
@@ -19921,7 +19921,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T03:05:00+00:00",
    "comment_tries": 1,
-   "score": 17,
+   "score": 18,
    "comments_count": 3,
    "last_seen": "2026-11-18T21:04:59+00:00",
    "on_front_page": false,
@@ -20013,8 +20013,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T05:05:01+00:00",
    "comment_tries": 1,
-   "score": 1030,
-   "comments_count": 764,
+   "score": 1032,
+   "comments_count": 767,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -20059,7 +20059,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T05:05:01+00:00",
    "comment_tries": 1,
-   "score": 81,
+   "score": 82,
    "comments_count": 17,
    "last_seen": "2026-11-19T09:04:52+00:00",
    "on_front_page": false,
@@ -20289,8 +20289,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 338,
-   "comments_count": 130,
+   "score": 339,
+   "comments_count": 131,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -20335,8 +20335,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 302,
-   "comments_count": 77,
+   "score": 303,
+   "comments_count": 78,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
    "rank": null
@@ -20427,8 +20427,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 414,
-   "comments_count": 779,
+   "score": 415,
+   "comments_count": 782,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -20473,8 +20473,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 800,
-   "comments_count": 398,
+   "score": 805,
+   "comments_count": 399,
    "last_seen": "2026-11-19T11:05:28+00:00",
    "on_front_page": false,
    "rank": null
@@ -20519,8 +20519,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 177,
-   "comments_count": 143,
+   "score": 179,
+   "comments_count": 144,
    "last_seen": "2026-11-19T01:05:18+00:00",
    "on_front_page": false,
    "rank": null
@@ -20565,7 +20565,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 120,
+   "score": 121,
    "comments_count": 13,
    "last_seen": "2026-11-19T11:05:28+00:00",
    "on_front_page": false,
@@ -20611,7 +20611,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 161,
+   "score": 163,
    "comments_count": 70,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
@@ -20657,7 +20657,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T09:04:58+00:00",
    "comment_tries": 1,
-   "score": 80,
+   "score": 81,
    "comments_count": 26,
    "last_seen": "2026-11-19T11:05:28+00:00",
    "on_front_page": false,
@@ -21020,8 +21020,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T11:05:35+00:00",
    "comment_tries": 1,
-   "score": 67,
-   "comments_count": 34,
+   "score": 68,
+   "comments_count": 35,
    "last_seen": "2026-11-19T11:05:28+00:00",
    "on_front_page": false,
    "rank": null
@@ -21112,7 +21112,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T13:05:51+00:00",
    "comment_tries": 1,
-   "score": 396,
+   "score": 398,
    "comments_count": 41,
    "last_seen": "2026-11-19T21:05:00+00:00",
    "on_front_page": false,
@@ -21194,7 +21194,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T13:05:51+00:00",
    "comment_tries": 1,
-   "score": 85,
+   "score": 88,
    "comments_count": 23,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
@@ -21240,8 +21240,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T15:13:39+00:00",
    "comment_tries": 1,
-   "score": 395,
-   "comments_count": 170,
+   "score": 398,
+   "comments_count": 178,
    "last_seen": "2026-11-20T01:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21286,7 +21286,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T15:13:39+00:00",
    "comment_tries": 1,
-   "score": 38,
+   "score": 39,
    "comments_count": 5,
    "last_seen": "2026-11-19T09:04:52+00:00",
    "on_front_page": false,
@@ -21332,8 +21332,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T15:13:39+00:00",
    "comment_tries": 1,
-   "score": 73,
-   "comments_count": 12,
+   "score": 74,
+   "comments_count": 13,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -21378,8 +21378,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 285,
-   "comments_count": 132,
+   "score": 287,
+   "comments_count": 133,
    "last_seen": "2026-11-20T03:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -21424,8 +21424,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 278,
-   "comments_count": 71,
+   "score": 280,
+   "comments_count": 72,
    "last_seen": "2026-11-20T01:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21470,8 +21470,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 305,
-   "comments_count": 230,
+   "score": 309,
+   "comments_count": 231,
    "last_seen": "2026-11-19T19:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -21516,8 +21516,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 280,
-   "comments_count": 231,
+   "score": 295,
+   "comments_count": 236,
    "last_seen": "2026-11-20T03:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -21562,7 +21562,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 35,
+   "score": 36,
    "comments_count": 4,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
@@ -21608,8 +21608,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 119,
-   "comments_count": 81,
+   "score": 121,
+   "comments_count": 82,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
    "rank": null
@@ -21654,8 +21654,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 686,
-   "comments_count": 339,
+   "score": 696,
+   "comments_count": 344,
    "last_seen": "2026-11-20T03:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -21701,7 +21701,7 @@
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
    "score": 102,
-   "comments_count": 158,
+   "comments_count": 159,
    "last_seen": "2026-11-19T13:05:07+00:00",
    "on_front_page": false,
    "rank": null
@@ -21746,9 +21746,9 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 829,
-   "comments_count": 348,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 852,
+   "comments_count": 354,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
    "rank": 10
   },
@@ -21792,7 +21792,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 70,
+   "score": 71,
    "comments_count": 55,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
@@ -21838,8 +21838,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 280,
-   "comments_count": 113,
+   "score": 289,
+   "comments_count": 115,
    "last_seen": "2026-11-20T05:05:00+00:00",
    "on_front_page": false,
    "rank": null
@@ -21884,11 +21884,11 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 224,
-   "comments_count": 161,
+   "score": 229,
+   "comments_count": 167,
    "last_seen": "2026-11-20T07:04:55+00:00",
-   "on_front_page": true,
-   "rank": 30
+   "on_front_page": false,
+   "rank": null
   },
   "50546221": {
    "id": 50546221,
@@ -21976,7 +21976,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 122,
+   "score": 124,
    "comments_count": 89,
    "last_seen": "2026-11-19T19:04:55+00:00",
    "on_front_page": false,
@@ -22022,8 +22022,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T19:09:06+00:00",
    "comment_tries": 1,
-   "score": 161,
-   "comments_count": 61,
+   "score": 165,
+   "comments_count": 62,
    "last_seen": "2026-11-20T01:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -22068,7 +22068,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 62,
+   "score": 63,
    "comments_count": 24,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
@@ -22114,11 +22114,11 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 284,
+   "score": 296,
    "comments_count": 61,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 27
+   "rank": 28
   },
   "50559749": {
    "id": 50559749,
@@ -22160,7 +22160,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 105,
+   "score": 106,
    "comments_count": 85,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
@@ -22206,11 +22206,11 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 408,
-   "comments_count": 111,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 423,
+   "comments_count": 115,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 21
   },
   "50544168": {
    "id": 50544168,
@@ -22252,7 +22252,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 71,
+   "score": 72,
    "comments_count": 45,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
@@ -22298,7 +22298,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 94,
+   "score": 96,
    "comments_count": 28,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
@@ -22390,7 +22390,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
-   "score": 134,
+   "score": 139,
    "comments_count": 45,
    "last_seen": "2026-11-19T15:04:55+00:00",
    "on_front_page": false,
@@ -22437,7 +22437,7 @@
    "comments_at": "2026-11-19T21:05:06+00:00",
    "comment_tries": 1,
    "score": 113,
-   "comments_count": 127,
+   "comments_count": 128,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -22482,11 +22482,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 2,
-   "score": 226,
-   "comments_count": 210,
-   "last_seen": "2026-11-20T01:04:52+00:00",
-   "on_front_page": false,
-   "rank": null
+   "score": 237,
+   "comments_count": 212,
+   "last_seen": "2026-11-20T09:04:55+00:00",
+   "on_front_page": true,
+   "rank": 17
   },
   "50560822": {
    "id": 50560822,
@@ -22528,8 +22528,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 389,
-   "comments_count": 199,
+   "score": 399,
+   "comments_count": 201,
    "last_seen": "2026-11-19T23:04:59+00:00",
    "on_front_page": false,
    "rank": null
@@ -22574,7 +22574,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 157,
+   "score": 159,
    "comments_count": 110,
    "last_seen": "2026-11-19T23:04:59+00:00",
    "on_front_page": false,
@@ -22620,11 +22620,11 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 110,
-   "comments_count": 75,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 116,
+   "comments_count": 82,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 15
+   "rank": 20
   },
   "50562101": {
    "id": 50562101,
@@ -22666,8 +22666,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 92,
-   "comments_count": 45,
+   "score": 94,
+   "comments_count": 47,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -22712,7 +22712,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 85,
+   "score": 86,
    "comments_count": 33,
    "last_seen": "2026-11-20T01:04:52+00:00",
    "on_front_page": false,
@@ -22758,11 +22758,11 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 214,
-   "comments_count": 97,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 222,
+   "comments_count": 101,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 22
+   "rank": 26
   },
   "50562113": {
    "id": 50562113,
@@ -22804,9 +22804,9 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 605,
-   "comments_count": 270,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 637,
+   "comments_count": 286,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
    "rank": 29
   },
@@ -22850,7 +22850,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 32,
+   "score": 33,
    "comments_count": 4,
    "last_seen": "2026-11-19T21:05:00+00:00",
    "on_front_page": false,
@@ -22896,8 +22896,8 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 56,
-   "comments_count": 15,
+   "score": 60,
+   "comments_count": 16,
    "last_seen": "2026-11-19T19:04:55+00:00",
    "on_front_page": false,
    "rank": null
@@ -22932,7 +22932,7 @@
    "comments_done": true,
    "comments_at": "2026-11-19T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 33,
+   "score": 35,
    "comments_count": 5,
    "last_seen": "2026-11-19T17:04:53+00:00",
    "on_front_page": false,
@@ -22978,11 +22978,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 1,
-   "score": 1044,
-   "comments_count": 2062,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 1068,
+   "comments_count": 2102,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 14
+   "rank": 18
   },
   "50563148": {
    "id": 50563148,
@@ -23024,9 +23024,9 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 1,
-   "score": 461,
-   "comments_count": 218,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 492,
+   "comments_count": 223,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
    "rank": 7
   },
@@ -23070,11 +23070,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 1,
-   "score": 99,
-   "comments_count": 193,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 102,
+   "comments_count": 204,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 23
+   "rank": 27
   },
   "50517783": {
    "id": 50517783,
@@ -23152,7 +23152,7 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 1,
-   "score": 128,
+   "score": 129,
    "comments_count": 49,
    "last_seen": "2026-11-19T21:05:00+00:00",
    "on_front_page": false,
@@ -23198,11 +23198,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 1,
-   "score": 726,
-   "comments_count": 115,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 759,
+   "comments_count": 127,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 24
   },
   "50562262": {
    "id": 50562262,
@@ -23244,8 +23244,8 @@
    "comments_done": true,
    "comments_at": "2026-11-20T01:04:57+00:00",
    "comment_tries": 1,
-   "score": 524,
-   "comments_count": 210,
+   "score": 544,
+   "comments_count": 221,
    "last_seen": "2026-11-19T21:05:00+00:00",
    "on_front_page": false,
    "rank": null
@@ -23290,11 +23290,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T03:05:05+00:00",
    "comment_tries": 1,
-   "score": 253,
-   "comments_count": 142,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 277,
+   "comments_count": 144,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 19
   },
   "50517657": {
    "id": 50517657,
@@ -23331,7 +23331,7 @@
    "comments_done": true,
    "comments_at": "2026-11-20T03:05:05+00:00",
    "comment_tries": 1,
-   "score": 40,
+   "score": 41,
    "comments_count": 3,
    "last_seen": "2026-11-20T03:04:53+00:00",
    "on_front_page": false,
@@ -23372,7 +23372,7 @@
    "comments_done": true,
    "comments_at": "2026-11-20T03:05:05+00:00",
    "comment_tries": 1,
-   "score": 40,
+   "score": 42,
    "comments_count": 15,
    "last_seen": "2026-11-19T23:04:59+00:00",
    "on_front_page": false,
@@ -23418,11 +23418,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T05:05:07+00:00",
    "comment_tries": 1,
-   "score": 136,
-   "comments_count": 100,
-   "last_seen": "2026-11-20T05:05:00+00:00",
-   "on_front_page": false,
-   "rank": null
+   "score": 141,
+   "comments_count": 113,
+   "last_seen": "2026-11-20T09:04:55+00:00",
+   "on_front_page": true,
+   "rank": 13
   },
   "50528119": {
    "id": 50528119,
@@ -23464,11 +23464,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T05:05:07+00:00",
    "comment_tries": 1,
-   "score": 224,
-   "comments_count": 66,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 251,
+   "comments_count": 85,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 12
   },
   "50567374": {
    "id": 50567374,
@@ -23510,11 +23510,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T05:05:07+00:00",
    "comment_tries": 1,
-   "score": 70,
+   "score": 79,
    "comments_count": 38,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 25
+   "rank": 30
   },
   "50566261": {
    "id": 50566261,
@@ -23556,11 +23556,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T05:05:07+00:00",
    "comment_tries": 1,
-   "score": 95,
-   "comments_count": 14,
+   "score": 107,
+   "comments_count": 17,
    "last_seen": "2026-11-20T07:04:55+00:00",
-   "on_front_page": true,
-   "rank": 26
+   "on_front_page": false,
+   "rank": null
   },
   "50563328": {
    "id": 50563328,
@@ -23602,8 +23602,8 @@
    "comments_done": true,
    "comments_at": "2026-11-20T05:05:07+00:00",
    "comment_tries": 1,
-   "score": 46,
-   "comments_count": 50,
+   "score": 48,
+   "comments_count": 52,
    "last_seen": "2026-11-19T23:04:59+00:00",
    "on_front_page": false,
    "rank": null
@@ -23628,12 +23628,28 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 1,
-   "score": 334,
-   "comments_count": 208,
+   "comments": [
+    {
+     "by": "postalcoder",
+     "url": "https://news.ycombinator.com/item?id=50568821",
+     "summary_zh": "Gemini 4 Neon 是一個表現極佳的模型，不僅在程式碼編寫與文件編修上水準極高，還會主動精簡指令並去除冗言贅字。其溝通方式相當自然，給人一種尊重使用者時間與精力的流暢體驗。"
+    },
+    {
+     "by": "largbae",
+     "url": "https://news.ycombinator.com/item?id=50568755",
+     "summary_zh": "Neon 的運作速度快且成本比 Opus 5.5 更低，在大型單體儲存庫（monorepo）的語言遷移任務中表現優異。其產出的程式碼品質很好，雖然註解風格帶有強烈的 Claude 特色，但在實際測試後已讓人想全面切換使用。"
+    },
+    {
+     "by": "gregwebs",
+     "url": "https://news.ycombinator.com/item?id=50569106",
+     "summary_zh": "如果訂閱 YouTube Premium Lite，其方案中包含的 AI 額度相當划算。其中的 Hydrogen 模型在成本與效能表現上甚至能與 DeepSeek 競爭。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 2,
+   "score": 343,
+   "comments_count": 215,
    "last_seen": "2026-11-20T05:05:00+00:00",
    "on_front_page": false,
    "rank": null
@@ -23658,12 +23674,28 @@
    "retranslate": false,
    "content_missing": true,
    "content_retries": 1,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 1,
-   "score": 167,
-   "comments_count": 43,
+   "comments": [
+    {
+     "by": "paxy",
+     "url": "https://news.ycombinator.com/item?id=50569170",
+     "summary_zh": "外洩資料僅包含某個第三方行銷服務商的 16,000 名客戶姓名與電子郵件地址。這類資料完全沒有價值，令人懷疑是否真能成為勒索銀行的籌碼。"
+    },
+    {
+     "by": "eterm",
+     "url": "https://news.ycombinator.com/item?id=50568454",
+     "summary_zh": "當這類資安事件越來越普遍時，關鍵在於客戶是否真的同意將資料交給這些第三方供應商。期望在持續發生的漏洞危機中，能促使業界對客戶資料抱持更嚴謹的態度。"
+    },
+    {
+     "by": "fhdkweig",
+     "url": "https://news.ycombinator.com/item?id=50568270",
+     "summary_zh": "根據外洩資料的報導，駭客組織 n0n 所公佈的是摩根大通（JPMorgan Chase）最富裕客戶的電子郵件與電話號碼。這顯示攻擊目標不限於特定族群，連兒童學校等機構也遭到波及。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 2,
+   "score": 173,
+   "comments_count": 44,
    "last_seen": "2026-11-20T05:05:00+00:00",
    "on_front_page": false,
    "rank": null
@@ -23692,11 +23724,11 @@
    "comments_done": true,
    "comments_at": "2026-11-20T07:05:01+00:00",
    "comment_tries": 0,
-   "score": 26,
+   "score": 30,
    "comments_count": 0,
    "last_seen": "2026-11-20T07:04:55+00:00",
-   "on_front_page": true,
-   "rank": 28
+   "on_front_page": false,
+   "rank": null
   },
   "50537832": {
    "id": 50537832,
@@ -23718,11 +23750,27 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 1,
-   "score": 72,
+   "comments": [
+    {
+     "by": "kbruner",
+     "url": "https://news.ycombinator.com/item?id=50542103",
+     "summary_zh": "書中似乎缺少齊次空間裁剪（clipping in homogeneous space）的內容，這是一個蠻大的遺漏。若要學習這類主題，經典的 Foley/van Dam 著作《Computer Graphics Principles & Practice》依舊無法被超越。"
+    },
+    {
+     "by": "matinmonshizade",
+     "url": "https://news.ycombinator.com/item?id=50569803",
+     "summary_zh": "大學就讀期間的電腦圖學課程涵蓋了這本書的大部分內容，這是一本非常棒的書。"
+    },
+    {
+     "by": "senthil_rajasek",
+     "url": "https://news.ycombinator.com/item?id=50568781",
+     "summary_zh": "若想尋找程式碼來動手實驗，可以從各章節 Demo 連結的 JavaScript 檔案中找到。範例程式碼使用 HTML5 Canvas 與 JavaScript 來展示實作過程，看起來相當有趣。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 2,
+   "score": 75,
    "comments_count": 14,
    "last_seen": "2026-11-20T03:04:53+00:00",
    "on_front_page": false,
@@ -23748,15 +23796,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 153,
-   "comments_count": 82,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "comments": [
+    {
+     "by": "amluto",
+     "url": "https://news.ycombinator.com/item?id=50569705",
+     "summary_zh": "這個漏洞的主要問題在於，當輸入資料大於約 1.5GB 時，Base64 編碼函式 EVP_EncodeBlock() 會發生異常。從 C 語言程式設計的角度來看，整個 API 的設計並不好，因為呼叫端必須自行計算緩衝區長度，且無法讓實作層進行有效驗證。"
+    },
+    {
+     "by": "userbinator",
+     "url": "https://news.ycombinator.com/item?id=50569917",
+     "summary_zh": "CVSS 評分 9.8 似乎有點誇大，這個漏洞的嚴重程度遠不及「心臟出血（Heartbleed）」。這是一個內部函式，其安全性取決於未受信任的輸入資料是否能觸及該函式，若有適當的長度限制則是 100% 安全。"
+    },
+    {
+     "by": "ansipunk",
+     "url": "https://news.ycombinator.com/item?id=50570653",
+     "summary_zh": "每天都有主要軟體爆出多個漏洞，這種嚴重的「漏洞疲勞」讓人感到十分疲憊，系統管理員的處境絕對更加艱難。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 1,
+   "score": 210,
+   "comments_count": 159,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 1
+   "rank": 2
   },
   "50568861": {
    "id": 50568861,
@@ -23778,15 +23842,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 86,
-   "comments_count": 27,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "comments": [
+    {
+     "by": "hn_submit",
+     "url": "https://news.ycombinator.com/item?id=50571104",
+     "summary_zh": "更令人感興趣的是 TCP/IP 從未真正「完成」。當美國國防部（DoD）中止開發並凍結 TCP/IP 時，Vint Cerf 與其他人手上其實還有一份待辦清單，令人好奇如果當時完成了會是什麼樣的世界。"
+    },
+    {
+     "by": "zoobab",
+     "url": "https://news.ycombinator.com/item?id=50571702",
+     "summary_zh": "在美國最高法院的判例（如 Alice 案）與歐洲專利公約（EPC）第 52.2 條下，電腦程式本來就不能申請專利。然而，統一專利法院（Unified Patent Court）卻曾透過加上按鈕的方式繞過智慧手錶的專利限制。"
+    },
+    {
+     "by": "jibalt",
+     "url": "https://news.ycombinator.com/item?id=50570832",
+     "summary_zh": "過去在加州大學洛杉磯分校（UCLA）電腦科學系工作時曾與 Vint 共事，他和 Steve Crocker 都是非常棒的人。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 1,
+   "score": 100,
+   "comments_count": 41,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 9
   },
   "50568643": {
    "id": 50568643,
@@ -23808,15 +23888,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 49,
-   "comments_count": 19,
+   "comments": [
+    {
+     "by": "jedberg",
+     "url": "https://news.ycombinator.com/item?id=50570407",
+     "summary_zh": "REPACK 是最喜歡的新功能。過去在 Reddit 管理 PostgreSQL 時，清理（VACUUM）作業曾是最大的惡夢，甚至曾因資料列 ID 耗盡而導致網站停機數小時，如果有 REPACK 真是一大救贖。"
+    },
+    {
+     "by": "throwitaway222",
+     "url": "https://news.ycombinator.com/item?id=50570198",
+     "summary_zh": "Snowflake 與 Databricks 這兩個競爭對手居然在同一個 4 小時視窗內發布 PostgreSQL 19 的公告，且 Hacker News 上的評論數極少，顯然是內部員工在推文。"
+    },
+    {
+     "by": "mmh0000",
+     "url": "https://news.ycombinator.com/item?id=50569770",
+     "summary_zh": "一直非常期待這個新版本，因為 19 版帶來了許多效能提升。現在只等亞馬遜網路服務（AWS）正式推出了。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 1,
+   "score": 62,
+   "comments_count": 20,
    "last_seen": "2026-11-20T07:04:55+00:00",
-   "on_front_page": true,
-   "rank": 24
+   "on_front_page": false,
+   "rank": null
   },
   "50538977": {
    "id": 50538977,
@@ -23838,15 +23934,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 58,
-   "comments_count": 4,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "comments": [
+    {
+     "by": "noduerme",
+     "url": "https://news.ycombinator.com/item?id=50570663",
+     "summary_zh": "這類系統必須將領域知識整合至層級選擇與演算法順序中，透過聰明的最佳化發現來處理特徵。這種高專一性正是現代過度依賴「單次解決方案（one-shot solutions）」所缺乏的，期待未來能出現僅依靠光學輸入、不需推論運算力的硬體裝置。"
+    },
+    {
+     "by": "agnosticmantis",
+     "url": "https://news.ycombinator.com/item?id=50570385",
+     "summary_zh": "這篇文章很好地解構了神經網路權重空間程式設計（weight-space programming）這種原本神祕的現象。模型並非從權重資料中憑空「直覺」出意義，而是以類似人類工程師的推理方式有系統地疊代設定權重。"
+    },
+    {
+     "by": "robrenaud",
+     "url": "https://news.ycombinator.com/item?id=50569480",
+     "summary_zh": "PProx 是否能從人工設計的解決方案中快速學習？觀察這些模型對於繁雜工作的容忍度是一件很有趣的事。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 1,
+   "score": 80,
+   "comments_count": 5,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 13
+   "rank": 16
   },
   "50544546": {
    "id": 50544546,
@@ -23868,11 +23980,17 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 17,
+   "comments": [
+    {
+     "by": "seemaze",
+     "url": "https://news.ycombinator.com/item?id=50569916",
+     "summary_zh": "為什麼標題中的「Ira」全部都是大寫字母？"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-20T09:05:02+00:00",
+   "comment_tries": 1,
+   "score": 18,
    "comments_count": 2,
    "last_seen": "2026-11-20T05:05:00+00:00",
    "on_front_page": false,
@@ -23902,11 +24020,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 79,
-   "comments_count": 78,
+   "score": 120,
+   "comments_count": 109,
    "last_seen": "2026-11-20T07:04:55+00:00",
-   "on_front_page": true,
-   "rank": 12
+   "on_front_page": false,
+   "rank": null
   },
   "50569516": {
    "id": 50569516,
@@ -23932,11 +24050,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 57,
+   "score": 86,
    "comments_count": 8,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 5
   },
   "50568548": {
    "id": 50568548,
@@ -23962,11 +24080,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 51,
-   "comments_count": 15,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 75,
+   "comments_count": 22,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 16
+   "rank": 23
   },
   "50537492": {
    "id": 50537492,
@@ -23992,11 +24110,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 16,
+   "score": 26,
    "comments_count": 0,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 20
+   "rank": 25
   },
   "50569890": {
    "id": 50569890,
@@ -24022,11 +24140,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 78,
-   "comments_count": 2,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 150,
+   "comments_count": 6,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 6
   },
   "50570628": {
    "id": 50570628,
@@ -24052,11 +24170,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 28,
-   "comments_count": 9,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 96,
+   "comments_count": 59,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 2
+   "rank": 1
   },
   "50570479": {
    "id": 50570479,
@@ -24082,11 +24200,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 199,
-   "comments_count": 37,
+   "score": 355,
+   "comments_count": 107,
    "last_seen": "2026-11-20T07:04:55+00:00",
-   "on_front_page": true,
-   "rank": 3
+   "on_front_page": false,
+   "rank": null
   },
   "50569998": {
    "id": 50569998,
@@ -24112,11 +24230,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 51,
-   "comments_count": 10,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 105,
+   "comments_count": 21,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 5
+   "rank": 3
   },
   "50521512": {
    "id": 50521512,
@@ -24142,11 +24260,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 19,
-   "comments_count": 0,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 36,
+   "comments_count": 2,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 11
   },
   "50522471": {
    "id": 50522471,
@@ -24172,11 +24290,131 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 7,
-   "comments_count": 0,
-   "last_seen": "2026-11-20T07:04:55+00:00",
+   "score": 22,
+   "comments_count": 6,
+   "last_seen": "2026-11-20T09:04:55+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 14
+  },
+  "50523241": {
+   "id": 50523241,
+   "title": "The Strongest Sokoban Solver",
+   "url": "https://healeycodes.com/introducing-the-worlds-strongest-sokoban-solver",
+   "domain": "healeycodes.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50523241",
+   "is_hn_post": false,
+   "by": "ibobev",
+   "posted_at": "2026-11-16T21:04:01+00:00",
+   "first_seen": "2026-11-20T09:04:55+00:00",
+   "removed": false,
+   "title_zh": "最強的推箱子求解器",
+   "summary_zh": "作者使用人工智慧代理程式在 Claude Code 中開發出史上最強的推箱子（Sokoban）遊戲求解器，在兩個標準基準測試中超越所有已發表的求解器。整個專案完全透過自然語言指揮代理程式進行實驗與程式碼編寫，展現了極高效率的代理式軟體開發成果。",
+   "summary_en": "The author used AI agents within Claude Code to develop the world's strongest Sokoban solver, surpassing all published solvers across two standard benchmarks. The entire project was built efficiently through natural language agent-driven experimentation and coding, demonstrating high-efficiency agentic software development.",
+   "translated_at": "2026-11-20T09:05:02+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 25,
+   "comments_count": 5,
+   "last_seen": "2026-11-20T09:04:55+00:00",
+   "on_front_page": true,
+   "rank": 4
+  },
+  "50571189": {
+   "id": 50571189,
+   "title": "\"I can tell you wrote this yourself\"",
+   "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+   "domain": "em-online.bearblog.dev",
+   "hn_url": "https://news.ycombinator.com/item?id=50571189",
+   "is_hn_post": false,
+   "by": "BrunoBernardino",
+   "posted_at": "2026-11-20T07:13:21+00:00",
+   "first_seen": "2026-11-20T09:04:55+00:00",
+   "removed": false,
+   "title_zh": "我看得出來這是你自己寫的",
+   "summary_zh": "作者在完成一篇關於拍翼微型飛行器控制的報告後，指導教授的一句「看得出來是你自己寫的」引發了對當前工程教育極度依賴人工智慧的反思。文章擔憂過度依賴人工智慧來思考與寫作會導致人類思考能力與識字率退化，呼籲大家保留獨立思考的空間。這是一篇探討科技發展與人類自主性的深刻反省。",
+   "summary_en": "After completing a report on flapping-wing micro aerial vehicle control, a supervisor's remark that he could tell it was written independently sparked reflection on engineering education's heavy AI reliance. The author worries that over-relying on AI for thinking and writing causes a decline in human cognition and literacy, urging people to preserve independent thought. It is a profound critique of technological progress and human autonomy.",
+   "translated_at": "2026-11-20T09:05:02+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 76,
+   "comments_count": 79,
+   "last_seen": "2026-11-20T09:04:55+00:00",
+   "on_front_page": true,
+   "rank": 8
+  },
+  "50545818": {
+   "id": 50545818,
+   "title": "µ-Wire – USB on an ATtiny 10",
+   "url": "https://cpldcpu.com/2014/03/19/%c2%b5-wire-usb-on-an-attiny-10/",
+   "domain": "cpldcpu.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50545818",
+   "is_hn_post": false,
+   "by": "mofosyne",
+   "posted_at": "2026-11-18T13:02:08+00:00",
+   "first_seen": "2026-11-20T09:04:55+00:00",
+   "removed": false,
+   "title_zh": "µ-Wire：在 ATtiny 10 微控制器上實現 USB 通訊",
+   "summary_zh": "作者成功在僅有 6 個接腳的超小型微控制器 ATtiny10 上實作了 USB 通訊協定，並以此控制 WS2812 晶片發光二極體（LED）。面對僅有 1KB 快閃記憶體與 32 位元組 SRAM 的極限硬體限制，作者透過精簡程式碼與繞過編譯器缺陷，成功完成這項極具挑戰性的嵌入式韌體專案。",
+   "summary_en": "The author successfully implemented the USB protocol on the ATtiny10, an ultra-compact microcontroller with only 6 pins, to control a WS2812 LED. Facing extreme hardware constraints of just 1KB flash memory and 32 bytes of SRAM, the author accomplished this challenging embedded firmware project by trimming down the codebase and working around compiler limitations.",
+   "translated_at": "2026-11-20T09:05:02+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 6,
+   "comments_count": 0,
+   "last_seen": "2026-11-20T09:04:55+00:00",
+   "on_front_page": true,
+   "rank": 15
+  },
+  "50569519": {
+   "id": 50569519,
+   "title": "What Comes After AGI?",
+   "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+   "domain": "institute.deepmind.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50569519",
+   "is_hn_post": false,
+   "by": "jdkee",
+   "posted_at": "2026-11-20T02:44:13+00:00",
+   "first_seen": "2026-11-20T09:04:55+00:00",
+   "removed": false,
+   "title_zh": "通用人工智慧之後是什麼？",
+   "summary_zh": "隨著通用人工智慧（AGI）逐漸成為現實，人工智慧的研究焦點開始轉向超越 AGI 的領域，探討人工超級智慧（ASI）的可能性與治理問題。文章指出，智慧存在於一個連續的光譜上，從人類級別的 AGI 到理論極限之間仍有廣闊且未知的領域等待探索。這項探討對於未來科技發展的評估與風險管理具有重要意義。",
+   "summary_en": "As artificial general intelligence (AGI) approaches reality, AI research is shifting toward what lies beyond AGI, exploring the possibilities and governance of artificial superintelligence (ASI). The article notes that intelligence exists on a continuum, leaving a vast, uncharted region between human-level AGI and theoretical limits. This discussion is crucial for future technological assessment and risk management.",
+   "translated_at": "2026-11-20T09:05:02+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 39,
+   "comments_count": 73,
+   "last_seen": "2026-11-20T09:04:55+00:00",
+   "on_front_page": true,
+   "rank": 22
   }
  },
  "translate_fail_streak": 0
