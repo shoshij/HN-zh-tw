@@ -1,52 +1,6 @@
 {
- "updated_at": "2026-11-25T11:05:25+00:00",
+ "updated_at": "2026-11-25T13:05:59+00:00",
  "stories": {
-  "50532191": {
-   "id": 50532191,
-   "title": "What is the best harness for each model?",
-   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-   "domain": "runta.com",
-   "hn_url": "https://news.ycombinator.com/item?id=50532191",
-   "is_hn_post": false,
-   "by": "Edward40",
-   "posted_at": "2026-11-17T14:53:43+00:00",
-   "first_seen": "2026-11-17T17:05:10+00:00",
-   "removed": false,
-   "title_zh": "哪一個測試框架最適合哪一個模型？",
-   "summary_zh": "一項針對人工智慧代理程式框架與大型語言模型的最新大規模評測發現，當切換模型時，開發者也應該考慮更換對應的測試框架以達到最佳性價比。研究顯示，不同模型在效能與成本的表現上，最佳的測試框架組合各有不同。",
-   "summary_en": "A recent large-scale evaluation of AI agent harnesses and large language models finds that when switching models, developers should also consider changing the corresponding harness to achieve the best cost-performance ratio. The study shows that different models perform best with different harness combinations in terms of efficiency and cost.",
-   "translated_at": "2026-11-17T17:05:24+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": false,
-   "content_retries": 0,
-   "comments": [
-    {
-     "by": "seizethecheese",
-     "url": "https://news.ycombinator.com/item?id=50533954",
-     "summary_zh": "這篇文章的標題容易讓人誤解，其實大部分的開銷都花在未能通過測試框架驗證的任務上。"
-    },
-    {
-     "by": "Zigurd",
-     "url": "https://news.ycombinator.com/item?id=50533520",
-     "summary_zh": "使用程式碼代理（coding agent）時陷入兩難：一方面必須嚴格限制其權限以免產生幻覺，另一方面又驚嘆於它能透過模糊的指令自動產出漂亮的介面與商業邏輯。"
-    },
-    {
-     "by": "xyzzy_plugh",
-     "url": "https://news.ycombinator.com/item?id=50535332",
-     "summary_zh": "專為特定領域與工具打造的專屬測試框架，在執行速度、成本與正確性上都遠勝過主流的通用框架。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T01:05:08+00:00",
-   "comment_tries": 1,
-   "score": 418,
-   "comments_count": 133,
-   "last_seen": "2026-11-18T13:04:51+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
   "50532849": {
    "id": 50532849,
    "title": "Highly classified US national security communications network goes down",
@@ -412,52 +366,6 @@
    "score": 472,
    "comments_count": 77,
    "last_seen": "2026-11-18T15:04:55+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
-  "50536468": {
-   "id": 50536468,
-   "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
-   "url": "https://news.ycombinator.com/item?id=50536468",
-   "domain": "news.ycombinator.com",
-   "hn_url": "https://news.ycombinator.com/item?id=50536468",
-   "is_hn_post": true,
-   "by": "yonasb",
-   "posted_at": "2026-11-17T19:01:43+00:00",
-   "first_seen": "2026-11-17T21:04:58+00:00",
-   "removed": false,
-   "title_zh": "Launch HN：StarSling (YC P25) – 針對代理程式專案的自我改善持續整合服務",
-   "summary_zh": "StarSling 提供結合人工智慧代理程式的快速 GitHub Actions 執行器，能自動提交 PR 來持續改善測試與工作流程的速度並降低成本。其架構採用高效能硬體與沙盒環境，透過智慧分析與基準測試顯著縮短持續整合的執行時間。",
-   "summary_en": "StarSling provides fast GitHub Actions runners integrated with AI agents that automatically submit PRs to continuously improve test and workflow speeds while reducing costs. Its architecture utilizes high-performance hardware and sandbox environments, significantly shortening CI execution times through intelligent analysis and benchmarking.",
-   "translated_at": "2026-11-18T11:05:30+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": false,
-   "content_retries": 0,
-   "comments": [
-    {
-     "by": "colek42",
-     "url": "https://news.ycombinator.com/item?id=50537612",
-     "summary_zh": "指出隨著人工智慧代理程式數量增加，傳統管線式的持續整合（CI）數學模型會失效，關鍵在於同時變更數量、關鍵路徑耗時以及執行次數，這也是多數組織每小時合併請求數無法突破限制的原因。"
-    },
-    {
-     "by": "bekacru",
-     "url": "https://news.ycombinator.com/item?id=50539469",
-     "summary_zh": "作為 Better Auth 的開發者，分享團隊因為有大量的合併請求與持續優化需求，實際使用該服務一年後感到非常看好。"
-    },
-    {
-     "by": "emscb",
-     "url": "https://news.ycombinator.com/item?id=50540199",
-     "summary_zh": "質疑代理程式如何判斷工作流程的改動是否真的帶來顯著速度提升，因為若單純為了速度而略過或重新切片測試，可能會漏掉原本能捕捉到的錯誤。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T03:05:02+00:00",
-   "comment_tries": 1,
-   "score": 87,
-   "comments_count": 51,
-   "last_seen": "2026-11-18T13:04:51+00:00",
    "on_front_page": false,
    "rank": null
   },
@@ -829,52 +737,6 @@
    "on_front_page": false,
    "rank": null
   },
-  "50542264": {
-   "id": 50542264,
-   "title": "Why Fibonacci?",
-   "url": "https://www.evilgeniuslabs.org/why-fibonacci",
-   "domain": "evilgeniuslabs.org",
-   "hn_url": "https://news.ycombinator.com/item?id=50542264",
-   "is_hn_post": false,
-   "by": "_Microft",
-   "posted_at": "2026-11-18T05:35:02+00:00",
-   "first_seen": "2026-11-18T07:05:04+00:00",
-   "removed": false,
-   "title_zh": "為什麼選擇費波那契數列？",
-   "summary_zh": "本文探討在 LED 燈板設計中採用費波那契螺線與黃金角的原理與優勢。透過將每個 LED 放置在費馬螺線上，能夠確保像素密度均勻且排版整齊。",
-   "summary_en": "This article explores the principles and advantages of using Fibonacci spirals and the golden angle in LED board design. By placing each LED on a Fermat spiral, it ensures uniform pixel density and neat alignment.",
-   "translated_at": "2026-11-18T07:05:15+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": false,
-   "content_retries": 0,
-   "comments": [
-    {
-     "by": "sph",
-     "url": "https://news.ycombinator.com/item?id=50543041",
-     "summary_zh": "費波那契雜湊（Fibonacci hashing）利用黃金比例進行雜湊運算，能比單純的整數模數運算提供更均勻的分佈。"
-    },
-    {
-     "by": "mbf1",
-     "url": "https://news.ycombinator.com/item?id=50542433",
-     "summary_zh": "在費波那契數列的特定數值（如 55 和 89）會出現螺旋狀分佈，若選擇這些數值之間的數字則會產生不同的視覺效果。"
-    },
-    {
-     "by": "_Microft",
-     "url": "https://news.ycombinator.com/item?id=50544305",
-     "summary_zh": "若需在三維空間中均勻分佈點，可以參考 John Cook 關於球體上費波那契晶格（Fibonacci lattice）的相關研究。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T17:06:57+00:00",
-   "comment_tries": 1,
-   "score": 87,
-   "comments_count": 16,
-   "last_seen": "2026-11-18T13:04:51+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
   "50541619": {
    "id": 50541619,
    "title": "Claude was trained on protein sequences at scale",
@@ -921,98 +783,6 @@
    "on_front_page": false,
    "rank": null
   },
-  "50543343": {
-   "id": 50543343,
-   "title": "Talos Linux",
-   "url": "https://www.siderolabs.com/talos-linux",
-   "domain": "siderolabs.com",
-   "hn_url": "https://news.ycombinator.com/item?id=50543343",
-   "is_hn_post": false,
-   "by": "SweetSoftPillow",
-   "posted_at": "2026-11-18T08:17:44+00:00",
-   "first_seen": "2026-11-18T09:04:55+00:00",
-   "removed": false,
-   "title_zh": "Talos Linux",
-   "summary_zh": "Talos Linux 是一套專為 Kubernetes 設計、不可變且由 API 驅動的作業系統，拿掉了傳統的 SSH、Shell 與套件管理器以減少攻擊面。該專案採用開放原始碼（Open Source）的 MPL-2.0 授權，並提供包含企業支援、合規性與安全性驗證的付費版本。",
-   "summary_en": "Talos Linux is an immutable, API-driven operating system purpose-built for Kubernetes, removing traditional SSH, shell, and package managers to reduce the attack surface. The project uses the open-source MPL-2.0 license and offers a paid version that includes enterprise support, compliance, and security validation.",
-   "translated_at": "2026-11-18T09:05:15+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": false,
-   "content_retries": 0,
-   "comments": [
-    {
-     "by": "matesz",
-     "url": "https://news.ycombinator.com/item?id=50545966",
-     "summary_zh": "Talos Linux 具備位元對位元（bit-for-bit）的可重現建置與全原始碼啟動工具鏈，這種技術值得在業界推廣。"
-    },
-    {
-     "by": "gwynforthewyn",
-     "url": "https://news.ycombinator.com/item?id=50543748",
-     "summary_zh": "在企業內部使用 Talos 解決了許多過去在 Ubuntu 上建置 Kubernetes 叢集時遇到的疑難雜症，且其技術支援團隊非常專業。"
-    },
-    {
-     "by": "filleokus",
-     "url": "https://news.ycombinator.com/item?id=50544912",
-     "summary_zh": "Talos 適合用於家庭實驗室與工作環境，期待未來推出的 Director 產品能支援虛擬機，進一步優化硬體資源的切分。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T17:06:57+00:00",
-   "comment_tries": 1,
-   "score": 104,
-   "comments_count": 60,
-   "last_seen": "2026-11-18T13:04:51+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
-  "50542863": {
-   "id": 50542863,
-   "title": "Australia's full national topographic library at your fingertips",
-   "url": "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips",
-   "domain": "ga.gov.au",
-   "hn_url": "https://news.ycombinator.com/item?id=50542863",
-   "is_hn_post": false,
-   "by": "bryanrasmussen",
-   "posted_at": "2026-11-18T07:10:46+00:00",
-   "first_seen": "2026-11-18T09:04:55+00:00",
-   "removed": false,
-   "title_zh": "澳洲完整國家地形圖書館隨手可得",
-   "summary_zh": "澳洲地質調查局（Geoscience Australia）已完成 AUSTopo 1:250,000 數位地形圖系列的全國發布，提供免費下載、便於列印且支援行動裝置離線使用的權威地圖資料。這些更新的資料與歷史版本有助於政策規劃、緊急應變管理、環境評估及教育研究。",
-   "summary_en": "Geoscience Australia has completed the nationwide release of the AUSTopo 1:250,000 digital topographic map series, providing authoritative map data that is free to download, easy to print, and supports offline use on mobile devices. These updated datasets and historical versions assist with policy planning, emergency management, environmental assessment, and educational research.",
-   "translated_at": "2026-11-18T09:05:15+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": false,
-   "content_retries": 0,
-   "comments": [
-    {
-     "by": "layoric",
-     "url": "https://news.ycombinator.com/item?id=50543339",
-     "summary_zh": "澳洲地球科學局（Geoscience Australia）是澳洲政府中少數能提供實質公共價值的部門。"
-    },
-    {
-     "by": "comrade1234",
-     "url": "https://news.ycombinator.com/item?id=50543431",
-     "summary_zh": "瑞士的 swisstopo 網站已將全境進行光達（LiDAR）測繪，甚至能讓業餘愛好者進行考古研究。"
-    },
-    {
-     "by": "evolve2k",
-     "url": "https://news.ycombinator.com/item?id=50546377",
-     "summary_zh": "詢問澳洲是否有類似的地理疊加搜尋工具，能將氣候風險、人口統計或基礎設施等資料與地圖進行疊加分析。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T17:06:57+00:00",
-   "comment_tries": 1,
-   "score": 51,
-   "comments_count": 19,
-   "last_seen": "2026-11-18T13:04:51+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
   "50542705": {
    "id": 50542705,
    "title": "AI is killing All About Berlin",
@@ -1056,52 +826,6 @@
    "score": 806,
    "comments_count": 710,
    "last_seen": "2026-11-18T15:04:55+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
-  "50544261": {
-   "id": 50544261,
-   "title": "Codeberg.org Not Reachable",
-   "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
-   "domain": "social.anoxinon.de",
-   "hn_url": "https://news.ycombinator.com/item?id=50544261",
-   "is_hn_post": false,
-   "by": "hans_castorp",
-   "posted_at": "2026-11-18T10:02:17+00:00",
-   "first_seen": "2026-11-18T11:05:09+00:00",
-   "removed": false,
-   "title_zh": "Codeberg.org 網站無法連線",
-   "summary_zh": "Codeberg.org 目前發生無法存取的狀況，使用者暫時無法透過網路訪問該平台。（無法取得原文內容，僅依標題判斷）",
-   "summary_en": "Codeberg.org is currently experiencing accessibility issues, and users are temporarily unable to visit the platform through the network. (Content unavailable, judged by title only)",
-   "translated_at": "2026-11-18T11:05:30+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": false,
-   "content_retries": 0,
-   "comments": [
-    {
-     "by": "hans_castorp",
-     "url": "https://news.ycombinator.com/item?id=50544262",
-     "summary_zh": "Codeberg 的網域因不明原因從 Namesilo 帳號中消失並遭到停權，目前正等待濫用處理團隊的調查結果。"
-    },
-    {
-     "by": "duckmysick",
-     "url": "https://news.ycombinator.com/item?id=50545046",
-     "summary_zh": "網域服務正逐步恢復中，部分使用者需等待 DNS 快取更新，但目前尚未收到 Namesilo 關於此事件的正式回應。"
-    },
-    {
-     "by": "MrGilbert",
-     "url": "https://news.ycombinator.com/item?id=50544385",
-     "summary_zh": "身為德國實體，建議 Codeberg e.V. 應優先選擇在地服務商，以利於發生問題時能有更直接的溝通管道。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T17:06:57+00:00",
-   "comment_tries": 1,
-   "score": 323,
-   "comments_count": 315,
-   "last_seen": "2026-11-18T13:04:51+00:00",
    "on_front_page": false,
    "rank": null
   },
@@ -1286,52 +1010,6 @@
    "score": 69,
    "comments_count": 48,
    "last_seen": "2026-11-18T15:04:55+00:00",
-   "on_front_page": false,
-   "rank": null
-  },
-  "50545232": {
-   "id": 50545232,
-   "title": "GTA 6 Review: It Is a Masterpiece",
-   "url": "https://www.bloomberg.com/news/features/2026-11-18/gta-6-review-rockstar-games-latest-is-a-masterpiece",
-   "domain": "bloomberg.com",
-   "hn_url": "https://news.ycombinator.com/item?id=50545232",
-   "is_hn_post": false,
-   "by": "bundie",
-   "posted_at": "2026-11-18T11:59:57+00:00",
-   "first_seen": "2026-11-18T13:04:51+00:00",
-   "removed": false,
-   "title_zh": "《GTA 6》評論：這是一部傑作",
-   "summary_zh": "這篇評論認為備受期待的遊戲《GTA 6》表現卓越，堪稱遊戲界的藝術傑作。（無法取得原文內容，僅依標題判斷）",
-   "summary_en": "This review considers the highly anticipated game GTA 6 to be exceptional and a masterpiece in the gaming industry. (Content unavailable, judged by title only)",
-   "translated_at": "2026-11-18T13:05:01+00:00",
-   "model": "gemini-3.5-flash-lite",
-   "translate_tries": 1,
-   "retranslate": false,
-   "content_missing": true,
-   "content_retries": 1,
-   "comments": [
-    {
-     "by": "HelloUsername",
-     "url": "https://news.ycombinator.com/item?id=50545582",
-     "summary_zh": "推薦參考 Digital Foundry 針對《GTA 6》所做的技術分析評測，這對工程師群體而言更具參考價值。"
-    },
-    {
-     "by": "mancerayder",
-     "url": "https://news.ycombinator.com/item?id=50550331",
-     "summary_zh": "Linux 使用者正等待該遊戲的 Linux 版本，拒絕為了遊玩而購買主機或安裝 Windows 11。"
-    },
-    {
-     "by": "dmix",
-     "url": "https://news.ycombinator.com/item?id=50545512",
-     "summary_zh": "過度依賴主流媒體對熱門 3A 大作的早期評測通常不是明智之舉。"
-    }
-   ],
-   "comments_done": true,
-   "comments_at": "2026-11-18T19:09:56+00:00",
-   "comment_tries": 1,
-   "score": 70,
-   "comments_count": 134,
-   "last_seen": "2026-11-18T13:04:51+00:00",
    "on_front_page": false,
    "rank": null
   },
@@ -16711,7 +16389,7 @@
    "comments_at": "2026-11-23T23:07:39+00:00",
    "comment_tries": 1,
    "score": 252,
-   "comments_count": 131,
+   "comments_count": 132,
    "last_seen": "2026-11-24T03:04:57+00:00",
    "on_front_page": false,
    "rank": null
@@ -16931,7 +16609,7 @@
    "comments_at": "2026-11-23T23:07:39+00:00",
    "comment_tries": 1,
    "score": 2819,
-   "comments_count": 3753,
+   "comments_count": 3761,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -16976,8 +16654,8 @@
    "comments_done": true,
    "comments_at": "2026-11-23T23:07:39+00:00",
    "comment_tries": 1,
-   "score": 2405,
-   "comments_count": 608,
+   "score": 2410,
+   "comments_count": 612,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -17206,7 +16884,7 @@
    "comments_done": true,
    "comments_at": "2026-11-23T23:07:39+00:00",
    "comment_tries": 1,
-   "score": 312,
+   "score": 313,
    "comments_count": 331,
    "last_seen": "2026-11-23T21:04:55+00:00",
    "on_front_page": false,
@@ -17252,7 +16930,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T03:05:14+00:00",
    "comment_tries": 1,
-   "score": 460,
+   "score": 461,
    "comments_count": 381,
    "last_seen": "2026-11-24T09:04:50+00:00",
    "on_front_page": false,
@@ -17298,7 +16976,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T03:05:14+00:00",
    "comment_tries": 1,
-   "score": 194,
+   "score": 195,
    "comments_count": 36,
    "last_seen": "2026-11-24T11:05:01+00:00",
    "on_front_page": false,
@@ -17390,8 +17068,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T03:05:14+00:00",
    "comment_tries": 1,
-   "score": 2000,
-   "comments_count": 1180,
+   "score": 2002,
+   "comments_count": 1185,
    "last_seen": "2026-11-24T15:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -17558,8 +17236,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T03:05:14+00:00",
    "comment_tries": 1,
-   "score": 622,
-   "comments_count": 171,
+   "score": 623,
+   "comments_count": 174,
    "last_seen": "2026-11-24T01:04:59+00:00",
    "on_front_page": false,
    "rank": null
@@ -17728,7 +17406,7 @@
    "comments_at": "2026-11-24T03:05:14+00:00",
    "comment_tries": 1,
    "score": 49,
-   "comments_count": 10,
+   "comments_count": 11,
    "last_seen": "2026-11-23T23:04:56+00:00",
    "on_front_page": false,
    "rank": null
@@ -17819,8 +17497,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T07:05:00+00:00",
    "comment_tries": 1,
-   "score": 697,
-   "comments_count": 344,
+   "score": 702,
+   "comments_count": 345,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -17911,7 +17589,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T07:05:00+00:00",
    "comment_tries": 1,
-   "score": 340,
+   "score": 341,
    "comments_count": 69,
    "last_seen": "2026-11-24T15:04:53+00:00",
    "on_front_page": false,
@@ -17958,7 +17636,7 @@
    "comments_at": "2026-11-24T07:05:00+00:00",
    "comment_tries": 1,
    "score": 109,
-   "comments_count": 117,
+   "comments_count": 118,
    "last_seen": "2026-11-24T01:04:59+00:00",
    "on_front_page": false,
    "rank": null
@@ -18631,7 +18309,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T11:06:14+00:00",
    "comment_tries": 1,
-   "score": 173,
+   "score": 174,
    "comments_count": 73,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
@@ -18723,7 +18401,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T11:06:14+00:00",
    "comment_tries": 1,
-   "score": 151,
+   "score": 153,
    "comments_count": 16,
    "last_seen": "2026-11-24T15:04:53+00:00",
    "on_front_page": false,
@@ -18769,7 +18447,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T11:06:14+00:00",
    "comment_tries": 1,
-   "score": 111,
+   "score": 112,
    "comments_count": 93,
    "last_seen": "2026-11-24T17:04:59+00:00",
    "on_front_page": false,
@@ -18815,7 +18493,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T11:06:14+00:00",
    "comment_tries": 1,
-   "score": 799,
+   "score": 801,
    "comments_count": 424,
    "last_seen": "2026-11-24T17:04:59+00:00",
    "on_front_page": false,
@@ -18862,7 +18540,7 @@
    "comments_at": "2026-11-24T11:06:14+00:00",
    "comment_tries": 1,
    "score": 51,
-   "comments_count": 26,
+   "comments_count": 27,
    "last_seen": "2026-11-24T11:05:01+00:00",
    "on_front_page": false,
    "rank": null
@@ -19024,7 +18702,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 98,
+   "score": 99,
    "comments_count": 24,
    "last_seen": "2026-11-24T15:04:53+00:00",
    "on_front_page": false,
@@ -19116,7 +18794,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 224,
+   "score": 225,
    "comments_count": 132,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
@@ -19162,7 +18840,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 60,
+   "score": 61,
    "comments_count": 20,
    "last_seen": "2026-11-24T11:05:01+00:00",
    "on_front_page": false,
@@ -19208,8 +18886,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 1000,
-   "comments_count": 372,
+   "score": 1007,
+   "comments_count": 374,
    "last_seen": "2026-11-25T01:05:08+00:00",
    "on_front_page": false,
    "rank": null
@@ -19301,7 +18979,7 @@
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
    "score": 78,
-   "comments_count": 10,
+   "comments_count": 11,
    "last_seen": "2026-11-24T15:04:53+00:00",
    "on_front_page": false,
    "rank": null
@@ -19576,7 +19254,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 976,
+   "score": 980,
    "comments_count": 403,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
@@ -19668,7 +19346,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 236,
+   "score": 237,
    "comments_count": 47,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
@@ -19714,7 +19392,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 123,
+   "score": 124,
    "comments_count": 77,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
@@ -19760,7 +19438,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 146,
+   "score": 148,
    "comments_count": 56,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
@@ -19806,7 +19484,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 252,
+   "score": 258,
    "comments_count": 60,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
@@ -19852,8 +19530,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 364,
-   "comments_count": 654,
+   "score": 367,
+   "comments_count": 660,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -19899,7 +19577,7 @@
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
    "score": 375,
-   "comments_count": 247,
+   "comments_count": 259,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -19944,8 +19622,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 143,
-   "comments_count": 120,
+   "score": 144,
+   "comments_count": 121,
    "last_seen": "2026-11-25T01:05:08+00:00",
    "on_front_page": false,
    "rank": null
@@ -19986,7 +19664,7 @@
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
    "score": 73,
-   "comments_count": 5,
+   "comments_count": 6,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -20031,9 +19709,9 @@
    "comments_done": true,
    "comments_at": "2026-11-24T21:08:16+00:00",
    "comment_tries": 1,
-   "score": 408,
-   "comments_count": 485,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 436,
+   "comments_count": 507,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
    "rank": 27
   },
@@ -20118,11 +19796,11 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 284,
-   "comments_count": 141,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 289,
+   "comments_count": 142,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 21
+   "rank": 23
   },
   "50630462": {
    "id": 50630462,
@@ -20164,8 +19842,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 304,
-   "comments_count": 135,
+   "score": 307,
+   "comments_count": 136,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -20210,8 +19888,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 329,
-   "comments_count": 314,
+   "score": 332,
+   "comments_count": 317,
    "last_seen": "2026-11-24T17:04:59+00:00",
    "on_front_page": false,
    "rank": null
@@ -20256,11 +19934,11 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 492,
-   "comments_count": 110,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 522,
+   "comments_count": 114,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 15
+   "rank": 18
   },
   "50629106": {
    "id": 50629106,
@@ -20302,8 +19980,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 147,
-   "comments_count": 102,
+   "score": 149,
+   "comments_count": 103,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -20348,8 +20026,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 216,
-   "comments_count": 66,
+   "score": 219,
+   "comments_count": 68,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -20394,7 +20072,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 98,
+   "score": 100,
    "comments_count": 86,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
@@ -20440,7 +20118,7 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 93,
+   "score": 94,
    "comments_count": 39,
    "last_seen": "2026-11-24T23:04:59+00:00",
    "on_front_page": false,
@@ -20486,8 +20164,8 @@
    "comments_done": true,
    "comments_at": "2026-11-24T23:05:05+00:00",
    "comment_tries": 1,
-   "score": 122,
-   "comments_count": 68,
+   "score": 123,
+   "comments_count": 69,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -20532,8 +20210,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T01:05:14+00:00",
    "comment_tries": 1,
-   "score": 95,
-   "comments_count": 19,
+   "score": 97,
+   "comments_count": 20,
    "last_seen": "2026-11-25T01:05:08+00:00",
    "on_front_page": false,
    "rank": null
@@ -20578,8 +20256,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T01:05:14+00:00",
    "comment_tries": 1,
-   "score": 243,
-   "comments_count": 233,
+   "score": 246,
+   "comments_count": 236,
    "last_seen": "2026-11-24T21:05:06+00:00",
    "on_front_page": false,
    "rank": null
@@ -20624,8 +20302,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T01:05:14+00:00",
    "comment_tries": 1,
-   "score": 92,
-   "comments_count": 92,
+   "score": 94,
+   "comments_count": 93,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -20671,7 +20349,7 @@
    "comments_at": "2026-11-25T01:05:14+00:00",
    "comment_tries": 1,
    "score": 217,
-   "comments_count": 116,
+   "comments_count": 122,
    "last_seen": "2026-11-24T19:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -20849,11 +20527,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 458,
-   "comments_count": 141,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 481,
+   "comments_count": 149,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 6
+   "rank": 9
   },
   "50634426": {
    "id": 50634426,
@@ -20895,11 +20573,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 87,
-   "comments_count": 73,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 92,
+   "comments_count": 87,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 17
+   "rank": 20
   },
   "50610820": {
    "id": 50610820,
@@ -20941,9 +20619,9 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 186,
-   "comments_count": 123,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 199,
+   "comments_count": 131,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
    "rank": 26
   },
@@ -21069,8 +20747,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 161,
-   "comments_count": 102,
+   "score": 162,
+   "comments_count": 103,
    "last_seen": "2026-11-24T23:04:59+00:00",
    "on_front_page": false,
    "rank": null
@@ -21115,7 +20793,7 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 153,
+   "score": 155,
    "comments_count": 26,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
@@ -21161,7 +20839,7 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 105,
+   "score": 107,
    "comments_count": 24,
    "last_seen": "2026-11-25T05:04:56+00:00",
    "on_front_page": false,
@@ -21253,9 +20931,9 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 305,
-   "comments_count": 234,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 345,
+   "comments_count": 262,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
    "rank": 25
   },
@@ -21299,8 +20977,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 152,
-   "comments_count": 206,
+   "score": 153,
+   "comments_count": 212,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21346,7 +21024,7 @@
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
    "score": 16,
-   "comments_count": 5,
+   "comments_count": 6,
    "last_seen": "2026-11-24T21:05:06+00:00",
    "on_front_page": false,
    "rank": null
@@ -21391,8 +21069,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 402,
-   "comments_count": 766,
+   "score": 407,
+   "comments_count": 773,
    "last_seen": "2026-11-25T01:05:08+00:00",
    "on_front_page": false,
    "rank": null
@@ -21437,11 +21115,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 271,
-   "comments_count": 85,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 294,
+   "comments_count": 88,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 13
+   "rank": 16
   },
   "50635941": {
    "id": 50635941,
@@ -21483,7 +21161,7 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 57,
+   "score": 58,
    "comments_count": 73,
    "last_seen": "2026-11-24T23:04:59+00:00",
    "on_front_page": false,
@@ -21529,11 +21207,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 129,
-   "comments_count": 45,
+   "score": 138,
+   "comments_count": 47,
    "last_seen": "2026-11-25T11:04:56+00:00",
-   "on_front_page": true,
-   "rank": 28
+   "on_front_page": false,
+   "rank": null
   },
   "50635271": {
    "id": 50635271,
@@ -21575,8 +21253,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 231,
-   "comments_count": 104,
+   "score": 236,
+   "comments_count": 105,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21621,7 +21299,7 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 128,
+   "score": 129,
    "comments_count": 46,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
@@ -21667,8 +21345,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T05:05:13+00:00",
    "comment_tries": 1,
-   "score": 41,
-   "comments_count": 20,
+   "score": 43,
+   "comments_count": 23,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21713,8 +21391,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
-   "score": 57,
-   "comments_count": 60,
+   "score": 59,
+   "comments_count": 61,
    "last_seen": "2026-11-25T01:05:08+00:00",
    "on_front_page": false,
    "rank": null
@@ -21760,7 +21438,7 @@
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
    "score": 62,
-   "comments_count": 51,
+   "comments_count": 54,
    "last_seen": "2026-11-25T01:05:08+00:00",
    "on_front_page": false,
    "rank": null
@@ -21800,8 +21478,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
-   "score": 39,
-   "comments_count": 4,
+   "score": 41,
+   "comments_count": 6,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
    "rank": null
@@ -21846,11 +21524,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
-   "score": 671,
-   "comments_count": 356,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 752,
+   "comments_count": 418,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 1
+   "rank": 2
   },
   "50637056": {
    "id": 50637056,
@@ -21892,11 +21570,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
-   "score": 268,
-   "comments_count": 45,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 292,
+   "comments_count": 51,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 8
+   "rank": 11
   },
   "50636925": {
    "id": 50636925,
@@ -21933,8 +21611,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
-   "score": 55,
-   "comments_count": 15,
+   "score": 56,
+   "comments_count": 14,
    "last_seen": "2026-11-25T07:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -21969,7 +21647,7 @@
    "comments_done": true,
    "comments_at": "2026-11-25T09:05:29+00:00",
    "comment_tries": 1,
-   "score": 14,
+   "score": 16,
    "comments_count": 1,
    "last_seen": "2026-11-25T03:04:52+00:00",
    "on_front_page": false,
@@ -22015,11 +21693,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 411,
-   "comments_count": 57,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 503,
+   "comments_count": 74,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 2
+   "rank": 3
   },
   "50637874": {
    "id": 50637874,
@@ -22061,11 +21739,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 212,
-   "comments_count": 185,
+   "score": 228,
+   "comments_count": 205,
    "last_seen": "2026-11-25T11:04:56+00:00",
-   "on_front_page": true,
-   "rank": 29
+   "on_front_page": false,
+   "rank": null
   },
   "50638320": {
    "id": 50638320,
@@ -22107,8 +21785,8 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 182,
-   "comments_count": 122,
+   "score": 192,
+   "comments_count": 142,
    "last_seen": "2026-11-25T09:04:51+00:00",
    "on_front_page": false,
    "rank": null
@@ -22153,11 +21831,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 250,
-   "comments_count": 101,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 296,
+   "comments_count": 126,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 3
+   "rank": 4
   },
   "50638523": {
    "id": 50638523,
@@ -22240,11 +21918,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 129,
-   "comments_count": 54,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 161,
+   "comments_count": 67,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 11
+   "rank": 15
   },
   "50637890": {
    "id": 50637890,
@@ -22286,11 +21964,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 220,
-   "comments_count": 76,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 263,
+   "comments_count": 96,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 5
+   "rank": 10
   },
   "50638070": {
    "id": 50638070,
@@ -22332,11 +22010,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 77,
-   "comments_count": 11,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 88,
+   "comments_count": 14,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 20
+   "rank": 24
   },
   "50637888": {
    "id": 50637888,
@@ -22378,11 +22056,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 62,
-   "comments_count": 20,
+   "score": 74,
+   "comments_count": 27,
    "last_seen": "2026-11-25T11:04:56+00:00",
-   "on_front_page": true,
-   "rank": 22
+   "on_front_page": false,
+   "rank": null
   },
   "50637891": {
    "id": 50637891,
@@ -22424,11 +22102,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 85,
-   "comments_count": 38,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 94,
+   "comments_count": 49,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 19
+   "rank": 29
   },
   "50626430": {
    "id": 50626430,
@@ -22450,13 +22128,29 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 1,
-   "score": 39,
-   "comments_count": 22,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "comments": [
+    {
+     "by": "kavalg",
+     "url": "https://news.ycombinator.com/item?id=50639637",
+     "summary_zh": "目前這種結構僅能提供有限的色彩範圍，下一步是釐清如何修改裝置結構以支援更多色彩並擴展色域（color gamut）。"
+    },
+    {
+     "by": "accidc",
+     "url": "https://news.ycombinator.com/item?id=50638210",
+     "summary_zh": "從運作原理來看較接近蝕刻技術，令人好奇其更新率（refresh rate）表現如何。"
+    },
+    {
+     "by": "danans",
+     "url": "https://news.ycombinator.com/item?id=50638724",
+     "summary_zh": "紙張本來就能在無供電下長期維持圖像，這種技術在現實世界中的實際應用場景令人存疑。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-25T13:05:15+00:00",
+   "comment_tries": 2,
+   "score": 51,
+   "comments_count": 31,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
    "rank": 30
   },
@@ -22480,11 +22174,27 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 1,
-   "score": 28,
+   "comments": [
+    {
+     "by": "h0rhay",
+     "url": "https://news.ycombinator.com/item?id=50640865",
+     "summary_zh": "讚賞其設計角度與響應式處理。考量到 React 熱度下降，是否有計劃脫離 React 推出獨立版本？"
+    },
+    {
+     "by": "trueno",
+     "url": "https://news.ycombinator.com/item?id=50638365",
+     "summary_zh": "雖然不討厭這個套件本身，但非常討厭 React。"
+    },
+    {
+     "by": "lubujackson",
+     "url": "https://news.ycombinator.com/item?id=50638889",
+     "summary_zh": "相較於功能過度堆疊且滿是人工智慧（AI）生成說明的產品，這種目標明確且實用的成果令人耳目一新。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-25T13:05:15+00:00",
+   "comment_tries": 2,
+   "score": 30,
    "comments_count": 6,
    "last_seen": "2026-11-25T05:04:56+00:00",
    "on_front_page": false,
@@ -22530,11 +22240,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 56,
-   "comments_count": 26,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 69,
+   "comments_count": 34,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 18
+   "rank": 22
   },
   "50638503": {
    "id": 50638503,
@@ -22576,11 +22286,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 144,
-   "comments_count": 37,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 189,
+   "comments_count": 45,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 4
+   "rank": 7
   },
   "50627079": {
    "id": 50627079,
@@ -22622,11 +22332,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 72,
-   "comments_count": 18,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 89,
+   "comments_count": 21,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 14
+   "rank": 17
   },
   "50638075": {
    "id": 50638075,
@@ -22663,11 +22373,11 @@
    "comments_done": true,
    "comments_at": "2026-11-25T11:05:01+00:00",
    "comment_tries": 1,
-   "score": 42,
+   "score": 53,
    "comments_count": 2,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 24
+   "rank": 28
   },
   "50637863": {
    "id": 50637863,
@@ -22735,12 +22445,28 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 128,
-   "comments_count": 32,
+   "comments": [
+    {
+     "by": "speedgoose",
+     "url": "https://news.ycombinator.com/item?id=50639382",
+     "summary_zh": "許多人都會在業餘時間開發人工智慧代理（AI agent）的遊戲副業，僅因工作單位服務異常就到其個人 GitHub 儲存庫進行霸凌，這種風氣相當不良。"
+    },
+    {
+     "by": "Lerc",
+     "url": "https://news.ycombinator.com/item?id=50639084",
+     "summary_zh": "質疑這項專案是否在工作時間開發，難道現在已經完全沒有工作與生活平衡（work-life balance）的概念了嗎？"
+    },
+    {
+     "by": "dyauspitr",
+     "url": "https://news.ycombinator.com/item?id=50639321",
+     "summary_zh": "這名主管要求開發人員回報進度的作法相當合理，不懂為何要因為服務斷線就重新將他拿出來檢討與嘲弄。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-25T13:05:15+00:00",
+   "comment_tries": 1,
+   "score": 131,
+   "comments_count": 34,
    "last_seen": "2026-11-25T07:04:54+00:00",
    "on_front_page": false,
    "rank": null
@@ -22765,15 +22491,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 96,
-   "comments_count": 19,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "comments": [
+    {
+     "by": "Jmstdy95",
+     "url": "https://news.ycombinator.com/item?id=50641803",
+     "summary_zh": "雖然 AWS 可以提供協助，但核心問題還是在於負責維護網域名稱系統（DNS）的人員發生疏失。"
+    },
+    {
+     "by": "chinathrow",
+     "url": "https://news.ycombinator.com/item?id=50640184",
+     "summary_zh": "AWS 認定此問題取決於客戶端的 DNS 設定而非其服務本身，因此不打算做出修正；即便限制了快速分配與釋放的行為，安全漏洞依然存在。"
+    },
+    {
+     "by": "RandomBK",
+     "url": "https://news.ycombinator.com/item?id=50640484",
+     "summary_zh": "只要能在網域上託管檔案就能取得有效證書，這雖加速了 SSL 的普及，但也讓子網域接管攻擊毀滅性大增；政府網域（.gov）未採用增強型驗證（EV）證書令人震驚。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-25T13:05:15+00:00",
+   "comment_tries": 1,
+   "score": 124,
+   "comments_count": 25,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 9
+   "rank": 12
   },
   "50613769": {
    "id": 50613769,
@@ -22795,15 +22537,31 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
-   "score": 40,
-   "comments_count": 14,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "comments": [
+    {
+     "by": "evek",
+     "url": "https://news.ycombinator.com/item?id=50641065",
+     "summary_zh": "這讓人聯想到 Cynefin 框架處理複雜領域的方法論：探測、感知與回應（Probe - Sense - Respond）。"
+    },
+    {
+     "by": "PaulKeeble",
+     "url": "https://news.ycombinator.com/item?id=50640796",
+     "summary_zh": "許多研究實驗顯示，比起花費大量心力追求一次完美的成果，快速嘗試並產出大量結果的表現往往更優秀。"
+    },
+    {
+     "by": "FinnLobsien",
+     "url": "https://news.ycombinator.com/item?id=50640650",
+     "summary_zh": "現實並非確定性的，結果品質未必與規劃成正比，應以期望值思維評估風險並保持多元嘗試；但若單次失敗代價過高，或回饋機制偏離目標，盲目嘗試策略便會失效。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-25T13:05:15+00:00",
+   "comment_tries": 1,
+   "score": 61,
+   "comments_count": 27,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 16
+   "rank": 21
   },
   "50627891": {
    "id": 50627891,
@@ -22825,10 +22583,21 @@
    "retranslate": false,
    "content_missing": false,
    "content_retries": 0,
-   "comments": null,
-   "comments_done": false,
-   "comments_at": null,
-   "comment_tries": 0,
+   "comments": [
+    {
+     "by": "adzm",
+     "url": "https://news.ycombinator.com/item?id=50639299",
+     "summary_zh": "開頭引人入勝，可惜文章內容太短就結束了，期待後續能看到更多改裝進展。"
+    },
+    {
+     "by": "dmitrygr",
+     "url": "https://news.ycombinator.com/item?id=50639567",
+     "summary_zh": "從記憶體傾印（memory dump）分析確認其採用 ARMv4T 核心，內建大量的工廠測試與紀錄訊息（log messages），逆向工程（reverse engineering）難度不高；可惜螢幕解析度過低。"
+    }
+   ],
+   "comments_done": true,
+   "comments_at": "2026-11-25T13:05:15+00:00",
+   "comment_tries": 1,
    "score": 13,
    "comments_count": 3,
    "last_seen": "2026-11-25T07:04:54+00:00",
@@ -22859,11 +22628,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 36,
-   "comments_count": 3,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 48,
+   "comments_count": 8,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 10
+   "rank": 19
   },
   "50627726": {
    "id": 50627726,
@@ -22889,11 +22658,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 42,
-   "comments_count": 17,
-   "last_seen": "2026-11-25T11:04:56+00:00",
+   "score": 80,
+   "comments_count": 40,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 7
+   "rank": 6
   },
   "50639156": {
    "id": 50639156,
@@ -22919,7 +22688,7 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 16,
+   "score": 19,
    "comments_count": 8,
    "last_seen": "2026-11-25T09:04:51+00:00",
    "on_front_page": false,
@@ -22949,11 +22718,11 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 15,
-   "comments_count": 10,
+   "score": 25,
+   "comments_count": 32,
    "last_seen": "2026-11-25T11:04:56+00:00",
-   "on_front_page": true,
-   "rank": 12
+   "on_front_page": false,
+   "rank": null
   },
   "50608973": {
    "id": 50608973,
@@ -22979,11 +22748,131 @@
    "comments_done": false,
    "comments_at": null,
    "comment_tries": 0,
-   "score": 4,
-   "comments_count": 3,
+   "score": 9,
+   "comments_count": 7,
    "last_seen": "2026-11-25T11:04:56+00:00",
+   "on_front_page": false,
+   "rank": null
+  },
+  "50641171": {
+   "id": 50641171,
+   "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+   "url": "https://github.com/xoxorwr/pw-loudness-eq",
+   "domain": "github.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50641171",
+   "is_hn_post": false,
+   "by": "ThrowNotAway",
+   "posted_at": "2026-11-25T11:34:25+00:00",
+   "first_seen": "2026-11-25T13:04:59+00:00",
+   "removed": false,
+   "title_zh": "Windows 響度等化功能逆向工程並移植至 PipeWire",
+   "summary_zh": "這個專案將 Windows 的響度等化功能透過逆向工程移植到 Linux 的 PipeWire 音訊伺服器上。它能有效平衡各個應用程式的音量，並內建輸出限制器來避免爆音。使用者可以透過命令列工具或圖形介面輕鬆進行全域或個別應用的設定。",
+   "summary_en": "This project reverse engineers Windows' loudness equalization and ports it to Linux's PipeWire audio server. It effectively balances the volume of various applications and includes a built-in output limiter to prevent clipping. Users can easily configure global or per-application settings via command-line tools or a graphical interface.",
+   "translated_at": "2026-11-25T13:05:15+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 80,
+   "comments_count": 30,
+   "last_seen": "2026-11-25T13:04:59+00:00",
    "on_front_page": true,
-   "rank": 23
+   "rank": 1
+  },
+  "50607849": {
+   "id": 50607849,
+   "title": "The short age of dragon riders",
+   "url": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
+   "domain": "atilloy.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50607849",
+   "is_hn_post": false,
+   "by": "synapsomorphy",
+   "posted_at": "2026-11-23T05:33:34+00:00",
+   "first_seen": "2026-11-25T13:04:59+00:00",
+   "removed": false,
+   "title_zh": "短暫的馭龍時代",
+   "summary_zh": "隨著人工智慧模型在技術任務上的表現超越多數理論物理學家，人類與人工智慧協作的時代已經到來。作者探討了大型語言模型在複雜計算與證明上的突破，並認為透過強化學習與運算能力的提升，技術進展將無可限量。面對這股浪潮，科學家們在焦慮與技術樂觀主義之間擺盪，思考在自動化時代中人類該何去何從。",
+   "summary_en": "As artificial intelligence models outperform most theoretical physicists on technical tasks, the era of human-AI collaboration has arrived. The author explores breakthroughs by large language models in complex calculations and proofs, arguing that technological progress will be limitless through reinforcement learning and scaling compute. Faced with this wave, scientists oscillate between anxiety and techno-optimism, pondering humanity's place in the age of automation.",
+   "translated_at": "2026-11-25T13:05:15+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 48,
+   "comments_count": 13,
+   "last_seen": "2026-11-25T13:04:59+00:00",
+   "on_front_page": true,
+   "rank": 5
+  },
+  "50628517": {
+   "id": 50628517,
+   "title": "1,615 New TLDs Are Coming. Is Your DNS Ready for a Bigger Namespace?",
+   "url": "https://www.akamai.com/blog/security/2026/nov/1615-new-tlds-dns-ready-for-bigger-namespace",
+   "domain": "akamai.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50628517",
+   "is_hn_post": false,
+   "by": "ksec",
+   "posted_at": "2026-11-24T14:14:47+00:00",
+   "first_seen": "2026-11-25T13:04:59+00:00",
+   "removed": false,
+   "title_zh": "1,615 個新頂級網域即將登場：你的網域名稱系統準備好迎接更大的命名空間了嗎？",
+   "summary_zh": "隨著上千個新頂級網域即將推出，企業與管理者必須確保其網域名稱系統（DNS）基礎設施能夠應對大幅擴張的命名空間與隨之而來的安全挑戰。（無法取得原文內容，僅依標題判斷）",
+   "summary_en": "With thousands of new top-level domains on the horizon, organizations and administrators must ensure their Domain Name System infrastructure is prepared to handle the vastly expanded namespace and associated security challenges. (Unable to retrieve original content, judged based on title alone)",
+   "translated_at": "2026-11-25T13:05:15+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": true,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 17,
+   "comments_count": 13,
+   "last_seen": "2026-11-25T13:04:59+00:00",
+   "on_front_page": true,
+   "rank": 13
+  },
+  "50639698": {
+   "id": 50639698,
+   "title": "Smart People Who Give a Shit Use Tools",
+   "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+   "domain": "iankduncan.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50639698",
+   "is_hn_post": false,
+   "by": "matthewsinclair",
+   "posted_at": "2026-11-25T07:46:43+00:00",
+   "first_seen": "2026-11-25T13:04:59+00:00",
+   "removed": false,
+   "title_zh": "在乎品質的聰明工程師懂得善用工具",
+   "summary_zh": "軟體開發圈常有人批評人工智慧工具會讓工程師失去對系統的掌握與熱情。然而，真正有熱忱的工程師會將大型語言模型視為擴大自身能力的放大器，用來撰寫更嚴謹的規格、執行全面性的測試。人工智慧並非削弱工程品質，而是讓過去因時間不足而無法做到的高標準變得輕而易舉。",
+   "summary_en": "There is a common criticism in the software development community that artificial intelligence tools cause engineers to lose system mastery and passion. However, genuinely dedicated engineers view large language models as amplifiers of their own capabilities, using them to write more rigorous specifications and execute comprehensive testing. Rather than eroding engineering quality, artificial intelligence makes high standards that were previously unattainable due to time constraints easily achievable.",
+   "translated_at": "2026-11-25T13:05:15+00:00",
+   "model": "gemini-3.5-flash-lite",
+   "translate_tries": 1,
+   "retranslate": false,
+   "content_missing": false,
+   "content_retries": 0,
+   "comments": null,
+   "comments_done": false,
+   "comments_at": null,
+   "comment_tries": 0,
+   "score": 33,
+   "comments_count": 18,
+   "last_seen": "2026-11-25T13:04:59+00:00",
+   "on_front_page": true,
+   "rank": 14
   }
  },
  "translate_fail_streak": 0
