@@ -61,7 +61,7 @@ jobs:
     timeout-minutes: 45   # 正常只要 1～5 分鐘；卡住時不要佔住排程
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy3.outputs.page_url || steps.deploy2.outputs.page_url || steps.deploy.outputs.page_url }}
     env:
       PYTHONUNBUFFERED: "1"   # 讓 log 即時輸出；否則執行被取消時一行都看不到
     steps:
@@ -120,7 +120,29 @@ jobs:
         with:
           path: site
 
+      # 剛上傳的 artifact 要過一下子才查得到：通常幾秒內，偶爾拖到近一分鐘
+      # （actions/deploy-pages#451）。deploy-pages 只查一次，查不到就整個失敗，
+      # 所以先等幾秒；還是查不到就隔久一點再部署，最多三次（上傳後約 5、20、65 秒）。
+      # 只重試部署、不重傳：同一輪再傳一次會變成兩個同名 artifact，一樣會失敗。
+      - run: sleep 5
+
       - id: deploy
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 15
+
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - if: steps.deploy2.outcome == 'failure'
+        run: sleep 45
+
+      - id: deploy3   # 最後一次：還是失敗才亮紅燈
+        if: steps.deploy2.outcome == 'failure'
         uses: actions/deploy-pages@v5
 
       - name: 翻譯連續失敗太多次就亮紅燈（GitHub 會寄信通知）
